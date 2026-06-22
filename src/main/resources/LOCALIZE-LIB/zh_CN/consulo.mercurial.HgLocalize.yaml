@@ -1,0 +1,196 @@
+action.DumbAware.HgCommittedChangesProvider.description.copy.hash.to.clipboard:
+    text: 将哈希复制到剪贴板
+action.DumbAware.HgCommittedChangesProvider.text.copy.hash:
+    text: 复制哈希(&H)
+action.hg4idea.merge.files.description:
+    text: 合并现有文件
+action.hg4idea.merge.files.text:
+    text: 合并…
+action.hg4idea.pull.description:
+    text: 拉取传入提交
+action.hg4idea.pull.text:
+    text: 拉取…
+action.hg4idea.resolve.mark.description:
+    text: 标记为已解决，移除冲突标记
+action.hg4idea.resolve.mark.text:
+    text: 标记为已解决
+action.hg4idea.run.conflict.resolver.description:
+    text: 解决现有冲突
+action.hg4idea.run.conflict.resolver.text:
+    text: 运行冲突解决程序
+action.hg4idea.tag.description:
+    text: 为当前修订创建标记
+action.hg4idea.tag.text:
+    text: 标记仓库…
+action.hg4idea.updateTo.description:
+    text: 将仓库的工作目录更新到指定的更改集。
+action.hg4idea.updateTo.text:
+    text: 更新到…
+checkbox.export.active.bookmarks:
+    text: 导出活动书签
+configurable.UpdateConfigurable.display.name:
+    text: 更新
+graft:
+    text: 移植
+hg4idea.add.body:
+    text: "是否要安排将以下文件添加到 Mercurial?\n{0}\n\n如果您选择“取消”，以后仍可以手动添加。"
+hg4idea.add.progress:
+    text: 正在将文件添加到 Mercurial
+hg4idea.add.single.title:
+    text: 将文件添加到 Mercurial
+hg4idea.add.title:
+    text: 将文件添加到 Mercurial
+hg4idea.branch.bookmarks:
+    text: 书签
+hg4idea.branch.bookmarks.in.repo:
+    text: '{0} 中的书签'
+hg4idea.branch.branches.in.repo.separator:
+    text: '{0} 中的分支'
+hg4idea.branch.branches.separator:
+    text: 分支
+hg4idea.changelist.column.branch:
+    text: 分支
+hg4idea.changesets.checking.progress:
+    text: 正在检查传入和传出更改
+hg4idea.changesets.error:
+    text: 传入/传出更改检查已禁用
+hg4idea.changesets.error.msg:
+    text: 需要进行身份验证才能检查 {0} 中的传入/传出更改<br/>您可以在<a href=''#''>设置</a>中启用更改检查。
+hg4idea.changesets.in:
+    text: 传入
+hg4idea.changesets.out:
+    text: 传出
+hg4idea.commit:
+    text: 提交
+hg4idea.commit.error.messageEmpty:
+    text: 请提供提交消息
+hg4idea.commit.partial.merge.message:
+    text: 合并期间不允许进行部分提交，并且不包括以下文件:<ul>{0}</ul>在包含所有文件的情况下执行提交?
+hg4idea.commit.partial.merge.title:
+    text: 部分合并提交
+hg4idea.configuration.ignore.whitespace.in.annotate:
+    text: 忽略注解中的空格差异(&W)
+hg4idea.dialog.login.description:
+    text: 登录 {0}
+hg4idea.dialog.login.password.required:
+    text: 需要登录名和密码
+hg4idea.error:
+    text: 错误
+hg4idea.error.debugancestor.command.description:
+    text: 无法收集有关上级的信息
+hg4idea.error.debugancestor.command.execution:
+    text: debugancestor 命令执行期间出错
+hg4idea.error.log.command.execution:
+    text: 日志命令执行期间出错
+hg4idea.exception.file.not.under.hg:
+    text: 文件 {0} 不在 Mercurial 下。
+hg4idea.executable.notification.description:
+    text: hg 可执行文件的路径可能无效。
+hg4idea.executable.notification.title:
+    text: 无法启动 Mercurial
+hg4idea.file.status.copied:
+    text: 已复制
+hg4idea.file.status.renamed:
+    text: 已重命名
+hg4idea.init.already.under.hg.description:
+    text: '所选目录 <b><code>{0}</code></b> 已在 Mercurial 下: <b><code>{1}</code></b><br/>要在所选文件夹中创建新仓库还是使用父仓库?'
+hg4idea.init.already.under.hg.dialog.title:
+    text: 目录在 hg 下
+hg4idea.init.already.under.hg.option.create.repo.here:
+    text: 在此处创建新的仓库。
+hg4idea.init.already.under.hg.option.use.parent:
+    text: 使用父仓库，但继续在此项目中工作。
+hg4idea.init.already.under.hg.title:
+    text: 此目录已经在 hg 下
+hg4idea.init.created.notification.description:
+    text: 已在 {0} 中创建仓库
+hg4idea.init.created.notification.title:
+    text: 已创建 Mercurial 仓库
+hg4idea.init.destination.directory.description:
+    text: 选择将在其中创建新 Mercurial 仓库的目录。
+hg4idea.init.destination.directory.title:
+    text: 选择 hg init 的目录
+hg4idea.init.dialog.incorrect.path:
+    text: 指定的路径不正确
+hg4idea.init.dialog.option.create.repository.for.whole.project:
+    text: 为整个项目创建仓库(&C)
+hg4idea.init.dialog.option.select.folder:
+    text: 选择创建仓库的位置(&S)
+hg4idea.init.dialog.title:
+    text: 创建 Mercurial 仓库
+hg4idea.init.error.description:
+    text: 无法在 {0} 中创建 Mercurial 仓库
+hg4idea.init.error.title:
+    text: 创建 Mercurial 仓库时出错
+hg4idea.init.this.is.hg.root:
+    text: 所选文件夹 {0} 已经是 Mercurial 根
+hg4idea.move.progress:
+    text: 正在将文件移至 VCS 中…
+hg4idea.mq.progress.goto:
+    text: 转到{0}…
+hg4idea.mq.progress.pop:
+    text: 弹出所有已应用的补丁…
+hg4idea.progress.bookmark:
+    text: 正在创建书签 {0}…
+hg4idea.progress.checking.ignored:
+    text: 正在检查有无忽略的文件…
+hg4idea.progress.countingHeads:
+    text: 正在检查 head 数…
+hg4idea.progress.pull.with.update:
+    text: 正在更新仓库
+hg4idea.progress.rebase:
+    text: 正在变基仓库
+hg4idea.progress.updating:
+    text: 正在更新 {0}…
+hg4idea.progress.updatingTo:
+    text: 正在更新到 {0}…
+hg4idea.progress.updatingworkingdir:
+    text: 正在更新本地工作目录
+hg4idea.remove.multiple.title:
+    text: 从 Mercurial 移除文件
+hg4idea.remove.progress:
+    text: 正在从 VCS 移除文件…
+hg4idea.remove.single.body:
+    text: "是否要将以下文件从 Mercurial 移除?\n{0}\n\n如果您选择“取消”，以后仍可以手动移除。"
+hg4idea.remove.single.title:
+    text: 从 Mercurial 移除文件
+hg4idea.revert:
+    text: 还原(&R)
+hg4idea.run.failed.title:
+    text: Hg 执行失败
+hg4idea.run.success.title:
+    text: Hg 执行成功
+hg4idea.status.bar.incoming.widget.name:
+    text: Mercurial 传入
+hg4idea.status.bar.outgoing.widget.name:
+    text: Mercurial 传出
+hg4idea.status.bar.widget.name:
+    text: Mercurial 分支
+hg4idea.status.bar.widget.text.graft:
+    text: 正在移植 {0}
+hg4idea.status.bar.widget.text.merge:
+    text: 正在合并 {0}
+hg4idea.status.bar.widget.text.rebase:
+    text: 正在变基 {0}
+hg4idea.unable.to.run.hg:
+    text: '无法运行 hg: {0}'
+hg4idea.update.error.localchanges:
+    text: 仓库 {0} 中存在未完成的未提交更改，未与拉取的 HEAD 合并
+hg4idea.update.error.merge.multipleLocalHeads:
+    text: 仓库 {0} 中有多个本地 HEAD，未合并
+hg4idea.update.error.merge.multipleRemoteHeads:
+    text: 在仓库 {1} 中拉入 {0} 个远程 HEAD，未合并
+hg4idea.update.error.uncommittedMerge:
+    text: 仓库 {0} 中存在未完成的未提交合并，未更新或合并
+hg4idea.update.progress.merging:
+    text: 正在与拉取的 HEAD 合并
+hg4idea.update.progress.updating.to.pulled.head:
+    text: 正在更新到拉取的 HEAD
+hg4idea.update.warning.merge.conflicts:
+    text: 仓库 {0} 中的合并存在冲突。请检查冲突，并在完成后提交合并
+hg4idea.update.warning.multipleHeadsBeforeUpdate:
+    text: 更新之前，仓库 {0} 中此分支中有多个 HEAD (使用“hg heads .”和“hg merge”合并)
+hg4idea.widget.tooltip.title.status.changesets:
+    text: '{0} 更改集'
+no.changes.available:
+    text: 无可用更改

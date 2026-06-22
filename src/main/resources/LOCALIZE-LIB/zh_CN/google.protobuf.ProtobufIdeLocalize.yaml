@@ -1,0 +1,124 @@
+action.prototext.InsertSchemaDirective.description:
+    text: 插入对此文件的根 protobuf 消息的引用，启用补全、验证和其他功能
+action.prototext.InsertSchemaDirective.text:
+    text: 插入架构注解
+attribute.descriptor.block.comment:
+    text: 块注释
+attribute.descriptor.braces:
+    text: 大括号
+attribute.descriptor.brackets:
+    text: 中括号
+attribute.descriptor.comma:
+    text: 逗号
+attribute.descriptor.dot:
+    text: 点
+attribute.descriptor.enum:
+    text: 枚举值
+attribute.descriptor.identifier:
+    text: 标识符
+attribute.descriptor.invalid.escape.sequence:
+    text: 无效转义序列
+attribute.descriptor.keyboard:
+    text: 关键字
+attribute.descriptor.line.comment:
+    text: 行注释
+attribute.descriptor.number:
+    text: 数字
+attribute.descriptor.operator:
+    text: 运算符
+attribute.descriptor.parentheses:
+    text: 圆括号
+attribute.descriptor.semicolon:
+    text: 分号
+attribute.descriptor.string:
+    text: 字符串
+attribute.descriptor.valid.escape.sequence:
+    text: 有效转义序列
+location:
+    text: 位置
+plugin.name:
+    text: 协议缓冲区
+prefix:
+    text: 前缀
+proto.type.enum:
+    text: 枚举
+proto.type.enum.value:
+    text: 枚举值
+proto.type.field:
+    text: 字段
+proto.type.file:
+    text: 协议缓冲区文件
+proto.type.group:
+    text: 组
+proto.type.message:
+    text: 消息
+proto.type.method:
+    text: 方法
+proto.type.package:
+    text: 软件包
+proto.type.service:
+    text: 服务
+proto.type.stream:
+    text: 流
+proto.type.unknown:
+    text: 未知类型
+prototext.missing.schema.ignore:
+    text: 忽略
+prototext.missing.schema.insert.annotation:
+    text: 插入注解
+prototext.missing.schema.message:
+    text: 没有附加模式；补全、验证和其他功能不可用
+prototext.missing.schema.settings:
+    text: 打开设置
+prototext.name:
+    text: 协议缓冲区文本
+prototext.name.sentence:
+    text: 协议缓冲区文本
+prototext.settings.missing.schema:
+    text: 对缺少模式关联发出警告
+prototext.settings.project.display:
+    text: 文本格式
+prototext.type.braces:
+    text: 大括号
+prototext.type.brackets:
+    text: 中括号
+prototext.type.comma:
+    text: 逗号
+prototext.type.comment.directive:
+    text: 注释指令
+prototext.type.dot:
+    text: 点
+prototext.type.enum.value:
+    text: 枚举值
+prototext.type.identifier:
+    text: 标识符
+prototext.type.invalid.escape.sequence:
+    text: 无效转义序列
+prototext.type.keyword:
+    text: 关键字
+prototext.type.line.comment:
+    text: 行注释
+prototext.type.number:
+    text: 数字
+prototext.type.operator:
+    text: 运算符
+prototext.type.semicolon:
+    text: 分号
+prototext.type.string:
+    text: 字符串
+prototext.type.valid.escape.sequence:
+    text: 有效转义序列
+settings.language.autoconfig:
+    text: 应用第三方配置
+settings.language.descriptor.path:
+    text: 描述符路径
+settings.language.import.paths:
+    text: 导入路径
+template.type.enum:
+    text: 枚举
+template.type.extend:
+    text: 扩展
+template.type.message:
+    text: 消息
+template.type.service:
+    text: 服务

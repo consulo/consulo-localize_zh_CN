@@ -1,0 +1,516 @@
+account.choose.as.default:
+    text: 设置为当前项目的默认帐户
+account.choose.button:
+    text: 选择
+account.choose.for:
+    text: '选择 GitHub 帐户: {0}'
+account.choose.not.selected:
+    text: 未选择帐户
+account.choose.title:
+    text: 选择 GitHub 帐户
+accounts.add.button:
+    text: 添加帐户
+accounts.add.dropdown.link:
+    text: 添加帐户
+accounts.default.missing:
+    text: 缺少默认的 GitHub 帐户
+accounts.relogin:
+    text: 重新登录
+action.Github.Accounts.AddGHAccount.text:
+    text: 通过 GitHub 登录…
+action.Github.Accounts.AddGHAccountWithToken.text:
+    text: 通过令牌登录…
+action.Github.Accounts.AddGHEAccount.text:
+    text: 登录 GitHub Enterprise…
+action.Github.PullRequest.Copy.Link.text:
+    text: 复制拉取请求 URL
+action.Github.PullRequest.Open.Link.text:
+    text: 在浏览器中打开拉取请求
+action.comment.text:
+    text: 评论
+button.use.token:
+    text: 使用令牌…
+cannot.configure.remote:
+    text: "无法配置 ''{0}'' 远程:\n{1}"
+cannot.create.gist:
+    text: 无法创建 Gist
+cannot.display.item:
+    text: 无法显示条目 - {0}
+cannot.load.changes:
+    text: 无法加载更改
+cannot.load.commits:
+    text: 无法加载提交
+cannot.load.data:
+    text: 无法加载数据
+cannot.load.details:
+    text: 无法加载详细信息
+cannot.load.repo.info:
+    text: 无法加载仓库信息
+create.gist.dialog.copy.url:
+    text: 复制 URL
+create.gist.dialog.create.for.field:
+    text: '为以下帐户创建:'
+create.gist.dialog.description.field:
+    text: '描述:'
+create.gist.dialog.filename.field:
+    text: '文件名:'
+create.gist.dialog.open.browser:
+    text: 在浏览器中打开
+create.gist.dialog.secret:
+    text: 私密
+create.gist.dialog.title:
+    text: 创建 Gist
+create.gist.error.binary.file:
+    text: '无法上传二进制文件: {0}'
+create.gist.error.content.read:
+    text: 无法读取文件 {0} 的内容
+create.gist.error.empty:
+    text: 无法创建空 gist
+create.gist.process:
+    text: 正在创建 gist…
+create.gist.success:
+    text: 已成功创建 Gist
+credentials.button.generate:
+    text: 生成…
+credentials.incorrect:
+    text: "凭据不正确。\n{0}"
+credentials.invalid.auth.data:
+    text: "身份验证数据无效。\n{0}"
+credentials.invalid.server.path:
+    text: 服务器路径无效
+credentials.server.cannot.be.empty:
+    text: 服务器不能为空
+credentials.server.field:
+    text: '服务器:'
+credentials.server.path.invalid:
+    text: 服务器 URL 无效
+credentials.token.field:
+    text: '令牌:'
+dialog.message.account.cannot.be.empty:
+    text: 帐户不能为空
+dialog.message.login.to.continue:
+    text: 登录到 GitHub 以继续
+dialog.title.add.github.account:
+    text: 添加 GitHub 帐户
+gql.error.in.field:
+    text: '{1} 的“{2}”字段中存在 {0} 错误'
+group.GitHub.Copy.Link.CopyReferencePopup.text:
+    text: GitHub 仓库 URL
+group.GitHub.Copy.Link.text:
+    text: 将链接复制到 GitHub 仓库
+group.Github.PullRequest.Details.Commit.Tree.ViewOptions.text:
+    text: 视图选项
+group.Github.PullRequest.Diff.Thread.View.Options.text:
+    text: 显示审查讨论
+issue.state.closed:
+    text: 已关闭
+issue.state.open:
+    text: 开放
+label.login.option.separator:
+    text: 或
+label.login.progress:
+    text: 正在登录…
+link.label.use.token:
+    text: 使用令牌…
+login.account.already.added:
+    text: 已添加帐户 ''{0}''
+login.to.github:
+    text: 登录 GitHub
+login.to.github.enterprise:
+    text: 登录 GitHub Enterprise
+login.to.github.enterprise.action:
+    text: 登录 GitHub Enterprise…
+login.token.cannot.be.empty:
+    text: 令牌不能为空
+login.via.github.action:
+    text: 通过 GitHub 登录…
+open.on.github.action:
+    text: 在 GitHub 上打开
+open.on.github.action.description:
+    text: 在浏览器中打开相应链接
+progress.text.loading.protected.branches:
+    text: 正在加载 GitHub 分支保护规则
+pull.request.adding.reviewers:
+    text: 正在添加审查者
+pull.request.adjustment.failed:
+    text: 无法调整列表
+pull.request.assignees:
+    text: 被指派者
+pull.request.assignees.popup:
+    text: '{0, choice, 1#被指派者|2#被指派者}'
+pull.request.change.remote.or.account:
+    text: 更改仓库或帐户…
+pull.request.close.action:
+    text: 关闭拉取请求
+pull.request.comment.hint:
+    text: '{0} 以评论'
+pull.request.commit.does.not.contain.changes:
+    text: 提交不包含任何更改
+pull.request.commits:
+    text: 提交
+pull.request.conflicts.merge.tooltip:
+    text: 拉取请求无法合并
+pull.request.create.action:
+    text: 创建拉取请求
+pull.request.create.already.exists:
+    text: 拉取请求已存在
+pull.request.create.already.exists.view:
+    text: 查看
+pull.request.create.description:
+    text: 描述
+pull.request.create.draft.action:
+    text: 创建草稿拉取请求
+pull.request.create.error:
+    text: '无法创建新的拉取请求:'
+pull.request.create.input.remote.branch.comment:
+    text: 必须推送更改才能创建拉取请求，并且本地分支 ''{0}'' 不会跟踪 ''{1}'' 处的远程分支
+pull.request.create.input.remote.branch.name:
+    text: '远程分支名称:'
+pull.request.create.input.remote.branch.title:
+    text: 拉取请求分支
+pull.request.create.no.changes:
+    text: '''''{0}'''' 和 ''''{1}'''' 之间没有更改'
+pull.request.create.process.title:
+    text: 正在创建拉取请求…
+pull.request.create.select.branches:
+    text: 已选择拉取请求的 base 和 head 来查看更改
+pull.request.create.title:
+    text: 标题
+pull.request.details.adjusting.assignees:
+    text: 正在调整被指派者…
+pull.request.details.adjusting.labels:
+    text: 正在调整标签…
+pull.request.details.adjusting.reviewers:
+    text: 正在调整审查者…
+pull.request.diff.editor.title:
+    text: '拉取请求 #{0,number,#} 的差异'
+pull.request.discard.pending.comments:
+    text: 舍弃待定评论
+pull.request.discard.pending.comments.dialog.msg:
+    text: 确定要删除所有待定评论吗?
+pull.request.discard.pending.comments.dialog.title:
+    text: 舍弃待定审查
+pull.request.does.not.contain.changes:
+    text: 拉取请求不包含任何更改
+pull.request.does.not.contain.commits:
+    text: 拉取请求不包含任何提交
+pull.request.editor.timeline:
+    text: 拉取请求时间线
+pull.request.files:
+    text: 文件
+pull.request.info:
+    text: 信息
+pull.request.labels:
+    text: 标签
+pull.request.labels.popup:
+    text: '{0, choice, 1#标签|2#标签}'
+pull.request.list.cannot.load:
+    text: 无法加载拉取请求
+pull.request.list.error.authorization:
+    text: 用户授权失败
+pull.request.list.filter.assignee:
+    text: 被指派者
+pull.request.list.filter.author:
+    text: 作者
+pull.request.list.filter.label:
+    text: 标签
+pull.request.list.filter.quick.assigned:
+    text: 已分配给您
+pull.request.list.filter.quick.open:
+    text: 打开
+pull.request.list.filter.quick.review.requests:
+    text: 审查请求
+pull.request.list.filter.quick.yours:
+    text: 您的拉取请求
+pull.request.list.filter.review:
+    text: 审查
+pull.request.list.filter.review.approved.full:
+    text: 批准的审查
+pull.request.list.filter.review.approved.short:
+    text: 批准的审查
+pull.request.list.filter.review.awaiting.full:
+    text: 正在等待您的审查
+pull.request.list.filter.review.awaiting.short:
+    text: 正在等待审查
+pull.request.list.filter.review.change.requested.full:
+    text: 请求的更改
+pull.request.list.filter.review.change.requested.short:
+    text: 请求的更改
+pull.request.list.filter.review.no.full:
+    text: 无审查
+pull.request.list.filter.review.no.short:
+    text: 无审查
+pull.request.list.filter.review.not.full:
+    text: 未由您审查
+pull.request.list.filter.review.not.short:
+    text: 未审查
+pull.request.list.filter.review.required.full:
+    text: 需要审查
+pull.request.list.filter.review.required.short:
+    text: 需要审查
+pull.request.list.filter.review.reviewed.full:
+    text: 由您审查
+pull.request.list.filter.review.reviewed.short:
+    text: 已审查
+pull.request.list.filter.state:
+    text: 状态
+pull.request.list.filter.state.closed:
+    text: 已关闭
+pull.request.list.filter.state.merged:
+    text: 已合并
+pull.request.list.filter.state.open:
+    text: 开放
+pull.request.list.filters.clear:
+    text: 清除筛选器
+pull.request.list.no.matches:
+    text: 没有与筛选器匹配的拉取请求。
+pull.request.list.nothing.loaded:
+    text: '{0} 中没有拉取请求'
+pull.request.list.outdated:
+    text: 该列表已过时。
+pull.request.list.refresh:
+    text: 刷新
+pull.request.loading.status:
+    text: 正在加载拉取请求状态
+pull.request.merge.commit.action:
+    text: 合并拉取请求…
+pull.request.merge.disabled:
+    text: 此项目已禁用合并
+pull.request.merge.pull.request:
+    text: '合并拉取请求 #{0,number,#}'
+pull.request.new.diff.editor.title:
+    text: 新拉取请求的差异
+pull.request.no.labels:
+    text: 无标签
+pull.request.no.reviewers:
+    text: 无审查者
+pull.request.open.action:
+    text: 查看拉取请求
+pull.request.open.action.description:
+    text: 查看拉取请求信息和时间线
+pull.request.post.action:
+    text: 发布拉取请求
+pull.request.refresh.details.action:
+    text: 刷新拉取请求
+pull.request.refresh.list.action:
+    text: 刷新列表
+pull.request.removing.reviewers:
+    text: 正在移除审查者
+pull.request.reopen.action:
+    text: 重新打开拉取请求
+pull.request.repo.access.required:
+    text: 必须具有仓库访问权限才能管理拉取请求
+pull.request.repo.write.access.required:
+    text: 必须具有仓库写访问权限才能合并拉取请求
+pull.request.review.actions.submit:
+    text: '{0, choice, 0#提交审查…|1#提交审查({0})…}'
+pull.request.review.refresh.data.task:
+    text: 刷新审查数据
+pull.request.review.refresh.data.task.description:
+    text: 刷新 GitHub 拉取请求审查信息
+pull.request.review.submit.action.description:
+    text: 提交拉取请求审查
+pull.request.review.submit.approve.button:
+    text: 批准
+pull.request.review.submit.comment.button:
+    text: 评论
+pull.request.review.submit.comment.description:
+    text: 提交不需要明确批准的常规反馈
+pull.request.review.submit.request.changes:
+    text: 请求更改
+pull.request.reviewers:
+    text: 审查者
+pull.request.reviewers.popup:
+    text: '{0, choice, 1#审查者|2#审查者}'
+pull.request.select.action:
+    text: 选择开放的拉取请求
+pull.request.timeline.approved.changes:
+    text: 批准了这些更改
+pull.request.timeline.branch.deleted:
+    text: 删除了 {0} 分支
+pull.request.timeline.branch.force.pushed:
+    text: 强制推送了 {0} 分支
+pull.request.timeline.branch.head.restored:
+    text: 还原了 head 分支
+pull.request.timeline.cannot.load:
+    text: 无法加载时间线条目
+pull.request.timeline.changed.base.branch:
+    text: 更改了基础分支
+pull.request.timeline.closed:
+    text: 关闭了此请求
+pull.request.timeline.comment.suggested.changes:
+    text: 建议的更改
+pull.request.timeline.comment.suggested.changes.action.commit.name:
+    text: 提交…
+pull.request.timeline.comment.suggested.changes.button:
+    text: 局部应用
+pull.request.timeline.comment.suggested.changes.progress.bar.apply:
+    text: 应用建议的更改
+pull.request.timeline.comment.suggested.changes.progress.bar.commit:
+    text: 提交建议的更改
+pull.request.timeline.comment.suggested.changes.tooltip.different.branch:
+    text: 无法在其他分支中应用来自拉取请求的建议更改
+pull.request.timeline.comment.suggested.changes.tooltip.outdated:
+    text: 无法应用过时的建议
+pull.request.timeline.comment.suggested.changes.tooltip.resolved:
+    text: 此建议已解决
+pull.request.timeline.commit.added:
+    text: 已将提交添加到此拉取请求
+pull.request.timeline.commits.added:
+    text: 已将 {0} 个提交添加到此拉取请求
+pull.request.timeline.connected:
+    text: 链接了可能由此对象关闭的问题
+pull.request.timeline.disconnected:
+    text: 移除了一个指向问题的链接
+pull.request.timeline.event.assigned:
+    text: 指派 {0}
+pull.request.timeline.event.assigned.and.unassigned:
+    text: 指派 {0} 并取消指派 {1}
+pull.request.timeline.event.labels.added:
+    text: 添加标签 {0}
+pull.request.timeline.event.labels.added.and.removed:
+    text: 添加标签 {0} 并移除 {1}
+pull.request.timeline.event.labels.removed:
+    text: 移除标签 {0}
+pull.request.timeline.event.removed.review.request:
+    text: 从 {0} 中移除审查请求
+pull.request.timeline.event.requested.review:
+    text: 从 {0} 请求审查
+pull.request.timeline.event.requested.review.and.removed.review.request:
+    text: 从 {0} 请求审查并从 {1} 中移除审查请求
+pull.request.timeline.event.unassigned:
+    text: 取消指派 {0}
+pull.request.timeline.marked.as.draft:
+    text: 将此拉取请求标记为草稿
+pull.request.timeline.marked.as.ready:
+    text: 将此拉取请求标记为可供审查
+pull.request.timeline.mentioned:
+    text: 提及了此拉取请求
+pull.request.timeline.merged:
+    text: 合并了此请求
+pull.request.timeline.merged.commit:
+    text: 已将提交 {0} 合并到 {1}
+pull.request.timeline.no.description:
+    text: 未提供描述
+pull.request.timeline.refresh.action:
+    text: 刷新时间线
+pull.request.timeline.refresh.action.description:
+    text: 检查新时间线事件
+pull.request.timeline.renamed:
+    text: 将此拉取请求从 ''{0}'' 重命名为 ''{1}''
+pull.request.timeline.reopened:
+    text: 重新打开了此请求
+pull.request.timeline.requested.changes:
+    text: 请求了更改
+pull.request.timeline.reviewed:
+    text: 审查了更改
+pull.request.timeline.stale.review.dismissed:
+    text: 忽略了 <b>{0}</b> 过时的审查
+pull.request.timeline.started.review:
+    text: 开始了审查
+pull.request.unassigned:
+    text: 未分配
+pull.request.unresolved.comments:
+    text: '{0,choice,0#没有未解决的注释|1#{0} 个未解决的注释|2#{0} 个未解决的注释}'
+pull.request.view.conversations.action.description:
+    text: 查看拉取请求时间线
+pull.request.view.list:
+    text: 查看拉取请求
+rebase.error:
+    text: 无法执行 GitHub 变基
+rebase.error.failed.to.match.gh.repo:
+    text: 无法匹配本地仓库和 GitHub 仓库
+rebase.error.multi.repo.not.supported:
+    text: 不支持多仓库项目
+rebase.error.no.default.branch:
+    text: 无法确定上游分支 - 没有为仓库设置默认分支
+rebase.error.no.suitable.account.found:
+    text: 找不到合适的 GitHub 帐户
+rebase.error.remote.origin.not.found:
+    text: 找不到 Git 远程 'origin'
+rebase.error.repo.not.found:
+    text: 找不到仓库 {0}
+rebase.error.upstream.not.found:
+    text: 未添加远程 {0}
+rebase.process:
+    text: 正在变基 GitHub 复刻…
+rebase.process.adding.github.parent.as.remote.host:
+    text: 正在将 GitHub 父项添加为远程主机…
+rebase.process.configuring.upstream.remote:
+    text: 正在配置上游远程…
+rebase.process.fetching.upstream:
+    text: 正在提取上游…
+rebase.process.operation.title:
+    text: 正在变基
+rebase.process.rebasing.branch.onto:
+    text: 正在将当前分支变基到 ''{0}''…
+rebase.process.success:
+    text: 已成功变基 GitHub 复刻
+request.response.0:
+    text: '请求响应: {0}。'
+retry.action:
+    text: 重试
+retry.link:
+    text: 重试
+server.unreachable:
+    text: 服务器无法到达
+settings.clone.ssh:
+    text: 使用 ssh 克隆 Git 仓库
+settings.timeout:
+    text: '连接超时:'
+settings.timeout.seconds:
+    text: 秒
+share.button:
+    text: 共享
+share.dialog.account.info.load.error.prefix:
+    text: '无法加载 {0} 的信息:'
+share.dialog.account.info.load.process.canceled:
+    text: 已取消进程
+share.dialog.description:
+    text: '描述:'
+share.dialog.private:
+    text: 私有
+share.dialog.remote:
+    text: '远程:'
+share.dialog.repo.name:
+    text: '仓库名称:'
+share.dialog.share.by:
+    text: '共享者:'
+share.error.private.repos.not.supported:
+    text: 您的帐户不支持私有仓库
+share.error.remote.with.selected.name.exists:
+    text: 已存在具有所选名称的远程
+share.error.repo.with.selected.name.exists:
+    text: 已存在具有所选名称的仓库
+share.on.github:
+    text: 在 GitHub 上共享项目
+share.validation.invalid.repo.name:
+    text: 仓库名称无效。名称应由字母、数字、短划线、点和下划线组成
+share.validation.no.remote.name:
+    text: 未选择远程名称
+share.validation.no.repo.name:
+    text: 未选择仓库名称
+tab.title.pull.requests.new:
+    text: 在 {0} 新建拉取请求
+task.comment.author:
+    text: '作者:'
+task.comment.date:
+    text: '日期:'
+task.repo.host.field:
+    text: '主机:'
+task.repo.name.field.empty.hint:
+    text: 仓库名称
+task.repo.owner.field.empty.hint:
+    text: 仓库所有者
+task.repo.repository.field:
+    text: '仓库:'
+task.repo.token.create.button:
+    text: 创建 API 令牌
+task.repo.token.field:
+    text: 'API 令牌:'
+task.repo.token.field.empty.hint:
+    text: OAuth2 令牌
+toolwindow.stripe.Pull_Requests:
+    text: 拉取请求
+unknown.loading.error:
+    text: 未知加载错误

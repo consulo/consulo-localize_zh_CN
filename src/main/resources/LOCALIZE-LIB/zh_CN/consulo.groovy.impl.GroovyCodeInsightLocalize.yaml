@@ -1,0 +1,12 @@
+generate.equals.compare.nested.arrays.comment:
+    text: //比较嵌套数组 - 此处 {0} 的值
+generate.equals.compare.arrays.comment:
+    text: //可能不正确 - 使用 Arrays.equals 比较 Object[] 数组
+generate.property.missing.already.defined.warning:
+    text: propertyMissing() 已定义
+generate.property.missing.already.defined.title:
+    text: propertyMissing() 已定义
+generate.method.missing.already.defined.warning:
+    text: methodMissing() 已定义
+generate.method.missing.already.defined.title:
+    text: methodMissing() 已定义

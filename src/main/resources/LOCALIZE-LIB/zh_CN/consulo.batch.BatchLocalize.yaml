@@ -1,0 +1,12 @@
+runcfg.labels.script_parameters:
+    text: '形参(&P):'
+runcfg.labels.environment_variables:
+    text: '环境变量(&E):'
+runcfg.labels.working_directory:
+    text: '工作目录(&W):'
+runcfg.labels.interpreter_options:
+    text: '解释器选项(&O):'
+runcfg.captions.script_parameters_dialog:
+    text: 输入脚本形参
+runcfg.captions.interpreter_options_dialog:
+    text: 输入解释器选项

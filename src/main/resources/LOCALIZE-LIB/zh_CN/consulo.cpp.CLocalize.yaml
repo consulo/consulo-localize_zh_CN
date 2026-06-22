@@ -1,0 +1,14 @@
+lbrace.expected:
+    text: 应为 '{'
+rbrace.expected:
+    text: 应为 '}'
+identifier.expected:
+    text: 应为标识符
+expression.expected:
+    text: 应为表达式
+constant.expected:
+    text: 应为 {0} 常量
+number:
+    text: 数字
+constant:
+    text: 常量

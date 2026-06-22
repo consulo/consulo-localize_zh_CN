@@ -1,0 +1,6 @@
+group.other:
+    text: 其他
+multiple.repository.urls:
+    text: 多个仓库 URL
+multiple.repository.urls.fix.name:
+    text: 将多个仓库 URL 替换为单独的仓库块

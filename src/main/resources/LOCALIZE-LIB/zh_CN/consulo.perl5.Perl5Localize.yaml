@@ -1,0 +1,28 @@
+list.item.test:
+    text: 测试
+inspection.unreachable.code.display.name:
+    text: 不可到达的代码
+attribute.descriptor.number:
+    text: 数字
+attribute.descriptor.line.comment:
+    text: 行注释
+attribute.descriptor.label:
+    text: 标签
+attribute.descriptor.operator:
+    text: 运算符
+attribute.descriptor.keyword:
+    text: 关键字
+attribute.descriptor.attribute:
+    text: 特性
+attribute.descriptor.comma:
+    text: 逗号
+attribute.descriptor.semicolon:
+    text: 分号
+attribute.descriptor.braces:
+    text: 大括号
+attribute.descriptor.parentheses:
+    text: 圆括号
+attribute.descriptor.brackets:
+    text: 中括号
+command.name.introduce.variable:
+    text: 引入变量

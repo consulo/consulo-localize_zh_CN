@@ -1,0 +1,60 @@
+connect.title:
+    text: 连接
+disconnect.title:
+    text: 断开连接
+connect.tooltip:
+    text: 打开串行端口
+send.title:
+    text: 发送(&S)
+action.clear.contents.console.description:
+    text: 清除控制台的内容
+cancel:
+    text: 取消
+ok:
+    text: 确定
+connecting:
+    text: 正在连接…
+serial.port.parameters.wrong:
+    text: 无法设置 SerialPort 形参
+serial.port.not.found:
+    text: 找不到串行端口“{0}”。
+settings.display.name:
+    text: OpenAPI 规范
+uart.parity.odd:
+    text: 奇数
+uart.parity.even:
+    text: 偶数
+uart.parity.none:
+    text: 无
+label.port:
+    text: '端口(&P):'
+label.baud:
+    text: '波特:'
+label.bits:
+    text: '比特:'
+label.parity:
+    text: '奇偶性:'
+label.stop.bits:
+    text: '停止位:'
+label.new.line:
+    text: 新行
+label.encoding:
+    text: 编码
+dialog.title.serial.port.settings:
+    text: '{0} - 串行形参'
+presentable.name:
+    text: 串行端口配置文件
+checkbox.send.eol:
+    text: 发送 EOL
+action.settings.text:
+    text: 设置…
+notification.group.serial.monitor.notification:
+    text: 串行监视器
+dialog.message.are.you.sure:
+    text: 确定要退出登录吗?
+dialog.message.name:
+    text: '名称:'
+button.disconnect:
+    text: 断开连接(&D)
+action.save.text:
+    text: 保存

@@ -1,0 +1,136 @@
+add.implicit.variable.fix.name:
+    text: 在注释中定义隐式变量
+add.implicit.variable.fix.name.external:
+    text: 在外部定义隐式变量(仅为此文件)
+add.implicit.variable.fix.name.local:
+    text: 定义隐式变量(在当前文件中的注释中)
+add.implicit.variable.fix.name.module.wide:
+    text: 在外部定义隐式变量(模块范围)
+add.macro.library.ref.fix.name:
+    text: 在注释中定义宏库引用
+add.macro.library.ref.fix.name.external:
+    text: 在外部定义宏库引用(仅为此文件)
+add.macro.library.ref.fix.name.local:
+    text: 定义宏库引用(在当前文件中的注释中)
+add.macro.library.ref.fix.name.module.wide:
+    text: 在外部定义宏库引用(模块范围)
+add.velocity.properties.ref.fix.name:
+    text: 在注释中定义 velocity.properties 文件引用
+add.velocity.properties.ref.fix.name.external:
+    text: 在外部定义 velocity.properties 文件引用(仅为此文件)
+add.velocity.properties.ref.fix.name.local:
+    text: 定义 velocity.properties 文件引用(在当前文件中的注释中)
+add.velocity.properties.ref.fix.name.module.wide:
+    text: 在外部定义 velocity.properties 文件引用(模块范围)
+argument.list.expected:
+    text: 应为实参列表
+assignment.of.void:
+    text: void 赋值不起任何作用
+assignment.to.method.call:
+    text: 方法调用赋值不起任何作用
+choose.external.definitions.file:
+    text: 选择外部隐式变量定义文件
+defined.variable.expected:
+    text: 应为已定义变量
+error.cannot.resolve.macro:
+    text: 无法解析宏 ''{0}''
+error.cannot.resolve.method:
+    text: 无法解析类 ''{1}'' 的方法 ''{0}''
+error.cannot.resolve.property:
+    text: 无法解析类 ''{1}'' 的属性 ''{0}''
+error.cannot.resolve.variable:
+    text: 无法解析变量 ''{0}''
+error.no.applicable.method:
+    text: '''''{1}'''' 中没有适用于 {2} 的方法 ''''{0}'''''
+error.wrong.number.of.arguments.for.macro:
+    text: '''''{0}'''' 调用实参数量错误'
+expression.expected:
+    text: 应为表达式
+identifier:
+    text: 标识符
+illegal.iterable.expression.type:
+    text: '非法迭代表达式类型: ''''{0}'''''
+invalid.java.type:
+    text: 无效的 Java 类型
+invalid.operand.type:
+    text: '无效操作数类型: ''''{0}'''''
+invalid.operands.type:
+    text: '无效操作数类型: ''''{0}'''' 和 ''''{1}'''''
+invalid.token:
+    text: 无效的令牌 ''{0}''
+loop.variable.expected:
+    text: 应为循环变量
+macro.declaration.expected:
+    text: 应为宏名称和形参列表
+macro.declaration.will.be.ignored:
+    text: 宏 ''{0}'' 已在 ''{1}'' 中定义，将在 ''{2}'' 中忽略
+macro.is.already.defined:
+    text: 宏 ''{0}'' 已在 ''{1}'' 中定义
+number:
+    text: 数字
+operand.expected:
+    text: 应为操作数
+operation.not.allowed:
+    text: 不允许操作
+parameter.expected:
+    text: 应为形参声明
+token.expected:
+    text: 应为 ''{0}''
+type.name.loop.variable:
+    text: 循环变量
+type.name.macro:
+    text: 宏
+type.name.macro.parameter:
+    text: 宏形参
+type.name.variable:
+    text: 变量
+unclosed.directive:
+    text: 未闭合的指令
+variable.name.expected:
+    text: 应为变量名称
+velocity.color.bad.character:
+    text: 错误字符
+velocity.color.braces:
+    text: 大括号
+velocity.color.brackets:
+    text: 中括号
+velocity.color.comma:
+    text: 逗号
+velocity.color.comment:
+    text: 注释
+velocity.color.directive:
+    text: 内置指令
+velocity.color.dot:
+    text: 点
+velocity.color.escape:
+    text: 转义字符
+velocity.color.keyword:
+    text: 关键字
+velocity.color.number:
+    text: 数字文字
+velocity.color.operation.sign:
+    text: 运算符号
+velocity.color.parenths:
+    text: 圆括号
+velocity.color.reference:
+    text: 引用和宏调用
+velocity.color.scripting.background:
+    text: 脚本背景
+velocity.color.semicolon:
+    text: 分号
+velocity.color.string:
+    text: 字符串文字
+vtl.directive.args.inspection:
+    text: 指令实参检查
+vtl.file.references.inspection:
+    text: 文件引用检查
+vtl.formal.notation.is.not.allowed:
+    text: 此处不允许正式符号
+vtl.only.first.parse.argument.will.be.parsed:
+    text: '#parse 中将仅解析第一个文件'
+vtl.references.inspection:
+    text: 引用检查
+vtl.types.inspection:
+    text: 类型检查
+will.be.considered.as.macro.call:
+    text: 将被视为宏调用，应为 '('

@@ -1,0 +1,4 @@
+action.Terminal.OpenInTerminal.description:
+    text: 在终端中打开当前文件位置
+action.Terminal.OpenInTerminal.text:
+    text: 在终端中打开

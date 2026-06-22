@@ -1,0 +1,4 @@
+parser.expected:
+    text: '应为: {0}'
+parser.unexpected:
+    text: '意外: {0}'

@@ -1,0 +1,18 @@
+add:
+    text: 添加
+close:
+    text: 关闭
+compare.with:
+    text: 比较对象…
+edit:
+    text: 编辑
+file.created:
+    text: 已创建 <a href="">{0}</a>
+global.variable:
+    text: 全局变量
+preview:
+    text: 预览
+value:
+    text: 值
+variable:
+    text: 变量

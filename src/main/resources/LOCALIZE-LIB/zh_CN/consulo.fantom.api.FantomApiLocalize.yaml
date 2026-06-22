@@ -1,0 +1,14 @@
+identifier.expected:
+    text: 应为标识符
+type.expected:
+    text: 应为类型
+enum.value.expected:
+    text: 应为枚举值
+argument.expected:
+    text: 应为实参
+expression.expected:
+    text: 应为表达式
+button.configure:
+    text: 配置...
+sdk.select.prompt.title:
+    text: 选择 SDK

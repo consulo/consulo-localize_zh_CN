@@ -1,0 +1,898 @@
+Form.TransportManagerConfigurable.host:
+    text: '主机:'
+Form.TransportManagerConfigurable.type:
+    text: '类型:'
+LocalTransportHost.name:
+    text: 相同的文件系统
+ScriptInfo.error.shutdown.script.not.found:
+    text: 未找到关机脚本文件
+ScriptInfo.error.startup.script.not.found:
+    text: 未找到启动脚本文件
+action.CreateBeanManagedEntityBeanAction.text:
+    text: BMP 实体 Bean(_B)
+action.CreateCMPField.text:
+    text: CMP 字段(_C)
+action.CreateContainerManagedEntityBeanAction.text:
+    text: CMP 实体 Bean(_C)
+action.CreateEJBInterceptor.text:
+    text: 拦截器(_I)
+action.CreateEJBRelationship.text:
+    text: EJB 关系(_R)
+action.CreateFilterAction.description:
+    text: 创建新筛选器
+action.CreateFilterAction.text:
+    text: 筛选器(_F)
+action.CreateListenerAction.description:
+    text: 创建新侦听器
+action.CreateListenerAction.text:
+    text: 侦听器(_L)
+action.CreateMessageBean.text:
+    text: 消息 Bean(_M)
+action.CreateServletAction.description:
+    text: 创建新 servlet
+action.CreateSingletonBean.text:
+    text: 单一实例会话 Bean(_G)
+action.CreateStatefulBean.text:
+    text: 有状态会话 Bean(_F)
+action.CreateStatelessBean.text:
+    text: 无状态会话 Bean(_L)
+action.CreateTransferObject.text:
+    text: 传输对象(_T)
+action.EditInterceptorBindingsAction.text:
+    text: 编辑拦截器绑定(_B)…
+action.GenerateEJBFinderOrSelectorMethod.text:
+    text: EJB Finder/选择器方法…
+action.GenerateEJBReference.text:
+    text: '@EJB 引用'
+action.GenerateEntityListenerMethods.text:
+    text: 实体侦听器方法…
+action.GenerateInterceptorMethods.text:
+    text: 拦截器方法…
+action.GeneratePersistenceContextReference.text:
+    text: '@PersistenceContext/单元引用'
+action.GenerateResourceReference.text:
+    text: '@Resource 引用'
+action.OpenPersistenceERDiagramAction.text:
+    text: 实体关系图
+action.PackageFile.description:
+    text: 将所选文件添加到展开型部署目录或 Java EE 归档中
+action.PackageFile.text:
+    text: 软件包文件(_P)
+action.ValidateJsp.description:
+    text: 验证选定的 JSP 文件
+action.ValidateJsp.text:
+    text: 验证 JSP(_V)
+action.description.add.application.server:
+    text: 添加应用程序服务器
+action.description.build.on.frame.deactivation:
+    text: 切换出 IDE 时更新与此进程相关的资源
+action.description.create.new.cmp.field:
+    text: 创建新 CMP 字段
+action.description.create.new.ejb.relationship:
+    text: 创建新 EJB 关系
+action.description.create.new.servlet:
+    text: 创建新 Servlet
+action.description.remove.application.server:
+    text: 移除应用程序服务器
+action.name.build.on.frame.deactivation:
+    text: 切换出 IDE 时更新资源
+action.name.configure.j2ee.names:
+    text: Java EE 名称(_J)…
+action.name.create.bmp.entity.bean:
+    text: 创建 BMP 实体 Bean
+action.name.create.cmp.entity.bean:
+    text: 创建 CMP 实体 Bean
+action.name.create.interceptor:
+    text: 创建拦截器
+action.name.create.message.bean:
+    text: 创建消息 Bean
+action.name.create.new.filter:
+    text: Web 筛选器
+action.name.create.new.listener:
+    text: Web 侦听器
+action.name.create.new.transfer.object:
+    text: 传输对象
+action.name.create.singleton.bean:
+    text: 创建单一实例会话 Bean
+action.name.create.stateful.bean:
+    text: 创建有状态会话 Bean
+action.name.create.stateless.bean:
+    text: 创建无状态会话 Bean
+action.name.delete:
+    text: 删除
+action.name.deploy.all:
+    text: 全部部署
+action.name.deploy.selected:
+    text: 部署
+action.name.edit.deployment.descriptor:
+    text: 编辑部署描述符…
+action.name.new.cmp.field:
+    text: 新建 CMP 字段
+action.name.new.ejb.relationship:
+    text: 新建 EJB 关系
+action.name.refresh.deployment.status:
+    text: 刷新部署状态
+action.name.undeploy:
+    text: 取消部署
+action.name.validate.location:
+    text: 验证 {0}
+action.text.select.all:
+    text: 全选
+action.text.unselect.all:
+    text: 取消全选
+action.text.validate.facet:
+    text: 验证 facet ''{0}'' 中的所有文件
+add.web.root:
+    text: 将 {0} 设置为 Web 根
+additional.deployment.descriptor.file.description.additional.resource:
+    text: 其他资源
+application.servers.configurable.display.name:
+    text: 应用程序服务器
+appserver.library.display.name:
+    text: 应用程序服务器{0, choice, 1#库|2#库}
+appserver.validator.presentable.text:
+    text: '{1} 的 {0}'
+border.edit.deployment.descriptors.deployment.descriptors.group:
+    text: 部署描述符
+border.edit.web.module.web.resource.directories:
+    text: Web 资源目录
+border.interceptor.binding:
+    text: 拦截器绑定
+border.pk.class.dialog.primary.key.class.name:
+    text: '主键类名:'
+border.pk.class.dialog.primary.key.class.package:
+    text: '主键类软件包:'
+border.relationship.editor.role.1:
+    text: 角色 1
+border.relationship.editor.role.2:
+    text: 角色 2
+border.run.configuration.editor.environment.variables:
+    text: 环境变量
+border.run.configuration.editor.remote.connection.settings.group:
+    text: 远程连接设置
+browser.no.suitable.configuration.running:
+    text: 未找到配置的/正在运行的 web 服务器! 请运行任意一个 web 配置并点击“刷新”按钮!
+browser.web.faced.not.configured:
+    text: 请先配置 Web Facet!
+button.add:
+    text: 添加...
+button.add.appserver.descriptor:
+    text: 添加应用程序和服务器特定的描述符(&S)…
+button.configure:
+    text: 配置...
+button.configure.acclication.server:
+    text: 配置(&C)…
+button.configure.application.server:
+    text: 配置…
+button.delete:
+    text: 删除
+button.edit:
+    text: 编辑...
+button.help:
+    text: 帮助(&H)
+button.new:
+    text: 新建...
+checkbox.also.delete.file.from.disk.text:
+    text: 同时从磁盘删除文件(&A)
+checkbox.cmp.field.properties.generate.getter.in.local.interface:
+    text: 本地接口(&L)
+checkbox.cmp.field.properties.generate.getter.in.remote.interface:
+    text: 远程接口(&R)
+checkbox.cmp.field.properties.generate.setter.in.local.interface:
+    text: 本地接口(&I)
+checkbox.cmp.field.properties.generate.setter.in.remote.interface:
+    text: 远程接口(&E)
+checkbox.create.transfer.object.generate.getter.in.interface:
+    text: 在 {0} 接口中生成 getter(&G)
+checkbox.create.transfer.object.generate.setter.in.interface:
+    text: 在 {0} 接口中生成 setter(&S)
+checkbox.default.interceptor:
+    text: 默认拦截器(&D)
+checkbox.delete.ejb.delete.following.classes:
+    text: '删除以下类(&D):'
+checkbox.edit.cmp.field.primary.key:
+    text: 主键(&P)
+checkbox.edit.ejb.class.enable.local.interface:
+    text: 本地接口(&L)
+checkbox.edit.ejb.class.enable.remote.interface:
+    text: 远程接口(&R)
+checkbox.edit.relationship.cascade.delete:
+    text: 级联删除
+checkbox.edit.relationship.enable.cmr.field:
+    text: CMR 字段
+checkbox.edit.script.properties.use.default:
+    text: 使用默认值
+checkbox.run.configuration.editor.pass.environment.variables:
+    text: 传递环境变量
+class.role.business.local.interface:
+    text: 本地业务接口
+class.role.business.remote.interface:
+    text: 远程业务接口
+class.role.ejb.class:
+    text: EJB 类
+class.role.home.interface:
+    text: 主接口
+class.role.interceptor.class:
+    text: 拦截器
+class.role.local.home.interface:
+    text: 本地主接口
+class.role.local.interface:
+    text: 本地接口
+class.role.remote.interface:
+    text: 远程接口
+class.role.service.endpoint.interface:
+    text: 服务端点接口
+class.role.unknown.ejb.class:
+    text: 未知 EJB 类
+column.name.description:
+    text: 描述
+column.name.edit.deployment.descriptors.path:
+    text: 路径
+column.name.edit.deployment.descriptors.type:
+    text: 类型
+column.name.edit.web.roots..relative.to.deployment.root:
+    text: 相对于部署根的路径
+column.name.edit.web.roots.web.resource.directory:
+    text: Web 资源目录
+column.name.ejb.business.tree.intercept:
+    text: 拦截
+column.name.ejb.business.tree.name:
+    text: 名称
+combobox.deployment.descriptor.version:
+    text: 部署描述符版本(&V)
+command.apply.interceptor.bindings.command:
+    text: 修改拦截器绑定
+command.name.create.0.1:
+    text: 创建{0} ''{1}''
+command.name.create.directory:
+    text: 创建目录
+command.name.create.transfer.object:
+    text: 创建传输对象
+command.name.creating.web.root.dir:
+    text: 正在创建目录
+command.name.delete.ejb.class:
+    text: 删除 EJB 类
+confirmation.text.class.does.not.exist.create.it:
+    text: 类 {0} 不存在。是否要创建?
+confirmation.text.classes.do.not.exist.create.them:
+    text: "类\n{0}\n不存在。是否要创建?"
+confirmation.text.create.directory:
+    text: 创建目录 ''{0}''?
+confirmation.text.regenerate.equals.and.hashcode.for.class:
+    text: 为类 ''{0}'' 重新生成 equals 和 hashCode 方法?
+default.run.configuration.name.unnamed:
+    text: 未命名
+deployment.descriptor.panel.directory.path.relative.to.deployment.root.label:
+    text: '相对于部署根的目录路径(&P):'
+deployment.descriptor.title.application.module:
+    text: 应用程序模块部署描述符
+deployment.descriptor.title.ejb.module:
+    text: EJB 模块部署描述符
+deployment.descriptor.title.web.module:
+    text: WebLogic Web 模块部署描述符
+deployment.status.description.activating:
+    text: 正在部署工件，请稍候…
+deployment.status.description.deactivating:
+    text: 正在取消部署工件，请稍候…
+deployment.status.description.deployed:
+    text: 工件已成功部署
+deployment.status.description.excluded.from.deployment:
+    text: 工件已从部署中排除。要包含，请转到“运行 | 编辑部署 | 部署”并选择工件
+deployment.status.description.failed:
+    text: 部署工件时出错。请参阅服务器日志了解详细信息。
+deployment.status.description.not.deployed:
+    text: 工件未部署。按“部署”以开始部署
+deployment.status.description.prepared:
+    text: 正在部署工件，请稍候…
+deployment.status.description.preparing:
+    text: 正在部署工件，请稍候…
+deployment.status.description.unknown:
+    text: 状态未知。按“刷新”从服务器重新加载部署状态。
+deployment.status.description.unprepared:
+    text: 正在取消部署工件，请稍候…
+deployment.status.description.unpreparing:
+    text: 正在取消部署工件，请稍候…
+deployment.status.name.activating:
+    text: 正在激活…
+deployment.status.name.deactivating:
+    text: 正在停用…
+deployment.status.name.deployed:
+    text: 已部署
+deployment.status.name.disconnected:
+    text: 已断开连接
+deployment.status.name.excluded.from.deployment:
+    text: 从部署中排除
+deployment.status.name.failed:
+    text: 已失败
+deployment.status.name.not.deployed:
+    text: 未部署
+deployment.status.name.prepared:
+    text: 已准备
+deployment.status.name.preparing:
+    text: 正在准备…
+deployment.status.name.unknown:
+    text: 未知
+deployment.status.name.unprepared:
+    text: 已取消准备
+deployment.status.name.unpreparing:
+    text: 正在取消准备…
+dialog.description.web.resource.directory:
+    text: 选择存储 web 文件的 web 资源目录
+dialog.title.cant.create.class:
+    text: 无法创建类
+dialog.title.choose.class:
+    text: 选择类
+dialog.title.choose.cmp.field.class:
+    text: 选择 CMP 字段类
+dialog.title.choose.ejb.class:
+    text: 选择 EJB 类
+dialog.title.choose.ejb.classes.package:
+    text: 选择 EJB 类软件包
+dialog.title.choose.ejb.home.interface:
+    text: 选择 EJB 主接口
+dialog.title.choose.ejb.local.home.interface:
+    text: 选择 EJB 本地主接口
+dialog.title.choose.ejb.local.interface:
+    text: 选择 EJB 本地接口
+dialog.title.choose.ejb.message.listener.interface:
+    text: 选择 EJB 消息侦听器接口
+dialog.title.choose.ejb.primary.key.class:
+    text: 选择 EJB 主键类
+dialog.title.choose.ejb.remote.interface:
+    text: 选择 EJB 远程接口
+dialog.title.choose.ejb.service.endpoint.interface:
+    text: 选择 EJB 服务端点接口
+dialog.title.choose.entity.bean.primary.key.class:
+    text: 选择实体 Bean 主键类
+dialog.title.choose.package:
+    text: 选择软件包
+dialog.title.choose.primary.key.class.package:
+    text: 选择主键类软件包
+dialog.title.configure.vm.and.program.parameters:
+    text: 配置虚拟机和程序形参
+dialog.title.create.appserver.specific.descriptor:
+    text: 创建应用程序服务器特定的描述符
+dialog.title.create.new.0:
+    text: 创建 {0}
+dialog.title.create.new.cmp.field:
+    text: 创建 CMP 字段
+dialog.title.create.new.ejb.0:
+    text: 创建新 EJB ''{0}''
+dialog.title.default.shutdown.script:
+    text: 默认关机脚本
+dialog.title.default.startup.script:
+    text: 默认启动脚本
+dialog.title.deployment.descriptor.location:
+    text: 部署描述符位置
+dialog.title.edit.0:
+    text: 编辑 {0}
+dialog.title.edit.ejb.ql.query:
+    text: 编辑 EJB QL 查询
+dialog.title.edit.interceptor.bindings:
+    text: 编辑拦截器 ''{0}'' 绑定
+dialog.title.ejb.relationship.properties:
+    text: EJB 关系属性
+dialog.title.new.filter:
+    text: 新 Web 筛选器
+dialog.title.new.listener:
+    text: 新 Web 侦听器
+dialog.title.new.servlet:
+    text: 新建 Servlet
+dialog.title.new.typename:
+    text: 新建 {0}
+dialog.title.packaging.choose.facets:
+    text: 选择 Facet
+dialog.title.remove.ejb.local.interface:
+    text: 移除 EJB 本地接口
+dialog.title.rename.0:
+    text: 重命名 {0}
+dialog.title.resource.location:
+    text: 资源位置
+dialog.title.restart.server:
+    text: 重启服务器
+dialog.title.select.accessors.of.fields.to.include.in.transfer.object:
+    text: 选择要包含在传输对象中的字段访问器
+dialog.title.select.startup.script:
+    text: 选择启动脚本
+dialog.title.vm.parameters:
+    text: 虚拟机选项
+dialog.title.web.resource.directory:
+    text: Web 资源目录
+dialog.title.web.resource.directory.path:
+    text: Web 资源目录路径
+directory.description.working.directory:
+    text: 工作目录
+editbox.default.pk.class:
+    text: '默认 PK 类:'
+editbox.j2eenames.ejb.class:
+    text: EJB 类
+editbox.j2eenames.ejb.name.tag:
+    text: <ejb-name> 标记
+editbox.j2eenames.filter.class:
+    text: 筛选器类
+editbox.j2eenames.filter.name.tag:
+    text: <filter-name> 标记
+editbox.j2eenames.home.interface:
+    text: 主接口
+editbox.j2eenames.listener.class:
+    text: 侦听器类
+editbox.j2eenames.local.home.interface:
+    text: 本地主接口
+editbox.j2eenames.local.interface:
+    text: 本地接口
+editbox.j2eenames.remote.interface:
+    text: 远程接口
+editbox.j2eenames.service.endpoint.interface:
+    text: 服务端点接口
+editbox.j2eenames.servlet.class:
+    text: Servlet 类
+editbox.j2eenames.servlet.name.tag:
+    text: <servlet-name> 标记
+editbox.j2eenames.transfer.object:
+    text: 传输对象
+ejb.interceptor.type:
+    text: 拦截器
+ejb.type.bmp.entity.bean:
+    text: BMP 实体 Bean
+ejb.type.cmp.entity.bean:
+    text: CMP 实体 Bean
+ejb.type.entity.bean:
+    text: 实体 Bean
+ejb.type.message.bean:
+    text: 消息 Bean
+ejb.type.session.bean:
+    text: 会话 Bean
+ejb.type.singleton.bean:
+    text: 单一实例会话 Bean
+ejb.type.stateful.bean:
+    text: 有状态会话 Bean
+ejb.type.stateless.bean:
+    text: 无状态会话 Bean
+error.cannot.create.deployment.descriptor:
+    text: "无法创建 {0}\n{1}"
+error.deployment.descriptor.already.exists:
+    text: 文件 ''{0}'' 上的部署描述符已存在
+error.deployment.descriptor.target.in.use:
+    text: 部署描述符目标文件 ''{0}'' 正在使用
+error.please.specify.path.to.deployment.descriptor:
+    text: 请指定 {0} 的路径
+exception.text.address.is.in.use:
+    text: 地址 {0} 已在使用中
+exception.text.alternative.jre.not.specified:
+    text: 未指定替代 JRE
+exception.text.application.server.0.not.configured:
+    text: 未配置应用程序服务器 ''{0}''
+exception.text.application.server.not.specified:
+    text: 未指定应用程序服务器
+exception.text.descriptor.not.defined:
+    text: 未定义 ''{0}''
+exception.text.invalid.port.value:
+    text: '无效的端口值: {0}'
+exception.text.malformed.url:
+    text: 'URL 的格式错误: ''''{0}'''''
+exception.text.startup.script.is.not.specified:
+    text: 未指定启动脚本
+facet.0.in.module.1.text:
+    text: '{0} ({1} 中)'
+facet.0.in.module.1.text.detailed:
+    text: '''''{0}'''' facet (在模块 ''''{1}'''' 中)'
+generic.application.server.default.name:
+    text: 通用
+group.GeneratePersistenceMapping.text:
+    text: 生成持久性映射
+group.JavaeeMigrationGroup.text:
+    text: 迁移操作
+group.JspActions.text:
+    text: JSP 操作
+group.NewGroupPersistence.text:
+    text: 新建组持久性
+inspection.ejb.display.name:
+    text: EJB 类错误
+inspection.ejb.xml.display.name:
+    text: EJB 描述符
+inspection.group.display.name.application.server.inspections:
+    text: 应用程序服务器
+inspection.javaee.ejb.ql.display.name:
+    text: EJB QL 问题
+inspection.javaee.web.warnings.name:
+    text: Web.xml 警告
+inspection.javaee.web.xml.mime.type:
+    text: MIME 类型
+inspection.javaee.web.xml.mime.type.message:
+    text: '''''{0}'''' 不是有效的 MIME 类型'
+inspection.javaee.web.xml.name:
+    text: Web.xml 错误
+inspection.javaee.xml.display.name:
+    text: Java EE 应用程序描述符正确性
+intention.add.javaee.jar.text:
+    text: 将 {0} JAR 添加到模块依赖关系中
+intention.add.method.to.ejb.class.error.no.impl.class.message:
+    text: 未找到 Bean 实现类。未生成方法。
+intention.add.method.to.ejb.class.family:
+    text: 将方法添加到 EJB 类中
+intention.add.method.to.ejb.class.text:
+    text: 将 ''{0}'' 添加到 Bean 实现类 {1} 中
+intention.add.method.to.ejb.interface.chooser.label:
+    text: 将 ''{0}'' 添加到
+intention.add.method.to.ejb.interface.chooser.title:
+    text: 选择接口
+intention.add.method.to.ejb.interface.command.name:
+    text: 添加方法
+intention.add.method.to.ejb.interface.error.no.home.interface:
+    text: 未找到 Bean 主接口类。未生成方法。
+intention.add.method.to.ejb.interface.error.no.interface:
+    text: 未找到 Bean 接口类。未生成方法。
+intention.add.method.to.ejb.interface.family:
+    text: 将方法添加到 EJB 接口中
+intention.add.method.to.ejb.interface.text:
+    text: 将 ''{0}'' 添加到 Bean 接口中
+interceptor.method.container.node.title:
+    text: 拦截器方法
+j2ee.facet.fake.file.type:
+    text: Java EE facet 假文件类型
+javaee.facet.settings.display.name:
+    text: '{0} 设置'
+javaeeapp.facet.display.name:
+    text: JavaEE 应用程序
+label.application.server.containing.libraries:
+    text: 库
+label.application.server.name:
+    text: '名称(&N):'
+label.appserver.text:
+    text: '应用程序服务器(&A):'
+label.choose.or.create.deployment.descriptor.file:
+    text: 为 {0} 选择现有的 XML 文件或指定目录以创建新文件。
+label.cmp.field.properties.generate.getter.in:
+    text: '在以下位置生成 getter:'
+label.cmp.field.properties.generate.setter.in:
+    text: '在以下位置生成 setter:'
+label.configure.j2ee.names.prefix.and.suffix.are.taken.from:
+    text: 前缀和后缀获取自
+label.create.transfer.object.transfer.object.class.name:
+    text: '传输对象类名:'
+label.delete.deployment.descriptor.text:
+    text: 删除选定的部署描述符?
+label.deployment.descriptors.wizard.step.text:
+    text: <html><body>配置将用于部署此 facet 的描述符。<br>您可以在此处添加标准、专有和应用程序服务器特定的描述符。</body></html>
+label.deployment.settings.deployment.method:
+    text: '部署方法:'
+label.descriptor.type.text:
+    text: '描述符(&D):'
+label.descriptor.version.text:
+    text: '版本(&V):'
+label.edit.cmp.field.description:
+    text: '描述(&D):'
+label.edit.cmp.field.name:
+    text: '名称(&N):'
+label.edit.cmp.field.type:
+    text: '类型(&T):'
+label.edit.ejb.class.cmp.version:
+    text: CMP 版本(&V)
+label.edit.parameters.program.parameters:
+    text: '程序实参(&P):'
+label.edit.relationship.description:
+    text: '描述(&D):'
+label.edit.relationship.field.name:
+    text: '字段名称:'
+label.edit.relationship.field.type:
+    text: '字段类型:'
+label.edit.relationship.multiplicity:
+    text: '多重性:'
+label.edit.relationship.relationship.name:
+    text: '关系名称(&N):'
+label.edit.relationship.role.name:
+    text: '角色名称:'
+label.ejb.class.properties.ejb.class:
+    text: 'EJB 类(&C):'
+label.ejb.class.properties.local:
+    text: '本地(&A):'
+label.ejb.class.properties.local.home:
+    text: '本地主(&O):'
+label.ejb.class.properties.message.listener.interface:
+    text: '消息侦听器(&M):'
+label.ejb.class.properties.package:
+    text: '软件包(&P):'
+label.ejb.class.properties.primary.key.class:
+    text: '主键类(&K):'
+label.ejb.class.properties.remote:
+    text: '远程(&E):'
+label.ejb.class.properties.remote.interface:
+    text: '主(&H):'
+label.ejb.class.properties.service.endpoint.interface:
+    text: '服务端点(&S):'
+label.ejb.roots.text:
+    text: EJB 类的源根
+label.j2eenames.filter:
+    text: 筛选器
+label.j2eenames.listener:
+    text: 侦听器
+label.j2eenames.message.driven.bean:
+    text: 消息驱动 Bean
+label.j2eenames.session.bean:
+    text: 会话 Bean
+label.new.web.root.web.resource.directory.path:
+    text: 'Web 资源目录路径(&P):'
+label.pk.class.dialog.pk.class.cant.contain.compound.primary.key:
+    text: <html>PK 类 ''{0}'' 不能包含复合主键。<br>请任选以下操作:<ul><li>指定可以保留所有 CMP 字段的主键类，或</li><li>提供软件包和类名以创建新主键类</li></html>
+label.prefix:
+    text: 前缀
+label.properties.class:
+    text: '类(&C):'
+label.run.configuration.editor.add.vm.parameters:
+    text: <html><body>要{0}远程服务器 JVM，应从以下命令行实参开始<br/>(您可以复制并粘贴它们):</body></html>
+label.run.configuration.editor.host:
+    text: '主机(&H):'
+label.run.configuration.editor.port:
+    text: '端口(&P):'
+label.run.configuration.editor.shutdown.script:
+    text: '关机脚本:'
+label.run.configuration.editor.startup.script:
+    text: '启动脚本:'
+label.run.configuration.properties.application.server:
+    text: '应用程序服务器(&S):'
+label.servlet.properties.package:
+    text: '软件包(&P):'
+label.suffix:
+    text: '后缀:'
+label.text.creating.ejb:
+    text: 正在创建 EJB ''{0}''
+label.text.no.application.server.selected:
+    text: 未选择应用程序服务器
+label.web.root.dialog.relative.path.in.deployment.directory:
+    text: '部署目录中的相关路径(&R):'
+label.web.source.roots.text:
+    text: 源根
+libraries.node.text.application.server:
+    text: 库包含将各种功能添加到您的应用程序的类。库还包含源文件和 JavaDoc，它们可以帮助您开发项目。<br><br>IntelliJ IDEA 使用库协助您完成代码补全、验证、错误高亮显示等。<br><br>应用程序服务器库是应用程序服务器 (WebSphere、WebLogic、Tomcat 等) 的一部分并适用于通过这些服务器配置的 Web 和 Java EE 应用程序。<br><br>扩展节点和选择子项以管理您的系统中安装的应用程序服务器库。<br><br>要将库附加到模块，请选择该模块，点击“依赖关系”标签页，点击“添加”并指定库位置。
+library.configure.appserver.title:
+    text: 配置应用程序服务器库
+link.display.text.configure.j2ee.names:
+    text: Java EE 名称
+local.vcs.label.name.deleting.ejb.class:
+    text: 正在删除 ejb 类 {0}
+location.to.validate.all.jsps.in.directory:
+    text: 目录 ''{0}'' 中的所有文件
+location.to.validate.all.jsps.in.selected.directories:
+    text: 所选目录中的所有文件
+location.to.validate.jsp:
+    text: 文件 ''{0}''
+location.to.validate.selected.jsps:
+    text: 所选文件
+message.text.able.to.bind.yet.able.to.connect.too:
+    text: 可以同时绑定并连接到 {0} - 应用程序服务器可能会与端口上的一些其他软件竞争
+message.text.application.server.already.exists:
+    text: 应用程序服务器 ''{0}'' 已存在
+message.text.application.server.name.cannot.be.empty:
+    text: 应用程序服务器名称不能为空
+message.text.cannot.find.file:
+    text: 找不到文件 ''{0}''
+message.text.cannot.open.url:
+    text: '无法打开 URL。请检查此 URL 是否正确:'
+message.text.cmp.field.exists:
+    text: CMP 字段 ''{0}'' 已存在。
+message.text.cmp.field.name.not.valid:
+    text: CMP 字段名称 ''{0}'' 不是有效的标识符。
+message.text.cmp.field.name.should.begin.with.a.lower.case.letter:
+    text: CMP 字段名称应以小写字母开头。
+message.text.cmr.field.0.already.defined:
+    text: CMR 字段 ''{0}'' 已在 {1} 中定义。
+message.text.cmr.field.name.should.begin.with.a.lower.case.letter:
+    text: CMR 字段名称应以小写字母开头。
+message.text.connected.to.server:
+    text: 已连接到服务器
+message.text.connected.to.the.server:
+    text: 已连接到服务器
+message.text.disconnected.from.server:
+    text: 已与服务器断开连接
+message.text.duplicate.role.names:
+    text: 重复的角色名称
+message.text.ejb.exists.in.ejb.facet:
+    text: EJB ''{0}'' 在此 EJB facet 中已存在。
+message.text.entity.bean.not.specified.for.cmr.field:
+    text: 应指定现有实体 EJB 名称
+message.text.error.creating.directory:
+    text: "创建目录时出错。\n{0}"
+message.text.error.while.creating.temp.file:
+    text: '创建临时文件时出错: {0}'
+message.text.existing.web.resource.directory.configured.in.dir.which.includes.dir:
+    text: <html><body>''<b>{0}''</b> 中已配置 web 资源目录，该资源目录已包含当前目录 ''<b>{1}''</b> 中。</body></html>
+message.text.existing.web.resource.directory.configured.in.dir.which.will.be.included.in.dir:
+    text: <html><body>''<b>{0}''</b> 中已配置 web 资源目录，该资源目录已包含在当前目录 ''<b>{1}''</b> 中。</body></html>
+message.text.exists:
+    text: '{0} ''''{1}'''' 在此 Web facet 中已存在。'
+message.text.must.be.cmp.entity.bean.with.local.interface:
+    text: 必须至少有一个具有本地接口的 CMP 实体 Bean
+message.text.name.is.not.valid.identifier:
+    text: '{0} 不是有效的标识符'
+message.text.recommended.transfer.object.class.agrees.with.pattern:
+    text: "建议传输对象类名\n同意以下模式: {0}"
+message.text.remove.selected.web.resource.directories:
+    text: 移除选定 web 资源目录?
+message.text.remove.web.resource.directory:
+    text: 移除 Web 资源目录 ''{0}''?
+message.text.run.configuration.already.run:
+    text: 运行配置 ''{0}'' 正在运行。
+message.text.run.configuration.already.run.do.you.want.to.restart.in.1:
+    text: 运行配置 ''{0}'' 正在运行。是否要以 ''{1}'' 模式重启服务器?
+message.text.run.configuration.editor.no.specific.parameters.needed:
+    text: 无需特定形参
+message.text.select.field.to.include.in.transfer.object:
+    text: 请至少选择一个要包含在传输对象中的字段。
+message.text.type.not.found:
+    text: 未找到类型 ''{0}''。
+message.text.unable.to.connect:
+    text: 无法连接到 {0}
+message.text.unmark.web.resource.directory:
+    text: 取消标记 Web 资源目录 ''{0}''
+message.text.web.resource.directory.should.be.located.under.module.root:
+    text: "Web 资源目录应位于模块根下。\n请按 '...' (省略号) 按钮来浏览模块根目录。"
+message.title.cannot.create.relationship:
+    text: 无法创建关系
+message.title.change.ejb.classes:
+    text: 更改 EJB 类
+message.title.class.not.found:
+    text: 找不到 {0}
+message.title.conflicting.directory.found:
+    text: 已找到冲突的目录
+message.title.directory.not.found:
+    text: 未找到目录
+message.title.directory.not.in.module:
+    text: 模块中没有目录
+message.title.error:
+    text: 错误
+message.title.file.not.found:
+    text: 找不到文件
+message.title.no.fields.selected:
+    text: 未选择字段
+message.title.open.url:
+    text: 打开 URL
+message.title.primary.key.class.changed:
+    text: 主键类已更改
+message.title.remove.web.resource.directory:
+    text: 移除 Web 资源目录
+message.title.unmark.web.resource.directory:
+    text: 取消标记 Web 资源目录
+method.role.business.method.declaration:
+    text: 业务方法声明
+method.role.business.method.implementation:
+    text: 业务方法实现
+method.role.cmp.field.getter.declaration:
+    text: CMP 字段 Getter 声明
+method.role.cmp.field.getter.implementation:
+    text: CMP 字段 Getter 实现
+method.role.cmp.field.setter.declaration:
+    text: CMP 字段 Setter 声明
+method.role.cmp.field.setter.implementation:
+    text: CMP 字段 Setter 实现
+method.role.cmr.field.getter.declaration:
+    text: CMR 字段 Getter 声明
+method.role.cmr.field.getter.implementation:
+    text: CMR 字段 Getter 实现
+method.role.cmr.field.setter.declaration:
+    text: CMR 字段 Setter 声明
+method.role.cmr.field.setter.implementation:
+    text: CMR 字段 Setter 实现
+method.role.create.method.declaration:
+    text: 创建方法声明
+method.role.create.method.implementation:
+    text: 创建方法实现
+method.role.finder.method.declaration:
+    text: Finder 方法声明
+method.role.finder.method.implementation:
+    text: Finder 方法实现
+method.role.home.business.method.declaration:
+    text: 主业务方法声明
+method.role.home.business.method.implementation:
+    text: 主业务方法实现
+method.role.method.implementation:
+    text: 方法实现
+method.role.post.create.method.implementation:
+    text: 发布创建方法实现
+method.role.selector.method.implementation:
+    text: 选择器方法实现
+method.role.unknown.method.declaration:
+    text: 未知方法声明
+model.object.type.ejb.local.reference:
+    text: EJB 局部引用
+model.object.type.ejb.message.destination.reference:
+    text: 消息目标引用
+model.object.type.ejb.reference:
+    text: EJB 引用
+model.object.type.filter:
+    text: 筛选器
+model.object.type.listener:
+    text: 侦听器
+model.object.type.managed.bean:
+    text: 托管 Bean
+model.object.type.security.role:
+    text: 安全角色
+model.object.type.service.reference:
+    text: Web 服务引用
+not.configured:
+    text: 未配置
+progress.validating.ejbs.text:
+    text: 正在验证 EJB…
+quickfix.popup.title.select.an.artifact.to.deploy:
+    text: 选择要部署的工件
+role.for.ejb.name.string.representation:
+    text: EJB ''{1}'' 的{0}
+role.for.interceptor.name.string.representation:
+    text: '''''{1}'''' 的{0}'
+run.configuration.local:
+    text: 本地
+run.configuration.remote:
+    text: 远程
+run.tab.title.deployment:
+    text: 部署
+run.tab.title.output:
+    text: 输出
+run.tab.title.server:
+    text: 服务器
+runtime.configuration.error.description.file.does.not.exist:
+    text: '{0} ''''{1}'''' 不存在。'
+runtime.configuration.error.something.not.specified:
+    text: 未指定 {0}。
+security.role.name.should.accord.to.nmtoken.pattern:
+    text: 安全角色名称应符合 NMTOKEN 模式
+select.in.j2ee:
+    text: 框架视图
+servlet.reference.canonical.text:
+    text: 无法解析 servlet ''{0}''。
+template.node.application:
+    text: 应用程序
+template.node.deployment.descriptors:
+    text: 部署描述符
+template.node.java.code.templates:
+    text: Java 代码模板
+terms.web.directory:
+    text: Web 目录
+title.appserver.specific.validators:
+    text: 应用程序服务器特定的验证器
+title.choose.interceptor.method.types:
+    text: 选择要实现的拦截器方法
+title.edit.deployment.descriptor:
+    text: 编辑部署描述符
+title.entity.bean:
+    text: 实体 Bean
+title.j2ee.names:
+    text: Java EE 名称
+title.run.configuration.editor.deployment:
+    text: 部署
+title.run.configuration.editor.server:
+    text: 服务器
+tooltip.text.filter.class:
+    text: 筛选器 ''{0}'' 类
+tooltip.text.listener.class:
+    text: 侦听器 ''{0}'' 类
+tooltip.text.primary.key.class:
+    text: 主键类
+tooltip.text.script.parameters:
+    text: 形参…
+tooltip.text.servlet.class:
+    text: Servlet ''{0}'' 类
+tooltip.text.web.resource.directory:
+    text: Web 资源目录 ({0})
+updating.policy.hot.swap.classes:
+    text: 热交换类(&H)
+updating.policy.redeploy:
+    text: 重新部署(&R)
+updating.policy.restart.server:
+    text: 重启服务器(&S)
+updating.policy.update.classes.and.resources:
+    text: 更新类和资源(&C)
+updating.policy.update.resources:
+    text: 更新资源(&U)
+value.should.either.0.or.1:
+    text: 值应为 {0} 或 {1}
+warning.delete.deployment.descriptor.title:
+    text: 删除部署描述符
+warning.duplicate.relative.deployment.path.text:
+    text: 重复的相对部署路径 ''{0}''
+web.context.family:
+    text: Web 上下文系列
+web.context.fix:
+    text: 为 {0} 将上下文文件夹设置为 ''/''
+web.context.fix.for.directory:
+    text: 为 {0} 目录中的所有文件将上下文文件夹设置为 ''/''
+web.root.family:
+    text: 设置 Web 根

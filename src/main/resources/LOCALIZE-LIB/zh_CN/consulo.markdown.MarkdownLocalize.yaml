@@ -1,0 +1,72 @@
+markdown.editor.colors.auto_link:
+    text: 链接//自动链接
+markdown.editor.colors.blockquote:
+    text: 块引用//块引用
+markdown.editor.colors.blockquote_marker:
+    text: 块引用//块引用标记
+markdown.editor.colors.bold:
+    text: 样式//粗体文本
+markdown.editor.colors.bold_marker:
+    text: 样式//粗体标记
+markdown.editor.colors.code_block:
+    text: 代码//代码块
+markdown.editor.colors.code_fence:
+    text: 代码//代码隔离
+markdown.editor.colors.code_span:
+    text: 代码//代码跨度
+markdown.editor.colors.code_span_marker:
+    text: 代码//代码跨度标记
+markdown.editor.colors.explicit_link:
+    text: 链接//显式链接
+markdown.editor.colors.header_level_1:
+    text: 标题//第 1 级标题
+markdown.editor.colors.header_level_2:
+    text: 标题//第 2 级标题
+markdown.editor.colors.header_level_3:
+    text: 标题//第 3 级标题
+markdown.editor.colors.header_level_4:
+    text: 标题//第 4 级标题
+markdown.editor.colors.header_level_5:
+    text: 标题//第 5 级标题
+markdown.editor.colors.header_level_6:
+    text: 标题//第 6 级标题
+markdown.editor.colors.header_marker:
+    text: 标题//标题标记
+markdown.editor.colors.hrule:
+    text: 水平标尺
+markdown.editor.colors.html_block:
+    text: HTML//HTML 块
+markdown.editor.colors.image:
+    text: 链接//图像
+markdown.editor.colors.inline_html:
+    text: HTML//内联 HTML
+markdown.editor.colors.italic:
+    text: 样式//斜体文本
+markdown.editor.colors.italic_marker:
+    text: 样式//斜体标记
+markdown.editor.colors.link_definition:
+    text: 链接//链接定义
+markdown.editor.colors.link_destination:
+    text: 链接//链接目标
+markdown.editor.colors.link_label:
+    text: 链接//链接标签
+markdown.editor.colors.link_text:
+    text: 链接//链接文本
+markdown.editor.colors.link_title:
+    text: 链接//链接标题
+markdown.editor.colors.list_item:
+    text: 列表//列表项
+markdown.editor.colors.list_marker:
+    text: 列表//列表标记
+markdown.editor.colors.ordered_list:
+    text: 列表//有序列表
+markdown.editor.colors.reference_link:
+    text: 链接//引用链接
+markdown.editor.colors.strikethrough:
+    text: 样式//删除线
+markdown.editor.colors.table_separator:
+    text: 表分隔符
+markdown.editor.colors.text:
+    text: 文本
+markdown.editor.colors.unordered_list:
+    text: 列表//无序列表

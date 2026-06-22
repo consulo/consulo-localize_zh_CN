@@ -1,0 +1,102 @@
+Cannot.perform.undo.operation:
+    text: 无法执行撤消操作
+Undo.disable:
+    text: 撤消已禁用
+add.method:
+    text: 添加方法
+add.to.resources:
+    text: 添加到资源
+add.type.customizer.to.resources:
+    text: 将类型定制器脚本添加到资源
+anonymous.class:
+    text: 匿名类
+call.can.throw.npe:
+    text: 调用链可能抛出 NullPointerException
+change.lvalue.type:
+    text: 将变量 ''{0}'' 类型更改为 ''{1}''
+closure:
+    text: 闭包
+create.directory.command:
+    text: 创建目录
+destination.package:
+    text: '目标软件包(&P):'
+dialog.create.class.package.chooser.title:
+    text: 选择目标软件包
+dynamic.element:
+    text: 动态元素
+expected.type.0:
+    text: 应为 ''{0}''，但实际为 ''{1}''
+fix.class:
+    text: 修正类 {0}
+getter.0.clashes.with.getter.1:
+    text: '发生冲突: ''''{0}'''' 和 ''''{1}'''''
+gr.package.inspection.check.scripts:
+    text: 检查脚本
+highlight.if.groovy.object.methods.overridden:
+    text: 高亮显示来自覆盖 invokeMethod()、getProperty() 或 setProperty() 的类的引用
+highlight.if.missing.methods.declared:
+    text: 高亮显示来自声明 missingMethod() 或 missingProperty() 的类的引用
+ignore.boolean.expressions:
+    text: 在布尔检查中忽略未被赋值的变量
+implement.class:
+    text: 实现 {0}
+java.style.property.access:
+    text: Java 样式访问器调用
+local.var.0.is.reassigned:
+    text: 局部变量 ''{0}'' 已重新赋值
+method.may.be.static:
+    text: 方法可能为 static
+method.may.be.static.ignore.empty.method.option:
+    text: 忽略空方法
+method.may.be.static.only.private.or.final.option:
+    text: 仅检查 final 或 private 方法
+new.instance.of.singleton:
+    text: 使用 @groovy.lang.Singleton 注解的类的新实例
+no.applicable.signature.found:
+    text: 未找到适用的签名
+no.return.message:
+    text: 并非所有执行路径都返回值
+no.type.specified:
+    text: 未指定类型
+optimize.all.imports:
+    text: 优化未使用的 import 语句
+optimize.imports:
+    text: 优化 import
+other:
+    text: 其他
+other.scope:
+    text: 其他作用域
+pointless.boolean.problem.descriptor:
+    text: '冗余布尔运算 #loc'
+pointless.boolean.quickfix:
+    text: 简化
+remove.0:
+    text: 移除 ''.{0}''
+replace.0.with.1:
+    text: 将 ''{0}'' 替换为 ''{1}''
+replace.postfix.0.with.prefix.0:
+    text: 将后缀 ''{0}'' 替换为前缀 ''{0}''
+replace.qualified.name.with.import:
+    text: 将限定名称替换为导入
+rtype.cannot.contain.ltype:
+    text: '''''{1}'''' 不能包含 ''''{0}'''''
+second.unsafe.call:
+    text: 第二次不安全的调用
+target.0.does.not.exist:
+    text: 目标 ''{0}'' 不存在
+target.annotation.is.unused:
+    text: '@Target 未使用'
+type.customizer.is.not.marked.as.a.resource.file:
+    text: 类型定制器脚本未被标记为编译器资源
+type.doesnt.contain.method:
+    text: 类型 ''{0}'' 不能在范围内进行迭代，因为它没有方法 ''{1}''
+unassigned.access.tooltip:
+    text: 变量 ''{0}'' 可能未被赋值
+unresolved.type.status:
+    text: 类型 ''{0}'' 未解析
+unused.0:
+    text: 未使用的 ''{0}''
+unused.assignment.tooltip:
+    text: 未使用赋值
+unused.variable:
+    text: 未使用变量

@@ -1,0 +1,486 @@
+module.ruby.title:
+    text: Ruby 模块
+module.ruby.description:
+    text: Ruby 模块用于开发 <b>Ruby</b> 和 <b>Ruby on Rails</b> 应用程序。
+ruby.configuration.gems.bin.dir.path:
+    text: 'gem bin 目录:'
+ruby.configuration.gems.bin.dir.path.tooltip:
+    text: gem 可执行脚本的安装路径
+ruby.configuration.gems.bin.dir.select.path:
+    text: 选择 gem bin 目录
+sdk.no.specified:
+    text: 未指定 SDK
+sdk.type.incorrect:
+    text: 插件模块 ''{0}'' 的 SDK 类型错误。
+sdk.error.isnt.valid:
+    text: SDK ''{0}'' 不是有效的 Ruby SDK
+sdk.error.gems.bindir.doesnt.exist:
+    text: Gem bin 目录不存在
+sdk.error.gems.bindir.isnt.directory:
+    text: Gem bin 目录不是目录
+sdk.error.no.rails.found:
+    text: '[未在 SDK 中找到 Rails]'
+execution.error.title:
+    text: 执行错误
+execution.ruby.script.get.available.generators:
+    text: "用于获取可用生成器的脚本执行出错:\n{0}"
+run.configuration.test.name:
+    text: Kotlin Mobile 测试
+run.configuration.messages.select.working.dir:
+    text: 选择工作目录
+run.configuration.messages.script.args:
+    text: 脚本实参
+run.configuration.messages.select.module:
+    text: '从模块中选择 SDK:'
+run.configuration.messages.working.dir:
+    text: '工作目录:'
+run.configuration.messages.ruby.args:
+    text: Ruby 实参
+run.configuration.messages.script.path:
+    text: 'Ruby 脚本:'
+run.configuration.messages.folder.path:
+    text: '文件夹:'
+run.configuration.messages.select.folder.path:
+    text: 选择文件夹
+run.configuration.tests.messages.method.name:
+    text: '方法:'
+run.configuration.test.form.testtype.title:
+    text: '模式:'
+run.configuration.tests.dialog.components.folder:
+    text: 测试文件夹
+run.configuration.tests.dialog.components.search.mask:
+    text: '测试文件名掩码:'
+run.configuration.tests.dialog.components.file:
+    text: Ruby 脚本
+run.configuration.tests.dialog.components.method:
+    text: 测试名称筛选器
+run.configuration.tests.dialog.rb.allInFolder:
+    text: 文件夹中的所有测试(&A)
+run.configuration.tests.dialog.rb.method:
+    text: 测试方法(&M)
+rails.run.configuration.type.description:
+    text: Rails 运行配置
+run.configuration.server.dialog.port:
+    text: 端口
+run.configuration.server.dialog.ip:
+    text: IP 地址
+run.configuration.server.dialog.environment:
+    text: 环境
+run.configuration.server.dialog.server:
+    text: 服务器
+run.configuration.server.args:
+    text: 服务器实参
+rspec.run.configuration.type.description:
+    text: RSpec 示例运行配置
+rspec.run.configuration.tests.dialog.components.search.mask:
+    text: '文件名掩码:'
+rspec.run.configuration.tests.dialog.components.folder:
+    text: 规范文件夹
+rspec.run.configuration.tests.dialog.rb.allInFolder:
+    text: 文件夹中的所有规范(&A)
+rspec.run.configuration.tests.dialog.rb.file:
+    text: 规范脚本(&S)
+rspec.run.configuration.tests.form.testtype.title:
+    text: '模式:'
+rspec.run.configuration.messages.script.path:
+    text: '规范脚本:'
+rspec.run.configuration.tests.dialog.components.select.spec.custom.runner:
+    text: 选择自定义 RSpec 运行程序脚本
+rspec.run.configuration.tests.dialog.components.spec.custom.use:
+    text: '使用自定义 RSpec 运行程序脚本:'
+run.configuration.script.port.bad.format:
+    text: '''Port'' 值不正确'
+run.configuration.script.ip.bad.format:
+    text: '''IP address'' 值不正确'
+run.configuration.script.not.specified:
+    text: 未指定 Ruby 脚本
+run.configuration.script.not.exists:
+    text: Ruby 脚本不存在
+run.configuration.script.is.not.file:
+    text: Ruby 脚本似乎不是文件
+run.configuration.no.module.specified:
+    text: 未为配置指定插件模块
+run.configuration.working.directory.not.exists:
+    text: 工作目录不存在
+run.configuration.working.directory.error:
+    text: 工作目录不是目录
+run.configuration.test.folder.not.exists:
+    text: 测试文件夹不存在
+run.configuration.test.folder.not.dir:
+    text: 测试文件夹不是目录
+run.configuration.test.no.mask:
+    text: '为测试名称定义掩码，例如: {0}'
+run.configuration.test.script.not.exists:
+    text: 测试脚本不存在
+run.configuration.test.script.is.dir:
+    text: 测试脚本是目录
+run.configuration.test.default.name:
+    text: '{0} 中的所有测试: {1}'
+rspec.run.configuration.test.folder.not.exists:
+    text: 规范文件夹不存在
+rspec.run.configuration.test.folder.not.dir:
+    text: 规范文件夹不是目录
+rspec.run.configuration.test.script.not.exists:
+    text: 规范测试脚本不存在
+rspec.run.configuration.test.custom.runner.not.exists:
+    text: 自定义 RSpec 运行程序脚本不存在
+rspec.run.configuration.test.script.is.dir:
+    text: 规范脚本是目录
+rspec.run.configuration.test.default.name:
+    text: '{0} 中的所有规范: {1}'
+new.generate.common.action.prompt.title:
+    text: 生成 ''{0}''
+new.generate.common.error.title:
+    text: 生成错误
+new.generate.common.action.title:
+    text: 生成 ''{0}''
+new.generate.common.generating.title:
+    text: 生成脚本
+new.generate.common.error.script.arguments.should.be.specified:
+    text: 必须指定脚本实参。
+new.generate.common.error.no.rails:
+    text: 在您的 SDK 中找不到 Rails 脚本。如果不安装 Rails，就无法调用 Rails 生成器。在模块设置中选择其他 SDK 或安装 Rails。
+dialog.generate.common.label.arguments.text:
+    text: '生成器实参(&A):'
+dialog.generate.common.checkBox.pretend.text:
+    text: 假定(&P)
+dialog.generate.common.checkBox.pretend.tooltip:
+    text: 运行但不进行任何更改。
+dialog.generate.common.checkBox.force.text:
+    text: 强制(&F)
+dialog.generate.common.checkBox.force.tooltip:
+    text: 覆盖已存在的文件。
+dialog.generate.common.checkBox.skip.text:
+    text: 跳过(&S)
+dialog.generate.common.checkBox.skip.tooltip:
+    text: 跳过已存在的文件。
+dialog.generate.common.checkBox.backtrace.text:
+    text: 回溯(&B)
+dialog.generate.common.checkBox.backtrace.tooltip:
+    text: '调试: 出错时显示回溯。'
+dialog.generate.common.checkBox.svn.tooltip:
+    text: '使用 Subversion 修改文件。(注意: svn 必须位于路径中)。'
+dialog.generate.common.help.title:
+    text: '''''{0}'''' 的帮助'
+progress.dialog.generate.common.help.wait.title:
+    text: 正在加载帮助…
+new.generate.controller.description:
+    text: 为 Rails 应用程序生成控制器
+new.generate.controller.action.prompt.title:
+    text: 添加新控制器
+new.generate.controller.error.title:
+    text: 生成控制器错误
+dialog.generate.controller.label.dir.text:
+    text: '目录(&D): (例如 ''admin'')'
+dialog.generate.controller.label.name.text:
+    text: '&{0} 名称: (例如 ''''CreditCard'''')'
+new.generate.model.description:
+    text: 为 Rails 应用程序生成模型
+new.generate.model.action.prompt.title:
+    text: 添加新模型
+new.generate.model.error.title:
+    text: 生成模型错误
+rails.actions.execution.run.rails.script.title:
+    text: 运行 Rails 脚本
+rails.actions.execution.run.rails.script.dialog.button.ok.caption:
+    text: 运行
+rails.actions.execution.run.rails.script.dialog.description.caption:
+    text: 您可以从“[{0}]/script”目录运行 Rails 脚本
+rails.actions.execution.run.rails.script.dialog.component.script.args.caption:
+    text: 实参
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption:
+    text: 脚本
+rails.actions.execution.run.rails.script.dialog.component.script.path.caption.select:
+    text: 选择脚本
+rails.actions.execution.run.rails.script.error.no.scripts.folder:
+    text: 无法执行 Rails 脚本。未找到“{0}/script”文件夹!
+rails.actions.execution.run.rails.script.error.script.want.found:
+    text: 无法执行 Rails 脚本。未找到脚本“{0}”!
+action.registered.shortcut.execute.disabled.title:
+    text: 不正确的操作
+color.settings.rhtml.scriptlet.start:
+    text: Scriptlet 开始
+color.settings.rhtml.scriptlet.end:
+    text: Scriptlet 结束
+color.settings.rhtml.expr.start:
+    text: 表达式开始
+color.settings.rhtml.expr.end:
+    text: 表达式结束
+color.settings.rhtml.scripting.bkg:
+    text: Ruby 注入背景
+color.settings.rhtml.omit.new.line:
+    text: 省略新行修饰符
+color.settings.rhtml.comment:
+    text: 注释
+color.settings.ruby.keyword:
+    text: 关键字
+color.settings.ruby.comment:
+    text: 注释
+color.settings.ruby.number:
+    text: 数字
+color.settings.ruby.string:
+    text: 字符串和符号//字符串
+color.settings.ruby.operation:
+    text: 大括号和运算符//运算符号
+color.settings.ruby.brackets:
+    text: 大括号和运算符//中括号
+color.settings.ruby.bad_character:
+    text: 错误字符
+color.settings.ruby.comma:
+    text: 大括号和运算符//逗号
+color.settings.ruby.semicolon:
+    text: 大括号和运算符//分号
+color.settings.ruby.symbol:
+    text: 字符串和符号//符号
+color.settings.ruby.hash_assoc:
+    text: 哈希//哈希火箭
+color.settings.ruby.line_continuation:
+    text: 大括号和运算符//续行
+color.settings.ruby.regexp:
+    text: 字符串和符号//RegExp//边界
+color.settings.ruby.words:
+    text: 字符串和符号//单词
+color.settings.ruby.identifier:
+    text: 标识符//标识符
+color.settings.ruby.local.variable:
+    text: 变量//局部变量
+color.settings.ruby.constant:
+    text: 常量//常量
+color.settings.ruby.nth_ref:
+    text: 字符串和符号//RegExp//组引用
+button.configure:
+    text: 配置...
+sdk.select.prompt.title:
+    text: 选择 SDK
+module.rails.create.rake.tasks.title:
+    text: 正在生成 Rake 任务层次结构…
+module.rails.create.rake.generators.title:
+    text: 正在搜索可用的生成器…
+parsing.error.expression:
+    text: 表达式
+parsing.symbol.content:
+    text: 符号内容
+parsing.alias.object:
+    text: 别名对象
+parsing.operation:
+    text: 运算
+parsing.method.name:
+    text: 方法名称
+parsing.module.name:
+    text: 模块名称
+parsing.class.name:
+    text: 类名
+parsing.singleton:
+    text: 单例
+parsing.rhtml.injection.in.ruby.title:
+    text: '%> 或 <% 或 <%='
+select.in.rails:
+    text: Rails 项目视图
+rails.project.module.view.nodes.controllers.presentable:
+    text: 控制器
+rails.project.module.view.nodes.model.presentable:
+    text: 模型
+rails.project.module.view.nodes.partials.presentable:
+    text: 分部
+rails.project.module.view.nodes.shared.partials.presentable:
+    text: 共享分部
+rails.project.module.view.nodes.migrations.presentable:
+    text: 迁移
+ruby.intentions.relative.path.to.absolute:
+    text: 转换为绝对路径
+ruby.intentions.string.to.symbol:
+    text: 转换为符号
+ruby.intentions.qualified.name.to.import:
+    text: 导入 Java 类
+progress.indicator.title.directories.scanning:
+    text: 正在扫描目录。
+progress.indicator.title.please.wait:
+    text: 请稍候…
+progress.backgnd.indicator.title.please.wait:
+    text: '{0}。请稍候…'
+settings.title:
+    text: AWS 连接设置
+error.report.to.jetbrains.action:
+    text: 报告给 JetBrains(&R)
+codeInsight.rails.switch.to.view.title:
+    text: 转到视图
+codeInsight.rails.switch.to.controller.title:
+    text: 转到控制器
+codeInsight.rails.navigation.title.action.view:
+    text: 选择视图
+codeInsight.rails.switch.to.view.cant.navigate:
+    text: 无法导航到相应视图
+codeInsight.rails.switch.to.controller.cant.navigate:
+    text: 无法导航到相应控制器
+annotation.error.cannot.make.alias.for.nth.variable:
+    text: 无法为数字变量创建别名
+annotation.error.class.module.name.must.be.constant:
+    text: 类/模块名称必须以大写字母开头
+annotation.error.class.in.method:
+    text: 方法体中存在类定义
+annotation.error.module.in.method:
+    text: 方法体中存在模块定义
+annotation.error.formal.arg.cannot.be.constant:
+    text: 形式参数不能是常量
+annotation.error.formal.arg.cannot.be.inst.var:
+    text: 形式参数不能是实例变量
+annotation.error.formal.arg.cannot.be.global.var:
+    text: 形式参数不能是全局变量
+annotation.error.formal.arg.cannot.be.class.var:
+    text: 形式参数不能是类变量
+in:
+    text: 属于
+parameter:
+    text: 形参
+local.variable:
+    text: 局部变量
+constant:
+    text: 常量
+global.variable:
+    text: 全局变量
+class.variable:
+    text: 类变量
+instance.variable:
+    text: 实例变量
+field.write:
+    text: 字段写入
+call:
+    text: 调用
+rename.incorrect.name:
+    text: '名称不正确: ''''{0}'''''
+ruby.doc.module:
+    text: 模块
+ruby.doc.class:
+    text: 类
+ruby.doc.method.class:
+    text: 类方法
+ruby.doc.method.instance:
+    text: 实例方法
+inspection.resolve.name:
+    text: 未解析的引用
+inspection.resolve.cannot.find:
+    text: 找不到 ''{0}''
+inspection.scopes.name:
+    text: 变量/形参作用域
+inspection.scopes.parameter.shadows.outer:
+    text: 形参 ''{0}'' 隐藏了外部形参或局部变量
+inspection.implement.interface.name:
+    text: 类缺少 Java 接口方法实现
+inspection.implement.interface.class.should.implement.method:
+    text: 类缺少对 ''{0}'' 的实现
+inspection.wrong.top.level.package:
+    text: 不正确的顶层软件包规范
+inspection.wrong.top.level.package.should.be.one.of:
+    text: 使用的顶层 Java 软件包应为 {0} 之一
+module.create.dialog.init.errors.title:
+    text: '模块 ''''{0}'''': 设置错误'
+module.settings.dialog.load.path.tab.title:
+    text: 加载路径
+module.settings.dialog.load.path.list.caption:
+    text: '加载路径(&L):'
+module.toggle.excluded.action:
+    text: 排除的
+module.toggle.excluded.action.description:
+    text: 从模块中包含/排除目录
+module.paths.excluded.group:
+    text: 排除的文件夹
+module.paths.unmark.tests.tooltip:
+    text: 取消标记测试
+module.paths.unmark.source.tooltip:
+    text: 取消标记源
+module.paths.remove.tooltip:
+    text: 移除
+module.paths.include.excluded.tooltip:
+    text: 包含
+title.new.filetype:
+    text: 新建 {0}
+title.new.from.template:
+    text: 新建{0}
+title.cannot.create.filetype:
+    text: 无法创建 {0}
+title.cannot.create.file:
+    text: 无法创建文件
+command.create.file.from.template:
+    text: 从模板创建文件
+progress.creating.filetype.in.directory:
+    text: 在 {2} 中创建{0}“{1}”
+progress.deleting:
+    text: 正在删除
+error.please.enter.a.file.name:
+    text: 请指定文件名
+error.unable.to.parse.template.message:
+    text: "无法解析模板\"{0}\"\n错误消息: {1}"
+tab.chooser.project:
+    text: 项目
+tab.chooser.search.by.name:
+    text: 按名称搜索
+choose.test.method.dialog.title:
+    text: 选择测试方法
+choose.test.class.dialog.title:
+    text: 选择测试类
+set.class.name.message:
+    text: 请先设置类名
+cannot.browse.method.dialog.title:
+    text: 无法浏览方法
+class.does.not.exists.error.message:
+    text: 类{0}不存在
+jruby.select.sdk:
+    text: 选择 JRuby SDK
+rails.facet.wizard.error.no.skd:
+    text: 您未选择包含 Rails 框架的 Ruby SDK
+rails.facet.wizard.error.skd.without.rails:
+    text: 您的 SDK 不包含 Rails 框架
+rails.facet.wizard.tab.rails.project.generator.title:
+    text: Rails 应用程序
+rails.facet.wizard.tab.rails.project.generator.select.rails.relative.path:
+    text: '<html>请指定将在其中生成应用程序的目录。路径应该相对于模块内容目录。如果将此字段留空，将使用模块内容目录。 (示例: ''myapp'' 或 ''src/rails/myapp'' 或留空):</html>'
+rails.facet.wizard.tab.rails.project.generator.select.rails.preconfigure.for.db:
+    text: '为选定数据库预配置(&P):'
+rails.facet.builder.run.configuration.server.creating:
+    text: 创建 Rails 运行配置
+rails.facet.builder.rails.application.searching:
+    text: 搜索 Rails 应用程序
+rails.facet.builder.rails.application.choose.title:
+    text: Rails 应用程序根文件夹
+rails.facet.builder.rails.application.choose.relative.path:
+    text: 选择模块内容根的相对路径。
+rails.facet.settings.tab.general.title:
+    text: 信息
+rails.facet.settings.tab.general.railsHomePath.caption:
+    text: 'Rails 应用程序主目录:'
+rails.facet.action.regenerate.generators.error.wrong.sdk:
+    text: 无法重新加载可用的生成器。没有为模块指定 SDK。
+rails.facet.action.regenerate.rakeTasks.error.wrong.sdk:
+    text: 无法重新加载可用的 Rake 任务。没有为模块指定 SDK。
+rhtml.parsing.flex.error:
+    text: Lexer 错误!!!
+rhtml.parsing.named.element.is.not.closed:
+    text: 元素 {0} 未关闭
+rhtml.parsing.unexpected.end.of.file:
+    text: 意外的文件结尾
+breadcrumbs.rhtml.presentation.omit.new.line:
+    text: 省略新行
+breadcrumbs.rhtml.presentation.comment:
+    text: 注释
+breadcrumbs.rhtml.presentation.ruby.injection:
+    text: Ruby 注入
+refactoring.override.methods.title:
+    text: 选择要重写的方法
+refactoring.implement.java.methods.title:
+    text: 选择要实现的方法
+exception.text.unknown.error:
+    text: 未知错误
+command.name.open.error.message.view:
+    text: 打开消息视图
+execution.error.title.generators.list:
+    text: '{0}: 获取可用的生成器列表'
+execution.error.title.rake.tasks:
+    text: '{0}: 获取可用的 Rake 任务'
+execution.error.title.generate.rails.app:
+    text: 为模块 ''{0}'' 生成 Rails 应用程序
+execution.error.title.abstract.script:
+    text: '{0}: 脚本执行错误'
+find.usages.ruby.declarations.group:
+    text: 声明
+error.module.ror.valid.expected:
+    text: 应为 Ruby、Rails 或带 JRuby Facet 的 Java 模块，但实际为 {0}

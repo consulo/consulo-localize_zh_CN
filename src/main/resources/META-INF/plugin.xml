@@ -1,0 +1,9 @@
+<consulo-plugin url="https://github.com/consulo/consulo-localize_zh_CN">
+	<id>consulo.localize_zh_CN</id>
+	<name>Localize (zh_CN)</name>
+	<version>SNAPSHOT</version>
+	<category>Localization</category>
+	<tags>
+		<tag>localization</tag>
+	</tags>
+</consulo-plugin>

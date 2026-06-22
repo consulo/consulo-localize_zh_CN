@@ -1,0 +1,46 @@
+color.settings.keyword:
+    text: 关键字
+color.settings.comment:
+    text: 注释
+color.settings.number:
+    text: 数字
+color.settings.string:
+    text: 字符串//字符
+color.settings.escape_sequence:
+    text: 字符串//转义序列
+color.settings.operation:
+    text: 大括号和运算符//运算符
+color.settings.brackets:
+    text: 大括号和运算符//中括号
+color.settings.bad_character:
+    text: 未知字符
+color.settings.comma:
+    text: 逗号
+color.settings.semicolon:
+    text: 大括号和运算符//分号
+color.settings.heredoc_content:
+    text: Heredoc//Heredoc 内容
+color.settings.var:
+    text: 标识符//变量
+color.settings.identifier:
+    text: 标识符//默认
+color.settings.constant:
+    text: 标识符//常量
+color.settings.doccomment:
+    text: PHPDoc//文本
+color.settings.doctag:
+    text: PHPDoc//标记
+color.settings.docmarkup:
+    text: PHPDoc//标记
+color.settings.exec_command:
+    text: Shell 命令
+color.settings.predefined.symbols:
+    text: 标识符//预定义符号
+annotation.variable.variable:
+    text: 可变变量
+gutter.overriding.select.title:
+    text: 选择要导航的父方法
+gutter.overriden.select.subclass.title:
+    text: 选择 {0} 的子类
+gutter.overriden.select.implementation.title:
+    text: 选择 {0} 的实现

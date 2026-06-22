@@ -1,0 +1,768 @@
+subversion.executable.notification.title:
+    text: 无法使用 Subversion 命令行客户端
+subversion.executable.notification.description:
+    text: Subversion 可执行文件的路径可能是错误的。
+subversion.executable.too.old:
+    text: Subversion 命令行客户端版本过旧({0})。
+subversion.roots.detection.errors.found.description:
+    text: 检测 Subversion 工作副本时发现错误。
+action.Subversion.BrowseSVNRepository.text:
+    text: 浏览 Subversion 仓库(_W)…
+action.Subversion.BrowseSVNRepository.description:
+    text: 浏览 Subversion 仓库
+group.IgnoreChoicesGroup.text:
+    text: 忽略
+group.RevertIgnoreChoicesGroup.text:
+    text: 从忽略列表中移除
+action.Subversion.UndoIgnore.text:
+    text: 所选文件名
+action.Subversion.UndoIgnore.description:
+    text: 从文件夹忽略列表中移除文件名/掩码
+action.Subversion.Ignore.ExactMatch.text:
+    text: 所选文件名
+action.Subversion.Ignore.ExactMatch.description:
+    text: 将所有所选文件的名称添加到文件夹忽略列表
+action.Subversion.Ignore.MatchExtension.description:
+    text: 将 {0} 掩码添加到文件夹忽略列表
+action.Subversion.SetProperty.text:
+    text: 设置属性(_T)…
+action.Subversion.SetProperty.description:
+    text: 在文件或目录中设置版本化属性
+action.Subversion.Resolve.text:
+    text: 解决文本冲突(_S)…
+action.Subversion.Resolve.description:
+    text: 解决文件中的文本冲突
+action.Subversion.MarkResolved.text:
+    text: 标记为已解决(_M)…
+action.Subversion.MarkResolved.description:
+    text: 将文本和属性冲突标记为已解决
+action.Subversion.Clenaup.text:
+    text: 清理(_E)
+action.Subversion.Clenaup.description:
+    text: 解锁锁定的目录，并运行其余所有未完成的操作
+action.Subversion.Copy.text:
+    text: 分支或标记(_B)…
+action.Subversion.Copy.description:
+    text: 将选定的文件或目录复制到新的仓库位置
+action.Subversion.Lock.text:
+    text: 锁定(_L)…
+action.Subversion.Lock.description:
+    text: 锁定文件
+action.Subversion.Unlock.text:
+    text: 解锁(_O)
+action.Subversion.Unlock.description:
+    text: 解锁文件
+action.name.refresh:
+    text: 刷新
+action.Subversion.ImportToSVNRepository.text:
+    text: 导入 Subversion(_M)…
+action.Subversion.Share.text:
+    text: 共享目录(_S)…
+action.Subversion.ShowProperties.text:
+    text: 编辑属性(_P)
+action.Subversion.ConfigureBranches.text:
+    text: 配置分支…
+action.Subversion.CompareWithBranch.text:
+    text: 与分支比较…
+action.Subversion.Relocate.text:
+    text: 重定位…
+action.Subversion.Relocate.description:
+    text: 将工作副本重定位到其他 URL
+action.Subversion.CleanupProject.text:
+    text: 清理项目
+action.Subversion.CleanupProject.description:
+    text: 对项目中的所有工作副本目录执行清理
+dialog.title.branch:
+    text: 创建分支或标记
+label.copy.from:
+    text: 复制自
+label.copy.to:
+    text: 复制到
+label.copy.from.revision:
+    text: '修订(&V):'
+radio.copy.working.copy:
+    text: 工作副本(&W)
+label.copy.comment:
+    text: '&注释'
+label.copy.select.location.dialog.copy.as:
+    text: '复制为(&A):'
+dialog.title.lock.files:
+    text: 锁定文件
+dialog.title.lock.file:
+    text: 锁定文件
+label.lock.comment:
+    text: '锁定注释(&L):'
+label.locl.steal.existing:
+    text: '窃取现有锁(&S):'
+label.ssh.key.file:
+    text: '密钥文件(&F):'
+label.ssh.passphrase:
+    text: '密码短语(&R):'
+label.ssl.certificate.path:
+    text: '证书路径:'
+label.ssl.certificate.password:
+    text: '证书密码短语:'
+checkbox.ssl.keep.for.current.session:
+    text: 保存凭据(&S)
+progress.text.create.remote.folder:
+    text: 创建远程文件夹
+message.text.error:
+    text: 错误
+progress.title.browser.delete:
+    text: 删除
+progress.text.browser.creating:
+    text: 正在创建 {0}
+progress.text.browser.moving:
+    text: 正在移动 {0}
+progress.text.browser.copying:
+    text: 正在拷贝{0}
+progress.text.browser.remote.destination:
+    text: 到 {0}
+progress.title.browser.move:
+    text: 移动
+progress.title.browser.copy:
+    text: 复制
+label.auth.authentication.realm:
+    text: '身份验证领域: ''''{0}'''''
+label.auth.user.name:
+    text: '用户名(&U):'
+label.auth.password:
+    text: '密码(&P):'
+checkbox.auth.keep.for.current.session:
+    text: 保存凭据(&S)
+dialog.title.authentication.required:
+    text: 需要身份验证
+progress.text2.collecting.history:
+    text: 正在收集 ''{0}'' 的修订历史记录
+checkbox.changes.filter.filter.by.author:
+    text: '作者(&U):'
+progress.text2.processing.revision:
+    text: 正在处理修订 ''{0}''
+progress.text.changes.collecting.changes:
+    text: 正在收集有关更改的信息
+progress.text2.changes.establishing.connection:
+    text: 正在建立与 ''{0}'' 的连接
+progress.text2.revision.processed:
+    text: 已处理修订 ''{0}''
+status.group.name.replaced:
+    text: 已替换
+status.group.name.switched:
+    text: 已切换
+dialog.title.select.configuration.directory:
+    text: 选择配置目录
+action.title.select.configuration.directory:
+    text: 更改配置目录
+dialog.description.select.configuration.directory:
+    text: 选择 Subversion 配置目录或创建新目录
+button.text.clear.authentication.cache:
+    text: 清除身份验证缓存(&C)
+label.text.delete.stored.credentials:
+    text: 删除 'http'、'svn' 和 'svn+ssh' 协议的所有已存储凭据
+button.text.edit.proxies:
+    text: 编辑网络选项(&O)…
+dialog.title.edit.http.proxies.settings:
+    text: 编辑与网络层相关的 Subversion 选项
+dialog.edit.http.proxies.settings.error.same.group.names.text:
+    text: '检测到同名的组: ''''{0}'''''
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.text:
+    text: '找到与多个组匹配的仓库 URL: {0}'
+dialog.edit.http.proxies.settings.error.ambiguous.group.patterns.to.text:
+    text: URL {0} 匹配 {1}
+dialog.edit.http.proxies.settings.tab.edit.user.file.title:
+    text: 用户文件
+dialog.edit.http.proxies.settings.tab.edit.system.file.title:
+    text: 系统文件
+dialog.edit.http.proxies.settings.port.must.be.number.error:
+    text: 端口必须为数字(组 ''{0}'')
+dialog.edit.http.proxies.settings.timeout.must.be.number.error:
+    text: HTTP 超时必须为数字(组 ''{0}'')
+dialog.edit.http.proxies.settings.dialog.select.ssl.client.certificate.path.title:
+    text: 选择证书路径
+dialog.edit.http.proxies.settings.panel.proxy.title:
+    text: HTTP 代理设置
+dialog.edit.http.proxies.settings.panel.ssl.title:
+    text: SSL 设置
+dialog.edit.http.proxies.settings.panel.repositories.title:
+    text: 仓库
+dialog.edit.http.proxies.settings.patterns.text:
+    text: 'URL 模式(&R):'
+dialog.edit.http.proxies.settings.exceptions.text:
+    text: '异常(&X):'
+dialog.edit.http.proxies.settings.server.text:
+    text: '服务器(&S):'
+dialog.edit.http.proxies.settings.user.text:
+    text: '用户(&U):'
+dialog.edit.http.proxies.settings.port.text:
+    text: '端口(&O):'
+dialog.edit.http.proxies.settings.password.text:
+    text: '密码(&W):'
+dialog.edit.http.proxies.settings.connection.timeout.text:
+    text: '连接超时(&I):'
+dialog.edit.http.proxies.settings.seconds.text:
+    text: 秒
+dialog.edit.http.proxies.settings.paths.to.authority.certificates.text:
+    text: 'CA 证书文件的逗号分隔路径(&P):'
+dialog.edit.http.proxies.settings.ssl.client.certificate.file.text:
+    text: 'SSL 客户端证书文件(&C):'
+dialog.edit.http.proxies.settings.client.certificate.passphrase.text:
+    text: 'SSL 客户端证书密码短语(&H):'
+dialog.edit.http.proxies.settings.trust.default.cas.text:
+    text: 信任默认 CA(&A)
+dialog.edit.http.proxies.settings.test.connection.button.text:
+    text: 测试连接(&T)
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.title:
+    text: 警告
+dialog.edit.http.proxies.settings.test.connection.settings.will.be.stored.text:
+    text: 设置将被保存
+dialog.edit.http.proxies.settings.test.connection.error.title:
+    text: 连接测试失败
+confirmation.text.delete.stored.authentication.information:
+    text: "您将删除所有存储的 Subversion 身份验证信息。\n确定要删除吗?"
+confirmation.title.clear.authentication.cache:
+    text: 清除身份验证缓存
+command.line.interactive.mode.title:
+    text: 启用交互式模式
+command.line.interactive.mode.description:
+    text: <html>模拟直接从终端执行 Subversion 命令时的行为(交互模式)。<br>这是处理 svn+ssh 仓库的密码/密码短语提示以及信任 https 仓库的无效服务器证书所必需的。</html>
+non.english.locale.detected.warning:
+    text: 使用了非英语区域设置。
+ssh.settings.executable.label:
+    text: 'SSH 可执行文件:'
+ssh.settings.user.name.label:
+    text: '用户名:'
+ssh.settings.port.label:
+    text: '端口:'
+ssh.settings.password.choice.title:
+    text: 密码
+ssh.settings.private.key.choice.title:
+    text: 私钥
+ssh.settings.private.key.path.label:
+    text: '路径:'
+ssh.settings.subversion.config.choice.title:
+    text: Subversion 配置
+ssh.settings.tunnel.label:
+    text: 'SSH 隧道:'
+ssh.settings.update.tunnel.title:
+    text: 更新
+label.configure.upgrade.label:
+    text: '工作副本升级策略:'
+radio.configure.upgrade.auto.16format:
+    text: 自动升级(使用 Subversion 1.6)(&6)
+radio.configure.upgrade.auto.17format:
+    text: 自动升级(使用 Subversion 1.7)(&7)
+radio.configure.upgrade.auto.18format:
+    text: 自动升级(使用 Subversion 1.8)(&8)
+label.configure.create.label:
+    text: "{0} 将要创建新的 Subversion 工作副本，\n请选择所需的工作副本格式:"
+radio.configure.create.auto.16format:
+    text: '1.6 格式(&6)'
+radio.configure.create.auto.17format:
+    text: '1.7 格式(&7)'
+radio.configure.create.auto.18format:
+    text: '1.8 格式(&8)'
+label.configure.change.label:
+    text: '将工作副本 ''''{0}'''' 格式更改为:'
+radio.configure.change.auto.16format:
+    text: '1.6 格式(&6)'
+radio.configure.change.auto.17format:
+    text: '1.7 格式(&7)'
+radio.configure.change.auto.18format:
+    text: '1.8 格式(&8)'
+dialog.upgrade.wcopy.format.title:
+    text: Subversion 工作副本格式
+label.working.copy.root.outside.text:
+    text: "工作副本根位于“项目设置”中指定的目录外部。\n整个工作副本将被转换。"
+progress.text.loading.contents:
+    text: 正在加载 ''{0}'' 的内容
+progress.text2.revision.information:
+    text: 修订{0}
+progress.title.loading.file.content:
+    text: 正在加载远程文件内容
+progress.title.loading.file.properties:
+    text: 正在加载远程文件属性
+exception.text.file.miss.svn:
+    text: 文件 ''{0}'' 为只读，但缺少 svn:needs-lock 属性
+confirmation.text.edit.file:
+    text: 您要编辑的文件在编辑前需要锁定
+file.status.external:
+    text: 外部 (svn)
+file.status.obstructed:
+    text: 受阻 (svn)
+file.status.replaced:
+    text: 替换 (svn)
+confirmation.text.add.file:
+    text: "是否要安排将以下文件添加到 Subversion?\n{0}"
+confirmation.text.add.dir:
+    text: "是否要安排将以下目录添加到 Subversion?\n{0}"
+confirmation.title.add.file:
+    text: 添加的时间表
+confirmation.title.add.multiple.files:
+    text: 选择要添加到 Subversion 的文件
+action.name.ignore.files:
+    text: 添加忽略文件掩码
+action.name.undo.ignore.files:
+    text: 从忽略列表移除文件名(或掩码)
+confirmation.text.delete.file:
+    text: "是否要安排将以下文件从 Subversion 删除?\n{0}"
+confirmation.text.delete.dir:
+    text: "是否要安排将以下目录从 Subversion 删除?\n{0}\n注意: 提交更改后，该目录将从磁盘中删除。"
+confirmation.text.delete.dir.17:
+    text: "是否要安排将以下目录从 Subversion 删除?\n{0}"
+confirmation.title.delete.file:
+    text: 计划删除
+confirmation.title.delete.multiple.files:
+    text: 选择要从 Subversion 删除的文件
+progress.text.locking.files:
+    text: 正在锁定仓库中的文件…
+progress.text2.processing.file:
+    text: 正在处理文件 {0}
+progress.title.lock.files:
+    text: 锁定文件
+exception.text.locking.file.failed:
+    text: '无法锁定文件: {0}'
+message.text.files.lock.failed:
+    text: '{0,choice, 0#无法锁定文件。|1#无法锁定文件。}'
+message.text.files.locked:
+    text: '{0,choice, 0#无法锁定文件。|1#已锁定 1 个文件|2#已锁定 {0,number} 个文件}'
+progress.text.unlocking.files:
+    text: 正在解锁仓库中的文件…
+progress.title.unlock.files:
+    text: 解锁文件
+exception.text.failed.to.unlock.file:
+    text: '无法解锁文件: {0}'
+message.title.unlock.failures:
+    text: 解锁失败
+message.text.files.unlocked:
+    text: '{0,choice, 0#无法解锁文件。|1#已解锁 1 个文件|2#已解锁 {0,number} 个文件}'
+dialog.title.select.location:
+    text: 选择位置
+exception.text.cleanupaction.batchperform.not.implemented:
+    text: CleanupAction.batchPerform 未实现
+progress.text2.adding:
+    text: 正在添加 ''{0}''
+progress.text2.deleting:
+    text: 正在删除 ''{0}''
+progress.text2.sending:
+    text: 正在发送 ''{0}''
+progress.text2.replacing:
+    text: 正在替换 ''{0}''
+progress.text2.transmitting.delta:
+    text: 正在传输 ''{0}'' 的增量
+progress.title.copy:
+    text: Subversion 副本
+progress.text.copy.to:
+    text: 复制到 ''{0}''
+message.text.no.conflicts.found:
+    text: 未找到冲突
+message.title.no.conflicts.found:
+    text: 无冲突
+label.select.files.and.directories.to.mark.resolved:
+    text: '选择要标记为已解决的文件和目录:'
+dialog.title.mark.resolved:
+    text: 标记已解决
+action.name.mark.resolved:
+    text: 标记已解决
+action.name.resolve.conflict:
+    text: 解决冲突
+action.name.revert:
+    text: 还原(&R)
+action.name.set.property:
+    text: 设置属性
+exception.text.cannot.annotate.directory:
+    text: 注解操作仅对文件有意义
+progress.text.computing.annotation:
+    text: 正在计算 ''{0}'' 的注解
+action.text.annotate:
+    text: 注解
+progress.title.commit:
+    text: 提交
+status.text.committed.revision:
+    text: 提交的修订 {0}。
+checkin.operation.name:
+    text: 提交(_I)
+checkin.different.formats.involved:
+    text: "{0,choice,0#仓库|1#仓库} {1} 的选定更改\n属于不同格式的 Subversion 工作副本。\n提交将分为多个提交。\n\n您可以在“更改 | Subversion 工作副本信息”中将所有工作副本转换为相同格式。\n是否要继续提交?"
+progress.text2.fetching.external.location:
+    text: 正在提取 ''{0}'' 的外部位置
+progress.text2.checked.out:
+    text: 已签出 {1} 个文件，正在签出 {0}
+progress.text2.exported:
+    text: 已导出 {1} 个文件，正在导出 {0}
+progress.text2.checked.out.revision:
+    text: 已签出修订 {0}。
+progress.text2.exported.revision:
+    text: 已导出修订 {0}。
+status.text.checked.out.revision:
+    text: 已签出修订 {0}。
+message.text.cannot.load.supported.formats:
+    text: '无法加载支持的格式: {0}'
+message.text.cannot.checkout:
+    text: '无法从 svn 签出: {0}'
+message.text.cannot.export:
+    text: '无法从 svn 导出: {0}'
+message.title.export:
+    text: 从 Subversion 导出
+progress.text.checking.out:
+    text: 正在将文件签出到 ''{0}''
+progress.text.export:
+    text: 正在将文件导出到 ''{0}''
+button.text.select.all:
+    text: 全选(&A)
+button.text.deselect.all:
+    text: 取消全选(&D)
+dialog.title.select.repository.location:
+    text: 选择仓库位置
+button.text.ssl.accept:
+    text: 接受(_A)
+button.text.ssl.reject:
+    text: 拒绝(_R)
+button.text.ssh.accept:
+    text: 是 (_Y)
+button.text.ssh.reject:
+    text: 否 (_N)
+dialog.title.ssl.examine.server.crertificate:
+    text: 检查服务器证书
+dialog.title.ssh.examine.server.fingerprints:
+    text: 验证服务器密钥指纹
+label.ssl.server.provided.certificate:
+    text: '服务器提供了以下证书:'
+label.ssh.server.provided.fingerprints:
+    text: 无法建立主机 {0} 的验证。
+label.ssh.server.provided.fingerprints2:
+    text: '{0} 密钥指纹为'
+label.ssh.server.provided.fingerprints3:
+    text: 确定要继续连接吗?
+checkbox.svn.ssh.cache.fingerprint:
+    text: 将密钥添加到 Subversion 缓存(&A)
+dialog.title.set.property:
+    text: 设置属性
+label.set.property.property.name:
+    text: '属性名称(&N):'
+radio.set.property.set.property.value:
+    text: '设置属性值(&S):'
+radio.set.property.delete.property:
+    text: 删除属性(&D)
+checkbox.set.property.update.properties.recursively:
+    text: 递归更新属性(&R)
+update.switch.configurable.name:
+    text: 更新/切换
+checkbox.update.switch.configurable.to.specific.revision:
+    text: '更新/切换到特定版本(&R):'
+checkbox.update.switch.configurable.try.merge.without.changes:
+    text: 尝试合并，但不做任何更改(&T)
+progress.text.merging.dry.run.changes:
+    text: 正在将(dry run)更改合并到 ''{0}''
+progress.text.merging.changes:
+    text: 正在将更改合并到 ''{0}''
+progress.text.updating:
+    text: 正在更新 ''{0}''
+exception.text.root.was.not.properly.updated:
+    text: 'svn: {0} 未正确更新; 可能是因为它已经与父级一起从仓库中移除。'
+message.text.update.no.directories.found:
+    text: 找不到要更新的版本管理目录
+messate.text.update.error:
+    text: 'SVN: 更新错误'
+progress.text2.added:
+    text: 已添加 {0}
+progress.text2.deleted:
+    text: 已删除 {0}
+progress.text2.conflicted:
+    text: '{0} 存在冲突'
+progress.text2.treeconflicted:
+    text: 已冲突 {0}(树冲突)
+progres.text2.merged:
+    text: 已合并 {0}
+progres.text2.updated:
+    text: 已更新 {0}
+progress.text2.restored.file:
+    text: 已还原 {0}
+progres.text2.updated.to.revision:
+    text: 已更新至修订 {0}。
+status.text.updated.to.revision:
+    text: 已更新至修订 {0}。
+progress.text2.skipped.file:
+    text: 已跳过 {0}
+update.group.name.skipped:
+    text: 已跳过
+progress.text.updating.external.location:
+    text: 正在更新 ''{0}'' 的外部位置
+server.ssl.accept.temporary.action.name:
+    text: 接受临时(_T)
+integrate.display.name:
+    text: 整合
+integrate.configuration.revision1.label:
+    text: 修订(&V)
+integrate.configuration.source2.label:
+    text: '源 2:'
+integrate.configuration.revision2.label:
+    text: 修订(&R)
+integrate.configuration.source1.label:
+    text: '源 1:'
+integrate.configuration.description.label:
+    text: 将源之间的差异集成到工作副本中(比较源 2 和源 1)
+source.url.could.not.be.empty.error.message:
+    text: 源 URL 不能为空
+no.differences.between.sources.error.message:
+    text: 源和相同源之间没有区别
+configure.revision.specified.radio:
+    text: 指定的
+update.configuration.specific.url:
+    text: '更新/切换到特定 URL(&U):'
+progress.text.import:
+    text: 导入 {0}
+message.text.cannot.import:
+    text: '无法导入 svn: {0}'
+message.title.import:
+    text: 导入 Subversion
+revision.title:
+    text: 修订
+checkout.dialog.title:
+    text: 从 Subversion 签出
+checkout.dialog.button:
+    text: 检出
+checkout.directory.chooser.title:
+    text: 签出目录
+checkout.directory.chooser.prompt:
+    text: 选择要从 Subversion 签出的目录
+checkout.options.dialog.title:
+    text: SVN 签出选项
+checkout.options.checkout.label:
+    text: '检出:'
+configure.branches.title:
+    text: 配置 Subversion 分支
+configure.branches.error.wrong.url:
+    text: 主干位置必须在仓库根 ''{0}'' 下
+configure.branches.trunk.location:
+    text: '主干位置:'
+configure.branches.branch.locations:
+    text: '分支位置:'
+refresh.branches.item:
+    text: 刷新分支…
+copy.column.title:
+    text: 复制
+copy.column.tooltip:
+    text: 从 {0} 复制
+compare.with.branch.progress.loading.content:
+    text: 加载内容中…
+compare.with.branch.diff.title:
+    text: 与分支比较
+compare.with.branch.error.title:
+    text: 与分支比较
+compare.with.branch.popup.title:
+    text: 与分支比较
+compare.with.branch.location.error:
+    text: "在分支 ''{1}'' 下找不到文件 ''{0}'' 的仓库位置\n请检查您的分支配置。"
+action.name.switch:
+    text: 切换
+import.dialog.title:
+    text: 导入 Subversion
+import.dialog.button:
+    text: 导入
+repository.browser.add.location.prompt:
+    text: '仓库 URL:'
+repository.browser.add.location.title:
+    text: 新建仓库位置
+repository.browser.details.action:
+    text: 显示/隐藏详细信息
+repository.browser.refresh.action:
+    text: 刷新选定树节点
+repository.browser.add.location.menu.item:
+    text: 仓库位置(_R)…
+repository.browser.edit.location.menu.item:
+    text: 编辑位置 URL(_U)…
+repository.browser.discard.location.action:
+    text: 舍弃位置(_L)
+repository.browser.discard.location.prompt:
+    text: 要舍弃位置 ''{0}'' 吗?
+repository.browser.discard.location.title:
+    text: 舍弃位置
+repository.browser.new.folder.action:
+    text: 远程文件夹(_F)…
+repository.browser.import.action:
+    text: 导入(_I)…
+diff.options.title:
+    text: 与分支或标记比较
+diff.options.no.url.error:
+    text: 请选择一个 URL 进行比较
+diff.options.same.url.error:
+    text: 请选择其他 URL 进行比较
+diff.options.no.patch.file.error:
+    text: 请指定保存补丁文件的路径
+diff.cant.get.properties.changes:
+    text: 无法显示 SVN 属性
+repository.browser.browse.changes.action:
+    text: 浏览更改(_B)…
+repository.browser.browse.changes.description:
+    text: 查看选定节点中的更改历史记录
+repository.browser.compare.title:
+    text: 比较 ''{0}'' 和 ''{1}''
+cleanup.action.name:
+    text: 清理
+changes.browser.revision.term:
+    text: 修订
+progress.searching.for.files.with.conflicts:
+    text: 正在搜索有冲突的文件
+add.files.errors.title:
+    text: 添加文件时出错
+move.files.errors.title:
+    text: 移动文件时出错
+delete.files.errors.title:
+    text: 删除文件时出错
+copy.dialog.title:
+    text: 分支或标签
+move.dialog.title:
+    text: 移动或重命名
+select.location.invalid.url.message:
+    text: '无效的 Subversion 仓库 URL: ''''{0}'''''
+share.directory.action:
+    text: 共享目录…
+share.directory.commit.message:
+    text: "{2}\n{1} 创建的目录 ''{0}''"
+share.directory.title:
+    text: 共享目录
+share.directory.info.message:
+    text: 要完成共享操作，请提交 ''{0}''。
+share.directory.create.dir.progress.text:
+    text: 正在创建远程文件夹 {0}
+share.directory.checkout.back.progress.text:
+    text: 正在签出 {0}
+share.or.import.add.progress.text:
+    text: 正在排定 {0} 的添加时间表
+action.share.whole.project.text:
+    text: 共享项目(Subversion)…
+action.Subversion.integrate.changes.select.working.copy.text:
+    text: '集成到工作副本:'
+action.Subversion.integrate.changes.message.not.under.control.text:
+    text: 所选目标不在 Subversio 的控制下。仍要继续?
+action.Subversion.integrate.changes.message.another.wc.text:
+    text: 所选目标位于另一个仓库的工作副本内。仍要继续?
+action.Subversion.integrate.changes.branch.info.source.label.text:
+    text: '源分支 URL: {0}'
+action.Subversion.integrate.changes.branch.info.target.label.text:
+    text: '目标分支 URL: {0}'
+action.Subversion.integrate.changes.actionname:
+    text: 集成到分支…
+action.Subversion.integrate.changes.description:
+    text: 将选定的更改列表/更改集集成到选定的分支
+action.Subversion.integrate.changes.messages.title:
+    text: 集成到分支
+action.Subversion.integrate.changes.dialog.add.wc.text:
+    text: 添加
+action.Subversion.integrate.changes.dialog.remove.wc.text:
+    text: 移除
+action.Subversion.integrate.changes.message.files.up.to.date.text:
+    text: 所有文件均为最新
+action.Subversion.integrate.changes.collecting.changes.to.commit.task.title:
+    text: 正在收集要提交的更改
+action.Subversion.integrate.changes.error.unable.to.collect.changes.text:
+    text: '收集要提交的更改时出错: {0}'
+error.cannot.load.revisions:
+    text: 无法加载修订列表
+action.Subversion.integrate.changes.progress.integrating.text:
+    text: 正在合并更改
+update.switch.to.branch.text:
+    text: '使用分支:'
+progress.live.provider.loading.revisions.text:
+    text: 正在从服务器加载修订
+progress.live.provider.loading.revisions.details.text:
+    text: 正在从服务器加载修订…
+dialog.show.svn.map.title:
+    text: Subversion 工作副本信息
+committed.changes.action.enable.merge.highlighting:
+    text: 高亮显示已集成的更改列表
+committed.changes.action.enable.merge.highlighting.description.text:
+    text: 选项仅适用于 SVN 仓库和 1.5 版本的工作副本
+committed.changes.action.merge.highlighting.refresh.text:
+    text: 刷新
+committed.changes.action.merge.highlighting.refresh.description:
+    text: 刷新合并的修订信息
+dialog.Subversion.select.working.copy.title:
+    text: 配置工作副本路径
+dialog.Subversion.select.working.copy.wcopy.list.title:
+    text: 已知工作副本
+action.Subversion.cleanup.progress.title:
+    text: Subversion 清理
+action.Subversion.cleanup.error.message:
+    text: '对 ''''{0}'''' 执行清理时出错: {1}'
+action.Subversion.integrate.difference.option.use.ancestry.text:
+    text: 使用以前的版本(&U)
+use.idea.proxy.as.default:
+    text: 将 {0} 常规代理设置用作 Subversion 的默认设置
+use.idea.proxy.as.default.label.text:
+    text: 只有 HTTP 代理可以用作默认设置
+navigate.to.idea.proxy.settings:
+    text: 导航到常规代理设置
+tab.repository.merge.panel.filter.plus:
+    text: 筛选出集成项
+tab.repository.merge.panel.filter.minus:
+    text: 筛选出未集成项
+tab.repository.merge.panel.filter.others:
+    text: 筛选出其他
+browse.changes.settings.stop.on.copy:
+    text: 复制时停止(&S)
+action.mark.list.as.merged.text:
+    text: 标记为已合并
+action.mark.list.as.merged.description:
+    text: 将所选修订版标记为已合并，但实际没有合并
+action.mark.list.as.not.merged.text:
+    text: 标记为未合并
+action.mark.list.as.not.merged.description:
+    text: 将所选修订版标记为未合并，但不会更改 svn:mergeinfo 之外的任何内容
+label.depth.text:
+    text: '深度(&D):'
+label.depth.description:
+    text: 替换旧的“递归”选项。“递归”为 false 等效于“直接子级”，“递归”为 true 等效于“无限”
+undo.integrate.to.branch:
+    text: 撤消集成到分支…
+undo.integrate.to.branch.description:
+    text: 从分支中移除修订中所做的更改
+undo.integrate.to.branch.dialog.title:
+    text: 撤消集成到分支
+merge.source.details.title:
+    text: 合并 {0} [{1}] 的源代码详细信息
+repository.browser.edit.location.dialog.title:
+    text: 编辑位置 URL
+action.Subversion.TogglePropertiesDiff.text:
+    text: 显示属性
+action.Subversion.TogglePropertiesDiff.description:
+    text: 显示 SVN 属性的差异
+action.IntegrateChangeSetAction.text:
+    text: 集成到分支
+show.properties.diff.progress.text.revision.information:
+    text: 修订{0}
+show.properties.diff.progress.text2.property.information:
+    text: 属性 {0}
+checkbox.ignore.whitespace.when.merge.text:
+    text: '&忽略空格'
+svn.integrate.changelist.warning.unresolved.conflicts.text:
+    text: 集成中断。存在未解决的冲突或跳过的项。
+svn.option.ignore.whitespace.in.annotate:
+    text: 忽略注解中的空格差异
+annotation.show.merge.sources.default.text:
+    text: 在历史记录和注解中显示合并源代码
+annotation.original.revision:
+    text: 原始修订
+confirmation.resolve.tree.conflict.merge.moved:
+    text: 将 {0} 中的更改应用到本地移动的 {1}?
+confirmation.resolve.tree.conflict.merge.renamed:
+    text: 将 {0} 中的更改应用到本地重命名的 {1}?
+svn.create.external.below.action:
+    text: 创建外部…
+svn.create.external.below.description:
+    text: 选择 URL，添加 svn:external 属性，然后可以选择签出
+svn.edit.commit.message.title:
+    text: '编辑修订 #{0} 注释'
+svn.edit.commit.message.attention:
+    text: 注意! 以前的消息将丢失!
+svn.edit.commit.message.prompt:
+    text: '新修订注释:'
+quick.merge.variants.merge.all.explanation:
+    text: "所有未合并的修订将被合并。\nSubversion 将使用本地副本中记录的 svn:mergeinfo 属性查找未合并的修订。"
+quick.merge.variants.quick.select.explanation:
+    text: "显示来自目标分支、已合并和未合并分支的所有修订。\n用于手动选择。快速获取结果。"
+quick.merge.variants.pre.select.explanation:
+    text: "查找涉及的一个分支复制自另一个分支的位置。\n仅加载尚未合并的修订以供选择。执行可能需要很长时间。"
+dialog.create.branch.or.tag.from.working.copy.warning:
+    text: <html>使用此变体创建<b>具有本地更改</b>的分支。<br/>通常，不仅是目标目录，还将有几个项“带历史记录添加”。<br/><br/>具有与根不同的修订的各个文件将被分别复制。<br/>因此，建议先更新工作副本，然后再创建分支。</html>
+exportable.SvnDiffSettings.presentable.name:
+    text: SVN 差异

@@ -1,0 +1,74 @@
+hb.page.colors.descriptor.mustaches.key:
+    text: 多重大括号
+hb.page.colors.descriptor.identifiers.key:
+    text: 标识符
+hb.page.colors.descriptor.comments.key:
+    text: 注释
+hb.page.colors.descriptor.operators.key:
+    text: 运算符
+hb.page.colors.descriptor.values.key:
+    text: 基元
+hb.page.colors.descriptor.strings.key:
+    text: 字符串
+hb.page.colors.descriptor.data.prefix.key:
+    text: 数据前缀
+hb.page.colors.descriptor.escape.key:
+    text: 转义字符
+hb.parsing.invalid:
+    text: 无效
+hb.parsing.expected.path.or.data:
+    text: 应为路径、字符串、数字、布尔值或 @data
+hb.parsing.expected.parameter:
+    text: 应为形参
+hb.parsing.expected.hash:
+    text: 应为哈希
+hb.parsing.element.expected.content:
+    text: 应为模板内容
+hb.parsing.element.expected.outer_element_type:
+    text: 应为 Handlebars 内容
+hb.parsing.element.expected.white_space:
+    text: 应为空白区域
+hb.parsing.element.expected.comment:
+    text: 应为注释
+hb.parsing.element.expected.equals:
+    text: 应为等号 "="
+hb.parsing.element.expected.id:
+    text: 应为 ID
+hb.parsing.element.expected.data:
+    text: 应为数据标识符
+hb.parsing.element.expected.separator:
+    text: 应为分隔符 "/" 或 "."
+hb.parsing.element.expected.close:
+    text: 应为右 "}}"
+hb.parsing.element.expected.boolean:
+    text: 应为 "true" 或 "false"
+hb.parsing.element.expected.integer:
+    text: 应为整数
+hb.parsing.element.expected.string:
+    text: 应为字符串
+hb.parsing.element.expected.invalid:
+    text: 意外的标记
+hb.pages.options.generate.closing.tag:
+    text: 自动插入右标签(&A)
+hb.pages.options.formatter:
+    text: 启用格式设置(&E)
+hb.pages.folding.auto.collapse.blocks:
+    text: 块
+hb.page.options.commenter.language:
+    text: '注释语言(&L):'
+hb.page.options.commenter.language.tooltip:
+    text: 控制“使用块注释进行注释”和“使用行注释进行注释”操作使用的语言的注释语法
+hb.parsing.comment.unclosed:
+    text: 未闭合注释
+hb.block.mismatch.intention.rename.open:
+    text: 将块开头 ''{0}'' 更改为 ''{1}''
+hb.block.mismatch.intention.rename.close:
+    text: 将块结尾 ''{0}'' 更改为 ''{1}''
+hb.block.mismatch.inspection.open.block:
+    text: '''''{0}'''' 与块结尾的 ''''{1}'''' 不匹配'
+hb.block.mismatch.inspection.close.block:
+    text: '''''{1}'''' 与块开头的 ''''{0}'''' 不匹配'
+hb.block.mismatch.inspection.missing.end.block:
+    text: '''''{0}'''' 块未闭合'
+hb.block.mismatch.inspection.missing.start.block:
+    text: '''''{0}'''' 没有块开头'

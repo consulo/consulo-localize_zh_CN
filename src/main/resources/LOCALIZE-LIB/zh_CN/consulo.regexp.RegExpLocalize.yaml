@@ -1,0 +1,366 @@
+action.add.pattern.text:
+    text: 添加模式…
+action.add.regexp.replace.inspection.text:
+    text: 添加正则表达式替换检查…
+action.add.regexp.replace.template.text:
+    text: 添加正则表达式替换模板…
+action.add.regexp.search.inspection.text:
+    text: 添加正则表达式搜索检查…
+action.add.regexp.search.template.text:
+    text: 添加正则表达式搜索模板…
+button.enable.replace:
+    text: 启用替换
+button.search.only:
+    text: 仅搜索
+checker.sample.text:
+    text: 示例文本
+color.settings.bad.character:
+    text: 错误字符
+color.settings.brace:
+    text: 大括号
+color.settings.bracket:
+    text: 中括号
+color.settings.character.class:
+    text: 字符类
+color.settings.comma:
+    text: 逗号
+color.settings.comment:
+    text: 评论
+color.settings.dot:
+    text: 点
+color.settings.escaped.character:
+    text: 转义字符
+color.settings.inline.option:
+    text: 内联选项
+color.settings.invalid.escape.sequence:
+    text: 无效转义序列
+color.settings.matched.groups:
+    text: 匹配的组
+color.settings.name:
+    text: 名称
+color.settings.operator.character:
+    text: 运算符字符
+color.settings.parenthesis:
+    text: 括号
+color.settings.plain.character:
+    text: 纯字符
+color.settings.quantifier:
+    text: 量词
+color.settings.quote.character:
+    text: 引号转义
+color.settings.redundant.escape.sequence:
+    text: 冗余转义序列
+color.settings.title.regexp:
+    text: 正则表达式
+dialog.message.inspection.with.name.exists.warning:
+    text: 名称为 ''{0}'' 的检查已存在
+doc.property.block.stands.for.0:
+    text: 属性块代表 {0}
+doc.property.block.stands.for.characters.not.matching.0:
+    text: 属性块代表与 {0} 不匹配的字符
+edit.metadata.button:
+    text: 编辑元数据…
+error.0.repetition.not.allowed.inside.lookbehind:
+    text: 后行中不允许 {0} 重复
+error.alternation.alternatives.needs.to.have.the.same.length.inside.lookbehind:
+    text: 替代项在后行中需要具有相同长度
+error.atomic.groups.are.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持原子组
+error.back.reference.is.nested.into.the.capturing.group.it.refers.to:
+    text: 反向引用嵌套在它所引用的捕获组中
+error.conditional.group.reference.not.allowed.inside.lookbehind:
+    text: 后行中不允许条件组引用
+error.conditionals.are.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持条件语句
+error.dangling.metacharacter:
+    text: 悬空限定符 ''{0}''
+error.dangling.opening.bracket:
+    text: 非预期的限定符开始 '{'
+error.define.subpattern.contains.more.than.one.branch:
+    text: DEFINE 子模式包含多个分支
+error.embedded.comments.are.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持嵌入式注释
+error.empty.group:
+    text: 空组
+error.group.reference.is.nested.into.the.named.group.it.refers.to:
+    text: 组引用嵌套在它所引用的命名组中
+error.group.reference.not.allowed.inside.lookbehind:
+    text: 后行中不允许组引用
+error.group.with.name.0.already.defined:
+    text: 名称为 ''{0}'' 的组已定义
+error.illegal.character.range.to.from:
+    text: 非法字符范围(to < from)
+error.illegal.hexadecimal.escape.sequence:
+    text: 非法十六进制转义序列
+error.illegal.octal.escape.sequence:
+    text: 非法八进制转义序列
+error.illegal.repetition.range.min.max:
+    text: 非法重复范围(min > max)
+error.illegal.unicode.escape.sequence:
+    text: 非法 Unicode 转义序列
+error.illegal.unsupported.escape.sequence:
+    text: 非法/不支持的转义序列
+error.invalid.group.name:
+    text: 组名称无效
+error.look.behind.groups.are.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持后行组
+error.lookaround.conditions.in.conditionals.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持条件语句的环视条件
+error.named.group.reference.not.allowed.inside.lookbehind:
+    text: 后行中不允许命名的组引用
+error.named.unicode.characters.are.not.allowed.in.this.regex.dialect:
+    text: 此正则表达式方言中不允许命名的 Unicode 字符
+error.nested.quantifier.in.regexp:
+    text: 嵌套量词位于正则表达式中
+error.property.escape.sequences.are.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持属性转义序列
+error.redundant.group.nesting:
+    text: 冗余组嵌套
+error.repetition.value.too.large:
+    text: 重复值过大
+error.this.boundary.is.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持此边界
+error.this.hex.character.syntax.is.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持此十六进制字符语法
+error.this.kind.group.reference.condition.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持这种组引用条件
+error.this.named.group.reference.syntax.is.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持此命名组引用语法
+error.this.named.group.syntax.is.not.supported.in.this.regex.dialect:
+    text: 此正则表达式方言不支持此命名组语法
+error.unequal.min.and.max.in.counted.quantifier.not.allowed.inside.lookbehind:
+    text: 后行中不允许计数量词的 min 和 max 不相等
+error.unknown.character.category:
+    text: 未知字符类别
+error.unknown.character.name:
+    text: 未知字符名称
+error.unknown.inline.option.flag:
+    text: 未知内联选项标志
+error.unknown.posix.character.class:
+    text: 未知 POSIX 字符类
+error.unknown.property.name:
+    text: 未知属性名称
+error.unknown.property.value:
+    text: 未知属性值
+error.unresolved.back.reference:
+    text: 未解析的反向引用
+error.unresolved.named.group.reference:
+    text: 未解析的命名组引用
+error.unresolved.numbered.group.reference:
+    text: 未解析的编号组引用
+filetype.regular.expression.description:
+    text: 正则表达式
+inspection.group.name.regexp:
+    text: 正则表达式
+inspection.name.anonymous.group.or.numeric.back.reference:
+    text: 匿名捕获组或数字反向引用
+inspection.name.begin.or.end.anchor.in.unexpected.position:
+    text: 起始或结束定位点在意外位置
+inspection.name.consecutive.spaces:
+    text: 连续空格
+inspection.name.custom.regexp:
+    text: 自定义正则表达式检查
+inspection.name.duplicate.branch.in.alternation:
+    text: 替代项中存在重复分支
+inspection.name.duplicate.character.in.class:
+    text: 字符类中存在重复字符
+inspection.name.empty.branch.in.alternation:
+    text: 替代项中存在空分支
+inspection.name.escaped.meta.character:
+    text: 转义元字符
+inspection.name.octal.escape:
+    text: 八进制转义
+inspection.name.redundant.character.escape:
+    text: 冗余字符转义
+inspection.name.redundant.digit.class.element:
+    text: 冗余的 '\d', '[:digit:]'，或 '\D' 类元素
+inspection.name.redundant.nested.character.class:
+    text: 冗余嵌套字符类
+inspection.name.simplifiable.expression:
+    text: 正则表达式可以简化
+inspection.name.single.character.alternation:
+    text: 单字符替代项
+inspection.name.suspicious.backref:
+    text: 可疑的反向引用
+inspection.name.unnecessary.non.capturing.group:
+    text: 不必要的非捕获组
+inspection.option.ignore.escaped.closing.brackets:
+    text: 忽略转义的右括号 '}' 和 ']'
+inspection.quick.fix.remove.duplicate.0.from.character.class:
+    text: 从字符类移除重复 ''{0}''
+inspection.quick.fix.remove.duplicate.branch:
+    text: 移除重复分支
+inspection.quick.fix.remove.duplicate.element.from.character.class:
+    text: 从字符类移除重复元素
+inspection.quick.fix.remove.empty.branch:
+    text: 移除空分支
+inspection.quick.fix.remove.redundant.0.class.element:
+    text: 移除冗余的 ''{0}''
+inspection.quick.fix.remove.redundant.class.element:
+    text: 移除冗余的类元素
+inspection.quick.fix.remove.redundant.escape:
+    text: 移除冗余转义
+inspection.quick.fix.remove.unnecessary.non.capturing.group:
+    text: 解包不必要的非捕获组
+inspection.quick.fix.replace.alternation.with.character.class:
+    text: 将替代项替换为字符类
+inspection.quick.fix.replace.redundant.character.class.with.contents:
+    text: 将冗余字符类替换为内容
+inspection.quick.fix.replace.with.character.inside.class:
+    text: 替换为类中的字符
+inspection.quick.fix.replace.with.hexadecimal.escape:
+    text: 替换为十六进制转义
+inspection.quick.fix.replace.with.space.and.repeated.quantifier:
+    text: 替换为空格和重复量词
+inspection.warning.anchor.code.ref.code.in.unexpected.position:
+    text: 定位点 <code>#ref</code> 在意外位置
+inspection.warning.anonymous.capturing.group:
+    text: 匿名捕获组
+inspection.warning.can.be.removed:
+    text: <code>#ref</code> 冗余
+inspection.warning.can.be.simplified:
+    text: <code>#ref</code> 可简化为 ''{0}''
+inspection.warning.consecutive.spaces.in.regexp:
+    text: 正则表达式中连续 {0} 个空格
+inspection.warning.duplicate.branch.in.alternation:
+    text: 替代项中存在重复分支
+inspection.warning.empty.branch.in.alternation:
+    text: 替代项中存在空分支
+inspection.warning.escaped.meta.character.0:
+    text: 转义元字符 <code>{0}</code>
+inspection.warning.group.back.reference.are.in.different.branches:
+    text: 组 <code>{0}</code> 和此反向引用位于不同的分支中
+inspection.warning.group.defined.after.back.reference:
+    text: 组 <code>{0}</code> 在此反向引用之后定义
+inspection.warning.numeric.back.reference:
+    text: 数字反向引用
+inspection.warning.octal.escape.code.ref.code.in.regexp:
+    text: 正则表达式中存在八进制转义 <code>#ref</code>
+inspection.warning.potential.exponential.backtracking:
+    text: 潜在指数回溯
+inspection.warning.redundant.character.escape.0.in.regexp:
+    text: 正则表达式中存在冗余字符转义 <code>{0}</code>
+inspection.warning.redundant.class.element:
+    text: 正则表达式中存在冗余的 ''{0}''
+inspection.warning.redundant.nested.character.class:
+    text: 冗余嵌套字符类
+inspection.warning.single.character.alternation.in.regexp:
+    text: 正则表达式中存在单字符替代项
+inspection.warning.unnecessary.non.capturing.group:
+    text: 不必要的非捕获组 <code>{0}</code>
+intention.family.name.replace:
+    text: 替换
+intention.name.check.regexp:
+    text: 检查正则表达式
+label.any:
+    text: 任意
+label.regexp:
+    text: '正则表达式(&R):'
+label.regexp.patterns:
+    text: '正则表达式模式:'
+label.sample:
+    text: '示例(&S):'
+no.description.provided.description:
+    text: 未提供描述
+parse.error.category.shorthand.not.allowed.in.this.regular.expression.dialect:
+    text: 此正则表达式方言中不允许类别速记形式
+parse.error.character.class.expected:
+    text: 应为字符类
+parse.error.character.expected:
+    text: 应为字符
+parse.error.character.or.mysql.character.name.expected:
+    text: 应为字符或 MySQL 字符名称
+parse.error.closing.brace.expected:
+    text: 应为 '}'
+parse.error.closing.brace.or.number.expected:
+    text: 应为 '}' 或数字
+parse.error.comma.expected:
+    text: 应为 ','
+parse.error.empty.property:
+    text: 空属性
+parse.error.group.name.expected:
+    text: 应为组名称
+parse.error.group.name.or.number.expected:
+    text: 应为组名称或数字
+parse.error.group.number.expected:
+    text: 应为组编号
+parse.error.illegal.category.shorthand:
+    text: 非法类别速记形式
+parse.error.illegal.character.range:
+    text: 非法字符范围
+parse.error.negating.a.property.not.allowed.in.this.regular.expression.dialect:
+    text: 此正则表达式方言中不允许否定属性
+parse.error.number.expected:
+    text: 应为数字
+parse.error.opening.brace.expected:
+    text: 应为 '{'
+parse.error.opening.brace.or.category.shorthand.expected:
+    text: 应为 '{' 或类别速记形式
+parse.error.pattern.expected:
+    text: 应为模式
+parse.error.posix.character.class.name.expected:
+    text: 应为 POSIX 字符类名
+parse.error.property.name.expected:
+    text: 应为属性名称
+parse.error.property.value.expected:
+    text: 应为属性值
+parse.error.unclosed.character.class:
+    text: 未闭合的字符类
+parse.error.unclosed.group:
+    text: 应为 ')'
+parse.error.unclosed.group.name:
+    text: 未闭合的组名称
+parse.error.unclosed.group.reference:
+    text: 未闭合的组引用
+parse.error.unclosed.mysql.character.equivalence.class:
+    text: 未闭合的 MySQL 字符等价类
+parse.error.unclosed.mysql.character.expression:
+    text: 未闭合的 MySQL 字符表达式
+parse.error.unclosed.options.group:
+    text: 未闭合的选项组
+parse.error.unclosed.posix.bracket.expression:
+    text: 未闭合的 POSIX 中括号表达式
+parse.error.unclosed.property:
+    text: 未闭合的属性
+parse.error.unicode.character.name.expected:
+    text: 应为 Unicode 字符名称
+parse.error.unmatched.closing.bracket:
+    text: 不匹配的右 ''{0}''
+regexp.dialog.language:
+    text: '语言(&L):'
+regexp.dialog.replace.template:
+    text: '替换正则表达式:'
+regexp.dialog.search.template:
+    text: '搜索正则表达式:'
+surrounder.atomic.group.pattern:
+    text: 原子组(?:模式)
+surrounder.capturing.group.pattern:
+    text: 捕获组(模式)
+surrounder.negative.lookahead.pattern:
+    text: 负先行(?!模式)
+surrounder.negative.lookbehind.pattern:
+    text: 负先行(?<!模式)
+surrounder.non.capturing.group.pattern:
+    text: 非捕获组(?:模式)
+surrounder.positive.lookahead.pattern:
+    text: 正先行(?=模式)
+surrounder.positive.lookbehind.pattern:
+    text: 正先行(?<=模式)
+tooltip.bad.pattern:
+    text: 错误的正则表达式模式
+tooltip.found:
+    text: 示例中发现表达式
+tooltip.found.multiple:
+    text: 示例中发现表达式 {0} 次
+tooltip.matches:
+    text: 表达式和示例匹配!
+tooltip.more.input.expected:
+    text: 应为更多示例输入
+tooltip.no.match:
+    text: 表达式和示例不匹配
+tooltip.pattern.is.too.complex:
+    text: 正则表达式模式过于复杂
+warning.duplicate.character.0.inside.character.class:
+    text: 字符类中存在重复字符 ''{0}''
+warning.duplicate.predefined.character.class.0.inside.character.class:
+    text: 字符类中存在重复的预定义字符类 ''{0}''

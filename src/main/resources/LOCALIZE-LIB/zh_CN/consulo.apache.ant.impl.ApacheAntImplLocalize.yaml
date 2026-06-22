@@ -1,0 +1,284 @@
+action.AddAntBuildFile.description:
+    text: 将当前 XML 文件添加到项目的 Ant 构建文件列表
+action.AddAntBuildFile.text:
+    text: 作为 A_nt 构建文件添加(_N)
+action.RunTargetAction.description:
+    text: 运行当前选定的 Ant 目标
+action.RunTargetAction.text:
+    text: 运行 Ant 目标
+add.ant.file.action.description:
+    text: 将现有 Ant 构建文件添加到列表中
+add.ant.file.action.name:
+    text: 添加
+additional.classpath.tab.add.all.in.directory.button:
+    text: 添加目录中的全部(&L)
+additional.classpath.tab.classpath.border:
+    text: '类路径(&P):'
+ant.build.local.history.label:
+    text: '正在运行 Ant: ''''{0}'''''
+ant.build.message.node.prefix.text:
+    text: '构建:'
+ant.build.progress.dialog.title:
+    text: Ant 构建进程
+ant.build.started.status.message:
+    text: Ant 构建已开始
+ant.build.tab.content.title:
+    text: Ant 构建
+ant.create.meta.target.action.description:
+    text: 将所选目标另存为元目标
+ant.create.meta.target.action.name:
+    text: 创建元目标
+ant.create.target.intention.description:
+    text: 创建目标 ''{0}''
+ant.event.after.compilation.presentable.name:
+    text: 编译后
+ant.event.before.compilation.presentable.name:
+    text: 编译前
+ant.execution.next.error.warning.action.name:
+    text: 下一个错误/警告
+ant.execution.previous.error.warning.action.name:
+    text: 上一个错误/警告
+ant.explorer.assign.shortcut.action.name:
+    text: 分配快捷键…
+ant.explorer.collapse.all.nodes.action.description:
+    text: 收起所有构建文件节点
+ant.explorer.execute.on.action.group.name:
+    text: 执行于
+ant.explorer.expand.all.nodes.action.description:
+    text: 展开所有构建文件节点
+ant.installation.not.configured.error.message:
+    text: 未配置 Ant 安装。请签出 Ant 构建文件属性
+ant.intention.create.property.family.name:
+    text: 创建属性
+ant.intention.create.target.family.name:
+    text: 创建目标
+ant.is.active.terminate.confirmation.text:
+    text: 来自同一构建文件的 Ant 进程处于活动状态。要终止它吗?
+ant.jar.is.directory.error.message:
+    text: '{0} 是目录'
+ant.jar.not.found.in.directory.error.message:
+    text: 在目录 ''{0}'' 中未找到 ant.jar
+ant.process.is.active.terminate.confirmation.text:
+    text: Ant 进程处于活动状态。终止 Ant 进程?
+ant.property.value.editor.insert.macro.tooltip.text:
+    text: 插入宏
+ant.reference.bundled.ant.name:
+    text: 捆绑的 Ant
+ant.settings.classpath.label:
+    text: '类路径(&C):'
+ant.settings.home.label:
+    text: '主目录(&H):'
+ant.settings.name.label:
+    text: '名称(&N):'
+ant.setup.dialog.title:
+    text: Ant 设置
+ant.target:
+    text: 目标
+ant.target.before.run.description:
+    text: 运行 Ant 目标 ''{0}''
+ant.target.before.run.description.empty:
+    text: 运行 Ant 目标
+ant.target.choser.title:
+    text: 选择要执行的 Ant 目标
+ant.target.message.node.prefix.text:
+    text: '目标:'
+ant.target.name.default.target:
+    text: <默认目标>
+ant.task.message.node.prefix.text:
+    text: '任务:'
+ant.unknown.version.string.presentation:
+    text: 未知版本
+ant.verbose.show.all.messages.action.description:
+    text: 显示由 ant 构建产生的所有消息
+ant.verbose.show.all.messages.action.name:
+    text: 显示所有消息
+ant.view.pause.output.action.name:
+    text: 暂停输出
+ant.view.toggle.tree.text.action.name:
+    text: 切换树/文本模式
+apache.ant.with.version.string.presentation:
+    text: Apache Ant 版本 {0}
+build.file.properties.action.description:
+    text: 显示 Phing 设置对话框
+build.file.properties.action.name:
+    text: 设置
+build.file.properties.close.message.view.checkbox:
+    text: 如果没有发生错误，则关闭消息视图(&C)
+build.file.properties.dialog.title:
+    text: 构建文件属性
+build.file.properties.make.in.background.cjeclbox:
+    text: 在后台生成构建(&B)
+build.file.properties.maximum.heap.size.label:
+    text: '最大堆大小(Mb)(&H):'
+build.file.properties.maximum.stack.size.label:
+    text: '最大堆栈大小(Mb)(&S):'
+build.finished.status.ant.build.aborted:
+    text: Ant 构建在 {0} 内于 {1} 中止
+build.finished.status.ant.build.completed.successfully:
+    text: Ant 构建在 {0} 内于 {1} 成功完成
+build.finished.status.ant.build.completed.with.errors.warnings:
+    text: Ant 构建在 {2} 内于 {3} 完成，{0, choice, 0#没有错误|1#有1 个错误|2#有 {0} 个错误}且{1, choice, 0#没有警告|1#有 1 个警告|2#有 {1} 个警告}
+build.finished.status.ant.build.completed.with.warnings:
+    text: Ant 构建在 {1} 内于 {2} 完成，并且{0, choice, 0#没有警告|1#有 1 个警告|2#有 {0} 个警告}
+button.add:
+    text: 添加
+button.move.down:
+    text: 下移(&D)
+button.move.up:
+    text: 上移(&U)
+button.remove:
+    text: 删除(&R)
+cancel.button:
+    text: 取消(&N)
+canceled.by.user.error.message:
+    text: 由用户取消
+cannot.add.ant.files.dialog.title:
+    text: 无法添加文件
+cannot.add.build.file.dialog.title:
+    text: 无法添加构建文件
+cannot.add.build.files.from.excluded.directories.error.message:
+    text: "无法从已排除的目录添加构建文件\n{0}"
+cannot.resolve.refid:
+    text: 无法解析 ''{0}'' refid
+cannot.resolve.target:
+    text: 目标 ''{0}'' 未知
+cannot.start.build.name.error.message:
+    text: 无法启动 {0}
+cant.add.file.error.message:
+    text: '无法添加文件 {0}: {1}'
+cant.read.from.ant.jar.error.message:
+    text: 无法从 {0} 读取
+cant.run.ant.ant.reference.is.not.configured.error.message:
+    text: 未配置 Ant ''{0}''
+cant.run.ant.no.ant.configured.error.message:
+    text: 未配置 Ant
+close.ant.build.messages.dialog.title:
+    text: 关闭 Ant 构建消息
+configure.ant.dialog.title:
+    text: 配置 Ant
+confirm.remove.dialog.title:
+    text: 确认移除
+delete.selected.ant.configuration.confirmation.text:
+    text: 删除所选 Ant 配置?
+delete.selected.ant.configurations.confirmation.text:
+    text: 删除所选 Ant 配置?
+edit.ant.properties.additional.classpath.tab.display.name:
+    text: 附加类路径
+edit.ant.properties.description.column.name:
+    text: 描述
+edit.ant.properties.execution.tab.display.name:
+    text: 执行
+edit.ant.properties.filters.tab.display.name:
+    text: 筛选器
+edit.ant.properties.name.column.name:
+    text: 名称
+edit.ant.properties.tab.display.name:
+    text: 属性
+edit.ant.properties.value.column.name:
+    text: 值
+execute.target.wrong.name.format.error.message:
+    text: '名称格式错误: {0}'
+executes.before.run.debug.acton.name:
+    text: 运行/调试前…
+executing.task.tag.value.status.text:
+    text: '正在执行任务: {0}'
+failed.to.load.types:
+    text: 无法加载类型
+filter.ant.targets.action.description:
+    text: 筛选目标
+filter.ant.targets.action.name:
+    text: 筛选目标
+integer.attribute.has.invalid.value:
+    text: 特性 ''{0}'' 应具有整数值
+intention.configure.highlighting.family.name:
+    text: 配置高亮显示
+intention.configure.highlighting.text:
+    text: 配置高亮显示
+jdk.with.name.bad.configured.error.message:
+    text: 运行此 Ant 目标所需的 JDK ({0})配置错误。请在“项目结构”对话框中更新您的设置。
+jdk.with.name.not.configured.error.message:
+    text: 未配置运行此 Ant 目标所需的 JDK ({0})。请在“项目结构”对话框中更新您的设置。
+lib.directory.not.found.in.ant.path.error.message:
+    text: 在 {0} 中未找到 lib 目录
+meta.target.build.sequence.name.display.name:
+    text: 构建序列 {0}
+path.to.ant.does.not.exist.error.message:
+    text: 路径 {0} 不存在
+project.jdk.not.specified.error.message:
+    text: 未指定项目 JDK
+remove.action.name:
+    text: 移除
+remove.ant.file.action.description:
+    text: 从列表中移除所选构建文件
+remove.ant.file.action.name:
+    text: 移除
+remove.build.file.action.name:
+    text: 移除
+remove.meta.target.action.name:
+    text: 移除元目标
+remove.meta.targets.action.description:
+    text: 移除所选元目标
+remove.meta.targets.action.name:
+    text: 移除
+remove.selected.build.file.action.name:
+    text: 移除构建文件
+remove.selected.meta.targets.action.name:
+    text: 移除元目标
+remove.the.reference.to.file.confirmation.text:
+    text: 是否要移除 {1}?
+rerun.ant.action.name:
+    text: 重新运行
+run.ant.build.action.name:
+    text: 运行构建
+run.ant.file.or.target.action.description:
+    text: 使用 Ant 运行所选构建文件或所选目标
+run.ant.file.or.target.action.name:
+    text: 运行
+run.ant.target.action.name:
+    text: 运行目标
+run.ant.targets.action.name:
+    text: 运行目标
+run.execution.tab.ant.command.line.dialog.title:
+    text: Ant 命令行
+run.execution.tab.ant.command.line.hint:
+    text: 使用“-J”前缀指定 JVM 实参
+run.execution.tab.ant.command.line.label:
+    text: 'Ant 命令行(&L):'
+run.execution.tab.run.under.jdk.label:
+    text: '在 JDK 下运行(&J):'
+run.execution.tab.run.with.ant.border:
+    text: '使用 Ant 运行:'
+run.execution.tab.set.default.button:
+    text: 设置默认值(&S)…
+run.execution.tab.use.custom.ant.radio:
+    text: '使用自定义 Ant(&U):'
+run.execution.tab.use.project.default.ant.radio:
+    text: '使用项目默认 Ant(&D):'
+save.meta.data.name.label:
+    text: '名称(&N):'
+save.meta.data.such.sequence.of.targets.already.exists.error.message:
+    text: 此类目标序列已存在
+save.meta.data.targets.label:
+    text: '目标:'
+select.ant.build.file.dialog.description:
+    text: 选择一个或多个要添加到列表中的 build.xml 文件
+select.ant.build.file.dialog.title:
+    text: 选择 Ant 构建文件
+starting.ant.build.dialog.title:
+    text: 启动 Ant 构建
+stop.ant.action.name:
+    text: 停止
+target.is.duplicated:
+    text: 目标 ''{0}'' 重复
+target.is.duplicated.in.imported.file:
+    text: 目标 ''{0}'' 在文件 ''{1}'' 中重复
+target.tag.name.status.text:
+    text: '目标: {0}'
+unknown.macro.attribute:
+    text: 宏特性 ''{0}'' 未知
+unknown.property:
+    text: 属性 ''{0}'' 未知
+user.inout.request.ant.build.input.dialog.title:
+    text: Ant 构建输入
+using.definition.which.type.failed.to.load:
+    text: 使用类型加载失败的定义

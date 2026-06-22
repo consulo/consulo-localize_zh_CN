@@ -1,0 +1,112 @@
+YAMLDuplicatedKeysInspection.duplicated.key:
+    text: 键 ''{0}'' 重复
+YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
+    text: 移除键
+YamlBooleanType.validation.error.quoted.value:
+    text: 应为布尔值
+YamlDeprecatedKeysInspectionBase.deprecated.key:
+    text: 键 ''{0}'' 已弃用
+YamlEnumType.validation.error.value.unknown:
+    text: 此处不需要值 ''{0}''
+YamlEnumType.validation.warning.value.deprecated:
+    text: 值 ''{0}'' 已弃用
+YamlIntegerType.error.integer.value:
+    text: 应为整数值
+YamlMetaClass.error.scalar.value:
+    text: 此处不允许标量值
+YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
+    text: 添加缺少的键
+YamlMissingKeysInspectionBase.missing.keys:
+    text: '缺少必需的键: ''''{0}'''''
+YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
+    text: 从文件中移除所有不可编辑的键
+YamlNonEditableKeysInspectionBase.noneditable.key:
+    text: 键 ''{0}'' 不能由用户修改
+YamlNumberType.error.numeric.value:
+    text: 应为数值
+YamlScalarType.error.scalar.value:
+    text: 应为标量值
+YamlUnknownKeysInspectionBase.unknown.key:
+    text: 此处不需要键 ''{0}''
+YamlUnknownValuesInspectionBase.error.array.is.required:
+    text: 需要数组
+YamlUnknownValuesInspectionBase.error.array.not.allowed:
+    text: 应为单值
+YamlUnknownValuesInspectionBase.error.value.is.required:
+    text: 值为必填项
+annotator.same.line.composed.value.message:
+    text: 禁止在与键相同的行中指定块组成值
+color.settings.yaml.comment:
+    text: 注释
+color.settings.yaml.dstring:
+    text: 带双引号的字符串
+color.settings.yaml.key:
+    text: 键
+color.settings.yaml.scalar.list:
+    text: '''|'' 块'
+color.settings.yaml.scalar.text:
+    text: '''>'' 块'
+color.settings.yaml.sign:
+    text: '符号: 大括号、逗号等'
+color.settings.yaml.string:
+    text: 字符串
+color.settings.yaml.text:
+    text: 文本
+element.presentation.document.type:
+    text: YAML 文档
+find.usages.document:
+    text: 文档
+find.usages.key.value:
+    text: 键-值
+find.usages.mapping:
+    text: 映射
+find.usages.scalar:
+    text: 标量
+find.usages.sequence:
+    text: 序列
+inspections.duplicated.keys.name:
+    text: 重复的 YAML 键
+inspections.incompatible.types.message:
+    text: 值的类型为 ''{0}'' ，而其他值使用类型 ''{1}''
+inspections.incompatible.types.quickfix.wrap.all.quotes.message:
+    text: 用引号将所有标量按顺序括起来
+inspections.incompatible.types.quickfix.wrap.quotes.message:
+    text: 用引号括起来
+inspections.invalid.child.in.block.mapping:
+    text: 块映射中的子元素无效
+inspections.invalid.child.in.block.sequence:
+    text: 块序列中的子元素无效
+inspections.invalid.key.indent:
+    text: 块映射键缩进无效
+inspections.invalid.list.item.indent:
+    text: 列表项缩进无效
+inspections.recursive.alias.message:
+    text: 别名无法递归
+inspections.recursive.alias.name:
+    text: 递归别名
+inspections.schema.deprecation.name:
+    text: 弃用的 YAML 键
+inspections.schema.deprecation.text:
+    text: '键 ''''{0}'''' 已弃用: {1}'
+inspections.schema.validation.name:
+    text: 由 JSON 架构验证
+inspections.schema.validation.prefix:
+    text: '架构验证:'
+inspections.types.mismatch.name:
+    text: 可疑的类型不匹配
+inspections.unresolved.alias.message:
+    text: 无法解析别名 {0}
+inspections.unresolved.alias.name:
+    text: 未解析的别名
+inspections.unused.anchor.message:
+    text: 定位标记 {0} 从未使用
+inspections.unused.anchor.name:
+    text: 未使用的定位标记
+inspections.unused.anchor.quickfix.name:
+    text: 移除定位标记
+new.name.conflicts.with:
+    text: '键与现有键冲突: ''''{0}'''''
+parsing.error.sequence.item.expected:
+    text: 应为序列条目
+rename.same.name:
+    text: 相同名称

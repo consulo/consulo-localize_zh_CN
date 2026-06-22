@@ -1,0 +1,908 @@
+ACT.CMD.use.import:
+    text: 使用导入的模块
+ACT.from.some.module.import:
+    text: 导入自…
+ACT.qualify.with.module:
+    text: 使用导入的模块进行限定
+ANN.assign.to.none:
+    text: 赋值给 None
+ANN.break.outside.loop:
+    text: '''break'' 在循环外'
+ANN.cant.assign.to.call:
+    text: 无法赋值给函数调用
+ANN.cant.assign.to.comprh:
+    text: 无法赋值给列表推导式
+ANN.cant.assign.to.dict.comprh:
+    text: 无法赋值给字典推导式
+ANN.cant.assign.to.generator:
+    text: 无法赋值给生成器表达式
+ANN.cant.assign.to.lambda:
+    text: 无法赋值给 lambda
+ANN.cant.assign.to.literal:
+    text: 无法赋值给文字
+ANN.cant.assign.to.operator:
+    text: 无法赋值给运算符
+ANN.cant.assign.to.parens:
+    text: 无法赋值给 ()
+ANN.cant.assign.to.set.comprh:
+    text: 无法赋值给集合推导式
+ANN.cant.aug.assign.to.comprh:
+    text: 无法对列表推导式进行增强赋值
+ANN.cant.aug.assign.to.dict.comprh:
+    text: 无法对字典推导式进行增强赋值
+ANN.cant.aug.assign.to.generator:
+    text: 无法对生成器表达式进行增强赋值
+ANN.cant.aug.assign.to.list.or.comprh:
+    text: 无法对列表文字或推导式进行增强赋值
+ANN.cant.aug.assign.to.set.comprh:
+    text: 无法对集合推导式进行增强赋值
+ANN.cant.aug.assign.to.tuple.or.generator:
+    text: 无法对元组文字或生成器表达式进行增强赋值
+ANN.cant.delete.call:
+    text: 无法删除函数调用
+ANN.cant.delete.literal:
+    text: 无法删除文字
+ANN.continue.outside.loop:
+    text: '''continue'' 在循环外'
+ANN.default.except.must.be.last:
+    text: 默认 'except:' 必须为最后一个
+ANN.deleting.none:
+    text: 删除 None
+ANN.duplicate.param.name:
+    text: 重复的形参名称
+ANN.missing.closing.quote:
+    text: 缺少右引号 [{0}]
+ANN.missing.closing.triple.quotes:
+    text: 缺少右三引号
+ANN.non.default.param.after.default:
+    text: 默认形参后面跟随非默认形参
+ANN.regular.param.after.keyword:
+    text: 正则形参在 ** 形参后面
+ANN.regular.param.after.vararg:
+    text: 正则形参在 * 形参后面
+ANN.star.import.at.top.only:
+    text: 仅在模块级别允许 'import *'
+ANN.starred.param.after.kwparam:
+    text: '* 形参在 ** 形参后面'
+ANN.tuple.py3:
+    text: Python 3 中不支持元组形参解包
+CONFLICT.occurrence.pl:
+    text: 匹配项
+INSP.NAME.abstract.class:
+    text: 类必须实现所有 abstract 方法
+INSP.NAME.argument.equal.default:
+    text: 函数实参等于默认形参值
+INSP.NAME.attribute.outside.init:
+    text: 实例特性在 `__init__` 外部定义
+INSP.NAME.augment.assignment:
+    text: 赋值可被替换为增强赋值
+INSP.NAME.bad.except.clauses.order:
+    text: 顺序错误的 'except' 子句
+INSP.NAME.byte.literal:
+    text: 字节文字包含非 ASCII 字符
+INSP.NAME.chained.comparisons:
+    text: 过于复杂的链式比较
+INSP.NAME.check.can.be.simplified:
+    text: 冗余布尔变量检查
+INSP.NAME.class.has.no.init:
+    text: 类没有 `__init__` 方法
+INSP.NAME.classic.class.usage:
+    text: 经典样式类用法
+INSP.NAME.comparison.with.none:
+    text: 使用相等运算符与 None 进行比较
+INSP.NAME.compatibility:
+    text: 代码与特定的 Python 版本不兼容
+INSP.NAME.decorator.outside.class:
+    text: 在类的外部使用了特定于类的装饰器
+INSP.NAME.default.argument:
+    text: 默认实参是可变实参
+INSP.NAME.dict.creation:
+    text: 通过字典文字可以重写字典创建
+INSP.NAME.docstring.types:
+    text: docstring 中的类型与推断的类型不匹配
+INSP.NAME.duplicate.keys:
+    text: 字典包含重复键
+INSP.NAME.exception.not.inherit:
+    text: 不从标准 'Exception' 类继承异常
+INSP.NAME.first.arg.assign:
+    text: 此方法的第一个实参被重新赋值
+INSP.NAME.from.future.import:
+    text: 位置不当的 from __future__ import
+INSP.NAME.global.undefined:
+    text: 全局变量并非在模块级别定义
+INSP.NAME.incorrect.call.arguments:
+    text: 错误的调用实参
+INSP.NAME.incorrect.docstring:
+    text: 不正确的 docstring
+INSP.NAME.init.return:
+    text: 返回值的 __init__ 方法
+INSP.NAME.invalid.interpreter:
+    text: 无效的解释器
+INSP.NAME.list.creation:
+    text: 非最优列表声明
+INSP.NAME.mandatory.encoding:
+    text: 未为文件指定编码
+INSP.NAME.method.may.be.static:
+    text: 方法未声明为 static
+INSP.NAME.method.over:
+    text: 方法签名与被重写方法的签名不匹配
+INSP.NAME.missing.or.empty.docstring:
+    text: 缺失或空 docstring
+INSP.NAME.missing.super.constructor:
+    text: 缺少对超类 '__init__' 的调用
+INSP.NAME.nested.decorators:
+    text: 装饰器嵌套有问题
+INSP.NAME.new.init.signature:
+    text: __new__ 和 __init__ 的签名不兼容
+INSP.NAME.non.ascii:
+    text: 文件包含非 ASCII 字符
+INSP.NAME.none.function.assignment:
+    text: 分配不返回任何内容的函数调用
+INSP.NAME.oldstyle.class:
+    text: 老式类包含新式类功能
+INSP.NAME.problematic.first.parameter:
+    text: 不正确的第一个形参
+INSP.NAME.property.access:
+    text: 不当的属性访问
+INSP.NAME.property.definition:
+    text: 不正确的属性定义
+INSP.NAME.redeclaration:
+    text: 无用法的重新声明名称
+INSP.NAME.redundant.parentheses:
+    text: 冗余圆括号
+INSP.NAME.requirements:
+    text: 未满足的软件包要求
+INSP.NAME.set.function.to.literal:
+    text: 函数调用可被替换为集合文字
+INSP.NAME.single.quoted.docstring:
+    text: 带单引号的 docstring
+INSP.NAME.statement.effect:
+    text: 语句不起任何作用
+INSP.NAME.str.format:
+    text: 字符串格式设置操作中的错误
+INSP.NAME.too.broad.exception.clauses:
+    text: 不明确的异常子句
+INSP.NAME.trailing.semicolon:
+    text: 语句中的禁止尾随分号
+INSP.NAME.tuple.item.assignment:
+    text: 禁止元组条目赋值
+INSP.NAME.unbound:
+    text: 未绑定的局部变量
+INSP.NAME.unnecessary.backslash:
+    text: 不必要的反斜杠
+INSP.NAME.unreachable.code:
+    text: 不可到达的代码
+INSP.NAME.unresolved.refs:
+    text: 未解析的引用
+INSP.NAME.unused:
+    text: 未使用的局部符号
+INSP.NAME.wrong.super.arguments:
+    text: 错误的调用 super 实参
+INSP.argument.equals.to.default:
+    text: 实参等于默认形参值
+INSP.cant.return.value.from.init:
+    text: 无法从 __init__ 返回值
+INSP.class.has.no.init:
+    text: 类没有 __init__ 方法
+INSP.classic.class.usage.old.style.class:
+    text: 老式类
+INSP.classic.class.usage.old.style.class.ancestors:
+    text: 老式类，因为它所继承的所有类都是老式类
+INSP.decorator.receives.unexpected.builtin:
+    text: 此装饰器不会收到所预期的可调用；内置装饰器返回特殊对象
+INSP.deleter.should.not.return:
+    text: 删除程序不应返回值
+INSP.deleter.signature.advice:
+    text: 删除程序签名应为 (self)
+INSP.doc.param.should.be.str:
+    text: doc 形参应为字符串
+INSP.empty.docstring:
+    text: 空 docstring
+INSP.expression.can.be.simplified:
+    text: 可以简化表达式
+INSP.first.param.must.not.be.tuple:
+    text: 非 static 方法的第一个形参不能是元组
+INSP.format.requires.mapping:
+    text: 格式需要映射
+INSP.format.requires.no.mapping:
+    text: 格式无需映射
+INSP.func.property.name.mismatch:
+    text: 函数和装饰器的名称不匹配；未创建属性访问器
+INSP.getter.return.smth:
+    text: Getter 应返回或生成某些内容
+INSP.getter.signature.advice:
+    text: Getter 签名应为 (self)
+INSP.init.incompatible.to.new:
+    text: 签名不兼容 __new__
+INSP.message.single.quoted.docstring:
+    text: 应对 docstring 使用带三个双引号的字符串。
+INSP.method.may.be.static:
+    text: 方法 <code>#ref</code> 可能为 'static'
+INSP.missing.parameter.in.docstring:
+    text: docstring 中的缺失形参 {0}
+INSP.missing.super.constructor.message:
+    text: 缺少对超类 __init__ 的调用
+INSP.must.have.first.parameter:
+    text: 方法必须有第一个形参，通常叫做 ''{0}''
+INSP.new.incompatible.to.init:
+    text: 签名不兼容 __init__
+INSP.no.docstring:
+    text: 缺失 docstring
+INSP.no.format.specifier.char:
+    text: 缺少格式说明符
+INSP.none.function.assignment:
+    text: 函数 ''{0}'' 不返回任何内容
+INSP.oldstyle.class.getattribute:
+    text: 老式类包含 __getattribute__ 定义
+INSP.oldstyle.class.slots:
+    text: 老式类包含 __slots__ 定义
+INSP.oldstyle.class.super:
+    text: 老式类包含对 super 方法的调用
+INSP.probably.mistyped.self:
+    text: 你不是指 'self' 吗?
+INSP.redeclared.name:
+    text: 已重新声明上文定义的无用法的 ''{0}''
+INSP.setter.should.not.return:
+    text: setter 不应返回值
+INSP.setter.signature.advice:
+    text: Setter 签名应为 (self, value)
+INSP.signature.mismatch:
+    text: 方法 ''{0}'' 的签名与类 ''{1}'' 中基方法的签名不匹配
+INSP.strange.arg.want.callable:
+    text: 奇怪实参；应为可调用对象
+INSP.too.few.args.for.fmt.string:
+    text: 格式字符串的实参太少
+INSP.too.few.keys:
+    text: 映射键太少
+INSP.too.many.args.for.fmt.string:
+    text: 格式字符串的实参太多
+INSP.try.except.import.error:
+    text: 包含 ''except ImportError'' 的 try 块中的 ''{0}'' 也应在 except 块中定义
+INSP.tuples.never.assign.items:
+    text: 元组不支持项目赋值
+INSP.unbound.function.too.large:
+    text: 函数 ''{0}'' 太大，无法分析
+INSP.unbound.local.variable:
+    text: 局部变量 ''{0}'' 可能在赋值前引用
+INSP.unbound.nonlocal.variable:
+    text: 非局部变量 ''{0}'' 必须绑定在外部函数作用域中
+INSP.unexpected.arg:
+    text: 意外实参
+INSP.unexpected.parameter.in.docstring:
+    text: docstring 中的意外形参 {0}
+INSP.unreachable.code:
+    text: 此代码不可到达
+INSP.unused.locals.local.class.isnot.used:
+    text: 未使用局部类 ''{0}''
+INSP.unused.locals.local.function.isnot.used:
+    text: 未使用局部函数 ''{0}''
+INSP.unused.locals.local.variable.isnot.used:
+    text: 未使用局部变量 ''{0}'' 的值
+INSP.unused.locals.parameter.isnot.used:
+    text: 未使用形参 ''{0}'' 的值
+INSP.unused.locals.replace.with.wildcard:
+    text: 替换为 _
+INSP.usually.named.self:
+    text: 方法的第一个形参通常叫做 'self'
+INTN.add.parameters.to.docstring:
+    text: 向 docstring 添加形参
+INTN.convert.builtin.import:
+    text: 将内置模块导入转换为支持的形式
+INTN.convert.dict.constructor.to.dict.literal:
+    text: 将 dict 构造函数转换为 dict 文字
+INTN.convert.dict.literal.to.dict.constructor:
+    text: 将 dict 文字转换为 dict 构造函数
+INTN.convert.except.to:
+    text: 将 'except exceptClass, Target' 转换为 'except exceptClass as Target'
+INTN.convert.lambda.to.function:
+    text: 将 lambda 转换为函数
+INTN.convert.method.to.property:
+    text: 将方法转换为属性
+INTN.convert.static.method.to.function:
+    text: 将 static 方法转换为函数
+INTN.convert.to.fstring.literal:
+    text: 转换为格式化字符串文字
+INTN.convert.variadic.param:
+    text: 将可变形参转换为正常形参
+INTN.flip.comparison:
+    text: 翻转 ''{0}''
+INTN.format.operator.to.method:
+    text: 将格式运算符转换为 'str.format' 方法调用
+INTN.insert.assertion:
+    text: 插入类型断言
+INTN.join.if:
+    text: 联接两个 'if' 语句
+INTN.negate.comparison:
+    text: 将 ''{0}'' 求反为 ''{1}''
+INTN.quoted.string:
+    text: 将带单引号的字符串转换为带双引号的字符串，反之亦然
+INTN.quoted.string.double.to.single:
+    text: 将带双引号的字符串转换为带单引号的字符串
+INTN.quoted.string.single.to.double:
+    text: 将带单引号的字符串转换为带双引号的字符串
+INTN.replace.backquote.expression:
+    text: 替换反引号表达式
+INTN.replace.list.comprehensions:
+    text: 将列表推导式转换为支持的形式
+INTN.replace.list.comprehensions.with.for:
+    text: 将列表推导式转换为 'for' 循环
+INTN.replace.noteq.operator:
+    text: 替换不等运算符
+INTN.replace.octal.numeric.literal:
+    text: 将八进制数字文字转换为支持的形式
+INTN.replace.plus.with.format.operator:
+    text: 替换为字符串格式设置运算符
+INTN.replace.plus.with.str.format:
+    text: 替换为 str.format 方法调用
+INTN.replace.raise.statement:
+    text: 将 raise 语句转换为支持的形式
+INTN.replace.with.method:
+    text: 替换为 str.format 方法调用
+INTN.specify.return.type.in.annotation:
+    text: 使用注解指定返回值类型
+INTN.specify.type.in.annotation:
+    text: 使用注解指定引用类型
+INTN.split.if:
+    text: 拆分成 2 条 'if' 语句
+INTN.string.concatenation.to.format:
+    text: 将字符串串联替换为 'str.format'
+INTN.transform.into.if.else.statement:
+    text: 将条件表达式转换为 'if/else' 语句
+INTN.triple.quoted.string:
+    text: 将三引号字符串转换为带单引号的字符串
+INTN.yield.from:
+    text: 将含有 'yield' 的显式迭代转换为 'yield from' 表达式
+PARSE.expected.colon:
+    text: 应为 ':'
+PARSE.expected.colon.or.rbracket:
+    text: 应为 ':' 或 ']'
+PARSE.expected.comma:
+    text: 应为 ','
+PARSE.expected.comma.lpar.rpar:
+    text: 应为 ',' 或 '(' 或 ')'
+PARSE.expected.comma.or.rpar:
+    text: 应为 ',' 或 ')'
+PARSE.expected.else:
+    text: 应为 'else'
+PARSE.expected.expr.or.comma.or.bracket:
+    text: 应为表达式 ',' 或 ']'
+PARSE.expected.expression:
+    text: 应为表达式
+PARSE.expected.for.or.bracket:
+    text: 应为 ']' 或 'for'
+PARSE.expected.formal.param.name:
+    text: 应为形参名称
+PARSE.expected.identifier:
+    text: 应为标识符
+PARSE.expected.in:
+    text: 应为 'in'
+PARSE.expected.lpar:
+    text: 应为 '('
+PARSE.expected.name:
+    text: 应为名称
+PARSE.expected.rbrace:
+    text: 应为 '}'
+PARSE.expected.rbracket:
+    text: 应为 ']'
+PARSE.expected.rpar:
+    text: 应为 ')'
+PARSE.expected.statement.break:
+    text: 应为 break 语句
+PARSE.expected.tick:
+    text: 应为 '`' (反引号)
+QDOC.epydoc.python2.sdk.not.found:
+    text: 您需要配置好的 Python 2 SDK 来渲染 <a href='http://epydoc.sourceforge.net/'>Epydoc</a> docstring
+QDOC.module.path.unknown:
+    text: (模块路径未知)
+QFIX.NAME.add.exception.base:
+    text: 添加 Exception 基类
+QFIX.NAME.add.specifier:
+    text: 添加格式说明符字符
+QFIX.NAME.change.signature:
+    text: 更改签名
+QFIX.NAME.implement.methods:
+    text: 实现 abstract 方法
+QFIX.NAME.make.function:
+    text: 从方法中生成函数
+QFIX.NAME.make.list:
+    text: 将元组替换为列表
+QFIX.NAME.make.static:
+    text: 将方法设为 static
+QFIX.NAME.move.except.up:
+    text: 上移 except 子句
+QFIX.NAME.remove.argument:
+    text: 移除实参
+QFIX.NAME.remove.assignment:
+    text: 移除赋值
+QFIX.NAME.remove.call:
+    text: 移除调用
+QFIX.NAME.remove.dict.key:
+    text: 移除此键
+QFIX.NAME.remove.parameter:
+    text: 移除形参
+QFIX.NAME.remove.statement:
+    text: 移除语句
+QFIX.NAME.remove.underscores.in.numeric:
+    text: 移除数字文字中的下划线
+QFIX.NAME.rename.argument:
+    text: 重命名实参
+QFIX.NAME.rename.element:
+    text: 重命名该元素
+QFIX.NAME.update.parameters:
+    text: 更新形参
+QFIX.action.failed:
+    text: 操作失败
+QFIX.add.encoding:
+    text: 添加编码声明
+QFIX.add.global:
+    text: 添加全局语句
+QFIX.add.import.add.import:
+    text: 添加 "''{0}''"
+QFIX.add.parameter.self:
+    text: 添加形参 ''{0}''
+QFIX.add.property:
+    text: 添加字段的属性
+QFIX.add.super:
+    text: 添加超类调用
+QFIX.augment.assignment:
+    text: 将赋值替换为增强赋值
+QFIX.auto.import.import.name:
+    text: 导入 ''{0}''
+QFIX.auto.import.import.this.name:
+    text: 导入此名称
+QFIX.chained.comparison:
+    text: 简化链式比较
+QFIX.change.base.class:
+    text: 更改基类
+QFIX.classic.class.transform:
+    text: 从对象继承
+QFIX.convert.single.quoted.docstring:
+    text: 将 docstring 转换为带三个双引号的字符串形式
+QFIX.convert.to.new.style:
+    text: 转换为新样式类
+QFIX.create.property:
+    text: 创建属性
+QFIX.default.argument:
+    text: 替换可变默认实参
+QFIX.dict.creation:
+    text: 替换字典创建
+QFIX.docstring.insert.stub:
+    text: 插入 docstring
+QFIX.failed.to.add.field:
+    text: <br/>无法添加字段!<br/><br/>
+QFIX.failed.to.add.function:
+    text: <br/>无法添加函数!<br/><br/>
+QFIX.failed.to.add.method:
+    text: <br/>无法添加方法!<br/><br/>
+QFIX.introduce.variable:
+    text: 为语句引入变量
+QFIX.list.creation:
+    text: 替换列表创建
+QFIX.local.auto.import.import.locally:
+    text: 本地{0}
+QFIX.make.public:
+    text: 设为 public
+QFIX.move.attribute:
+    text: 将特性移至 __init__ 方法
+QFIX.move.from.future.import:
+    text: 将 'from __future__ import' 移至正确位置
+QFIX.redundant.parentheses:
+    text: 移除冗余圆括号
+QFIX.remove.argument.equal.default:
+    text: 移除等于默认值的实参
+QFIX.remove.decorator:
+    text: 移除装饰器
+QFIX.remove.trailing.semicolon:
+    text: 移除尾随分号
+QFIX.remove.unnecessary.backslash:
+    text: 移除表达式中不必要的反斜杠
+QFIX.rename.unresolved.reference:
+    text: 重命名引用
+QFIX.replace.equality:
+    text: 替换相等
+QFIX.replace.function.set.with.literal:
+    text: 将函数调用替换为集合文字
+QFIX.statement.effect:
+    text: 替换为函数调用
+QFIX.unresolved.reference:
+    text: 将 ''{0}'' 替换为 ''{1}.{0}''
+QFIX.unresolved.reference.add.param:
+    text: 创建形参 ''{0}''
+QFIX.use.property:
+    text: 使用此字段的属性
+active.sdk.dialog.project.interpreter:
+    text: 'Python 解释器:'
+active.sdk.dialog.project.interpreter.path.mappings:
+    text: '路径映射:'
+active.sdk.dialog.project.interpreter.path.mappings.default.project.error:
+    text: 打开或创建项目以配置映射
+active.sdk.dialog.show.all.item:
+    text: 全部显示…
+commandLine.commandNotFound:
+    text: '{0}: 找不到命令'
+commandLine.inspection.badArgument:
+    text: 实参不能具有此值。使用自动补全检查可能的值的列表。
+commandLine.inspection.badCommand:
+    text: 命令错误或未知。确保存在此命令。
+commandLine.inspection.badOption:
+    text: 选项错误或未知。确保存在此选项。
+commandLine.inspection.excessArgument:
+    text: 实参过多或此处无法使用实参
+commandLine.inspection.name:
+    text: 不正确的 CLI 语法
+custom.type.mimic.name:
+    text: 基于 {0} 的动态类
+debug.popup.title.step.into.function:
+    text: 步入函数
+formatter.after.hash:
+    text: '''#'' 之后'
+formatter.after.local.imports:
+    text: '在本地导入后面:'
+formatter.align.when.multiline:
+    text: 多行时对齐
+formatter.around.eq.in.keyword.argument:
+    text: 在关键字实参中的 = 周围
+formatter.around.eq.in.named.parameter:
+    text: 在命名形参中的 = 周围
+formatter.around.multiplicative.operators:
+    text: 乘法运算符 (*, @, /, %)
+formatter.around.power.operator:
+    text: 幂运算符 (**)
+formatter.around.top.level.classes.and.function:
+    text: '围绕顶层类和函数:'
+formatter.around.top.level.imports:
+    text: '在顶层导入后:'
+formatter.before.backslash:
+    text: ''''' 之前'
+formatter.before.hash:
+    text: '''#'' 之前'
+formatter.braces:
+    text: 大括号
+formatter.collections.and.comprehensions:
+    text: 集合和推导
+formatter.dictionary.literals:
+    text: 字典文字
+formatter.force.new.line.after.colon:
+    text: 在冒号后强制换行
+formatter.imports.panel.optimize.imports:
+    text: 优化 import
+formatter.imports.panel.sort.by.type:
+    text: 在组中分别对 plain 导入和 "from" 导入进行排序
+formatter.imports.panel.sort.imports:
+    text: 对 import 语句排序
+formatter.imports.panel.sort.names.in.from.imports:
+    text: 对 "from" 导入中的导入名称排序
+formatter.imports.panel.title:
+    text: 导入
+formatter.left.bracket:
+    text: 左中括号
+formatter.multi.clause.statements:
+    text: 多子句语句
+formatter.panel.add.trailing.line.feed:
+    text: 在文件末尾添加换行
+formatter.panel.dict.alignment.align.on.colon:
+    text: 通过冒号对齐
+formatter.panel.dict.alignment.align.on.value:
+    text: 通过值对齐
+formatter.panel.dict.alignment.do.not.align:
+    text: 不对齐
+formatter.panel.dict.alignment.label:
+    text: '字典对齐:'
+formatter.panel.use.continuation.indent.for.arguments:
+    text: 方法调用实参
+formatter.single.clause.statements:
+    text: 单子句语句
+python.console:
+    text: Python 控制台
+refactoring.change.signature.dialog.default.value.checkbox:
+    text: '在签名中使用默认值:'
+refactoring.change.signature.dialog.name.label:
+    text: '名称:'
+refactoring.change.signature.dialog.validation.default.missing:
+    text: 缺少默认值
+refactoring.change.signature.dialog.validation.function.name:
+    text: 函数名称不正确
+refactoring.change.signature.dialog.validation.multiple.double.star:
+    text: 不允许多个 ** 实参
+refactoring.change.signature.dialog.validation.multiple.star:
+    text: 不允许多个 * 实参
+refactoring.change.signature.dialog.validation.name.defined:
+    text: 名称已在作用域中定义
+refactoring.change.signature.dialog.validation.parameter.missing:
+    text: 缺少形参名称
+refactoring.change.signature.dialog.validation.parameter.name:
+    text: 形参名称不正确
+refactoring.change.signature.error.lambda.call:
+    text: 文本光标位于 lambda 调用上
+refactoring.change.signature.error.not.under.source.root:
+    text: 该函数不在源根下
+refactoring.change.signature.error.tuple.parameters:
+    text: 该函数包含元组形参
+refactoring.change.signature.error.wrong.caret.position.method.name:
+    text: 文本光标应置于要重构的方法的名称处
+refactoring.change.signature.find.usages.of.base.class:
+    text: "类 {1} 的方法 {0}\n重写类 {2} 的方法。\n是否要重构基方法?"
+refactoring.change.signature.usage.view.declarations.header:
+    text: 要重构的函数
+refactoring.convert.package.to.module.error.not.empty.package:
+    text: 软件包“{0}”不为空
+refactoring.error.directory.exists:
+    text: 目录“{0}”已存在
+refactoring.error.file.exists:
+    text: 文件“{0}”已存在
+refactoring.extract.method:
+    text: 提取方法
+refactoring.extract.method.error.bad.selection:
+    text: 无法使用所选元素执行提取方法重构
+refactoring.extract.method.error.class.level:
+    text: 无法在类级别执行重构
+refactoring.extract.method.error.empty.fragment:
+    text: 无法从空代码段执行重构
+refactoring.extract.method.error.interrupted.execution.flow:
+    text: 执行流中断时无法执行重构
+refactoring.extract.method.error.local.variable.modifications:
+    text: 无法从代码段内包含局部变量修改的表达式执行重构。
+refactoring.extract.method.error.local.variable.modifications.and.returns:
+    text: 无法从代码段内包含局部变量修改和返回指令的表达式执行重构
+refactoring.extract.method.error.name.clash:
+    text: 该方法名称与现有名称冲突
+refactoring.extract.method.error.returns:
+    text: 无法提取代码段内包含返回指令的方法
+refactoring.extract.method.error.star.import:
+    text: 无法使用代码块内的星号 import 语句执行重构
+refactoring.extract.method.error.yield:
+    text: 无法使用代码块内的 'yield' 语句执行重构
+refactoring.extract.super.class.no.members.allowed:
+    text: 无法提取任何成员
+refactoring.extract.super.name.0.must.be.ident:
+    text: 名称 ''{0}'' 无效。必须为有效的 Python 标识符
+refactoring.extract.super.target.class.already.exists:
+    text: 此模块中已存在类 ''{0}''
+refactoring.extract.super.target.path.outside.roots:
+    text: 该目标目录在项目外部。必须在内容根内
+refactoring.inline.local.multiassignment:
+    text: 使用多个赋值定义
+refactoring.introduce.constant.dialog.title:
+    text: 提取常量
+refactoring.introduce.constant.scope.error:
+    text: 已在作用域中声明名称
+refactoring.introduce.name.error:
+    text: 名称不正确
+refactoring.introduce.parameter.dialog.title:
+    text: 提取形参
+refactoring.introduce.selection.error:
+    text: 无法使用所选元素执行重构
+refactoring.make.function.top.level.error.attribute.writes:
+    text: 无法移动写入实例特性的方法
+refactoring.make.function.top.level.error.method.calls:
+    text: 无法移动调用该类其他方法的方法
+refactoring.make.function.top.level.error.nonlocal.writes:
+    text: 无法移动包含非局部写入的函数
+refactoring.make.function.top.level.error.outer.scope.reads:
+    text: 无法移动引用外部作用域中的名称的方法
+refactoring.make.function.top.level.error.private.attributes:
+    text: 无法移动引用私有实例特性的方法
+refactoring.make.function.top.level.error.self.reads:
+    text: 无法移动外部作用域中包含 "self" 形参用法的函数
+refactoring.make.function.top.level.error.special.usage.of.self:
+    text: 无法移动包含 "self" 形参特殊用法的方法
+refactoring.make.local.function.top.level.dialog.description:
+    text: 将局部函数 {0} 移至顶层
+refactoring.make.local.function.top.level.dialog.title:
+    text: 使之为顶层局部函数
+refactoring.make.method.top.level.dialog.description:
+    text: 将方法 {0} 移至顶层
+refactoring.make.method.top.level.dialog.title:
+    text: 使之为顶层方法
+refactoring.move.choose.destination.file.title:
+    text: 选择目标文件
+refactoring.move.module.members:
+    text: 移动模块成员
+refactoring.move.module.members.dialog.description.class:
+    text: 移动类 {0}
+refactoring.move.module.members.dialog.description.function:
+    text: 移动函数 {0}
+refactoring.move.module.members.dialog.description.selection:
+    text: 移动所选元素
+refactoring.move.module.members.dialog.description.variable:
+    text: 移动全局变量 {0}
+refactoring.move.module.members.dialog.table.title:
+    text: 批量移动(&M)
+refactoring.move.module.members.dialog.title:
+    text: 移动模块成员
+refactoring.move.module.members.error.cannot.place.elements.into.nonpython.file:
+    text: 无法将元素放入非 Python 文件中
+refactoring.move.module.members.error.selection:
+    text: 无法使用所选元素执行重构
+refactoring.pull.up.dialog.members.to.be.moved:
+    text: 将移动以下成员
+refactoring.pull.up.dialog.move.members.to.class:
+    text: 将成员移至类
+refactoring.pull.up.dialog.title:
+    text: 向上拉取成员至
+refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
+    text: 类 {0} 没有超类，或者所有超类都不能用于重构
+refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
+    text: '无法执行向上拉取成员: 不在此类中'
+refactoring.will.not.be.accessible:
+    text: 您在尝试移动的成员依赖于在此重构后无法访问的 ''{0}''
+remote.debug.info:
+    text: 信息
+remote.debug.local.host:
+    text: 'IDE 主机名:'
+remote.debug.local.root.folder:
+    text: 本地根文件夹
+remote.debug.port:
+    text: 远程端口
+remote.debug.redirect.output:
+    text: 将输出重定向到控制台
+remote.debug.remote.host:
+    text: 远程主机
+remote.debug.remote.root.folder:
+    text: 远程根文件夹
+remote.debug.server.hint:
+    text: 在服务器端使用以下命令以启用远程调试
+remote.debug.server.hint1.5:
+    text: '更新脚本:'
+remote.debug.server.hint2:
+    text: '1. 将 pydevd-pycharm.egg 从 PyCharm 安装目录添加到 Python 路径或执行:'
+remote.debug.server.hint3:
+    text: pip 安装 pydevd-pycharm
+remote.debug.server.hint4:
+    text: '2. 添加以下命令以连接至调试服务器:'
+remote.debug.settings:
+    text: 设置
+remote.debug.suspend.on.connect:
+    text: 连接后挂起
+remote.interpreter.configure.path.label:
+    text: 'Ruby 或版本管理器路径(&R):'
+remote.interpreter.configure.path.title:
+    text: 选择 Ruby 解释器
+remote.interpreter.configure.temp.files.path.label:
+    text: 'Ruby 帮助程序路径:'
+remote.interpreter.configure.temp.files.path.title:
+    text: 为 Ruby 帮助程序选择文件夹
+remote.interpreter.configure.title:
+    text: 配置远程 Ruby 解释器
+remote.interpreter.unspecified.interpreter.path:
+    text: 指定 Ruby 解释器路径
+remote.interpreter.unspecified.temp.files.path:
+    text: 为 Ruby 帮助程序指定路径
+remove.elif:
+    text: 移除 elif…
+remove.else:
+    text: 移除 else…
+run.configuration.remote.debug.name:
+    text: Ruby 远程调试
+run.configuration.show.command.line.action.name:
+    text: 显示调试控制台
+run.configuration.type.description:
+    text: 启动服务器进行远程调试
+runcfg.captions.interpreter_options_dialog:
+    text: 输入解释器选项
+runcfg.captions.script_parameters_dialog:
+    text: 输入脚本形参
+runcfg.labels.environment_variables:
+    text: '环境变量(&E):'
+runcfg.labels.interpreter:
+    text: '使用指定的解释器(&U):'
+runcfg.labels.interpreter_options:
+    text: '解释器选项(&O):'
+runcfg.labels.script_parameters:
+    text: '形参(&P):'
+runcfg.labels.working_directory:
+    text: '工作目录(&W):'
+runcfg.test.description:
+    text: PyCharm 支持 Python 框架
+runcfg.test.display_name:
+    text: Python 测试
+runcfg.testing.no.test.framework:
+    text: 在所选解释器中未找到 {0} 运行程序
+runcfg.tests.cant_rerun:
+    text: 无法重新运行测试，因为无法解析测试 ID。尝试删除运行配置，然后点击右键以创建新配置。
+runcfg.unittest.dlg.all_in_folder_title:
+    text: 文件夹中的所有
+runcfg.unittest.dlg.all_in_script_title:
+    text: 脚本
+runcfg.unittest.dlg.class_label:
+    text: '类:'
+runcfg.unittest.dlg.folder_path:
+    text: '文件夹:'
+runcfg.unittest.dlg.function_label:
+    text: '函数:'
+runcfg.unittest.dlg.interpreter_options_title:
+    text: '解释器选项:'
+runcfg.unittest.dlg.method_label:
+    text: '方法:'
+runcfg.unittest.dlg.pattern:
+    text: '模式:'
+runcfg.unittest.dlg.select.folder.path:
+    text: '选择文件夹路径:'
+runcfg.unittest.dlg.select.script.path:
+    text: '选择脚本路径:'
+runcfg.unittest.dlg.test_class_title:
+    text: 类
+runcfg.unittest.dlg.test_function_title:
+    text: 函数
+runcfg.unittest.dlg.test_method_title:
+    text: 方法
+runcfg.unittest.dlg.test_script_label:
+    text: '脚本:'
+runcfg.unittest.dlg.test_type_title:
+    text: '测试:'
+runcfg.unittest.no_class_name:
+    text: 请指定类名
+runcfg.unittest.no_folder_name:
+    text: 请指定包含测试的文件夹
+runcfg.unittest.no_method_name:
+    text: 请指定方法名称
+runcfg.unittest.no_module_sdk:
+    text: 请选择包含有效 Python SDK 的模块
+runcfg.unittest.no_script_name:
+    text: 请指定脚本名称
+runcfg.unittest.no_sdk:
+    text: 请指定 Python SDK
+runcfg.unittest.no_valid_sdk:
+    text: 请选择有效的 Python 解释器
+sdk.create.venv.conda.dialog.label.python.version:
+    text: 'Python 版本:'
+sdk.create.venv.dialog.label.inherit.global.site.packages:
+    text: 继承全局站点软件包
+sdk.details.dialog.error.duplicate.name:
+    text: 为解释器指定唯一名称
+sdk.details.dialog.show.interpreter.paths:
+    text: 显示所选解释器的路径
+sdk.details.dialog.title:
+    text: Python 解释器
+sdk.edit.dialog.associate.virtual.env.current.project:
+    text: 关联此环境与当前项目
+sdk.edit.dialog.associate.virtual.env.with.path:
+    text: 关联此虚拟环境与 {0}
+sdk.edit.dialog.specify.interpreter.path:
+    text: 指定解释器路径
+sdk.edit.dialog.title:
+    text: 编辑 Python 解释器
+sdk.gen.reloading:
+    text: 正在重新加载生成的框架…
+sdk.gen.stubs.for.binary.modules:
+    text: 生成二进制模块 {0} 的存根
+sdk.gen.updating.interpreter:
+    text: 正在更新 Python 解释器
+sdk.paths.dialog.added.by.user.suffix:
+    text: (用户已添加)
+sdk.paths.dialog.reload.paths:
+    text: 重新加载路径列表
+sdk.paths.dialog.removed.by.user.suffix:
+    text: (用户已移除)
+sdk.paths.dialog.title:
+    text: 解释器路径
+sdk.scanning.installed.packages:
+    text: 正在扫描已安装的软件包
+sdk.select.path:
+    text: 选择 Python 解释器
+sdk.some.skeletons.failed:
+    text: 无法生成某些框架
+smartKeys.insert.self.in.method:
+    text: 定义方法时插入 'self'
+smartKeys.insert.type.placeholder.in.docstring.stub:
+    text: 在文档注释存根中插入类型占位符
+unable.to.stop:
+    text: 无法停止当前正在运行的进程。先手动终止此进程。
+unwrap.elif:
+    text: 解包 elif…
+unwrap.else:
+    text: 解包 else…
+unwrap.for:
+    text: 解包 for…
+unwrap.if:
+    text: 解包 if…
+unwrap.try:
+    text: 解包 try…
+unwrap.while:
+    text: 解包 while…
+unwrap.with:
+    text: 解包 with…
+windowWithActions.closeWindow:
+    text: 关闭窗口
+windowWithActions.stopProcess:
+    text: 停止当前运行的进程

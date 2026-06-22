@@ -1,0 +1,352 @@
+abstract.class.not.allowed:
+    text: 抽象类不允许用于非 abstract Bean
+aop.advice.matching.aspect.bean:
+    text: 一些建议与此 Bean 匹配
+aop.enable.aspectj.fix.text:
+    text: 将 <aop:aspectj-autoproxy/> 添加到 Spring 配置
+aop.errors.inspection.display.name:
+    text: 不正确的 Spring AOP 通知或顾问元素
+aop.warning.aspectj.isnt.enabled:
+    text: 未启用 @AspectJ 支持
+aop.warnings.inspection.display.name:
+    text: 不正确的 Spring AOP 切面或切入点元素
+bean.autowiring.by.type:
+    text: '无法自动装配。存在多个 ''''{0}'''' 类型的 Bean。Bean: {1}。属性: ''''{2}'''''
+bean.autowiring.by.type.none:
+    text: 无法自动装配。找不到 ''{0}'' 类型的 Bean。
+bean.bad.property.type:
+    text: '''''{0}'''' 类型的属性不能由 ''''{1}'''' 注入'
+bean.class.autowired.by.type:
+    text: 无法自动装配。存在多个 ''{0}'' 类型的 Bean。
+bean.class.autowired.incorrect.qualifier.type:
+    text: 无法自动装配。限定 Bean 必须为 ''{0}'' 类型。
+bean.class.unknown.qualifier.bean:
+    text: 找不到具有限定符 ''{0}'' 的 Bean
+bean.dependency.check.message:
+    text: 你必须设置 bean 属性({0})或禁用此 bean 的依赖检查
+bean.must.be.of.type:
+    text: Bean 必须为 ''{0}'' 类型
+bean.must.be.public:
+    text: Bean 必须是 public
+cannot.autowire.bean.of.type:
+    text: 无法自动装配。Bean 必须为 ''{0}'' 类型
+cannot.find.bean.constructor.with.parameters.count:
+    text: 在类 ''{0}'' 中未找到匹配的构造函数
+cannot.find.bean.qualified.by:
+    text: 找不到使用 {0} 限定的 Bean
+cannot.find.constructor.arg.index:
+    text: 找不到实参索引为 {0} 的构造函数
+cannot.find.constructor.arg.index.in.class:
+    text: 在类 {1} 中找不到实参索引为 {0} 的构造函数
+cannot.find.factory.method.index:
+    text: 在类 {1} 中找不到实参索引为 {0} 的工厂方法
+cannot.find.factory.method.with.parameters.count:
+    text: 在类中未找到匹配的工厂方法
+cannot.resolve.method:
+    text: 无法解析方法 ''{0}''
+config.display.name:
+    text: 配置
+config.file.is.not.spring:
+    text: 该文件未被识别为 Spring 配置
+config.file.not.found:
+    text: 找不到文件
+config.new.file:
+    text: Spring 配置
+config.new.file.directory:
+    text: 目录(&D)：
+config.new.file.name:
+    text: 文件名(&F)：
+constructor.arg.incorrect.value.type:
+    text: 注入值类型必须对应于构造函数实参类型
+create.missing.mappings:
+    text: 为 ''{0}'' 创建缺少的映射
+create.missing.properties:
+    text: 创建缺少的属性
+create.new.spring.configuration.file:
+    text: 创建新的 Spring 配置文件
+custom.bean.no.id:
+    text: IntelliJ IDEA 在配置文件中找不到此 Bean 的 ID。重命名可能会生成错误的代码。是否要继续?
+custom.bean.no.id.title:
+    text: 警告
+do.you.want.to.move.bean.to.the.top.level:
+    text: 是否要将该 Bean 移至顶层?
+error.pointcut.or.pointcut.ref.should.be.defined:
+    text: 应定义 pointcut 或 pointcut-ref 特性
+idref.cannot.be.added.in.collection:
+    text: 无法添加到 ''{0}'' 类型的集合中
+incorrect.constructor.arg.index.not.unique:
+    text: 索引必须唯一
+interface.not.allowed:
+    text: 非抽象 Bean 不允许接口
+introduce.bean.intention:
+    text: 引入 Bean
+java.config.bean.method.cannot.be.final:
+    text: '@Bean 方法必须是非 final 的'
+java.config.bean.method.cannot.be.private:
+    text: =@Bean 方法必须不是 private
+java.config.bean.method.cannot.has.arguments:
+    text: '@Bean 方法不能接受任何参数'
+java.config.bean.method.cannot.return.void:
+    text: '@Bean 方法必须不是 void'
+java.config.bean.must.be.declared.inside.configuration:
+    text: '@Bean 方法只有在 @Configuration 注解类中声明时才有效'
+java.configuration.autowired.constructor.param:
+    text: '@Configuration 类不能使用自动装配构造函数'
+java.configuration.cannot.be.final:
+    text: '@Configuration 类不能是 final'
+java.configuration.must.have.default.constructor:
+    text: 配置类必须具有默认/无参数构造函数
+jdk.proxy.intercepts.class:
+    text: 'Bean 属性必须具有接口类型: ''''{0}'''''
+mark.bean.as.abstract:
+    text: 将 Bean 标记为 abstract
+method.cannot.instantiate.bean:
+    text: 工厂方法  ''{0}'' 无法实例化 Bean
+method.must.be.public:
+    text: 工厂方法 ''{0}'' 应为 public
+method.must.be.static:
+    text: 工厂方法 ''{0}'' 必须为 static
+method.must.not.be.static:
+    text: 工厂方法 ''{0}'' 不得为 static
+missing.aspectj.autoproxy.inspection.display.name:
+    text: 缺少 aspectj-autoproxy
+model.add.constructor.args.for.method.quickfix.message:
+    text: 为 ''{0}'' 添加 <constructor-arg>
+model.bean.error.message:
+    text: 无法解析 Bean ''{0}''
+model.bean.quickfix.message:
+    text: 创建新 Bean ''{0}''
+model.create.factory.method.quickfix.message:
+    text: 创建工厂方法 ''{0}''
+model.inspection.bean.autowiring:
+    text: 不正确的 XML Spring Bean 自动装配
+model.inspection.bean.constructor.arg:
+    text: XML Spring Bean 中不正确的构造函数注入
+model.inspection.bean.dependency.check:
+    text: Spring Bean 依赖检查
+model.inspection.bean.factory.method:
+    text: 在 "factory-method" 特性中引用的错误定义的方法
+model.inspection.bean.property.value:
+    text: XML 应用程序上下文中不可分配的注入点类型
+model.inspection.display.bean.name.convention:
+    text: Spring Bean 名称违反约定
+model.inspection.display.name:
+    text: 配置不正确的 'flow' 元素
+model.inspection.injection.value.add.list:
+    text: 添加 <list> 标记
+model.inspection.injection.value.add.map:
+    text: 添加 <map> 标记
+model.inspection.injection.value.add.ref:
+    text: 添加 "ref" 特性
+model.inspection.injection.value.add.set:
+    text: 添加 <set> 标记
+model.inspection.injection.value.consistency:
+    text: XML 应用程序上下文中不一致的注入值
+model.inspection.injection.value.entry.key:
+    text: 映射条目必须指定键
+model.inspection.injection.value.message:
+    text: '{0} 必须指定一个 ref 或 value'
+model.inspection.injection.value.style:
+    text: XML 应用程序上下文中的注入值违反约定
+model.inspection.injection.value.style.message:
+    text: 使用了显式 <value> 元素
+model.inspection.injection.value.style.ref.fix:
+    text: 将 <ref> 元素替换为“{0}”特性
+model.inspection.injection.value.style.ref.message:
+    text: 使用了显式 <ref> 元素
+model.inspection.injection.value.style.value.fix:
+    text: 将 <value> 元素替换为“{0}”特性
+model.inspection.invalid.identifier.message:
+    text: '''''{0}'''' 未遵循 Bean 命名约定'
+model.inspection.invalid.lowercase.name.message:
+    text: '''''{0}'''' 应以小写字母开头'
+model.inspection.validator.description.text:
+    text: Spring 模型
+model.inspection.validator.progress.text:
+    text: 正在验证 Spring 模型…
+model.intention.string.constant.move.to.placeholder:
+    text: 移动到占位符
+model.property.error.message:
+    text: 无法解析属性 ''{0}''
+model.qualifiers.in.class.inspection.display.name:
+    text: Spring Bean 组件中不正确的自动装配
+move.bean:
+    text: 移动 Bean
+move.bean.to.the.top.level:
+    text: 将 Bean 移至顶层
+navigate.to.autowired.dependencies:
+    text: 导航到自动装配的依赖项
+parse.custom.bean.error:
+    text: 解析自定义 Bean 时出错
+parse.custom.bean.intention:
+    text: 解析自定义 Bean
+parse.custom.bean.success:
+    text: 自定义处理程序已成功完成
+parse.no.custom.beans:
+    text: 解析器未生成 Bean
+parse.no.namespace.handler:
+    text: 找不到命名空间 ''{0}'' 的自定义处理程序
+parse.only.infrastructure.beans:
+    text: 解析器仅生成架构 Bean
+parse.these.beans:
+    text: "自定义命名空间处理程序已生成以下 Bean 定义:\n{0}"
+parse.these.beans.induct:
+    text: "自定义命名空间处理程序生成以下 Bean 定义:\n{0}\n\n是否要假设名称空间 ''{1}'' 中\n本地名称为 ''{2}'' 的所有 Bean 具有\n相同的类并且从 ''{3}'' 特性获得 ID?"
+parse.these.beans.induct.only.this:
+    text: 此 Bean
+parsing.custom.bean:
+    text: 正在运行自定义 Spring Bean 处理程序…
+process.unexpectedly.terminated:
+    text: 进程意外终止{0}
+required.properties.inspection:
+    text: '@Required Spring Bean 属性未注入'
+required.properties.missed:
+    text: '缺少必需属性: ''''{0}'''''
+required.property.not.mapped:
+    text: 未注入必需属性 ''{0}''
+required.spring.bean.type.inspection:
+    text: 不正确的注入 Bean 类型
+scopes.inspection.display.name:
+    text: 未知 <bean> 作用域
+security.role.type:
+    text: 安全角色
+show.properties.and.constructor.args:
+    text: 显示属性和构造函数参数
+spring.bean.abstract.bean.references.inspection:
+    text: 对抽象 Bean 不正确的引用
+spring.bean.autowire.escape:
+    text: 将自动装配的依赖项设为显式
+spring.bean.autowire.escape.inspection.name:
+    text: XML 应用程序上下文中不必要的自动装配的依赖项
+spring.bean.class.navigate.choose.class.title:
+    text: 选择 Bean
+spring.bean.class.tooltip.navigate.declaration:
+    text: 导航到 Spring Bean 声明
+spring.bean.constructor.arg:
+    text: 构造函数实参
+spring.bean.dependencies.chooser.title:
+    text: 选择 Bean
+spring.bean.dependency.graph.edge.autowired:
+    text: 自动装配
+spring.bean.dependency.graph.edge.creates:
+    text: 创建
+spring.bean.dependency.graph.edge.depends.on:
+    text: 依赖于
+spring.bean.dependency.graph.edge.inherits:
+    text: 继承
+spring.bean.dependency.graph.edge.injected:
+    text: 依赖于
+spring.bean.duplicated.bean.name.inspection:
+    text: 基于 XML 的应用程序上下文中重复的 Bean 名称
+spring.bean.idref.attributes.inconsistency:
+    text: <idref> 标记只能包含 "bean" 特性或 "local" 特性
+spring.bean.idref.attributes.must.specify:
+    text: <idref> 标记必须指定 Bean
+spring.bean.instantiation.by.factory:
+    text: Spring Bean (已由工厂 Bean 实例化)
+spring.bean.instantiation.inspection:
+    text: 无效的非抽象 Bean 实例化
+spring.bean.instantiation.using.factory.method:
+    text: Spring Bean (由 static 工厂方法实例化)
+spring.bean.lookup.method.bean.has.no.class:
+    text: '''''{0}'''' Bean 没有类'
+spring.bean.lookup.method.constructor.not.allowed:
+    text: 此处不允许使用构造函数
+spring.bean.lookup.method.incorrect.return.type:
+    text: 不正确的查找方法返回值类型
+spring.bean.lookup.method.inspection:
+    text: 不正确的 XML Bean 查找方法配置
+spring.bean.lookup.method.must.be.not.static:
+    text: 此处不允许使用 static 方法
+spring.bean.lookup.method.must.be.public.or.protected:
+    text: 方法必须为 public 或 protected
+spring.bean.lookup.method.must.have.no.parameters:
+    text: 方法不得有形参
+spring.bean.lookup.method.return.type.mismatch:
+    text: Lookup 方法返回值类型与 ''{0}'' Bean 类不匹配
+spring.bean.map.entry:
+    text: 映射条目
+spring.bean.properties.chooser.title:
+    text: 选择属性
+spring.bean.property:
+    text: 属性
+spring.bean.property.navigate.choose.class.title:
+    text: 选择包含属性的 Bean
+spring.bean.property.tooltip.navigate.declaration:
+    text: 导航到 Spring Bean 属性
+spring.bean.property.value.inconsistency.key:
+    text: 映射条目只能包含 "key" 特性或 "key-ref" 特性或 <key> 子元素
+spring.bean.ref.attributes.inconsistency:
+    text: <ref> 标记只能包含 "bean" 特性或 "local" 特性或 "parent" 特性
+spring.bean.ref.attributes.must.specify:
+    text: <ref> 标记必须指定 Bean
+spring.bean.referenced.by.abstract.bean:
+    text: 此处无法使用 abstract Bean
+spring.bean.use.autowire:
+    text: 不必要的自动装配的依赖项
+spring.beans.chooser.all.context.files:
+    text: 所有 Bean
+spring.beans.chooser.show.context.files:
+    text: 显示上下文文件
+spring.beans.dependencies:
+    text: 依赖
+spring.choose.bean.templates.dialog.title:
+    text: 添加 {0} Bean
+spring.facet.inspection.check.test.files:
+    text: 检查测试文件
+spring.generate.constructor.dependencies:
+    text: 构造函数依赖项…
+spring.generate.properties:
+    text: 属性…
+spring.generate.setter.dependencies:
+    text: Setter 依赖项…
+spring.import:
+    text: 导入
+spring.java.configuration.inconsistency.inspection.name:
+    text: Java 配置
+spring.java.configuration.inspection.cannot.find.external.bean:
+    text: 找不到外部 bean
+spring.java.configuration.inspection.class.type.expected:
+    text: 期望类类型
+spring.java.configuration.inspection.incorrect.return.type.of.external.bean:
+    text: 不正确的返回类型。期望 {0}
+spring.java.configuration.inspection.name:
+    text: Java 配置 @ExternalBean
+spring.parent.bean.tooltip:
+    text: 导航到子声明
+spring.patterns:
+    text: 框架/技术
+spring.patterns.data.access.data.source:
+    text: 数据源
+spring.property:
+    text: Spring 属性
+spring.refactoring:
+    text: Spring 重构
+spring.required.property.inspection:
+    text: Spring Xml Bean 声明中缺少 @Required 属性注入
+spring.template.beans:
+    text: 模板 Beans
+this.pointcut.designator.isn.t.supported.by.spring:
+    text: Spring 不支持 {0} 切入点指示符
+timeout.parsing.bean:
+    text: 自定义 Bean 解析时间过长
+try.parsing.custom.beans:
+    text: 尝试解析自定义 Bean
+unparsed.custom.bean.inspection:
+    text: 未解析的自定义 Spring Bean
+unparsed.custom.bean.message:
+    text: 此自定义 Spring Bean 尚未解析
+update.schema.intention:
+    text: 转换为 Spring XML 架构
+use.cglib.proxying:
+    text: 使用 CGLIB 代理
+use.p.namespace:
+    text: 转换为 p-namespace
+util.schema.inspection.name:
+    text: XML 应用程序上下文中定义的配置不正确的 'util' 架构 Bean
+warning.pointcut.should.have.id:
+    text: 切入点应具有 ID
+xml.schema.update.is.required:
+    text: 需要更新 XML 架构
+xml.schema.will.be.updated:
+    text: "XML 架构将更新为 spring-beans.xsd。\n是否要继续?"

@@ -1,0 +1,44 @@
+Integration.name:
+    text: '{0} 服务器'
+PersistentDataEditor.label.home:
+    text: '{0} 主目录(&H):'
+PersistentDataEditor.label.version:
+    text: '{0} 版本:'
+PersistentDataEditor.chooser.title:
+    text: '{0} 主目录'
+PersistentDataEditor.chooser.description:
+    text: 选择 {0} 主目录
+PersistentDataEditor.warning:
+    text: <html><body><b>警告:</b> 所选目录不是有效的 {0} 主页</body></html>
+PersistentDataEditor.unknown:
+    text: <未知>
+ServerHelper.libraries.title:
+    text: 正在搜索应用程序服务器库
+ServerHelper.libraries.error:
+    text: 未找到应用程序服务器库
+ConfigurationType.name:
+    text: '{0} 服务器'
+ConfigurationType.description:
+    text: '{0} 服务器运行配置'
+RunEditor.title:
+    text: '{0} 服务器设置'
+RunEditor.username:
+    text: '用户名(&U):'
+RunEditor.password:
+    text: '密码(&W):'
+AppDescriptor.title:
+    text: '{0} 应用程序部署描述符'
+EjbDescriptor.title:
+    text: '{0} EJB 部署描述符'
+CmpDescriptor.title:
+    text: '{0} CMP 部署描述符'
+WebDescriptor.title:
+    text: '{0} Web 部署描述符'
+ServerModel.password:
+    text: 已指定用户名，但未指定密码
+ServerModel.logfile:
+    text: '{0} 日志'
+ServerInstance.artifact.status:
+    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] 工件 {1}: {2}\n"
+Error.fileNotFound:
+    text: 未找到文件 ''{0}''
