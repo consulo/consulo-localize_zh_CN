@@ -1,0 +1,192 @@
+all.invocations.and.remove.the.method:
+    text: 内联所有调用并移除方法(&A)
+all.invocations.in.project:
+    text: 内联项目中的所有调用(&A)
+cannot.find.a.single.definition.to.inline.field:
+    text: 字段没有初始值设定项
+cannot.find.a.single.definition.to.inline.local.var:
+    text: 找不到内联局部变量的单一定义
+cannot.inline.0.:
+    text: 无法内联{0}
+cannot.inline.reference.0:
+    text: "无法内联引用 ''{0}''"
+cannot.introduce.field.in.interface:
+    text: 无法在接口中引入字段
+cannot.introduce.field.in.script:
+    text: 作用域内没有类
+cannot.rename.property.0:
+    text: "无法重命名重写方法 <bold>''{1}''</bold> 的属性 <bold>''{0}''</bold>"
+cannot.rename.script.class.to.0:
+    text: "无法将脚本类 ''{0}'' 重命名为 ''{1}''"
+changeSignature.no.type.for.exception:
+    text: 指定一个类型给异常
+changeSignature.not.throwable.type:
+    text: "类型错误: 异常的 ''{0}''，应扩展 java.lang.Throwable"
+changeSignature.refactoring.name:
+    text: 更改签名
+changeSignature.wrong.type.for.exception:
+    text: "类型错误: 异常的 ''{0}''"
+changing.signature.of.0:
+    text: 更改{0}的签名
+class.does.not.exist.in.the.module:
+    text: 模块中不存在类。是否要创建?
+class.language.is.not.groovy:
+    text: 目标类的语言不是 Groovy
+closure.uses.external.variables:
+    text: 闭包使用外部非常量变量
+column.name.default.value:
+    text: '默认值:'
+column.name.name:
+    text: 名称
+column.name.type:
+    text: 类型
+convert.to.java.can.work.only.with.groovy:
+    text: 转换为 Java 重构仅适用于 Groovy 文件
+convert.to.java.refactoring.name:
+    text: 转换为 Java
+converting.files.to.java:
+    text: 正在将文件转换为 Java
+declare.final:
+    text: 声明 final(&F)
+error.wrong.caret.position.method.name:
+    text: 文本光标应置于要重构的方法的名称处。
+expression.contains.errors:
+    text: 表达式包含错误
+extract.method.title:
+    text: 提取方法
+field.0.is.already.defined:
+    text: 字段 {0} 已定义
+field.cannot.be.initialized.in.field.declaration:
+    text: 无法在声明中初始化字段
+field.is.not.accessible.form.context.0:
+    text: 不能从调用点访问内联方法中使用的字段 {0}
+files.to.be.converted:
+    text: 要转换的文件
+final.field.cant.be.initialized.in.cur.method:
+    text: 无法在当前方法中初始化最终字段
+inline.local.variable.prompt.0.1:
+    text: "内联局部变量 ''{0}''?"
+inline.method.border.title:
+    text: 内联
+inline.method.label:
+    text: 方法 {0}
+inline.method.title:
+    text: 内联方法
+inline.variable.title:
+    text: 内联变量
+introduce.closure.parameter.elements.header:
+    text: 正在将形参添加到闭包
+introduce.variable.title:
+    text: 引入变量
+introduced.variable.conflicts.with.parameter.0:
+    text: 引入的变量与形参 {0} 冲突
+introduced.variable.conflicts.with.variable.0:
+    text: 引入的变量与局部变量 {0} 冲突
+method.duplicate:
+    text: 具有签名 {0} 的方法已在 {1} 中定义
+method.is.already.defined.in.class:
+    text: 方法 {0} 已在类 {1} 中定义。
+method.is.already.defined.in.script:
+    text: 方法 {0} 已在脚本 {1} 中定义。
+method.is.not.accessible.form.context.0:
+    text: 不能从调用点访问内联方法中使用的方法 {0}
+multiple.output.values:
+    text: 所选代码段有多个输出值
+name.is.wrong:
+    text: "名称 ''{0}'' 不正确"
+name.label:
+    text: '名称(&N):'
+no.occurrences.found:
+    text: 未找到匹配项
+only.in.groovy.files:
+    text: 此重构仅在 Groovy 文件中可用
+parameters.border.title:
+    text: 形参
+press.escape.to.remove.the.highlighting:
+    text: 按 esc 移除高亮显示
+ref.0.will.not.be.resolved.outside.of.current.context:
+    text: "不会在当前上下文范围外解析引用 ''{0}''"
+refactored.method.will.cover.closure.property:
+    text: "重构的方法将重写 {1} 中的闭包属性 ''{0}''"
+refactoring.cannot.be.applied.no.sources.attached:
+    text: '无法应用重构: 未附加任何源'
+refactoring.cannot.be.applied.to.abstract.methods:
+    text: 重构不能应用于 abstract 方法
+refactoring.cannot.be.applied.to.constructors:
+    text: 重构不能应用于构造函数
+refactoring.is.available.only.for.method.calls:
+    text: 重构仅适用于方法调用
+refactoring.is.not.supported.in.method.parameters:
+    text: 闭包或方法形参中不支持重构
+refactoring.is.not.supported.in.parameter.initializers:
+    text: 形参初始值设定项中不支持重构
+refactoring.is.not.supported.in.the.current.context:
+    text: 当前上下文中不支持重构
+refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
+    text: 当 return 语句中断执行流时，不支持重构
+reference.to.accessor.0.is.used:
+    text: 无法内联对访问器 <bold>{0}<bold> 的引用。
+remove.parameter.0.no.longer.used:
+    text: "移除不再使用的形参 ''{0}''"
+rename.groovy.property:
+    text: 重命名 Groovy 属性(&G)
+rename.is.not.applicable.to.implicit.elements:
+    text: 无法重命名隐式元素
+rename.member:
+    text: 重命名 {0}
+rename.property:
+    text: "重命名属性 ''{0}''"
+replace.all.occurrences:
+    text: 替换所有匹配项
+replace.getter.for.property:
+    text: "属性 ''{0}'' 的默认 getter 将被覆盖"
+replace.setter.for.property:
+    text: "属性 ''{0}'' 的默认 setter 将被覆盖"
+return.type.is.wrong:
+    text: 返回值类型错误
+row.move.down:
+    text: 下移(&D)
+row.move.up:
+    text: 上移(&U)
+selected.block.contains.invocation.of.another.class.constructor:
+    text: 所选块包含调用另一个类构造函数
+selected.block.should.represent.a.statement.set:
+    text: 所选块应代表一组语句或表达式
+selected.block.should.represent.an.expression:
+    text: 所选块应该表示一个表达式
+selected.expression.has.void.type:
+    text: 所选表达式具有 void 类型
+selected.expression.should.not.be.lvalue:
+    text: 所选表达式不应位于赋值的左侧
+selected.variable.is.used.for.write:
+    text: 所选变量用于写入
+signature.preview.border.title:
+    text: 签名预览
+specify.default.value:
+    text: "为形参 ''{0}'' 指定默认值或初始值设定项"
+specify.type.label:
+    text: 显式指定返回值类型(&T)
+super.reference.is.used:
+    text: 内联方法中使用的 super 调用在内联后将无效。
+target.class.must.not.be.script:
+    text: 目标类不得为脚本
+there.is.no.method.or.closure:
+    text: 没有包含方法或闭包
+this.invocation.only.and.keep.the.method:
+    text: 仅内联此调用并保留方法(&K)
+type.for.parameter.is.incorrect:
+    text: "形参 ''{0}'' 的类型不正确"
+variable.conflicts.with.field.0:
+    text: 所选名称与字段 {0} 冲突
+variable.conflicts.with.parameter.0:
+    text: 所选名称与形参 {0} 冲突
+variable.conflicts.with.variable.0:
+    text: 所选名称与局部变量 {0} 冲突
+variable.is.accessed.for.writing:
+    text: "变量 ''{0}'' 被访问以进行写入"
+variable.of.type:
+    text: '类型的变量(&T):'
+visibility.border.title:
+    text: 可见性
+you.cannot.pass.as.parameter.0.because.you.remove.1.from.base.method:
+    text: "您无法将 ''{0}'' 作为形参传递，因为您从方法中移除了与其关联的形参 ''{1}''。您应当在形参表中取消选择“移除不再使用的形参 ''{0}''”或取消选择形参 ''{1}''。"
