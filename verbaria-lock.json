@@ -3,7 +3,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-28T18:45:39.719881455Z",
+  "generatedAt" : "2026-06-28T18:49:52.966857940Z",
   "documents" : {
     "consulo-apache-ant/consulo.apache.ant.impl.ApacheAntImplLocalize" : {
       "source" : {
@@ -813,6 +813,20 @@
           "sig" : "284456af0b34b6d33fbaa5ca74d592ff",
           "state" : "Translated",
           "total" : 176,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-toml/consulo.toml.TomlLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "e28d4a65ac630d289bfc0aa2028e7b97"
+      },
+      "translations" : {
+        "zh-CN" : {
+          "sig" : "fec6a0bc5621005a8247f07cb72dcf85",
+          "state" : "Translated",
+          "total" : 9,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
