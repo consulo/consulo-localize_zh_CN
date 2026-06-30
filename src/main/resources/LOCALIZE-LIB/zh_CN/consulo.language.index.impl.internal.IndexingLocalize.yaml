@@ -11,31 +11,31 @@ index.rebuild.notification.title:
 indexable.files.provider.indexing.additional.dependencies:
     text: 正在为依赖项编制索引
 indexable.files.provider.indexing.fileOrDir.name:
-    text: 正在为 ''{0}'' 编制索引
+    text: "正在为 ''{0}'' 编制索引"
 indexable.files.provider.indexing.internal.module.name:
     text: 正在编制索引
 indexable.files.provider.indexing.library.name:
-    text: 正在为库 ''{0}'' 编制索引
+    text: "正在为库 ''{0}'' 编制索引"
 indexable.files.provider.indexing.module.name:
-    text: 正在为模块 ''{0}'' 编制索引
+    text: "正在为模块 ''{0}'' 编制索引"
 indexable.files.provider.indexing.named.provider:
-    text: 正在为 ''{0}'' 编制索引
+    text: "正在为 ''{0}'' 编制索引"
 indexable.files.provider.indexing.sdk:
-    text: 正在为{0} ''{1}'' 编制索引
+    text: "正在为{0} ''{1}'' 编制索引"
 indexable.files.provider.scanning.additional.dependencies:
     text: 正在扫描依赖项
 indexable.files.provider.scanning.fileOrDir.name:
-    text: 正在扫描 ''{0}''
+    text: "正在扫描 ''{0}''"
 indexable.files.provider.scanning.files.contributor:
-    text: 正在扫描 ''{0}''
+    text: "正在扫描 ''{0}''"
 indexable.files.provider.scanning.internal.module.name:
     text: 正在扫描
 indexable.files.provider.scanning.library.name:
-    text: 正在扫描库 ''{0}''
+    text: "正在扫描库 ''{0}''"
 indexable.files.provider.scanning.module.name:
-    text: 正在扫描模块 ''{0}''
+    text: "正在扫描模块 ''{0}''"
 indexable.files.provider.scanning.sdk:
-    text: 正在扫描{0} ''{1}''
+    text: "正在扫描{0} ''{1}''"
 indexes.preparing.to.shutdown.message:
     text: 正在准备要关闭的索引…
 indexes.reloading:
@@ -63,7 +63,7 @@ removing.indexable.set.project.handler:
 search.scope.module:
     text: 在单个模块中
 search.scope.module.runtime:
-    text: 模块 ''{0}'' 运行时作用域
+    text: "模块 ''{0}'' 运行时作用域"
 terms.directory:
     text: 目录
 terms.file:

@@ -1,5 +1,5 @@
 0.expected:
-    text: 应为 ''{0}''
+    text: "应为 ''{0}''"
 PerFileConfigurableBase.empty.text:
     text: 新映射 $addShortcut
 PerFileConfigurableBase.label.project:
@@ -25,11 +25,11 @@ button.do.not.override:
 button.override:
     text: 重写
 cannot.delete.a.read.only.file:
-    text: 无法删除只读文件 ''{0}''。
+    text: "无法删除只读文件 ''{0}''。"
 cannot.modify.a.read.only.directory:
-    text: 无法修改只读目录 ''{0}''。
+    text: "无法修改只读目录 ''{0}''。"
 cannot.resolve.symbol:
-    text: 无法解析符号 ''{0}''
+    text: "无法解析符号 ''{0}''"
 class.context.display:
     text: '{0} ({1} 内)'
 code.display:
@@ -63,7 +63,7 @@ completion.quick.javadoc.ad:
 completion.smart.enter.ad:
     text: 补全(闭合括号等)后使用 {0} 更正代码语法
 compound.run.configuration.cycle:
-    text: '{0} ''''{1}'''' 会导致依赖关系循环，无法添加'
+    text: "{0} ''{1}'' 会导致依赖关系循环，无法添加"
 default.path.evaluator.option:
     text: 指示引用提供程序如何评估给定文件的默认路径
 default.visibility.presentation:
@@ -71,27 +71,27 @@ default.visibility.presentation:
 dialog.message.duplicate.live.templates.in.group:
     text: '{1} 组中存在重复的 `{0}` 活动模板'
 dialog.message.live.template.with.empty.abbreviation:
-    text: 在 ''{0}'' 组中找到了带有空缩写的活动模板，不允许使用此类活动模板
+    text: "在 ''{0}'' 组中找到了带有空缩写的活动模板，不允许使用此类活动模板"
 dialog.message.live.template.with.empty.text:
-    text: 在 ''{1}'' 组中找到了带有空文本的活动模板 ''{0}''，此类活动模板没有意义
+    text: "在 ''{1}'' 组中找到了带有空文本的活动模板 ''{0}''，此类活动模板没有意义"
 dialog.message.template.with.name.already.exists:
-    text: 名称为 ''{0}'' 的模板已存在。请指定其他模板名称
+    text: "名称为 ''{0}'' 的模板已存在。请指定其他模板名称"
 dialog.message.valid.identifier:
-    text: '''''{0}'''' 不是有效的标识符'
+    text: "''{0}'' 不是有效的标识符"
 dialog.template.data.language.caption:
     text: <html><body>模板数据语言是 FreeMarker/Velocity 框架等模板文件中的底层语言。<br>要更改 {0} 为文件、目录或整个项目使用的模板数据语言设置，请根据需要添加其路径，然后从下拉列表中选择一种语言。<br><br><br></body></html>
 el.cannot.resolve.function:
-    text: '无法解析函数 ''''{0}'''' #loc'
+    text: "无法解析函数 ''{0}'' #loc"
 el.cannot.resolve.method:
-    text: '无法解析方法 ''''{0}''''() #loc'
+    text: "无法解析方法 ''{0}''() #loc"
 el.cannot.resolve.namespace:
-    text: '无法解析命名空间 ''''{0}'''' #loc'
+    text: "无法解析命名空间 ''{0}'' #loc"
 el.cannot.resolve.property:
-    text: '能解决属性或方法''''{0}''''(动态属性吗?) #loc'
+    text: "能解决属性或方法''{0}''(动态属性吗?) #loc"
 el.cannot.resolve.variable:
-    text: '无法解析变量 ''''{0}'''' #loc'
+    text: "无法解析变量 ''{0}'' #loc"
 el.colon.expected:
-    text: ''':''是预期的'
+    text: "':'是预期的"
 el.declare.variable.find.acceptable.class:
     text: 查找可接受的类
 el.declare.variable.intention.family:
@@ -117,7 +117,7 @@ el.unexpected.end.of.file:
 el.value.expected:
     text: 值是预期的
 enum.constant.context:
-    text: 枚举常数 ''{0}'' 在 ''{1}''
+    text: "枚举常数 ''{0}'' 在 ''{1}''"
 hint.text.can.t.modify.decompiled.code:
     text: 无法修改反编译代码
 hint.text.couldn.t.find.surround:
@@ -231,7 +231,7 @@ quickfix.change.template.data.language.text:
 search.scope.module:
     text: 在单个模块中
 search.scope.module.runtime:
-    text: 模块 ''{0}'' 运行时作用域
+    text: "模块 ''{0}'' 运行时作用域"
 search.scope.unknown:
     text: <未知作用域>
 status.bar.text.reference.has.been.copied:

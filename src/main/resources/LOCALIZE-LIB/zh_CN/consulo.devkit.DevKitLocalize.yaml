@@ -17,11 +17,11 @@ deployment.view.delete:
 deployment.view.select:
     text: 选择 {0}
 error.cannot.resolve.plugin:
-    text: 无法解析依赖项中的插件 ''{0}''
+    text: "无法解析依赖项中的插件 ''{0}''"
 error.file.not.found:
     text: 找不到文件
 error.file.not.found.message:
-    text: 文件''{0}''未找到
+    text: "文件''{0}''未找到"
 error.no.plugin.xml:
     text: 找不到 plugin.xml 文件
 error.occurred:
@@ -61,11 +61,11 @@ inspections.component.not.registered.quickfix.name:
 inspections.registration.problems.abstract:
     text: 插件组件类不得为 abstract
 inspections.registration.problems.component.duplicate.interface:
-    text: 不允许多个具有相同 'interface-class' 的组件
+    text: "不允许多个具有相同 'interface-class' 的组件"
 inspections.registration.problems.component.incompatible.interface:
-    text: 组件类不可分配给其接口类 ''{0}''
+    text: "组件类不可分配给其接口类 ''{0}''"
 inspections.registration.problems.incompatible.message:
-    text: 根据在 plugin.xml 中的注册，该类应扩展 ''{0}''
+    text: "根据在 plugin.xml 中的注册，该类应扩展 ''{0}''"
 inspections.registration.problems.missing.noarg.ctor:
     text: 操作类必须具有无实参的构造函数
 inspections.registration.problems.name:
@@ -127,7 +127,7 @@ new.menu.project.component.text:
 plugin.descriptor:
     text: IntelliJ 平台插件描述符
 prepare.for.deployment:
-    text: 为部署准备插件模块 ''{0}''
+    text: "为部署准备插件模块 ''{0}''"
 prepare.for.deployment.all:
     text: 为部署准备所有插件模块
 program.parameters:
@@ -147,7 +147,7 @@ sandbox.purpose:
 sandbox.specification:
     text: 请配置沙盒
 saved.message:
-    text: 模块 ''{1}'' 的 {0, choice, 1#Zip|2#JAR} 文件保存至 {2}
+    text: "模块 ''{1}'' 的 {0, choice, 1#Zip|2#JAR} 文件保存至 {2}"
 saved.message.common:
     text: '{0} 将保存在所选目录中'
 sdk.title:
@@ -159,10 +159,10 @@ select.plugin.modules.title:
 select.target.location.of.description:
     text: 选择 {0} 的目标位置
 success.deployment.message:
-    text: 已成功进行插件模块 ''{0}'' 部署准备
+    text: "已成功进行插件模块 ''{0}'' 部署准备"
 success.deployment.message.all:
     text: 已成功进行所有插件的部署准备
 suggest.to.delete:
-    text: 是否删除 ''{0}''?
+    text: "是否删除 ''{0}''?"
 vm.parameters:
     text: 虚拟机选项(&V)

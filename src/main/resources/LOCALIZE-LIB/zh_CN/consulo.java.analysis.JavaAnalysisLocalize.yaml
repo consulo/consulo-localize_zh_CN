@@ -1,15 +1,15 @@
 0.field.is.always.initialized.not.null:
     text: '@{0} 字段始终为初始化的非 null'
 access.can.be.0:
-    text: 访问可以是 ''{0}''
+    text: "访问可以是 ''{0}''"
 access.to.field.code.ref.code.outside.of.declared.guards.loc:
     text: '访问声明的临界外部的字段 <code>#ref</code> #loc'
 add.explicit.type.arguments:
     text: 添加显式类型实参
 annotate.as.safevarargs:
-    text: 注解为 '@SafeVarargs'
+    text: "注解为 '@SafeVarargs'"
 annotate.overridden.methods.parameters:
-    text: 将被重写的方法形参注解为 ''@{0}''
+    text: "将被重写的方法形参注解为 ''@{0}''"
 annotate.overridden.methods.parameters.family.name:
     text: 注解被重写的方法形参
 annotation.on.static.member.qualifying.type.family.name:
@@ -33,17 +33,17 @@ change.visibility.level:
 comparision.between.object.and.primitive:
     text: 对象与基元之间的比较非法，仅在 Java 7 中接受
 contract.return.validator.incompatible.return.parameter.type:
-    text: 返回值类型 ''{0}'' 必须可以从形参类型 ''{1}'' 转换而来
+    text: "返回值类型 ''{0}'' 必须可以从形参类型 ''{1}'' 转换而来"
 contract.return.validator.method.return.incompatible.with.method.containing.class:
     text: 方法返回值类型应与包含类的方法兼容
 contract.return.validator.not.applicable.for.constructor:
     text: 不适用于构造函数
 contract.return.validator.not.applicable.primitive:
-    text: 不适用于基元返回值类型 ''{0}''
+    text: "不适用于基元返回值类型 ''{0}''"
 contract.return.validator.not.applicable.static:
     text: 不适用于 static 方法
 contract.return.validator.return.type.must.be.boolean:
-    text: 方法返回值类型必须为 'boolean'
+    text: "方法返回值类型必须为 'boolean'"
 contract.return.validator.too.few.parameters:
     text: 不适用于{0, choice, 0#无形参|1#有 1 个形参|2#有 {0} 个形参}的方法
 custom.exception.class.should.have.a.constructor:
@@ -69,17 +69,17 @@ dataflow.message.constant.condition:
 dataflow.message.constant.condition.when.reached:
     text: '到达时，条件 <code>#ref</code> #loc 始终为 <code>{0, choice, 0#false|1#true}</code>'
 dataflow.message.constant.expression:
-    text: '<code>#ref</code> #loc 的结果总是 ''''{0}'''''
+    text: "<code>#ref</code> #loc 的结果总是 ''{0}''"
 dataflow.message.constant.method.reference:
-    text: 方法引用结果始终为''{0}''
+    text: "方法引用结果始终为''{0}''"
 dataflow.message.constant.no.ref:
     text: 条件始终为 {0, choice, 0#false|1#true}
 dataflow.message.constant.value:
-    text: '值 <code>#ref</code> #loc 总是 ''''{0}'''''
+    text: "值 <code>#ref</code> #loc 总是 ''{0}''"
 dataflow.message.contract.fail:
-    text: 依据其方法协定，对 '#ref' 的调用始终失败
+    text: "依据其方法协定，对 '#ref' 的调用始终失败"
 dataflow.message.contract.fail.index:
-    text: 由于实参超出范围，对 '#ref' 的调用总是失败
+    text: "由于实参超出范围，对 '#ref' 的调用总是失败"
 dataflow.message.immutable.modified:
     text: 不可变对象已被修改
 dataflow.message.immutable.passed:
@@ -105,13 +105,13 @@ dataflow.message.npe.methodref.invocation:
 dataflow.message.only.switch.label:
     text: 'Switch 标签 <code>#ref</code> #loc 是整个 switch 中唯一可访问的对象'
 dataflow.message.passing.non.null.argument.to.optional:
-    text: 具有非 null 实参的 'Optional.ofNullable()' 应替换为 'Optional.of()'
+    text: "具有非 null 实参的 'Optional.ofNullable()' 应替换为 'Optional.of()'"
 dataflow.message.passing.null.argument:
     text: 正在将 <code>null</code> 实参传递到注解为 @NotNull 的形参
 dataflow.message.passing.null.argument.nonannotated:
     text: 正在将 <code>null</code> 实参传递到非注解形参
 dataflow.message.passing.null.argument.to.optional:
-    text: 具有 null 实参的 'Optional.ofNullable()' 应替换为 'Optional.empty()'
+    text: "具有 null 实参的 'Optional.ofNullable()' 应替换为 'Optional.empty()'"
 dataflow.message.passing.nullable.argument:
     text: '实参 <code>#ref</code> #loc 可能为null'
 dataflow.message.passing.nullable.argument.methodref:
@@ -123,9 +123,9 @@ dataflow.message.passing.nullable.argument.nonannotated:
 dataflow.message.pointless.assignment.expression:
     text: '条件 <code>#ref</code> #loc 在赋值表达式的左侧是永远 <code>{0}</code>. 可以简化'
 dataflow.message.pointless.same.argument.and.result:
-    text: '''#ref'' 的结果与{0,choice,1#第 1 个|2#第 2 个}实参相同使调用毫无意义'
+    text: "'#ref' 的结果与{0,choice,1#第 1 个|2#第 2 个}实参相同使调用毫无意义"
 dataflow.message.pointless.same.arguments:
-    text: '''#ref'' 的实参相同。调用包含相同实参的此方法毫无意义'
+    text: "'#ref' 的实参相同。调用包含相同实参的此方法毫无意义"
 dataflow.message.redundant.assignment:
     text: 变量已被指定给此值
 dataflow.message.redundant.instanceof:
@@ -133,7 +133,7 @@ dataflow.message.redundant.instanceof:
 dataflow.message.redundant.update:
     text: 变量更新不执行任何操作
 dataflow.message.return.notnull.from.nullable:
-    text: '@{0} 方法 ''''{1}'''' 始终返回非 null 值'
+    text: "@{0} 方法 ''{1}'' 始终返回非 null 值"
 dataflow.message.return.null.from.notnull:
     text: <code>null</code> 由声明为 @{0} 的方法返回
 dataflow.message.return.null.from.notnullable:
@@ -163,13 +163,13 @@ dataflow.not.precise:
 dataflow.too.complex:
     text: '{0}太复杂，无法通过数据流算法进行分析'
 delete.repeated.0:
-    text: 删除重复的 ''{0}''
+    text: "删除重复的 ''{0}''"
 delete.repeated.interface:
     text: 删除重复的接口
 delimiters.argument.contains.duplicated.characters:
-    text: StringTokenizer 'delimiters' 实参包含重复字符
+    text: "StringTokenizer 'delimiters' 实参包含重复字符"
 deprecated.member.0.is.still.used:
-    text: 弃用的成员 ''{0}'' 仍在使用
+    text: "弃用的成员 ''{0}'' 仍在使用"
 detach.library.quickfix.name:
     text: 分离库
 detach.library.roots.quickfix.name:
@@ -189,13 +189,13 @@ dfa.find.cause.comparison.arguments.are.different.constants:
 dfa.find.cause.comparison.arguments.are.the.same:
     text: 比较实参相同
 dfa.find.cause.compile.time.constant:
-    text: 编译时常量，求值结果为 ''{0}''
+    text: "编译时常量，求值结果为 ''{0}''"
 dfa.find.cause.condition.is.known.from.place:
-    text: 已知 ''{0}'' 来自 ___PLACE___
+    text: "已知 ''{0}'' 来自 ___PLACE___"
 dfa.find.cause.condition.was.checked.before:
-    text: 条件 ''{0}'' 先前已检查
+    text: "条件 ''{0}'' 先前已检查"
 dfa.find.cause.condition.was.deduced:
-    text: 条件 ''{0}'' 已被推导
+    text: "条件 ''{0}'' 已被推导"
 dfa.find.cause.contract.kind.explicit:
     text: 约定
 dfa.find.cause.contract.kind.hard.coded:
@@ -203,19 +203,19 @@ dfa.find.cause.contract.kind.hard.coded:
 dfa.find.cause.contract.kind.inferred:
     text: 推断约定
 dfa.find.cause.contract.returns.on.condition:
-    text: 根据{0}，{1} ''{2}'' 会在{4}时返回 ''{3}''
+    text: "根据{0}，{1} ''{2}'' 会在{4}时返回 ''{3}''"
 dfa.find.cause.contract.throws.on.condition:
-    text: 根据{0}，{1} ''{2}'' 会在{3}时抛出异常
+    text: "根据{0}，{1} ''{2}'' 会在{3}时抛出异常"
 dfa.find.cause.contract.trivial:
-    text: 根据{0}，{1} ''{2}'' 始终返回 ''{3}'' 值
+    text: "根据{0}，{1} ''{2}'' 始终返回 ''{3}'' 值"
 dfa.find.cause.equality.established.from.condition:
-    text: '''''{0}'''' 自条件建立'
+    text: "''{0}'' 自条件建立"
 dfa.find.cause.field.assigned.nullability:
-    text: 已知字段 ''{0}'' 始终初始化为 ''{1}'' 值
+    text: "已知字段 ''{0}'' 始终初始化为 ''{1}'' 值"
 dfa.find.cause.field.initializer.nullability:
-    text: 字段 ''{0}'' 初始化为 ''{1}'' 值
+    text: "字段 ''{0}'' 初始化为 ''{1}'' 值"
 dfa.find.cause.instanceof.implies.non.nullity:
-    text: '''instanceof'' 检查表示非 null'
+    text: "'instanceof' 检查表示非 null"
 dfa.find.cause.left.operand.range.template:
     text: 左操作数为 %s
 dfa.find.cause.may.be.null:
@@ -227,23 +227,23 @@ dfa.find.cause.nonnull.expression.kind.literal:
 dfa.find.cause.nonnull.expression.kind.newly.created.object:
     text: 新创建的对象
 dfa.find.cause.nonnull.expression.kind.primitive.type:
-    text: 基元类型 ''{0}'' 的值
+    text: "基元类型 ''{0}'' 的值"
 dfa.find.cause.nonnull.expression.kind.this.object:
-    text: '''this'' 对象'
+    text: "'this' 对象"
 dfa.find.cause.nullability.explicitly.annotated:
-    text: '{0} ''''{1}'''' 注解为 ''''{2}'''''
+    text: "{0} ''{1}'' 注解为 ''{2}''"
 dfa.find.cause.nullability.externally.annotated:
-    text: '{0} ''''{1}'''' 外部注解为 ''''{2}'''''
+    text: "{0} ''{1}'' 外部注解为 ''{2}''"
 dfa.find.cause.nullability.inferred:
-    text: '{0} ''''{1}'''' 已推断为 ''''{2}'''''
+    text: "{0} ''{1}'' 已推断为 ''{2}''"
 dfa.find.cause.nullability.inherited.from.class:
-    text: '{0} ''''{1}'''' 自类 {2} 继承注解，因此 ''''{3}'''''
+    text: "{0} ''{1}'' 自类 {2} 继承注解，因此 ''{3}''"
 dfa.find.cause.nullability.inherited.from.container:
-    text: '{0} ''''{1}'''' 继承容器注解，因此 ''''{2}'''''
+    text: "{0} ''{1}'' 继承容器注解，因此 ''{2}''"
 dfa.find.cause.nullability.inherited.from.named.element:
-    text: '{0} ''''{1}'''' 继承自 {2}，因此 ''''{3}'''''
+    text: "{0} ''{1}'' 继承自 {2}，因此 ''{3}''"
 dfa.find.cause.nullability.inherited.from.package:
-    text: '{0} ''''{1}'''' 自软件包 {2} 继承注解，因此 ''''{3}'''''
+    text: "{0} ''{1}'' 自软件包 {2} 继承注解，因此 ''{3}''"
 dfa.find.cause.numeric.cast.operand.template:
     text: 转换操作数为 %s
 dfa.find.cause.numeric.range.generic.template:
@@ -267,17 +267,17 @@ dfa.find.cause.place.line.number:
 dfa.find.cause.range.is.known.from.place:
     text: 从 ___PLACE___ 已知范围
 dfa.find.cause.range.is.specified.by.annotation:
-    text: 注解将 ''{0}'' 的范围指定为 {1}
+    text: "注解将 ''{0}'' 的范围指定为 {1}"
 dfa.find.cause.result.of.numeric.operation.template:
-    text: '''''{0}'''' 的结果为 %s'
+    text: "''{0}'' 的结果为 %s"
 dfa.find.cause.result.of.primitive.cast.template:
-    text: '''''({0})'''' 转换的结果为 %s'
+    text: "''({0})'' 转换的结果为 %s"
 dfa.find.cause.right.operand.range.template:
     text: 右操作数为 %s
 dfa.find.cause.string.length.is.always.non.negative:
     text: 字符串长度始终为非负数
 dfa.find.cause.type.is.known.from.place:
-    text: 从 ___PLACE___ 已知 ''{0}'' 类型
+    text: "从 ___PLACE___ 已知 ''{0}'' 类型"
 dfa.find.cause.type.known:
     text: '{0} 类型为 {1}'
 dfa.find.cause.unable:
@@ -285,21 +285,21 @@ dfa.find.cause.unable:
 dfa.find.cause.value.is.always.the.same:
     text: 值始终为 {0}
 dfa.find.cause.value.is.known.from.place:
-    text: '''''{0}'''' 已知为来自 ___PLACE___ 的 ''''{1}'''''
+    text: "''{0}'' 已知为来自 ___PLACE___ 的 ''{1}''"
 dfa.find.cause.value.x.is.always.the.same:
-    text: 值 ''{0}'' 始终为 ''{1}''
+    text: "值 ''{0}'' 始终为 ''{1}''"
 dfa.find.cause.values.cannot.be.equal.because:
     text: 值不能相等，因为 {0}
 dfa.find.cause.variable.is.initialized:
-    text: '{0} ''''{1}'''' 初始化为 {2}'
+    text: "{0} ''{1}'' 初始化为 {2}"
 dfa.find.cause.was.assigned:
-    text: '''''{0}'''' 已分配'
+    text: "''{0}'' 已分配"
 dfa.find.cause.was.assigned.to:
-    text: '''''{0}'''' 已分配到 ''''{1}'''''
+    text: "''{0}'' 已分配到 ''{1}''"
 dfa.find.cause.was.dereferenced:
-    text: '''''{0}'''' 已取消引用'
+    text: "''{0}'' 已取消引用"
 dfa.find.cause.was.passed.as.non.null.parameter:
-    text: '''''{0}'''' 作为实参传递到接受非 null 形参的方法'
+    text: "''{0}'' 作为实参传递到接受非 null 形参的方法"
 dftype.presentation.empty.optional:
     text: 空 Optional
 dftype.presentation.present.optional:
@@ -327,7 +327,7 @@ exception.removal.will.break.source.code.proceed.anyway:
 explicit.type.argument.ref.loc.can.be.replaced.with:
     text: '显式类型实参 #ref #loc 可被替换为 <>'
 exports.to.itself.delete.module.ref.fix:
-    text: 删除模块''{0}''的引用
+    text: "删除模块''{0}''的引用"
 exports.to.itself.delete.statement.fix:
     text: 删除声明
 feature.annotations:
@@ -337,7 +337,7 @@ feature.binary.literals:
 feature.diamond.types:
     text: Diamond 类型
 feature.enhanced.switch:
-    text: 增强的 'switch' 块
+    text: "增强的 'switch' 块"
 feature.extension.methods:
     text: 扩展方法
 feature.for.each:
@@ -363,7 +363,7 @@ feature.modules:
 feature.multi.catch:
     text: 多 catch
 feature.patterns.instanceof:
-    text: '''instanceof'' 中的模式'
+    text: "'instanceof' 中的模式"
 feature.records:
     text: 记录
 feature.sealed.classes:
@@ -371,9 +371,9 @@ feature.sealed.classes:
 feature.static.interface.calls:
     text: static 接口方法调用
 feature.switch.expressions:
-    text: '''switch'' 表达式'
+    text: "'switch' 表达式"
 feature.text.block.escape.sequences:
-    text: '''\s''转义序列'
+    text: "'\\s'转义序列"
 feature.text.blocks:
     text: 文本块文字
 feature.try.with.resources.refs:
@@ -385,7 +385,7 @@ feature.type.receivers:
 feature.underscores.in.literals:
     text: 在文字中加下划线
 feature.var.lambda.parameter:
-    text: lambda 形参中的 'var'
+    text: "lambda 形参中的 'var'"
 feature.varargs:
     text: 可变 arity 方法
 find.searching.for.references.to.class.progress:
@@ -425,21 +425,21 @@ ignore.inside.non.static.imports:
 ignore.members.of.deprecated.classes:
     text: 忽略弃用类的成员
 ignore.operation.which.results.in.negative.value:
-    text: 忽略 '<<' 操作，后者会导致负值
+    text: "忽略 '<<' 操作，后者会导致负值"
 inspection.annotate.method.quickfix.family.name:
     text: 标注方法
 inspection.annotate.method.quickfix.name:
-    text: 使用 ''@{0}'' 注解方法
+    text: "使用 ''@{0}'' 注解方法"
 inspection.annotate.overridden.method.and.self.quickfix.family.name:
     text: 注解重写的方法和本身
 inspection.annotate.overridden.method.and.self.quickfix.name:
-    text: 使用 ''@{0}'' 注解重写的方法和本身
+    text: "使用 ''@{0}'' 注解重写的方法和本身"
 inspection.annotate.overridden.method.nullable.quickfix.name:
-    text: 将重写的方法注解为 ''@{0}''
+    text: "将重写的方法注解为 ''@{0}''"
 inspection.annotate.overridden.method.quickfix.family.name:
     text: 注释覆盖方法
 inspection.annotate.overridden.method.quickfix.name:
-    text: 使用 ''@{0}'' 注解重写的方法
+    text: "使用 ''@{0}'' 注解重写的方法"
 inspection.anonymous.has.lambda.alternative.display.name:
     text: 匿名类型有较短的 lambda 替代项
 inspection.block.marker.comments.display.name:
@@ -449,7 +449,7 @@ inspection.c.style.array.declarations.option:
 inspection.can.be.final.accept.quickfix:
     text: 设为 final
 inspection.can.be.final.display.name:
-    text: 声明可以有 'final' 修饰符
+    text: "声明可以有 'final' 修饰符"
 inspection.can.be.final.option:
     text: 报告类
 inspection.can.be.final.option1:
@@ -461,19 +461,19 @@ inspection.can.be.local.parameter.problem.descriptor:
 inspection.can.be.local.variable.problem.descriptor:
     text: 变量 <code>#ref</code> 可以具有 <code>final</code> 修饰符
 inspection.can.be.replaced.with.message:
-    text: 可被替换为 ''{0}''
+    text: "可被替换为 ''{0}''"
 inspection.class.getclass.display.name:
-    text: '''Class.getClass()'' 调用可疑'
+    text: "'Class.getClass()' 调用可疑"
 inspection.class.getclass.fix.remove.name:
-    text: 移除 'getClass()' 调用
+    text: "移除 'getClass()' 调用"
 inspection.class.getclass.fix.replace.name:
-    text: 替换为 'Class.class'
+    text: "替换为 'Class.class'"
 inspection.class.getclass.message:
-    text: 在类实例上调用了 'getClass()'
+    text: "在类实例上调用了 'getClass()'"
 inspection.class.has.no.to.string.method.description:
-    text: 类 ''{0}'' 不会重写 ''toString()'' 方法
+    text: "类 ''{0}'' 不会重写 ''toString()'' 方法"
 inspection.class.has.no.to.string.method.display.name:
-    text: 类不会重写 'toString()' 方法
+    text: "类不会重写 'toString()' 方法"
 inspection.class.has.no.to.string.method.exclude.classes.reg.exp.option:
     text: '排除类 (reg exp):'
 inspection.class.has.no.to.string.method.ignore.abstract.classes.option:
@@ -491,11 +491,11 @@ inspection.class.has.no.to.string.method.ignore.test.classes.option:
 inspection.common.if.parts.disable.highlight.tail.call:
     text: 如果尾语句是调用，则不要高亮显示公用部分
 inspection.common.if.parts.family:
-    text: 提取 'if' 语句的公用部分
+    text: "提取 'if' 语句的公用部分"
 inspection.common.if.parts.family.else.if:
-    text: 合并 'else if' 语句
+    text: "合并 'else if' 语句"
 inspection.common.if.parts.family.else.if.description:
-    text: 可以合并 'else if'
+    text: "可以合并 'else if'"
 inspection.common.if.parts.settings.highlight.when.tail.call:
     text: 在最后一条公用语句为调用时高亮显示
 inspection.compiler.javac.quirks.anno.array.comma.fix:
@@ -511,33 +511,33 @@ inspection.compiler.javac.quirks.qualifier.type.args.problem:
 inspection.constant.on.wrong.side.of.a.comparison.side.option:
     text: 常量应位于比较一侧
 inspection.contract.checker.boolean.condition.for.nonboolean.parameter:
-    text: 形参 ''{0}'' 具有 ''{1}'' 类型(应为布尔型)
+    text: "形参 ''{0}'' 具有 ''{1}'' 类型(应为布尔型)"
 inspection.contract.checker.clause.syntax:
     text: 协定子句的格式必须为 arg1, ..., argN -> 返回值
 inspection.contract.checker.contract.clause.never.satisfied:
-    text: 协定子句 ''{0}'' 从未满足，因为以前的协定涵盖了其条件
+    text: "协定子句 ''{0}'' 从未满足，因为以前的协定涵盖了其条件"
 inspection.contract.checker.contract.violated:
-    text: 违反协定子句 ''{0}''
+    text: "违反协定子句 ''{0}''"
 inspection.contract.checker.empty.constraint:
     text: 约束不应为空
 inspection.contract.checker.inferred.notnull.parameter.notnull:
-    text: 形参 ''{0}'' 被推断为非 null，因此 ''!null'' 始终满足
+    text: "形参 ''{0}'' 被推断为非 null，因此 ''!null'' 始终满足"
 inspection.contract.checker.inferred.notnull.parameter.null:
-    text: 形参 ''{0}'' 被推断为非 null，因此 ''null'' 不适用
+    text: "形参 ''{0}'' 被推断为非 null，因此 ''null'' 不适用"
 inspection.contract.checker.method.always.fails.nontrivial:
-    text: 子句 ''{0}'' 的返回值可被替换为 ''fail''，因为此子句中的方法总是失败
+    text: "子句 ''{0}'' 的返回值可被替换为 ''fail''，因为此子句中的方法总是失败"
 inspection.contract.checker.method.always.fails.trivial:
-    text: 子句 ''{0}'' 的返回值可被替换为 ''fail''，因为方法总是失败
+    text: "子句 ''{0}'' 的返回值可被替换为 ''fail''，因为方法总是失败"
 inspection.contract.checker.no.exception.thrown:
-    text: '违反协定子句 ''''{0}'''': 未抛出异常'
+    text: "违反协定子句 ''{0}'': 未抛出异常"
 inspection.contract.checker.notnull.parameter.notnull:
-    text: 形参 ''{0}'' 被注解为非 null，因此 ''!null'' 始终满足
+    text: "形参 ''{0}'' 被注解为非 null，因此 ''!null'' 始终满足"
 inspection.contract.checker.notnull.parameter.null:
-    text: 形参 ''{0}'' 被注解为非 null，因此 ''null'' 不适用
+    text: "形参 ''{0}'' 被注解为非 null，因此 ''null'' 不适用"
 inspection.contract.checker.parameter.count.mismatch:
-    text: 方法采用 {0} 个形参，而协定子句 ''{1}'' 预期 {2} 个
+    text: "方法采用 {0} 个形参，而协定子句 ''{1}'' 预期 {2} 个"
 inspection.contract.checker.primitive.parameter.nullability:
-    text: 形参 ''{0}'' 具有基元类型 ''{1}''，因此 ''{2}'' 不适用
+    text: "形参 ''{0}'' 具有基元类型 ''{1}''，因此 ''{2}'' 不适用"
 inspection.contract.checker.pure.method.mutation.contract:
     text: 纯方法不能有变异协定
 inspection.contract.checker.unknown.constraint:
@@ -545,11 +545,11 @@ inspection.contract.checker.unknown.constraint:
 inspection.contract.checker.unknown.return.value:
     text: '返回值应为以下值之一: {0}。实际为 {1}'
 inspection.contract.checker.unreachable.contract.clause:
-    text: '协定子句 ''''{0}'''' 不可到达: 以前的协定涵盖了所有可能的情况'
+    text: "协定子句 ''{0}'' 不可到达: 以前的协定涵盖了所有可能的情况"
 inspection.contract.display.name:
     text: 合同的问题
 inspection.convert.2.diamond.display.name:
-    text: 显式类型可被替换为 '<>'
+    text: "显式类型可被替换为 '<>'"
 inspection.convert.2.lambda.display.name:
     text: 匿名类型可被替换为 lambda
 inspection.data.flow.redundant.instanceof.quickfix:
@@ -573,7 +573,7 @@ inspection.duplicate.throws.display.name:
 inspection.duplicate.throws.ignore.subclassing.option:
     text: 忽略子类化其他异常的异常
 inspection.duplicate.throws.more.general.problem:
-    text: throws 列表中已经存在一个更一般的异常 ''{0}''。
+    text: "throws 列表中已经存在一个更一般的异常 ''{0}''。"
 inspection.duplicate.throws.problem:
     text: throws 重复
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
@@ -583,27 +583,27 @@ inspection.export.results.can.be.final.description:
 inspection.field.access.not.guarded.display.name:
     text: 不受保护的字段访问或方法调用
 inspection.field.not.used.in.to.string.description:
-    text: 方法 ''{0}'' 未在 ''toString()'' 方法中使用
+    text: "方法 ''{0}'' 未在 ''toString()'' 方法中使用"
 inspection.field.not.used.in.to.string.description2:
-    text: 字段 ''{0}'' 未在 ''toString()'' 方法中使用
+    text: "字段 ''{0}'' 未在 ''toString()'' 方法中使用"
 inspection.field.not.used.in.to.string.display.name:
-    text: 字段未在 'toString()' 方法中使用
+    text: "字段未在 'toString()' 方法中使用"
 inspection.i18n.quickfix.annotate:
     text: 注解…
 inspection.i18n.quickfix.annotate.as:
-    text: 注解为 ''@{0}''
+    text: "注解为 ''@{0}''"
 inspection.i18n.quickfix.annotate.element:
-    text: 注释 {0} ''{1}''…
+    text: "注释 {0} ''{1}''…"
 inspection.i18n.quickfix.annotate.element.as:
-    text: 将{0} ''{1}'' 注解为 ''@{2}''
+    text: "将{0} ''{1}'' 注解为 ''@{2}''"
 inspection.implicit.subclass.display.forClass:
-    text: 类 ''{0}'' 可以隐式子类化，并且不得为 final
+    text: "类 ''{0}'' 可以隐式子类化，并且不得为 final"
 inspection.implicit.subclass.display.name:
     text: final 声明不能在运行时被重写
 inspection.implicit.subclass.extendable:
-    text: 使''{0}''可以覆盖
+    text: "使''{0}''可以覆盖"
 inspection.implicit.subclass.make.class.extendable:
-    text: 使类''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 个必须的方法}可扩展
+    text: "使类''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 个必须的方法}可扩展"
 inspection.inconsistent.language.level.display.name:
     text: 语言级别设置不一致
 inspection.infinite.loop.option:
@@ -611,17 +611,17 @@ inspection.infinite.loop.option:
 inspection.instance.guarded.by.static.display.name:
     text: 由 static 字段保护的实例成员
 inspection.invalid.comparator.method.reference.display.name:
-    text: 用于 'Comparator' 的无效方法引用
+    text: "用于 'Comparator' 的无效方法引用"
 inspection.java.8.list.sort.display.name:
-    text: '''Collections.sort()'' 可被替换为 ''List.sort()'''
+    text: "'Collections.sort()' 可被替换为 'List.sort()'"
 inspection.java.9.redundant.requires.statement.display.name:
-    text: module-info 中的冗余 'requires' 指令
+    text: "module-info 中的冗余 'requires' 指令"
 inspection.java.module.naming:
     text: Java 模块名称与约定相矛盾
 inspection.java.module.naming.terminal.digits:
-    text: 模块名称组件''{0}''应避免终端数字
+    text: "模块名称组件''{0}''应避免终端数字"
 inspection.local.can.be.final.display.name:
-    text: 局部变量或形参可以是 'final'
+    text: "局部变量或形参可以是 'final'"
 inspection.local.can.be.final.option:
     text: 报告局部变量
 inspection.local.can.be.final.option1:
@@ -633,31 +633,31 @@ inspection.local.can.be.final.option3:
 inspection.local.can.be.final.option4:
     text: <html>报告为隐式 final 的变量<br/>(多 catch 或使用 try-with-resources 形参)</html>
 inspection.message.code.generation.different.nullability.annotation.will.be.used:
-    text: 生成的代码将使用 ''@{1}'' 而不是 ''@{0}''
+    text: "生成的代码将使用 ''@{1}'' 而不是 ''@{0}''"
 inspection.message.javac.quick.intersection.type.problem:
-    text: 因为 ''{1}'' 为 final，交叉类型 ''{0}'' 无法实例化
+    text: "因为 ''{1}'' 为 final，交叉类型 ''{0}'' 无法实例化"
 inspection.message.non.annotated.method.implements.non.null.method:
-    text: '''''{1}'''' 中的非注解方法 ''''{0}'''' 实现 ''''{2}'''' 中的非 null 方法'
+    text: "''{1}'' 中的非注解方法 ''{0}'' 实现 ''{2}'' 中的非 null 方法"
 inspection.message.non.annotated.parameter.should.not.override.non.null.parameter:
-    text: '''''{2}'''' 中方法 ''''{1}'''' 的非注解形参 ''''{0}'''' 不应当重写 ''''{3}'''' 中非 null 形参'
+    text: "''{2}'' 中方法 ''{1}'' 的非注解形参 ''{0}'' 不应当重写 ''{3}'' 中非 null 形参"
 inspection.message.non.null.parameter.should.not.override.non.annotated.parameter:
-    text: '''''{2}'''' 中方法 ''''{1}'''' 的非 null 形参 ''''{0}'''' 不应当重写 ''''{3}'''' 中的非注解形参'
+    text: "''{2}'' 中方法 ''{1}'' 的非 null 形参 ''{0}'' 不应当重写 ''{3}'' 中的非注解形参"
 inspection.message.non.null.parameter.should.not.override.nullable.parameter:
-    text: '''''{2}'''' 中方法 ''''{1}'''' 的非 null 形参 ''''{0}'''' 不应当重写 ''''{3}'''' 中可为 null 的形参'
+    text: "''{2}'' 中方法 ''{1}'' 的非 null 形参 ''{0}'' 不应当重写 ''{3}'' 中可为 null 的形参"
 inspection.message.nullable.method.implements.non.null.method:
-    text: '''''{1}'''' 中可为 null 的方法 ''''{0}'''' 实现 ''''{2}'''' 中的非 null 方法'
+    text: "''{1}'' 中可为 null 的方法 ''{0}'' 实现 ''{2}'' 中的非 null 方法"
 inspection.module.exports.package.to.itself:
     text: 模块将软件包导出/打开到本身
 inspection.non.final.field.in.immutable.display.name:
-    text: '''@Immutable'' 类中有非 final 字段'
+    text: "'@Immutable' 类中有非 final 字段"
 inspection.non.final.guard.display.name:
-    text: 非 final '@GuardedBy' 字段
+    text: "非 final '@GuardedBy' 字段"
 inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
     text: 使用 @{0} 注解的形参不得重写 @{1} 形参
 inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
     text: 使用 @{0} 注解的形参不应重写非注解形参
 inspection.nullable.problems.NotNull.parameter.receives.null.literal:
-    text: 使用 @{0} 注解的形参不应该接收 ''null'' 作为实参
+    text: "使用 @{0} 注解的形参不应该接收 ''null'' 作为实参"
 inspection.nullable.problems.Nullable.NotNull.conflict:
     text: 不能同时使用 @{0} 和 @{1} 注解
 inspection.nullable.problems.Nullable.method.overrides.NotNull:
@@ -699,7 +699,7 @@ inspection.nullable.problems.receiver.annotation:
 inspection.numeric.overflow.display.name:
     text: 数值溢出
 inspection.objects.equals.can.be.simplified.display.name:
-    text: '''Objects.equals()'' 可被替换为 ''equals()'''
+    text: "'Objects.equals()' 可被替换为 'equals()'"
 inspection.redundant.cast.display.name:
     text: 冗余类型转换
 inspection.redundant.cast.problem.descriptor:
@@ -709,13 +709,13 @@ inspection.redundant.cast.remove.quickfix:
 inspection.redundant.field.initialization.option:
     text: 仅在初始化为 null 时发出警告
 inspection.redundant.requires.statement.description:
-    text: 冗余指令 ''requires {0}''。
+    text: "冗余指令 ''requires {0}''。"
 inspection.redundant.requires.statement.fix.family:
-    text: 删除冗余 'requires' 指令
+    text: "删除冗余 'requires' 指令"
 inspection.redundant.requires.statement.fix.name:
-    text: 删除指令 ''requires {0}''
+    text: "删除指令 ''requires {0}''"
 inspection.redundant.throws.display.name:
-    text: 冗余 'throws' 子句
+    text: "冗余 'throws' 子句"
 inspection.redundant.throws.problem.descriptor:
     text: 声明的异常 <code>#ref</code> 从不在任何方法实现中抛出
 inspection.redundant.throws.problem.descriptor1:
@@ -743,11 +743,11 @@ inspection.reference.jsp.holder.method.anonymous.name:
 inspection.requires.auto.module:
     text: 依赖于自动模块
 inspection.requires.auto.module.message:
-    text: 自动导入模块需要'requires'指令
+    text: "自动导入模块需要'requires'指令"
 inspection.requires.auto.module.option:
     text: 仅高亮显示可传递依赖项
 inspection.requires.auto.module.transitive:
-    text: 自动模块需要'requires transitive'指令
+    text: "自动模块需要'requires transitive'指令"
 inspection.safe.varargs.detector.display.name:
     text: 形参化 vararg 类型可能导致堆污染
 inspection.same.return.value.display.name:
@@ -761,11 +761,11 @@ inspection.same.return.value.problem.descriptor2:
 inspection.static.guarded.by.instance.display.name:
     text: 由实例字段或 this 防护的 static 成员
 inspection.string.tokenizer.delimiter.display.name:
-    text: '''StringTokenizer'' 中的分隔符重复'
+    text: "'StringTokenizer' 中的分隔符重复"
 inspection.surround.requirenonnull.quickfix:
-    text: 替换为 ''Objects.requireNonNull({0})''
+    text: "替换为 ''Objects.requireNonNull({0})''"
 inspection.suspicious.array.method.call.display.name:
-    text: 可疑的 'Arrays' 方法调用
+    text: "可疑的 'Arrays' 方法调用"
 inspection.suspicious.array.method.call.problem.arrays:
     text: 'Array类型不兼容: 数组总是不同的'
 inspection.suspicious.array.method.call.problem.element:
@@ -773,9 +773,9 @@ inspection.suspicious.array.method.call.problem.element:
 inspection.suspicious.collections.method.calls.display.name:
     text: 可疑的集合方法调用
 inspection.suspicious.collections.method.calls.problem.descriptor:
-    text: '''''{0}''''可能不包含类型''''{1}''''的{2}'
+    text: "''{0}''可能不包含类型''{1}''的{2}"
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: 可疑的调用''{0}''
+    text: "可疑的调用''{0}''"
 inspection.suspicious.getter.setter.field.option:
     text: 仅在存在字段匹配 getter/setter 名称时发出警告
 inspection.suspicious.integer.div.assignment.option:
@@ -787,11 +787,11 @@ inspection.test.only.problems.test.only.method.call:
 inspection.unary.plus.unary.binary.option:
     text: 仅在混乱的二进制或一元表达式上下文中报告
 inspection.unknown.guard.display.name:
-    text: 未知 '@GuardedBy' 字段
+    text: "未知 '@GuardedBy' 字段"
 inspection.unnecessary.super.qualifier.option:
-    text: 忽略说明 'super' 限定符
+    text: "忽略说明 'super' 限定符"
 inspection.use.compare.method.display.name:
-    text: 可以使用 'compare()' 方法比较数值
+    text: "可以使用 'compare()' 方法比较数值"
 inspection.use.compare.method.fix.family.name:
     text: 替换为单个比较方法
 inspection.visibility.accept.quickfix:
@@ -805,7 +805,7 @@ inspection.visibility.option.package.private.members:
 inspection.visibility.package.private.top.level.classes:
     text: 为顶级类建议 package-private 可见性级别
 inspection.visibility.private.inner.members:
-    text: 仅在从外部类引用时为内部类成员建议 'private'
+    text: "仅在从外部类引用时为内部类成员建议 'private'"
 inspection.weaker.access.display.name:
     text: 声明访问可以更弱
 instance.member.guarded.by.static.0.loc:
@@ -819,7 +819,7 @@ intention.add.type.annotation.family:
 intention.family.name.move.annotation.to.array:
     text: 将注解移至数组
 intention.name.qualify.expression:
-    text: 使用 ''{1}'' 限定 {0} 表达式
+    text: "使用 ''{1}'' 限定 {0} 表达式"
 intention.text.remove.annotation:
     text: 移除
 long.range.set.presentation.any:
@@ -839,19 +839,19 @@ long.range.set.presentation.two.values:
 make.0.default.annotation:
     text: 将“{0}”设为默认注解
 make.default.the.last.case.family.name:
-    text: 使 'default' 为最后一个 case
+    text: "使 'default' 为最后一个 case"
 make.final.and.annotate.as.safevarargs:
-    text: 设为 final 并注解为 '@SafeVarargs'
+    text: "设为 final 并注解为 '@SafeVarargs'"
 message.class.inaccessible:
-    text: 类 ''{0}'' 无法在此处访问
+    text: "类 ''{0}'' 无法在此处访问"
 message.class.inaccessible.from.module:
-    text: 类 ''{0}'' 无法从模块 ''{1}'' 访问
+    text: "类 ''{0}'' 无法从模块 ''{1}'' 访问"
 method.reference.mapped.to.comparator:
-    text: 映射到 'Comparator' 接口的方法引用不会履行 'Comparator' 约定
+    text: "映射到 'Comparator' 接口的方法引用不会履行 'Comparator' 约定"
 module.0.with.language.level.1.depends.on.module.2.with.language.level.3:
     text: 语言级别为 {1} 的模块 {0} 取决于语言级别为 {3} 的模块 {2}
 move.0.to.the.beginning:
-    text: 将 ''{0}'' 移至开头
+    text: "将 ''{0}'' 移至开头"
 move.to.front:
     text: 移到前面
 mutability.modifiable:
@@ -863,13 +863,13 @@ mutability.unmodifiable:
 mutability.unmodifiable.view:
     text: 不可修改的视图
 mutation.signature.problem.invalid.token:
-    text: '无效的令牌: {0}；受支持的令牌为 ''''this''''、''''param1''''、''''param2'''' 等。'
+    text: "无效的令牌: {0}；受支持的令牌为 ''this''、''param1''、''param2'' 等。"
 mutation.signature.problem.parameter.has.immutable.type:
-    text: '形参 #{0} 具有不可变类型 ''''{1}'''''
+    text: "形参 #{0} 具有不可变类型 ''{1}''"
 mutation.signature.problem.reference.to.parameter.invalid:
     text: '形参 #{0} 的引用无效'
 mutation.signature.problem.static.method.cannot.mutate.this:
-    text: static 方法无法改变 'this'
+    text: "static 方法无法改变 'this'"
 navigate.to.overridden.methods.title:
     text: '{0} 的重写方法'
 non.final.field.code.ref.code.in.immutable.class.loc:
@@ -919,13 +919,13 @@ remove.dependency:
 remove.left.side.of.assignment:
     text: 移除赋值的左侧
 remove.switch.branch.0:
-    text: 移除 switch 分支 ''{0}''
+    text: "移除 switch 分支 ''{0}''"
 remove.switch.label:
     text: 移除 switch 标签
 remove.switch.label.0:
-    text: 移除 switch 标签 ''{0}''
+    text: "移除 switch 标签 ''{0}''"
 replace.0.with:
-    text: 将 ''{0}()'' 替换为 ''+=''
+    text: "将 ''{0}()'' 替换为 ''+=''"
 replace.anonymous.class.with.lambda.alternative:
     text: 将匿名类替换为 lambda 替代项
 replace.get.class.with.class.literal:
@@ -933,9 +933,9 @@ replace.get.class.with.class.literal:
 replace.operator.assignment.with.assignment:
     text: 将运算符赋值替换为赋值
 replace.stringtokenizer.delimiters.parameter.with.unique.symbols:
-    text: 从 'delimiters' 实参中移除重复内容
+    text: "从 'delimiters' 实参中移除重复内容"
 replace.var.with.explicit.type:
-    text: 将 'var' 替换为显式类型
+    text: "将 'var' 替换为显式类型"
 replace.with.0:
     text: 替换为 {0}
 replace.with.comparator:
@@ -999,17 +999,17 @@ suppress.inspection.method:
 suppress.inspection.module:
     text: 对模块禁止
 suspected.module.dependency.problem.descriptor:
-    text: 模块 ''{0}'' 不依赖于模块 ''{1}''。不过，未检查 ''{1}'' 是否存在作用域 ''{2}'' 所需的导出依赖项
+    text: "模块 ''{0}'' 不依赖于模块 ''{1}''。不过，未检查 ''{1}'' 是否存在作用域 ''{2}'' 所需的导出依赖项"
 suspicious.invocation.handler.implementation.display.name:
-    text: 可疑的 'InvocationHandler' 实现
+    text: "可疑的 'InvocationHandler' 实现"
 suspicious.invocation.handler.implementation.method.unused.message:
-    text: '方法从未在 ''invoke'' 中使用: ''hashCode''、''equals'' 和 ''toString'' 不太可能正确实现'
+    text: "方法从未在 'invoke' 中使用: 'hashCode'、'equals' 和 'toString' 不太可能正确实现"
 suspicious.invocation.handler.implementation.null.returned.for.toString.message:
-    text: '代理方法 ''toString()'' 时，可能返回 null: 不建议如此操作'
+    text: "代理方法 'toString()' 时，可能返回 null: 不建议如此操作"
 suspicious.invocation.handler.implementation.null.returned.message:
-    text: '代理方法 ''''{0}()'''' 时，可能返回 null: 这可能导致 NullPointerException'
+    text: "代理方法 ''{0}()'' 时，可能返回 null: 这可能导致 NullPointerException"
 suspicious.invocation.handler.implementation.type.mismatch.message:
-    text: '代理方法 ''''{0}()'''' 时，可能返回不兼容类型: 要求 {1}，实际为 {2}'
+    text: "代理方法 ''{0}()'' 时，可能返回不兼容类型: 要求 {1}，实际为 {2}"
 text.raw.ctor.reference.with.type.parameters:
     text: 原始构造函数引用具有构造函数的显式类型形参
 text.shebang.mechanism.in.java.files.not.permitted:
@@ -1041,7 +1041,7 @@ unknown.guardedby.reference.ref.loc:
 unnecessary.module.dependency.display.name:
     text: 不必要的模块依赖
 unnecessary.module.dependency.problem.descriptor:
-    text: 模块''{0}''源不依赖于模块''{1}''源
+    text: "模块''{0}''源不依赖于模块''{1}''源"
 unused.import.display.name:
     text: 未使用的 import
 unused.import.statement:
@@ -1049,10 +1049,10 @@ unused.import.statement:
 unused.library.display.name:
     text: 未使用的库
 unused.library.problem.descriptor:
-    text: 未使用的库''{0}''
+    text: "未使用的库''{0}''"
 unused.library.roots.problem.descriptor:
-    text: 未使用的根{0}从库''{1}''
+    text: "未使用的根{0}从库''{1}''"
 var.can.be.replaced.with.explicit.type:
-    text: '''var'' 可被替换为显式类型'
+    text: "'var' 可被替换为显式类型"
 vararg.method.call.with.50.poly.arguments:
     text: 具有超过 50 个 poly 实参的 vararg 方法调用可能会导致编译和分析速度减慢

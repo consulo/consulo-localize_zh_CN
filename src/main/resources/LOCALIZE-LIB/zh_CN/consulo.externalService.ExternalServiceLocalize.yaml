@@ -19,7 +19,7 @@ diagnostic.error.report.additional.info.label:
 diagnostic.error.report.description:
     text: 如果您想得知您所报告的问题的处理结果, 请填写您的JetBrains登录账号和密码.
 diagnostic.error.report.include.attachment.warning:
-    text: '报告将包括附件: ''''<a>{0}</a>''''.'
+    text: "报告将包括附件: ''<a>{0}</a>''."
 diagnostic.error.report.include.attachments.warning:
     text: 报告将包括附件 <a>{0}</a>.
 diagnostic.error.report.login.name:
@@ -45,11 +45,11 @@ diagnostic.out.of.memory.error:
 diagnostic.out.of.memory.title:
     text: 内存溢出
 diagnostic.out.of.memory.willBeSavedTo:
-    text: <html><b>修改将被保存到</b> ''{0}''</html>
+    text: "<html><b>修改将被保存到</b> ''{0}''</html>"
 error.attachments.tab.title:
     text: 附件
 error.cannot.create.temp.dir:
-    text: 无法创建临时目录 ''{0}''
+    text: "无法创建临时目录 ''{0}''"
 error.comments.tab.title:
     text: 注释
 error.details.tab.title:
@@ -133,7 +133,11 @@ error.list.message.submitted.as.link:
 error.list.message.unread:
     text: 未读取的.
 error.list.of.plugins.was.not.loaded:
-    text: "无法从服务器更新插件列表： {0}\n\n可能是下面的错误造成的：\n{1}"
+    text: |-
+        无法从服务器更新插件列表： {0}
+
+        可能是下面的错误造成的：
+        {1}
 error.list.popup.immediately.checkbox:
     text: 下次发生内部错误时,立即弹出这个窗口
 error.list.restart.action:
@@ -215,17 +219,17 @@ progress.download.plugins:
 progress.downloading.list.of.plugins:
     text: 正在从{0}下载插件列表
 progress.downloading.plugin:
-    text: 正在下载插件''{0}''
+    text: "正在下载插件''{0}''"
 prompt.download.and.install.plugin:
-    text: 你想下载并安装插件 ''{0}''?
+    text: "你想下载并安装插件 ''{0}''?"
 prompt.install.several.plugins:
     text: 安装或更新{0}插件?
 prompt.uninstall.plugin:
-    text: 确定要卸载插件''{0}''{1, choice, 0#|1# 更新}吗?
+    text: "确定要卸载插件''{0}''{1, choice, 0#|1# 更新}吗?"
 prompt.uninstall.several.plugins:
     text: 确定要卸载这{0}个插件吗?
 prompt.update.plugin:
-    text: 你想更新插件 ''{0}''?
+    text: "你想更新插件 ''{0}''?"
 several.plugins.depend.on.0.continue.to.remove:
     text: 几个插件依赖于{0}。继续删除吗？
 title.plugin.uninstall:

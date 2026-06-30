@@ -19,19 +19,19 @@ dtd.parser.message.whitespace.expected:
 element.is.not.closed:
     text: 元素未闭合
 expected.attribute.eq.sign:
-    text: 应为 '=' 符号
+    text: "应为 '=' 符号"
 jsp.directive.end.expected:
     text: 应为指令结束
 quote.expected:
     text: 应为引号
 rename.end.tag.name.intention:
-    text: 将结束标记 ''{0}'' 重命名为 ''{1}''
+    text: "将结束标记 ''{0}'' 重命名为 ''{1}''"
 rename.start.tag.name.intention:
-    text: 将开始标记 ''{0}'' 重命名为 ''{1}''
+    text: "将开始标记 ''{0}'' 重命名为 ''{1}''"
 tag.has.wrong.closing.tag.name:
     text: 开始标记具有错误的结束标记
 unknown.encoding.0:
-    text: '未知编码: ''''{0}'''''
+    text: "未知编码: ''{0}''"
 xml.parsing.absent.root.tag:
     text: 有效的 XML 文档必须包含根标签
 xml.parsing.attribute.value.expected:
@@ -63,8 +63,8 @@ xml.parsing.unterminated.processing.instruction:
 xml.schema.validation.attr.not.allowed.with.ref:
     text: 使用元素引用时此处不允许特性 {0}
 xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
-    text: '''default'' 和 ''fixed'' 特性不应同时存在'
+    text: "'default' 和 'fixed' 特性不应同时存在"
 xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
     text: maxOccurs 值应大于 minOccurs 值
 xml.schema.validation.name.or.ref.should.present:
-    text: 应存在 'name' 或 'ref' 特性
+    text: "应存在 'name' 或 'ref' 特性"

@@ -49,7 +49,7 @@ create.copyright.profile:
 detect.copyright.regexp.is.incorrect.configuration.error:
     text: '检测版权正则表达式不正确:'
 dialog.message.duplicate.copyright.profile.name:
-    text: '重复的版权配置文件名称: ''''{0}'''''
+    text: "重复的版权配置文件名称: ''{0}''"
 dialog.message.new.copyright.profile.name:
     text: '新版权配置文件名称:'
 dialog.message.no.copyright.configured:
@@ -59,7 +59,9 @@ dialog.message.the.copyright.settings.imported:
 dialog.message.the.selected.file.copyright.settings:
     text: 所选文件不包含任何版权设置。
 dialog.message.velocity.template.contains.error.0:
-    text: "Velocity 模板包含错误:\n{0}"
+    text: |-
+        Velocity 模板包含错误:
+        {0}
 dialog.message.velocity.template.is.valid:
     text: Velocity 模板有效。
 dialog.title.import.complete:

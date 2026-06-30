@@ -71,7 +71,7 @@ message.part.number.of.unloaded.modules:
 message.part.small.number.of.unloaded.modules:
     text: '{0} 个已卸载模块: {1}'
 message.part.unloaded.module.0:
-    text: 已卸载模块 ''{0}''
+    text: "已卸载模块 ''{0}''"
 message.usage.search.was.canceled:
     text: 用法搜索被取消
 no.usages.found.in:
@@ -113,9 +113,11 @@ references.to.be.changed:
 select.the.usage.to.preview:
     text: 选择要预览的项
 several.occurrences.selected:
-    text: "选择了多个文件。\n从一个文件中选择要预览的匹配项。"
+    text: |-
+        选择了多个文件。
+        从一个文件中选择要预览的匹配项。
 show.usages.advertisement:
-    text: 再次按 {0} 以在 ''{1}'' 中搜索
+    text: "再次按 {0} 以在 ''{1}'' 中搜索"
 show.usages.only.usage:
     text: 它是 {0} 中的唯一用法
 sort.alphabetically.action.text:

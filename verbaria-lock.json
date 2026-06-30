@@ -3,1775 +3,1565 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-28T18:55:07.466342843Z",
+  "generatedAt" : "2026-06-30T09:54:22.298974085Z",
   "documents" : {
     "consulo-apache-ant/consulo.apache.ant.impl.ApacheAntImplLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "869c6487b6106b8a7d21091c18795722"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "1e4318fc84c42bf80de7007cc499e9a4"
+        },
         "zh-CN" : {
-          "sig" : "5e984ee419711b3caab52ca902660c25",
-          "state" : "Translated",
-          "total" : 142,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "5e984ee419711b3caab52ca902660c25"
         }
       }
     },
     "consulo-apache-velocity/consulo.apache.velocity.VelocityLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "74df0a619d6f5983c7f63f8e03a95dbb"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "57cbfd576d3abc7cd9694066aa8b4ea8"
+        },
         "zh-CN" : {
-          "sig" : "c8468240d16ec355718aee692b0fad97",
-          "state" : "Translated",
-          "total" : 68,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "c8468240d16ec355718aee692b0fad97"
         }
       }
     },
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "ba93e7adc971c679f23d0624397a9fb5"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b8acc8d8dcd8d6f6f1fdd1b41cddb59d"
+        },
         "zh-CN" : {
-          "sig" : "eed45da2de552355b9db482a285a5269",
-          "state" : "Translated",
-          "total" : 4,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "eed45da2de552355b9db482a285a5269"
         }
       }
     },
     "consulo-csharp/consulo.csharp.impl.CSharpErrorLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "cb70e93cabd0d558005944dffb1bb07a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e931120524b7dce3a5125f972fb890eb"
+        },
         "zh-CN" : {
-          "sig" : "0afc41b8261b3814f4e0a1fd55e0e64c",
-          "state" : "Translated",
-          "total" : 1,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "0afc41b8261b3814f4e0a1fd55e0e64c"
         }
-      }
-    },
-    "consulo-csharp/consulo.csharp.impl.CSharpInspectionLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "0fff5436ef7cab1410b58ce3da2f9957"
       }
     },
     "consulo-css/consulo.css.CssLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "9345e464349acdb5668dd8d2628ede86"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "cdb16047c1b1569d006c3a6c0adecc17"
+        },
         "zh-CN" : {
-          "sig" : "4afa2f994053a4d82913b2cb73e87d24",
-          "state" : "Translated",
-          "total" : 10,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "4afa2f994053a4d82913b2cb73e87d24"
         }
-      }
-    },
-    "consulo-css/consulo.css.emmet.CssEmmetLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "0dfd660f5d411847d3430fa4499a1743"
       }
     },
     "consulo-devkit/consulo.devkit.DevKitLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "97fe04f05ca3af42332243932c4901bc"
+        "sig" : "a9b29ed4ebd443bf7cbfb6baf4080b4d"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "cfa7df1ebf953458f8d55443386b0cbe"
+        },
         "zh-CN" : {
-          "sig" : "102a3f64c731ed00ca43ffe4c93add0c",
-          "state" : "Translated",
-          "total" : 84,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "102a3f64c731ed00ca43ffe4c93add0c"
         }
-      }
-    },
-    "consulo-devkit/consulo.devkit.grammarKit.BnfLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "5e244d6fe29ba5f70ad51b9fb36baed6"
       }
     },
     "consulo-git/consulo.git.GitBranchesLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "743c5b835ed44e27be3c534154a5cd19"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "501834d39a5fee602aee377b1c738b14"
+        },
         "zh-CN" : {
-          "sig" : "54cd942728ee0c9ce9c494c23bd41ed3",
-          "state" : "Translated",
-          "total" : 2,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "54cd942728ee0c9ce9c494c23bd41ed3"
         }
       }
     },
     "consulo-git/consulo.git.GitLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "f338ec78199638de5f5242469d097f7e"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "ce3cf8cc84fd8cffbdb8f0d7e3c7fc0c"
+        },
         "zh-CN" : {
-          "sig" : "279f6ef9eee38f6acc3d5c109e86930a",
-          "state" : "Translated",
-          "total" : 152,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "279f6ef9eee38f6acc3d5c109e86930a"
         }
       }
     },
     "consulo-github/consulo.github.GithubLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "e468a753896ebf13e78a3f4a84ab5d34"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "7a09e5b8576d3ce3677cd17faeb46cfd"
+        },
         "zh-CN" : {
-          "sig" : "5221fbb7b04442b47b595531eed7a244",
-          "state" : "Translated",
-          "total" : 258,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "5221fbb7b04442b47b595531eed7a244"
         }
-      }
-    },
-    "consulo-google-go/consulo.google.go.GoLocalize" : {
-      "source" : {
-        "revision" : 2,
-        "sig" : "5fd0d0b24e7627d95d0fef089cf3be3b"
       }
     },
     "consulo-google-guice/consulo.google.guice.GoogleGuiceLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "9771d8028d16377abaf9d91b61706298"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "1263e849ac6c95413e429c25be3daf9c"
+        },
         "zh-CN" : {
-          "sig" : "8d467ab1fbe98562ea29bf763a0db7e1",
-          "state" : "Translated",
-          "total" : 63,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "8d467ab1fbe98562ea29bf763a0db7e1"
         }
       }
     },
     "consulo-gradle/consulo.gradle.GradleLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "472d4bf90b0106449ef8e48cec983540"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "9aab62193a2131762a4fd653c3b90c64"
+        },
         "zh-CN" : {
-          "sig" : "a835eca79852c4a16d971ffe29977bd9",
-          "state" : "Translated",
-          "total" : 9,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "a835eca79852c4a16d971ffe29977bd9"
         }
       }
     },
     "consulo-gradle/consulo.gradle.codeInspection.GradleInspectionLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "d48d60633f6be808ae94199b6f255535"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "4c315447458989b9cccee04544d14e3f"
+        },
         "zh-CN" : {
-          "sig" : "c34dc80b80186e0868d9f7053e4766dd",
-          "state" : "Translated",
-          "total" : 3,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "c34dc80b80186e0868d9f7053e4766dd"
         }
       }
     },
     "consulo-groovy/consulo.groovy.GroovyLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "ace07471f570ab08368f8817f74bb4c2"
+        "sig" : "ff74f82112b0eaa3039511ef79466466"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "6c29324c6b3ad29e725c68d472573152"
+        },
         "zh-CN" : {
-          "sig" : "93bd2791ad4ce0e1f01237753eb9ae9b",
-          "state" : "Translated",
-          "total" : 201,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "93bd2791ad4ce0e1f01237753eb9ae9b"
         }
       }
     },
     "consulo-groovy/consulo.groovy.impl.GroovyCodeInsightLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "26e87fd9a2995a1a19bb91d143051933"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "2e6e50a0ae7f2e7cccfbd903b0af9b7a"
+        },
         "zh-CN" : {
-          "sig" : "e65af41add68cb2fb30d4783d33d4022",
-          "state" : "Translated",
-          "total" : 6,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "e65af41add68cb2fb30d4783d33d4022"
         }
       }
     },
     "consulo-groovy/consulo.groovy.impl.GroovyInspectionLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "225bfc9669e624cd8cba4479c6f9316a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "763eaceb54d6844754398026ae0225a7"
+        },
         "zh-CN" : {
-          "sig" : "7602e1c23f1b6a8303c7eeb76536480d",
-          "state" : "Translated",
-          "total" : 51,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "7602e1c23f1b6a8303c7eeb76536480d"
         }
       }
     },
     "consulo-groovy/consulo.groovy.impl.GroovyIntentionLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "bc1c13e78b94d0a9d5690348e7a93242"
+        "sig" : "b1aa83399c7ae50b28c1222e9fd2e4f2"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "c148e27b3bd22df8bac6e836abe0a110"
+        },
         "zh-CN" : {
-          "sig" : "875ec4b5c18bff7d7b81a41633dbd830",
-          "state" : "Translated",
-          "total" : 160,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "875ec4b5c18bff7d7b81a41633dbd830"
         }
       }
     },
     "consulo-groovy/consulo.groovy.impl.GroovyRefactoringLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "8e6dd5adb5ec498b0f80846d23f390ee"
+        "sig" : "ab1bf6d695c5caf49592eb567cfb2c80"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "40198910021768b588ac59a62d0c63cd"
+        },
         "zh-CN" : {
-          "sig" : "edc523ee340885cb90c1c1f5ee29dc0c",
-          "state" : "Translated",
-          "total" : 96,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "edc523ee340885cb90c1c1f5ee29dc0c"
         }
       }
     },
     "consulo-images/consulo.images.ImagesLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "884fbb68a7055c0e1e00ee27ae8a256b"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "f73979f25a633744e740c4b8af19d2ca"
+        },
         "zh-CN" : {
-          "sig" : "7fdb6fd65b3f350a59dc5f0df7574010",
-          "state" : "Translated",
-          "total" : 20,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "7fdb6fd65b3f350a59dc5f0df7574010"
         }
       }
     },
     "consulo-jakarta-web/consulo.jakarta.JakartaLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "a9f948b529554037c1e0678a8f51e578"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "1e1f1a94584504f529926b502bd8f8b7"
+        },
         "zh-CN" : {
-          "sig" : "9698503644b43bd31307e6f66ee74124",
-          "state" : "Translated",
-          "total" : 449,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "9698503644b43bd31307e6f66ee74124"
         }
       }
     },
     "consulo-jakarta-web/consulo.jakartaee.webServer.impl.JakartaWebServerLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "ef0a8aaa7acc32410f4aacb2cb813bb4"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d4e6c44a69cb96ae75b427109d028d87"
+        },
         "zh-CN" : {
-          "sig" : "68ddb154525caca48c2c5d393ef739e0",
-          "state" : "Translated",
-          "total" : 22,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "68ddb154525caca48c2c5d393ef739e0"
         }
       }
     },
     "consulo-java/com.intellij.java.debugger.JavaDebuggerLocalize" : {
       "source" : {
-        "revision" : 2,
-        "sig" : "23f1bfe0e68ceafb9e448abd5cd4f59a"
+        "sig" : "57050d21f2aa2b6dd79e97cc468ae734"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "84589cff3b9fb4437be6c600793a0fff"
+        },
         "zh-CN" : {
-          "sig" : "bd6fb5eaa517e6d053c3f65ca071af4d",
-          "state" : "Translated",
-          "total" : 384,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "bd6fb5eaa517e6d053c3f65ca071af4d"
         }
       }
     },
     "consulo-java/com.siyeh.InspectionGadgetsLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "40e1fc032b1d6252e738965d7e9c31b9"
+        "sig" : "28e94aace9d8b35e8594623f54474190"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "3830b7ce6817efd1622e094f5e64180e"
+        },
         "zh-CN" : {
-          "sig" : "3edd96ce0cd951bbd3870743c935407d",
-          "state" : "Translated",
-          "total" : 1905,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "3edd96ce0cd951bbd3870743c935407d"
         }
       }
     },
     "consulo-java/com.siyeh.IntentionPowerPackLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "fb1a635147022b9c14bc60f0bac31674"
+        "sig" : "c71f8e6edcb7169bc32919981b94d69d"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "4eda2bd604dcdc38f068b72cfdcbdad4"
+        },
         "zh-CN" : {
-          "sig" : "ab08d7b31214262e670f4e37b5a9f693",
-          "state" : "Translated",
-          "total" : 133,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "ab08d7b31214262e670f4e37b5a9f693"
         }
       }
     },
     "consulo-java/consulo.java.JavaCompletionLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "8deac19a932ed6704897905f8221eb43"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "22a077921030e6af3b5c6f4cc9a558be"
+        },
         "zh-CN" : {
-          "sig" : "8aafa8c8e044b518e027e456fb439703",
-          "state" : "Translated",
-          "total" : 8,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "8aafa8c8e044b518e027e456fb439703"
         }
       }
     },
     "consulo-java/consulo.java.JavaLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "dcd18a31b6561aad27a3e8a6da19e44b"
+        "sig" : "88a2c569499aae2cc3ecf06dd6fb0d37"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "cabfc9bfb34964417bb071c92a518786"
+        },
         "zh-CN" : {
-          "sig" : "98ae030765c8f703ed442d19da478b36",
-          "state" : "Translated",
-          "total" : 61,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "98ae030765c8f703ed442d19da478b36"
         }
       }
     },
     "consulo-java/consulo.java.JavaRefactoringLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "ed5d9c45ba638b396f97932e688beae8"
+        "sig" : "a0097133db99f6246f5885816f8a0c83"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "067d05ab22b2ba1ea229e3c41399a15c"
+        },
         "zh-CN" : {
-          "sig" : "1fec8cf10bb17b4968d35e3a863e30fa",
-          "state" : "Translated",
-          "total" : 103,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "1fec8cf10bb17b4968d35e3a863e30fa"
         }
       }
     },
     "consulo-java/consulo.java.analysis.JavaAnalysisLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "8205c2edcf35fad77bef3eec2ae2883b"
+        "sig" : "d60af08202f848601ec7461384fcc432"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "3dc2eea888de63361d423d6fa52be2cb"
+        },
         "zh-CN" : {
-          "sig" : "cc42f465a1fd2b17fe67808722f3803d",
-          "state" : "Translated",
-          "total" : 529,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "cc42f465a1fd2b17fe67808722f3803d"
         }
       }
     },
     "consulo-java/consulo.java.analysis.codeInsight.JavaCodeInsightLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "9a934870ac726cd2eb07b3221ab85305"
+        "sig" : "fbb43a102f3a27b79ea28c302d25c495"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "07cca20a8b1b9ef760d7174e988a14d0"
+        },
         "zh-CN" : {
-          "sig" : "f9bcf3f8523f5362364a3e7633f275e1",
-          "state" : "Translated",
-          "total" : 16,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "f9bcf3f8523f5362364a3e7633f275e1"
         }
       }
     },
     "consulo-java/consulo.java.analysis.impl.JavaInspectionsLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "0f267db6bc074f25a8aa5b33e36e903e"
+        "sig" : "9587649cb0827165a28b2ec71b917a51"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "60bbfec6a892b57174691d563f6668fb"
+        },
         "zh-CN" : {
-          "sig" : "1edba2539b3c1be434fa1e3264d1d629",
-          "state" : "Translated",
-          "total" : 703,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "1edba2539b3c1be434fa1e3264d1d629"
         }
       }
     },
     "consulo-java/consulo.java.analysis.impl.JavaQuickFixLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "f98074ae42e51e07957ec10a82f8e039"
+        "sig" : "9ded7242eaff959415842209a6789aa8"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "8496029b3be8cdfb3f394f181ae5bbe1"
+        },
         "zh-CN" : {
-          "sig" : "f41fcc4e9b6d84565c1cf4c9ab833ea9",
-          "state" : "Translated",
-          "total" : 217,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "f41fcc4e9b6d84565c1cf4c9ab833ea9"
         }
       }
     },
     "consulo-java/consulo.java.compiler.JavaCompilerLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "cdd5315044ac82f30ea194eed978a756"
+        "sig" : "8dfe431e9d5495d9de8efcf49d8be814"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "fe2ea7587a2c3cbbd5c246f452ce0f08"
+        },
         "zh-CN" : {
-          "sig" : "c593bff4e9965301b2bc1923d03d8883",
-          "state" : "Translated",
-          "total" : 2,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "c593bff4e9965301b2bc1923d03d8883"
         }
       }
     },
     "consulo-java/consulo.java.coverage.JavaCoverageLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "22debe12e43ce8e92b5b3386a37dda11"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "9d0f73ce8b26db18d6a84c8dc77ec5e2"
+        },
         "zh-CN" : {
-          "sig" : "0ff96d60ae6c5511dcff782f76811d40",
-          "state" : "Translated",
-          "total" : 38,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "0ff96d60ae6c5511dcff782f76811d40"
         }
       }
     },
     "consulo-java/consulo.java.execution.JavaExecutionLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "779ea2c998675aa67a03e1ba911af87c"
+        "sig" : "36f8a362c9f34e5d024e0f599be255ce"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "28ce15c1e72397d4ec2203fb763f0b53"
+        },
         "zh-CN" : {
-          "sig" : "07ec63cbf1213193160209e1e6dea412",
-          "state" : "Translated",
-          "total" : 11,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "07ec63cbf1213193160209e1e6dea412"
         }
       }
     },
     "consulo-java/consulo.java.language.JavaCompilationErrorLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "434b6fa3c52a47c3ec8ae7d31e09df0b"
+        "sig" : "a63547daa585d0b28d66690d0a885b9c"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "bdf4300227b0c9e427b656a4d568302e"
+        },
         "zh-CN" : {
-          "sig" : "700be3dd27619e0f3642435aa8c62ad1",
-          "state" : "Translated",
-          "total" : 112,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "700be3dd27619e0f3642435aa8c62ad1"
         }
       }
     },
     "consulo-java/consulo.java.language.JavaCoreLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "a4581edab01f14904cfab2277687f7d7"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d3157b37855cb8fab7d257e13350b0d0"
+        },
         "zh-CN" : {
-          "sig" : "0f73cd74e6067b1816429a32077be445",
-          "state" : "Translated",
-          "total" : 5,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "0f73cd74e6067b1816429a32077be445"
         }
       }
     },
     "consulo-java/consulo.java.language.JavaLanguageLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "513f750973703af7d7404c8e3f48fb68"
+        "sig" : "29fbc172300c52c050ced74d0114780c"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "c88bc833d5ef40c0ff96e3efee5da4bc"
+        },
         "zh-CN" : {
-          "sig" : "73c265b4d2de55946858a5fc735da41d",
-          "state" : "Translated",
-          "total" : 154,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "73c265b4d2de55946858a5fc735da41d"
         }
       }
     },
     "consulo-java/consulo.java.language.JavadocLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "ba8ddc0639bf864a8fa83050d24d8e5e"
+        "sig" : "da8ad0c51355eb8d45cf4dc2cef9e820"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e1dd4a694b5a8e6d0b6719ef718c8602"
+        },
         "zh-CN" : {
-          "sig" : "4a6e51f5d14dae8f3a67716c0c241483",
-          "state" : "Translated",
-          "total" : 18,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "4a6e51f5d14dae8f3a67716c0c241483"
         }
       }
     },
     "consulo-java/consulo.java.language.impl.JavaErrorLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "e8ea369d132bc638d919bd56eafda90d"
+        "sig" : "19404181e38e40c047123ddf3fca753a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "8bfdaac3e51f3854857e213590689391"
+        },
         "zh-CN" : {
-          "sig" : "e5103f13bed060c468932dbc6bc4ba3b",
-          "state" : "Translated",
-          "total" : 96,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "e5103f13bed060c468932dbc6bc4ba3b"
         }
       }
     },
     "consulo-java/consulo.java.properties.impl.JavaPropertiesLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "22d31cb20eafab634d61ebb4296b0ea9"
+        "sig" : "c75b72dc938cd9603611160b15d0ac68"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "71f639a3a1f48f0ac9f3f69f90057478"
+        },
         "zh-CN" : {
-          "sig" : "9bc4a3ea2bec011b3072e078b0cd84d9",
-          "state" : "Translated",
-          "total" : 2,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "9bc4a3ea2bec011b3072e078b0cd84d9"
         }
       }
     },
     "consulo-javascript/com.sixrr.inspectjs.InspectionJSLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "67f2239a8c6400e6e1fd434c6ae43a28"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "9f88e5ce830a83d5d85a2e2b7a8b4d5a"
+        },
         "zh-CN" : {
-          "sig" : "89fba20cc3105326ddb70c2aae78dc1b",
-          "state" : "Translated",
-          "total" : 249,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "89fba20cc3105326ddb70c2aae78dc1b"
         }
       }
     },
     "consulo-javascript/consulo.javascript.JavaScriptLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "13560c8c98b51abcba569b52b62f114a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "f14568fd04ac9e74fe69015bee27de4a"
+        },
         "zh-CN" : {
-          "sig" : "55530a7ee16bad733adc74ed0855a27c",
-          "state" : "Translated",
-          "total" : 204,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "55530a7ee16bad733adc74ed0855a27c"
         }
-      }
-    },
-    "consulo-javascript/consulo.javascript.intention.JSIntentionLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "a0c1e71d2a5c5fe0ddb17c26fe7ba399"
-      }
-    },
-    "consulo-javascript/consulo.typescript.TypeScriptLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "65415d82fbab433950bdf9e6658f7767"
       }
     },
     "consulo-json/consulo.json.JsonLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "12d4ed1a191a127e2ea849a2f1337212"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "0d59c46348a700099f5948433afc3969"
+        },
         "zh-CN" : {
-          "sig" : "fb7cd7fd1bd2bb139aed3cf1d4eeea1e",
-          "state" : "Translated",
-          "total" : 195,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "fb7cd7fd1bd2bb139aed3cf1d4eeea1e"
         }
       }
     },
     "consulo-lombok/consulo.lombok.LombokLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "460f677af586c3707a691ff72264a795"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d362cb5994e11365e917699e8440b4bd"
+        },
         "zh-CN" : {
-          "sig" : "411ccbc11a1e13d98160fc2ee4681895",
-          "state" : "Translated",
-          "total" : 133,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "411ccbc11a1e13d98160fc2ee4681895"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenDomLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "0e44d19cfe7a06b41b4c0987b8785c18"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "ab72607951f3fcbbcd38465d6aa4af74"
+        },
         "zh-CN" : {
-          "sig" : "8cb0f5edcbf5ed8e3f0281835b762dc7",
-          "state" : "Translated",
-          "total" : 30,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "8cb0f5edcbf5ed8e3f0281835b762dc7"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenIndicesLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "a59999389f1b35dc3b51ba2ddcd14860"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b34c3ab3ba5dff1806c454fd62e34633"
+        },
         "zh-CN" : {
-          "sig" : "89e55916e8b13564f49967de0ec5e4db",
-          "state" : "Translated",
-          "total" : 8,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "89e55916e8b13564f49967de0ec5e4db"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "2857a03af264c77f27502a91a83f399d"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "229f7e37f09e49bf016aeb1b8150a0fd"
+        },
         "zh-CN" : {
-          "sig" : "a550389d21640453283f6bb6326ee634",
-          "state" : "Translated",
-          "total" : 3,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "a550389d21640453283f6bb6326ee634"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenProjectLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "e18dbe18d45c3cc89eeaa0d1b709bc3a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "183515fc19b70249565a05290928c974"
+        },
         "zh-CN" : {
-          "sig" : "86a85b4dd4daae18ec3e4153d92bd257",
-          "state" : "Translated",
-          "total" : 50,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "86a85b4dd4daae18ec3e4153d92bd257"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenRunnerLocalize" : {
       "source" : {
-        "revision" : 2,
         "sig" : "88e8fb6cffeafead27c2d0de5384a884"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "104775a66cee34e6f7816cf64e1ca992"
+        },
         "zh-CN" : {
-          "sig" : "1f09b0124ad7575e3c6e2c18eafe132d",
-          "state" : "Translated",
-          "total" : 53,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "1f09b0124ad7575e3c6e2c18eafe132d"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenSyncLocalize" : {
       "source" : {
-        "revision" : 2,
         "sig" : "752abbe29120d656d17691112fc74ef3"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e97b84b78d5282a29dd371b0e5336b9e"
+        },
         "zh-CN" : {
-          "sig" : "a8811fc205cf15e253e01f8c6cf57c48",
-          "state" : "Translated",
-          "total" : 86,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "a8811fc205cf15e253e01f8c6cf57c48"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenTasksLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "e92ed80d5cc1a45560999ba007eecc2a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "91a32fbdfd1a2818f22b96da0dcd3722"
+        },
         "zh-CN" : {
-          "sig" : "ffa434e42eb2d326a794c16ec0bd8a59",
-          "state" : "Translated",
-          "total" : 8,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "ffa434e42eb2d326a794c16ec0bd8a59"
         }
-      }
-    },
-    "consulo-msbuild/consulo.msbuild.MSBuildLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "da3f98ca8e6cbd18fbb08ddd913f17fa"
       }
     },
     "consulo-properties/consulo.properties.PropertiesLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "825cec4f58181cbaab31641c59b3bf20"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e9ee21ff329fb41d08a9f5785cf6b283"
+        },
         "zh-CN" : {
-          "sig" : "177399196545d6d9f817ee2fb407d2e7",
-          "state" : "Translated",
-          "total" : 42,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "177399196545d6d9f817ee2fb407d2e7"
         }
       }
     },
     "consulo-python/consulo.python.impl.PyLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "680638f6239743439aca0e67a5a4d8a5"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "1efb973378e03aed52d51fbf88c1097a"
+        },
         "zh-CN" : {
-          "sig" : "2ef474b1e02c84165b07f06da9a4cc62",
-          "state" : "Translated",
-          "total" : 454,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "2ef474b1e02c84165b07f06da9a4cc62"
         }
       }
     },
     "consulo-regexp/consulo.regexp.RegExpLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "c97175748972ad6de7c4efd044747961"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "09184f6bb87a9b5a0e4a42bdf420bb0a"
+        },
         "zh-CN" : {
-          "sig" : "22fb40ed2ffdd7793fee07f3130c6976",
-          "state" : "Translated",
-          "total" : 183,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "22fb40ed2ffdd7793fee07f3130c6976"
         }
       }
     },
     "consulo-spellchecker/consulo.spellchecker.SpellCheckerLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "9161bc69eff07d34ba1eaa2b809de6dc"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "454713cffbedaee7df52980ed0881fb0"
+        },
         "zh-CN" : {
-          "sig" : "f6afc05b5a3fef90b7a579644b284f03",
-          "state" : "Translated",
-          "total" : 18,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "f6afc05b5a3fef90b7a579644b284f03"
         }
       }
     },
     "consulo-spring/consulo.aop.AopLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "26e1f70df4ac2abada6e02fecd55acdf"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "1773e2e09c8c0cada81bea077519954b"
+        },
         "zh-CN" : {
-          "sig" : "d6e680628403b4f246719965e4c3c12c",
-          "state" : "Translated",
-          "total" : 53,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "d6e680628403b4f246719965e4c3c12c"
         }
       }
     },
     "consulo-spring/consulo.spring.SpringLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "2115317d1f0f140d076242dd63b61f21"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "5bbc7f192b79e7c260b5cda5363ad7c7"
+        },
         "zh-CN" : {
-          "sig" : "284456af0b34b6d33fbaa5ca74d592ff",
-          "state" : "Translated",
-          "total" : 176,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "284456af0b34b6d33fbaa5ca74d592ff"
         }
       }
     },
     "consulo-toml/consulo.toml.TomlLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "e28d4a65ac630d289bfc0aa2028e7b97"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "322d5f123cb57a54b18b94d7fcaabc79"
+        },
         "zh-CN" : {
-          "sig" : "fec6a0bc5621005a8247f07cb72dcf85",
-          "state" : "Translated",
-          "total" : 9,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "fec6a0bc5621005a8247f07cb72dcf85"
         }
-      }
-    },
-    "consulo-unity3d/consulo.unity3d.Unity3dLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "782259d1d3470c9494562253c5657182"
       }
     },
     "consulo-xml/consulo.xml.XmlErrorLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "cd1261fc97f65f1489fa9d0e97d179c9"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "f65d9ed50672356f85588c8f35e138d6"
+        },
         "zh-CN" : {
-          "sig" : "78b6aa2cee89bb5cdaf7ae9c30c35d7a",
-          "state" : "Translated",
-          "total" : 35,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "78b6aa2cee89bb5cdaf7ae9c30c35d7a"
         }
       }
     },
     "consulo-xml/consulo.xml.XmlLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "4f1a4f3457dcea431fb255280db5fce4"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "036d11ed18f34d2a0adfb1d32feb37e5"
+        },
         "zh-CN" : {
-          "sig" : "2dddfd61f942febe2a9a7ad414d7984c",
-          "state" : "Translated",
-          "total" : 192,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "2dddfd61f942febe2a9a7ad414d7984c"
         }
       }
     },
     "consulo-xml/consulo.xml.dom.DomLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "20b947b39f7a35e4b9f2416ab900733d"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "fd962e402a643e138a7b09c05078d322"
+        },
         "zh-CN" : {
-          "sig" : "64d2d9827d3c2f66c7dd8324a56e4cc4",
-          "state" : "Translated",
-          "total" : 21,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "64d2d9827d3c2f66c7dd8324a56e4cc4"
         }
-      }
-    },
-    "consulo-xml/consulo.xml.relaxNG.RelaxNGLocalize" : {
-      "source" : {
-        "revision" : 1,
-        "sig" : "64969f1e400078ca43ebe7e3973eaa6c"
       }
     },
     "consulo-yaml/consulo.yaml.YAMLLocalize" : {
       "source" : {
-        "revision" : 1,
         "sig" : "45f9eb5b3b854d7bfa7e6a27af53fa04"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "5c215a316ef115ee5e50403502a7f34b"
+        },
         "zh-CN" : {
-          "sig" : "8a2980f8862ee9df044555b6f1837f4a",
-          "state" : "Translated",
-          "total" : 56,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "8a2980f8862ee9df044555b6f1837f4a"
         }
       }
     },
     "consulo/consulo.application.ApplicationLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "534b809b3216d2428dea3fb207e04565"
+        "sig" : "e1c6cf530e29e3ab11e349cba950c21a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "59e87f0df84100c79cc5ee21421e4756"
+        },
         "zh-CN" : {
-          "sig" : "745227c8ed966ed24363373ab5c71344",
-          "state" : "Translated",
-          "total" : 695,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "745227c8ed966ed24363373ab5c71344"
         }
-      }
-    },
-    "consulo/consulo.bookmark.BookmarkLocalize" : {
-      "source" : {
-        "revision" : 6,
-        "sig" : "177aa329991abb5140626d5502478f25"
       }
     },
     "consulo/consulo.build.ui.BuildLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "8bc1d1bab5906b23b936683f5fa39a17"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d6300f56f0babfee0bdede2228d0bad9"
+        },
         "zh-CN" : {
-          "sig" : "d6eae0b633616e97e99c2de929c21106",
-          "state" : "Translated",
-          "total" : 26,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "d6eae0b633616e97e99c2de929c21106"
         }
       }
     },
     "consulo/consulo.builtinWebServer.BuiltInServerLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "ab8f35f6fd6d4e68bb40c85ef30a1364"
+        "sig" : "e5b0f095ebe4062a5b8efefbd0ab103b"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d4293f67c4e385fd431e230567d43bd5"
+        },
         "zh-CN" : {
-          "sig" : "a70c36aaf120d74458311c6fa3f1ecfa",
-          "state" : "Translated",
-          "total" : 11,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "a70c36aaf120d74458311c6fa3f1ecfa"
         }
       }
     },
     "consulo/consulo.codeEditor.CodeEditorLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "e39e0fb1a172a13133351b2c748cb2e0"
+        "sig" : "fb479e084243111bcefa043bac883e80"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "c94235e520dd817920ace52bdc81519a"
+        },
         "zh-CN" : {
-          "sig" : "7bbf4a215d051f6f39a129b4e17ce8fc",
-          "state" : "Translated",
-          "total" : 48,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "7bbf4a215d051f6f39a129b4e17ce8fc"
         }
       }
     },
     "consulo/consulo.compiler.CompilerLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "245147d9f551385e3927746cbe5df0d6"
+        "sig" : "c49fd53786b570f35f70b32da2a4b6bc"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d8e5203a812b1cc26b7d71f8975d62f4"
+        },
         "zh-CN" : {
-          "sig" : "07302ba159de64efb0c8a40836dcca9a",
-          "state" : "Translated",
-          "total" : 90,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "07302ba159de64efb0c8a40836dcca9a"
         }
       }
     },
     "consulo/consulo.configurable.ConfigurableLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "2cf65a7063939ab2581d6877b2106e39"
+        "sig" : "10e1d2663cb3931faa37ec7fe11c44c6"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e80195648d586c483cab2fd97d7d23e1"
+        },
         "zh-CN" : {
-          "sig" : "1fdf6f54961c0c0f60c4d214008cbf5d",
-          "state" : "Translated",
-          "total" : 241,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "1fdf6f54961c0c0f60c4d214008cbf5d"
         }
       }
     },
     "consulo/consulo.credentialStorage.CredentialStorageLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "d510432a1bb5f352877a26795166759f"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "d1defc42e9d5c7a487cedf4f6f2719fd"
+        },
         "zh-CN" : {
-          "sig" : "d1defc42e9d5c7a487cedf4f6f2719fd",
-          "state" : "Translated",
-          "total" : 50,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "d1defc42e9d5c7a487cedf4f6f2719fd"
         }
       }
     },
     "consulo/consulo.diff.DiffLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "3d7dace15ba5db48ddc743151e71a15b"
+        "sig" : "0f121b213259eacdbe951953e90c1817"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "059f20a627c436d5754f18f0cdbbfd30"
+        },
         "zh-CN" : {
-          "sig" : "38ac70ac25c9f0d75107e227bded12fa",
-          "state" : "Translated",
-          "total" : 120,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "38ac70ac25c9f0d75107e227bded12fa"
         }
       }
     },
     "consulo/consulo.execution.ExecutionLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "a3672f75281b1e00f0f38c816a1404e7"
+        "sig" : "19c1e544c695b154fc07481afbff6c27"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "7873ab38a1a4e04dd7ebc19cf0d0f724"
+        },
         "zh-CN" : {
-          "sig" : "3e7249aa866cc92778a88448c67860fb",
-          "state" : "Translated",
-          "total" : 381,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "3e7249aa866cc92778a88448c67860fb"
         }
       }
     },
     "consulo/consulo.execution.coverage.ExecutionCoverageLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "bc345e5af49df57e1a4dec1ff02dd3fc"
+        "sig" : "a42e1a2cd9aa54e6f68677543be15b92"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e6da4827e946ae99cd66566566b5652b"
+        },
         "zh-CN" : {
-          "sig" : "d644710d7702d8930f064abc78d06b8c",
-          "state" : "Translated",
-          "total" : 87,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "d644710d7702d8930f064abc78d06b8c"
         }
       }
     },
     "consulo/consulo.execution.debug.XDebuggerLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "87c0547d8d8c9c56e180d21b319be016"
+        "sig" : "ae61393d863b9dded0707ebbe2416972"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "87b83cab5a03d383eb54dd723c9e15f6"
+        },
         "zh-CN" : {
-          "sig" : "81f8fca2b0bf0d450e1666b371107aef",
-          "state" : "Translated",
-          "total" : 166,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "81f8fca2b0bf0d450e1666b371107aef"
         }
       }
     },
     "consulo/consulo.execution.test.ExecutionTestLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "32185156da672942a63c09e63b655a2d"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "fc2a5cd2c28c2ee19982c30a263e0892"
+        },
         "zh-CN" : {
-          "sig" : "f3e671333982c8ff41ab752473202e64",
-          "state" : "Translated",
-          "total" : 7,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "f3e671333982c8ff41ab752473202e64"
         }
       }
     },
     "consulo/consulo.execution.test.sm.SMTestLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "2e2a1226b7ff1d8bc8e1b374526fa3e2"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b2d619dc8ef256e10db98a0e78f79410"
+        },
         "zh-CN" : {
-          "sig" : "4132b92820e79bbb9dc727075b8f1ea8",
-          "state" : "Translated",
-          "total" : 65,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "4132b92820e79bbb9dc727075b8f1ea8"
         }
       }
     },
     "consulo/consulo.externalService.ExternalServiceLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "9c2a73eaaebfe5019724333953856ce7"
+        "sig" : "b9ddf146209505094200bc9d1a422d66"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "6ce0cf6474aed9589a7387e3492088da"
+        },
         "zh-CN" : {
-          "sig" : "4c6b697efd25cb53fb4bf7284f2e205e",
-          "state" : "Translated",
-          "total" : 131,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "4c6b697efd25cb53fb4bf7284f2e205e"
         }
       }
     },
     "consulo/consulo.externalSystem.ExternalSystemLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "9d2ba59dbb4cf50c727aadc378b97615"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "bcf9fce4cd56e3441089f3a871ba5b2e"
+        },
         "zh-CN" : {
-          "sig" : "cb9d0e25b629ae9fdd7cd6bbc10ce117",
-          "state" : "Translated",
-          "total" : 33,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "cb9d0e25b629ae9fdd7cd6bbc10ce117"
         }
       }
     },
     "consulo/consulo.externalTool.impl.internal.ExternalToolLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "8b9df571daf241005413c05946f35d7b"
+        "sig" : "e7fb8addc6ff5bff4bf99d1e7e653362"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "c805a7d7cf6608f7126b04bb63910ec1"
+        },
         "zh-CN" : {
-          "sig" : "5dd4239b4324536c4dffeb8e44118f5a",
-          "state" : "Translated",
-          "total" : 63,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "5dd4239b4324536c4dffeb8e44118f5a"
         }
       }
     },
     "consulo/consulo.fileChooser.FileChooserLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "cab1a2c06dee9d79ec417e91efafd2bc"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e4819e4242581f3a3153ed37d724de10"
+        },
         "zh-CN" : {
-          "sig" : "579334ae362cad68ffbae76a1ae7a63d",
-          "state" : "Translated",
-          "total" : 4,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "579334ae362cad68ffbae76a1ae7a63d"
         }
       }
     },
     "consulo/consulo.fileEditor.FileEditorLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "c1c967aee14f473d6c4503281196ac31"
+        "sig" : "b97ed68b0c47084df9b5167709881ef7"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "9ac17f785f511511479713ec917a7d1f"
+        },
         "zh-CN" : {
-          "sig" : "fe926a38f0be5a227014e7b8b12cd0aa",
-          "state" : "Translated",
-          "total" : 53,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "fe926a38f0be5a227014e7b8b12cd0aa"
         }
       }
     },
     "consulo/consulo.fileTemplate.FileTemplateLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "df44cb0709abb85bdfd02c64a7dd4b07"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "46c26f2bfd88774ac5639a283f27081e"
+        },
         "zh-CN" : {
-          "sig" : "e42c63ee6a1caa9b873b13a0e4d1f8d3",
-          "state" : "Translated",
-          "total" : 5,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "e42c63ee6a1caa9b873b13a0e4d1f8d3"
         }
       }
     },
     "consulo/consulo.find.FindLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "72f5669cd42e67e90a688fe8b5d1e0b3"
+        "sig" : "20a48c74d6131591b84a7e74a46b2613"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "91593f8f09937fa4d29fcbb8cb76514b"
+        },
         "zh-CN" : {
-          "sig" : "6f0249df0a4d1c909027c450aa5fc54c",
-          "state" : "Translated",
-          "total" : 166,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "6f0249df0a4d1c909027c450aa5fc54c"
         }
       }
     },
     "consulo/consulo.http.HttpLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "203adba1dfb258cd45653902fa828a82"
+        "sig" : "6d305d45513abf06527ded5fae86d0bd"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b62b1f96ba1a6fad2734a40299859f20"
+        },
         "zh-CN" : {
-          "sig" : "f98be04e5e35aa82f572ef736c6ccb22",
-          "state" : "Translated",
-          "total" : 16,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "f98be04e5e35aa82f572ef736c6ccb22"
         }
       }
     },
     "consulo/consulo.ide.IdeLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "4ce4393fc411f14e6ef9f3dca73f7b24"
+        "sig" : "583caf99761e35684c0b5b5dc4696d7b"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b43b306800a1e1c9634e47dc6d46aa19"
+        },
         "zh-CN" : {
-          "sig" : "e654af077fb526f66726dcb27a8306f1",
-          "state" : "Translated",
-          "total" : 1065,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "e654af077fb526f66726dcb27a8306f1"
         }
-      }
-    },
-    "consulo/consulo.ide.tipOfDay.impl.TipOfDayLocalize" : {
-      "source" : {
-        "revision" : 6,
-        "sig" : "feb93bccc0203d2b9c9382b580fb153e"
       }
     },
     "consulo/consulo.language.LanguageLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "45a4d6193d2fff03af37f81f3ca9c055"
+        "sig" : "aff5c12edc6d768d5fac6c9c06ffbc4c"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "4832a2bdae10fa727db70729f4dee406"
+        },
         "zh-CN" : {
-          "sig" : "f2de178b5abe4f55000d020a325a7063",
-          "state" : "Translated",
-          "total" : 136,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "f2de178b5abe4f55000d020a325a7063"
         }
       }
     },
     "consulo/consulo.language.codeStyle.CodeStyleLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "e9a01c2aa91320a7cd0ea7d756869367"
+        "sig" : "c5427a2a297950a32bad81146f1d274c"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "f774c004c6915c317695efec4b9ba425"
+        },
         "zh-CN" : {
-          "sig" : "3a0803680c6c6bf74d2306ae983256b7",
-          "state" : "Translated",
-          "total" : 253,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "3a0803680c6c6bf74d2306ae983256b7"
         }
       }
     },
     "consulo/consulo.language.copyright.LanguageCopyrightLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "73f07a6d68cd1b9b59cb45314fbc15c1"
+        "sig" : "34347af6d3b0f0c2c0657d499f72da10"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "ae78bda89ebbd375a3cbf61c4ed0a9d6"
+        },
         "zh-CN" : {
-          "sig" : "7067888d884fabe0a07ec5fce95271fc",
-          "state" : "Translated",
-          "total" : 72,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "7067888d884fabe0a07ec5fce95271fc"
         }
       }
     },
     "consulo/consulo.language.duplicateAnalysis.DuplicateAnalysisLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "20886f68900acc7d2244a7f69e284a4d"
+        "sig" : "601ddee29639ecd9f590967931946344"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "5f762a482fc3591309c45f0a17295c30"
+        },
         "zh-CN" : {
-          "sig" : "13cd289598ca1288e1e05dd4331c1a3c",
-          "state" : "Translated",
-          "total" : 43,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "13cd289598ca1288e1e05dd4331c1a3c"
         }
       }
     },
     "consulo/consulo.language.editor.CodeInsightLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "dc9d0a8a3bd0d30cdb950830678dc66e"
+        "sig" : "e060329b13aad4c100522345a2b31075"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b4d5e19e83b0d3e6edc4c69fb2a6bafe"
+        },
         "zh-CN" : {
-          "sig" : "bd9a5c89972786654041381b05265262",
-          "state" : "Translated",
-          "total" : 422,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "bd9a5c89972786654041381b05265262"
         }
       }
     },
     "consulo/consulo.language.editor.CommonQuickFixLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "df482140b8b9212f0f24a5d2575080e2"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b45162ff89a639d469fa7e3123315906"
+        },
         "zh-CN" : {
-          "sig" : "b45162ff89a639d469fa7e3123315906",
-          "state" : "Translated",
-          "total" : 17,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "b45162ff89a639d469fa7e3123315906"
         }
       }
     },
     "consulo/consulo.language.editor.DaemonLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "d8db6b7caade0c252bcb4ef0c10d54c5"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "a68d55874bb5065740be919be4c4817a"
+        },
         "zh-CN" : {
-          "sig" : "31c45af7b4f00cb681b6f5334a07ba8a",
-          "state" : "Translated",
-          "total" : 52,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "31c45af7b4f00cb681b6f5334a07ba8a"
         }
       }
     },
     "consulo/consulo.language.editor.LanguageEditorLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "820203305392492cc7ba1e50020e7e72"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "0daa162ec99960a145eec41c7bf5c614"
+        },
         "zh-CN" : {
-          "sig" : "22766249cd27c554de42e4102c877c04",
-          "state" : "Translated",
-          "total" : 21,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "22766249cd27c554de42e4102c877c04"
         }
       }
     },
     "consulo/consulo.language.editor.inspection.InspectionLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "ed872adac72dc0f8335858541a8bcd15"
+        "sig" : "cb79928b091068bc8c16b54a6d9451eb"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "9082502911c43cc2da37a9a58418612c"
+        },
         "zh-CN" : {
-          "sig" : "1ced67455a76b1effc707317964b9a78",
-          "state" : "Translated",
-          "total" : 493,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "1ced67455a76b1effc707317964b9a78"
         }
       }
     },
     "consulo/consulo.language.editor.refactoring.RefactoringLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "3b6249f6826e977c1d50f6e5bff422bf"
+        "sig" : "96d2419f8e3b876c5e7c253d1be57543"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "0e6a57190cfc536ecfc86efd5f41c246"
+        },
         "zh-CN" : {
-          "sig" : "e1233041b66f25a3d452aa0082c89fbc",
-          "state" : "Translated",
-          "total" : 758,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "e1233041b66f25a3d452aa0082c89fbc"
         }
       }
     },
     "consulo/consulo.language.editor.scope.AnalysisScopeLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "5b0d8967926c5008cd882ad3db9c56af"
+        "sig" : "c2d18ab08bc946e7e83911405e1db6b0"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e3a7899b8319172869bde075712d0be4"
+        },
         "zh-CN" : {
-          "sig" : "442a67b6355bb5109cafd2c3729b648a",
-          "state" : "Translated",
-          "total" : 90,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "442a67b6355bb5109cafd2c3729b648a"
         }
       }
     },
     "consulo/consulo.language.editor.todo.impl.internal.LanguageTodoLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "dc07ae7fba8b725b808978fa5ab4ae57"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e7d19a493bf948f1b72310074b89a164"
+        },
         "zh-CN" : {
-          "sig" : "3616c17747c3122a3c5f24d679085818",
-          "state" : "Translated",
-          "total" : 41,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "3616c17747c3122a3c5f24d679085818"
         }
       }
     },
     "consulo/consulo.language.editor.ui.LanguageEditorRefactoringUILocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "682373ebcb6a8d2986e3975ec2a3375c"
+        "sig" : "45bc9b0ec558561d4c0dce8df5127b40"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "c8e103811ab04d9e462fc9a9bdb3fdc5"
+        },
         "zh-CN" : {
-          "sig" : "c097d8c7f8def7e8f9fe90d376ce6dc2",
-          "state" : "Translated",
-          "total" : 3,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "c097d8c7f8def7e8f9fe90d376ce6dc2"
         }
       }
     },
     "consulo/consulo.language.index.impl.internal.IndexingLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "d6dae6271c547506f685a01859e4daca"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "fce4dfb8a7605e89d3fd6c6e145167ef"
+        },
         "zh-CN" : {
-          "sig" : "16de8524b0299945d24243c4db9baff5",
-          "state" : "Translated",
-          "total" : 36,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "16de8524b0299945d24243c4db9baff5"
         }
-      }
-    },
-    "consulo/consulo.language.inject.advanced.LanguageInjectAdvancedLocalize" : {
-      "source" : {
-        "revision" : 6,
-        "sig" : "0f027ac7b0e54624b78bc97d60b01d3e"
       }
     },
     "consulo/consulo.localHistory.LocalHistoryLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "4fc2a65cb0a8bc3fd1b6f79f2af6337a"
+        "sig" : "f6ab5d2dda6bf3d3f7841787b1a01554"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "ad269f015d46fe2820e3267d2bb1c1e9"
+        },
         "zh-CN" : {
-          "sig" : "8eff12ce1e5402260bc6a9b19284d4e1",
-          "state" : "Translated",
-          "total" : 30,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "8eff12ce1e5402260bc6a9b19284d4e1"
         }
-      }
-    },
-    "consulo/consulo.module.ModuleLocalize" : {
-      "source" : {
-        "revision" : 6,
-        "sig" : "fcd5281ac2f64ed04c99cfb45bf03afa"
       }
     },
     "consulo/consulo.module.content.ModuleContentLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "bf867f4babe05cc339e973446eb9b03e"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "33834ec348da64162664703591305066"
+        },
         "zh-CN" : {
-          "sig" : "33834ec348da64162664703591305066",
-          "state" : "Translated",
-          "total" : 1,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "33834ec348da64162664703591305066"
         }
       }
     },
     "consulo/consulo.module.creation.ModuleCreationLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "c193d459c86400c60cc967f5961944ba"
+        "sig" : "c374f7366604f24cc1f217bed8f06a62"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "28d0ed251e6298b9eb43b7437c1d7d29"
+        },
         "zh-CN" : {
-          "sig" : "07c8a4b0c3a09c7db1ac6d32e3698c3e",
-          "state" : "Translated",
-          "total" : 4,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "07c8a4b0c3a09c7db1ac6d32e3698c3e"
         }
       }
     },
     "consulo/consulo.pathMacro.PathMacroLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "046853d058e79e1f1d29ea3914f7e9ee"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "80b180d943ae156ebda7942bedc9120f"
+        },
         "zh-CN" : {
-          "sig" : "a5026db43b50e3766507a1680e77ca3d",
-          "state" : "Translated",
-          "total" : 46,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "a5026db43b50e3766507a1680e77ca3d"
         }
       }
     },
     "consulo/consulo.platform.base.ActionLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "24fecfd445ae8c0e6a2aa64076337be8"
+        "sig" : "ab25e445a3a5dcee8d1934b08fe4eae9"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "959f0c3ae4b6d15b74ed99edcc03aec9"
+        },
         "zh-CN" : {
-          "sig" : "b5711f232a3b8a0da98edc9ffd30b58e",
-          "state" : "Translated",
-          "total" : 822,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "b5711f232a3b8a0da98edc9ffd30b58e"
         }
       }
     },
     "consulo/consulo.platform.base.CommonLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "00c59b0ab21385e266c9d48d712a8f08"
+        "sig" : "4cf68d7f68b3afc595f49794e18b0c95"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "ff8ff4be50b4cf0da5107e3cfa7d160f"
+        },
         "zh-CN" : {
-          "sig" : "64e1e25a62fef97a03fc525050551510",
-          "state" : "Translated",
-          "total" : 105,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "64e1e25a62fef97a03fc525050551510"
         }
       }
     },
     "consulo/consulo.platform.base.RepositoryTagLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "a4e64fdbf6e5095318d505374fecb8bf"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "163a638b574c6d8c5151841be8fccf61"
+        },
         "zh-CN" : {
-          "sig" : "b501b50152cff720ae0a4ca38f5e0cd6",
-          "state" : "Translated",
-          "total" : 3,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "b501b50152cff720ae0a4ca38f5e0cd6"
         }
       }
     },
     "consulo/consulo.process.ProcessLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "fe93a0fff4802145e278c4e88f406f33"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "79ca68150e25f31da60d8c2d90cbd534"
+        },
         "zh-CN" : {
-          "sig" : "79ca68150e25f31da60d8c2d90cbd534",
-          "state" : "Translated",
-          "total" : 6,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "79ca68150e25f31da60d8c2d90cbd534"
         }
       }
     },
     "consulo/consulo.project.ProjectLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "b1166f929873974265e9f6bef2fd3652"
+        "sig" : "2e8c3263b6782204e2f02a6bf3f591f1"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "2c691f6eb7130cb74a40cf00dd35ff9b"
+        },
         "zh-CN" : {
-          "sig" : "090d0c0adc7a60a76d8ca47f0fa92b6f",
-          "state" : "Translated",
-          "total" : 234,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "090d0c0adc7a60a76d8ca47f0fa92b6f"
         }
       }
     },
     "consulo/consulo.project.ui.ProjectUILocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "52d94f39448d83c35712257c5fd55bf5"
+        "sig" : "65867c59e8af17eaa84a89c4a8aa9113"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "b43d88fe87e5e65f9be8b80e7cfcb2af"
+        },
         "zh-CN" : {
-          "sig" : "d111dd2598ad495b5a6e09c27841d154",
-          "state" : "Translated",
-          "total" : 3,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "d111dd2598ad495b5a6e09c27841d154"
         }
       }
     },
     "consulo/consulo.project.ui.view.ProjectUIViewLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "1f4f3c273e9894b70e12561509a40112"
+        "sig" : "d6d4083b21d93a6d0794c454b32aa071"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "6c5269734db7481b18672fb9f82b7ed3"
+        },
         "zh-CN" : {
-          "sig" : "c00c465c9c9eec601872596c28fad48a",
-          "state" : "Translated",
-          "total" : 18,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "c00c465c9c9eec601872596c28fad48a"
         }
       }
     },
     "consulo/consulo.remoteServer.RemoteServerLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "de891c4c487a6057d71b8dc52c7343d3"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "c74e6df769cd19395fe2800beeb63b2a"
+        },
         "zh-CN" : {
-          "sig" : "184875bb18dd883103ee23fac96b01e3",
-          "state" : "Translated",
-          "total" : 68,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "184875bb18dd883103ee23fac96b01e3"
         }
       }
     },
     "consulo/consulo.task.TaskLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "152678bbfb32f7c54e1fa9018db6c50c"
+        "sig" : "a18aed8e9c4073ce869daff444add464"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "5e60f4b301d9b93c4355bb65eaa087a2"
+        },
         "zh-CN" : {
-          "sig" : "2083e777e3ac409c2d13ad5d3ed4bf3a",
-          "state" : "Translated",
-          "total" : 56,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "2083e777e3ac409c2d13ad5d3ed4bf3a"
         }
-      }
-    },
-    "consulo/consulo.ui.ex.ShortcutLocalize" : {
-      "source" : {
-        "revision" : 6,
-        "sig" : "e327ae8dcdad0a4c7a4dcfa259fddb66"
       }
     },
     "consulo/consulo.ui.ex.UILocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "7ae5d9c9a87355a855d1b8345b49da3e"
+        "sig" : "af0465177890fcc2c266c192f6eb033c"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "8e3be343d54014a41d6c009bfbf7e4de"
+        },
         "zh-CN" : {
-          "sig" : "0abd2dae15b1ff9f9da906a1565d2d0c",
-          "state" : "Translated",
-          "total" : 166,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "0abd2dae15b1ff9f9da906a1565d2d0c"
         }
-      }
-    },
-    "consulo/consulo.ui.ex.UnicodeShortcutLocalize" : {
-      "source" : {
-        "revision" : 6,
-        "sig" : "e55a6b2426bd2649f4cdcce55523bbe9"
       }
     },
     "consulo/consulo.ui.ex.keymap.KeyMapLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "56e3be0d178ca0487f3e17c75bbfc82c"
+        "sig" : "7a3233f643d3b269c37812f963760802"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "e87c2df73149b2a289dd87de7255eb60"
+        },
         "zh-CN" : {
-          "sig" : "fa96983751d1cf1c68621014de14bb5c",
-          "state" : "Translated",
-          "total" : 93,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "fa96983751d1cf1c68621014de14bb5c"
         }
       }
     },
     "consulo/consulo.usage.UsageLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "505d8174dbcde5f7af68a839f44f9d25"
+        "sig" : "5c7752dac933eacd8faaae2e6fdd7afd"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "057e43b0424981cf2287c58530498a37"
+        },
         "zh-CN" : {
-          "sig" : "1e1a7ce167fe2cbd89411ce8c919ee82",
-          "state" : "Translated",
-          "total" : 98,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "1e1a7ce167fe2cbd89411ce8c919ee82"
         }
       }
     },
     "consulo/consulo.versionControlSystem.VcsLocalize" : {
       "source" : {
-        "revision" : 7,
-        "sig" : "9fae41bcce96c7ee5c76ebdd8ef308cf"
+        "sig" : "222a42b6ce9e4a7d8d6c36230cb2b97a"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "f7e367cbeb7699cba2e6348ab0fe2050"
+        },
         "zh-CN" : {
-          "sig" : "303a2e1731d1a0bac3b815ec9acff73b",
-          "state" : "Translated",
-          "total" : 570,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "303a2e1731d1a0bac3b815ec9acff73b"
         }
       }
     },
     "consulo/consulo.versionControlSystem.distributed.DistributedVcsLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "7132d1a7ebfbb72bdbf4fc654d961d92"
+        "sig" : "2fe40f645409060db431f4e938eb975f"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "49adde3dfcc80fd1ea7e4ccf30ed3346"
+        },
         "zh-CN" : {
-          "sig" : "0294bd301c98cbd7c1af45b94ef73ea3",
-          "state" : "Translated",
-          "total" : 18,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "0294bd301c98cbd7c1af45b94ef73ea3"
         }
       }
     },
     "consulo/consulo.versionControlSystem.log.VersionControlSystemLogLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "008bedeeee6699688bc6c91acb2660ba"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "98e25d6a0ba22894dd0377be7f241d01"
+        },
         "zh-CN" : {
-          "sig" : "46253ade4d1b5fa936e3bfffb670d11e",
-          "state" : "Translated",
-          "total" : 3,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "46253ade4d1b5fa936e3bfffb670d11e"
         }
       }
     },
     "consulo/consulo.virtualFileSystem.VirtualFileSystemLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "52cf6086582dd3c5eaf34f2ac211a2e9"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "53fdce45912ac738fbc5e7ef0bcb1138"
+        },
         "zh-CN" : {
-          "sig" : "53fdce45912ac738fbc5e7ef0bcb1138",
-          "state" : "Translated",
-          "total" : 41,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "53fdce45912ac738fbc5e7ef0bcb1138"
         }
       }
     },
     "consulo/consulo.virtualFileSystem.fileType.FileTypeLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "28fe2d9b28285d1742d60f8f3f726500"
+        "sig" : "cbae80f4545943301fb1bc5060b3dcb6"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "06d6aa517255683a21e99666b5fc5fb5"
+        },
         "zh-CN" : {
-          "sig" : "de80ca304ff1129b0c3257252c6dc12a",
-          "state" : "Translated",
-          "total" : 18,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "de80ca304ff1129b0c3257252c6dc12a"
         }
       }
     },
     "consulo/consulo.virtualFileSystem.status.FileStatusLocalize" : {
       "source" : {
-        "revision" : 6,
         "sig" : "ca238fd2221d820af6e50a2bef97d8db"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "2ec9e26898efca1d137201d99baf2bf0"
+        },
         "zh-CN" : {
-          "sig" : "2ec9e26898efca1d137201d99baf2bf0",
-          "state" : "Translated",
-          "total" : 17,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "2ec9e26898efca1d137201d99baf2bf0"
         }
       }
     },
     "consulo/consulo.webBrowser.WebBrowserLocalize" : {
       "source" : {
-        "revision" : 6,
-        "sig" : "5316e90625b46dac02f4b3c04ff2e2ee"
+        "sig" : "a5bb42861586b3268f9a49611c6f58b0"
       },
       "translations" : {
+        "en-US" : {
+          "sig" : "1d9df7421e8ed29a15d01d6e5de01d9e"
+        },
         "zh-CN" : {
-          "sig" : "2f8b85d0cfa8227a61e2b586bf25d75d",
-          "state" : "Translated",
-          "total" : 13,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "sig" : "2f8b85d0cfa8227a61e2b586bf25d75d"
         }
       }
     }

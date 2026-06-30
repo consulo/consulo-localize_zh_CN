@@ -31,11 +31,11 @@ build.artifacts.before.run.description.empty:
 build.artifacts.before.run.description.multiple:
     text: 编译 {0} artifacts
 build.artifacts.before.run.description.single:
-    text: 构建 ''{0}'' 工件
+    text: "构建 ''{0}'' 工件"
 build.artifacts.before.run.selector.title:
     text: 编译 Artifacts
 chooser.description.select.output.directory.for.0.artifact:
-    text: 选择''{0}'' artifact的输出目录
+    text: "选择''{0}'' artifact的输出目录"
 classes.up.to.date.check:
     text: 类最新状态检查
 compiler.configurable.display.name:
@@ -49,11 +49,13 @@ compiler.results.export.text.prefix:
 compiler.running.dialog.title:
     text: 编译器运行中
 dialog.message.output.dir.artifact:
-    text: '''''{0}'''' 工件(''''{1}'''')'
+    text: "''{0}'' 工件(''{1}'')"
 dialog.message.output.dir.contains.source.roots:
-    text: '''''{1}'''' 工件的输出目录 ''''{0}'''' 包含项目的源根。是否继续并将其清除?'
+    text: "''{1}'' 工件的输出目录 ''{0}'' 包含项目的源根。是否继续并将其清除?"
 dialog.message.output.dirs.contain.source.roots:
-    text: "以下工件的输出目录包含源根:\n{0}是否要继续并清除这些目录?"
+    text: |-
+        以下工件的输出目录包含源根:
+        {0}是否要继续并清除这些目录?
 dialog.title.choose.artifacts:
     text: 选择 Artifacts
 dialog.title.output.directory.for.artifact:
@@ -71,11 +73,19 @@ element.type.name.module.test.output:
 error.bad.resource.patterns:
     text: 以下资源模式格式错误:{0}
 error.chunk.modules.must.have.same.jdk:
-    text: "以下模块必须具有相同的 JDK 分配，因为它们之间的循环依赖关系:\n{0}\n请更新模块配置"
+    text: |-
+        以下模块必须具有相同的 JDK 分配，因为它们之间的循环依赖关系:
+        {0}
+        请更新模块配置
 error.chunk.modules.must.have.same.language.level:
-    text: "以下模块必须具有相同的语言级别，因为它们之间存在循环依赖关系:\n{0}\n请更新模块配置"
+    text: |-
+        以下模块必须具有相同的语言级别，因为它们之间存在循环依赖关系:
+        {0}
+        请更新模块配置
 error.compiler.configurable.malformed.patterns:
-    text: "以下资源模式格式错误:\n{0}"
+    text: |-
+        以下资源模式格式错误:
+        {0}
 error.javac.out.of.memory:
     text: 内存不足。在“项目属性|编译器”设置中增加最大堆大小。
 error.output.not.specified:
@@ -107,7 +117,7 @@ label.text.class.path:
 label.text.main.class:
     text: '主类 (&M):'
 mesage.text.deployment.descriptor.file.not.exist:
-    text: 部署描述符文件 ''{0}'' 不存在
+    text: "部署描述符文件 ''{0}'' 不存在"
 message.category.error:
     text: 错误
 message.category.information:
@@ -121,15 +131,15 @@ message.resource.patterns.format.changed:
 message.text.deployment.description.invalid.file:
     text: 无效文件
 message.text.error.copying.file.to.file:
-    text: 将文件 ''{0}'' 复制到 ''{1}'' 时出错。
+    text: "将文件 ''{0}'' 复制到 ''{1}'' 时出错。"
 message.text.xml.file.invalid:
-    text: XML文件 ''{0}'' 无效
+    text: "XML文件 ''{0}'' 无效"
 no.excludes:
     text: 不排除
 no.validators:
     text: 没有验证器可用
 node.text.0.directory.content:
-    text: '''''{0}'''' 目录内容'
+    text: "''{0}'' 目录内容"
 option.use.compiler.text:
     text: '使用编译器:'
 packaging.element.text.output.root:
@@ -151,9 +161,9 @@ progress.parsing.file:
 progress.updating.caches:
     text: 更新缓存…
 rebuild.lvcs.label.no.errors:
-    text: '''''{0}''''没有错误'
+    text: "''{0}''没有错误"
 rebuild.lvcs.label.with.errors:
-    text: '''''{0}''''没有错误'
+    text: "''{0}''没有错误"
 rmi.compiler.description:
     text: RMI编译器
 rmic.option.enable.rmi.stubs:

@@ -73,9 +73,13 @@ create.gist.success:
 credentials.button.generate:
     text: 生成…
 credentials.incorrect:
-    text: "凭据不正确。\n{0}"
+    text: |-
+        凭据不正确。
+        {0}
 credentials.invalid.auth.data:
-    text: "身份验证数据无效。\n{0}"
+    text: |-
+        身份验证数据无效。
+        {0}
 credentials.invalid.server.path:
     text: 服务器路径无效
 credentials.server.cannot.be.empty:
@@ -113,7 +117,7 @@ label.login.progress:
 link.label.use.token:
     text: 使用令牌…
 login.account.already.added:
-    text: 已添加帐户 ''{0}''
+    text: "已添加帐户 ''{0}''"
 login.to.github:
     text: 登录 GitHub
 login.to.github.enterprise:
@@ -163,13 +167,13 @@ pull.request.create.draft.action:
 pull.request.create.error:
     text: '无法创建新的拉取请求:'
 pull.request.create.input.remote.branch.comment:
-    text: 必须推送更改才能创建拉取请求，并且本地分支 ''{0}'' 不会跟踪 ''{1}'' 处的远程分支
+    text: "必须推送更改才能创建拉取请求，并且本地分支 ''{0}'' 不会跟踪 ''{1}'' 处的远程分支"
 pull.request.create.input.remote.branch.name:
     text: '远程分支名称:'
 pull.request.create.input.remote.branch.title:
     text: 拉取请求分支
 pull.request.create.no.changes:
-    text: '''''{0}'''' 和 ''''{1}'''' 之间没有更改'
+    text: "''{0}'' 和 ''{1}'' 之间没有更改"
 pull.request.create.process.title:
     text: 正在创建拉取请求…
 pull.request.create.select.branches:
@@ -397,7 +401,7 @@ pull.request.timeline.refresh.action:
 pull.request.timeline.refresh.action.description:
     text: 检查新时间线事件
 pull.request.timeline.renamed:
-    text: 将此拉取请求从 ''{0}'' 重命名为 ''{1}''
+    text: "将此拉取请求从 ''{0}'' 重命名为 ''{1}''"
 pull.request.timeline.reopened:
     text: 重新打开了此请求
 pull.request.timeline.requested.changes:
@@ -427,7 +431,7 @@ rebase.error.no.default.branch:
 rebase.error.no.suitable.account.found:
     text: 找不到合适的 GitHub 帐户
 rebase.error.remote.origin.not.found:
-    text: 找不到 Git 远程 'origin'
+    text: "找不到 Git 远程 'origin'"
 rebase.error.repo.not.found:
     text: 找不到仓库 {0}
 rebase.error.upstream.not.found:
@@ -443,7 +447,7 @@ rebase.process.fetching.upstream:
 rebase.process.operation.title:
     text: 正在变基
 rebase.process.rebasing.branch.onto:
-    text: 正在将当前分支变基到 ''{0}''…
+    text: "正在将当前分支变基到 ''{0}''…"
 rebase.process.success:
     text: 已成功变基 GitHub 复刻
 request.response.0:

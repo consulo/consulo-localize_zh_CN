@@ -13,7 +13,7 @@ anonymous.class:
 call.can.throw.npe:
     text: 调用链可能抛出 NullPointerException
 change.lvalue.type:
-    text: 将变量 ''{0}'' 类型更改为 ''{1}''
+    text: "将变量 ''{0}'' 类型更改为 ''{1}''"
 closure:
     text: 闭包
 create.directory.command:
@@ -25,11 +25,11 @@ dialog.create.class.package.chooser.title:
 dynamic.element:
     text: 动态元素
 expected.type.0:
-    text: 应为 ''{0}''，但实际为 ''{1}''
+    text: "应为 ''{0}''，但实际为 ''{1}''"
 fix.class:
     text: 修正类 {0}
 getter.0.clashes.with.getter.1:
-    text: '发生冲突: ''''{0}'''' 和 ''''{1}'''''
+    text: "发生冲突: ''{0}'' 和 ''{1}''"
 gr.package.inspection.check.scripts:
     text: 检查脚本
 highlight.if.groovy.object.methods.overridden:
@@ -43,7 +43,7 @@ implement.class:
 java.style.property.access:
     text: Java 样式访问器调用
 local.var.0.is.reassigned:
-    text: 局部变量 ''{0}'' 已重新赋值
+    text: "局部变量 ''{0}'' 已重新赋值"
 method.may.be.static:
     text: 方法可能为 static
 method.may.be.static.ignore.empty.method.option:
@@ -71,31 +71,31 @@ pointless.boolean.problem.descriptor:
 pointless.boolean.quickfix:
     text: 简化
 remove.0:
-    text: 移除 ''.{0}''
+    text: "移除 ''.{0}''"
 replace.0.with.1:
-    text: 将 ''{0}'' 替换为 ''{1}''
+    text: "将 ''{0}'' 替换为 ''{1}''"
 replace.postfix.0.with.prefix.0:
-    text: 将后缀 ''{0}'' 替换为前缀 ''{0}''
+    text: "将后缀 ''{0}'' 替换为前缀 ''{0}''"
 replace.qualified.name.with.import:
     text: 将限定名称替换为导入
 rtype.cannot.contain.ltype:
-    text: '''''{1}'''' 不能包含 ''''{0}'''''
+    text: "''{1}'' 不能包含 ''{0}''"
 second.unsafe.call:
     text: 第二次不安全的调用
 target.0.does.not.exist:
-    text: 目标 ''{0}'' 不存在
+    text: "目标 ''{0}'' 不存在"
 target.annotation.is.unused:
     text: '@Target 未使用'
 type.customizer.is.not.marked.as.a.resource.file:
     text: 类型定制器脚本未被标记为编译器资源
 type.doesnt.contain.method:
-    text: 类型 ''{0}'' 不能在范围内进行迭代，因为它没有方法 ''{1}''
+    text: "类型 ''{0}'' 不能在范围内进行迭代，因为它没有方法 ''{1}''"
 unassigned.access.tooltip:
-    text: 变量 ''{0}'' 可能未被赋值
+    text: "变量 ''{0}'' 可能未被赋值"
 unresolved.type.status:
-    text: 类型 ''{0}'' 未解析
+    text: "类型 ''{0}'' 未解析"
 unused.0:
-    text: 未使用的 ''{0}''
+    text: "未使用的 ''{0}''"
 unused.assignment.tooltip:
     text: 未使用赋值
 unused.variable:

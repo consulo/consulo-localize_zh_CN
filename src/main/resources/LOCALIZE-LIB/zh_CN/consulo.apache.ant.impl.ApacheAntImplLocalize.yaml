@@ -15,7 +15,7 @@ additional.classpath.tab.add.all.in.directory.button:
 additional.classpath.tab.classpath.border:
     text: '类路径(&P):'
 ant.build.local.history.label:
-    text: '正在运行 Ant: ''''{0}'''''
+    text: "正在运行 Ant: ''{0}''"
 ant.build.message.node.prefix.text:
     text: '构建:'
 ant.build.progress.dialog.title:
@@ -29,7 +29,7 @@ ant.create.meta.target.action.description:
 ant.create.meta.target.action.name:
     text: 创建元目标
 ant.create.target.intention.description:
-    text: 创建目标 ''{0}''
+    text: "创建目标 ''{0}''"
 ant.event.after.compilation.presentable.name:
     text: 编译后
 ant.event.before.compilation.presentable.name:
@@ -57,7 +57,7 @@ ant.is.active.terminate.confirmation.text:
 ant.jar.is.directory.error.message:
     text: '{0} 是目录'
 ant.jar.not.found.in.directory.error.message:
-    text: 在目录 ''{0}'' 中未找到 ant.jar
+    text: "在目录 ''{0}'' 中未找到 ant.jar"
 ant.process.is.active.terminate.confirmation.text:
     text: Ant 进程处于活动状态。终止 Ant 进程?
 ant.property.value.editor.insert.macro.tooltip.text:
@@ -75,7 +75,7 @@ ant.setup.dialog.title:
 ant.target:
     text: 目标
 ant.target.before.run.description:
-    text: 运行 Ant 目标 ''{0}''
+    text: "运行 Ant 目标 ''{0}''"
 ant.target.before.run.description.empty:
     text: 运行 Ant 目标
 ant.target.choser.title:
@@ -137,11 +137,13 @@ cannot.add.ant.files.dialog.title:
 cannot.add.build.file.dialog.title:
     text: 无法添加构建文件
 cannot.add.build.files.from.excluded.directories.error.message:
-    text: "无法从已排除的目录添加构建文件\n{0}"
+    text: |-
+        无法从已排除的目录添加构建文件
+        {0}
 cannot.resolve.refid:
-    text: 无法解析 ''{0}'' refid
+    text: "无法解析 ''{0}'' refid"
 cannot.resolve.target:
-    text: 目标 ''{0}'' 未知
+    text: "目标 ''{0}'' 未知"
 cannot.start.build.name.error.message:
     text: 无法启动 {0}
 cant.add.file.error.message:
@@ -149,7 +151,7 @@ cant.add.file.error.message:
 cant.read.from.ant.jar.error.message:
     text: 无法从 {0} 读取
 cant.run.ant.ant.reference.is.not.configured.error.message:
-    text: 未配置 Ant ''{0}''
+    text: "未配置 Ant ''{0}''"
 cant.run.ant.no.ant.configured.error.message:
     text: 未配置 Ant
 close.ant.build.messages.dialog.title:
@@ -189,7 +191,7 @@ filter.ant.targets.action.description:
 filter.ant.targets.action.name:
     text: 筛选目标
 integer.attribute.has.invalid.value:
-    text: 特性 ''{0}'' 应具有整数值
+    text: "特性 ''{0}'' 应具有整数值"
 intention.configure.highlighting.family.name:
     text: 配置高亮显示
 intention.configure.highlighting.text:
@@ -269,15 +271,15 @@ starting.ant.build.dialog.title:
 stop.ant.action.name:
     text: 停止
 target.is.duplicated:
-    text: 目标 ''{0}'' 重复
+    text: "目标 ''{0}'' 重复"
 target.is.duplicated.in.imported.file:
-    text: 目标 ''{0}'' 在文件 ''{1}'' 中重复
+    text: "目标 ''{0}'' 在文件 ''{1}'' 中重复"
 target.tag.name.status.text:
     text: '目标: {0}'
 unknown.macro.attribute:
-    text: 宏特性 ''{0}'' 未知
+    text: "宏特性 ''{0}'' 未知"
 unknown.property:
-    text: 属性 ''{0}'' 未知
+    text: "属性 ''{0}'' 未知"
 user.inout.request.ant.build.input.dialog.title:
     text: Ant 构建输入
 using.definition.which.type.failed.to.load:

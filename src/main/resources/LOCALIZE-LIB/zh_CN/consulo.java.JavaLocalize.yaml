@@ -1,9 +1,9 @@
 code.vision.implementations.hint:
-    text: '{0, choice, 1#1 个实现|2#{0,number}''{1,choice, |1#+}'' 实现}'
+    text: "{0, choice, 1#1 个实现|2#{0,number}'{1,choice, |1#+}' 实现}"
 code.vision.inheritors.hint:
-    text: '{0, choice, 1#1 个继承者|2#{0,number}''{1,choice, |1#+}'' 继承者}'
+    text: "{0, choice, 1#1 个继承者|2#{0,number}'{1,choice, |1#+}' 继承者}"
 code.vision.overrides.hint:
-    text: '{0, choice, 1#1 个重写|2#{0,number}''{1,choice, |1#+}'' 重写}'
+    text: "{0, choice, 1#1 个重写|2#{0,number}'{1,choice, |1#+}' 重写}"
 usages.telescope:
     text: '{0,choice, 0#0 个用法|1#1 个用法|2#{0,number} 个用法}'
 action.go.to.implementation.text:
@@ -27,7 +27,7 @@ checkbox.collapse.file.header:
 checkbox.collapse.generic.constructor.parameters:
     text: <html>通用构造函数和方法形参</html>
 checkbox.collapse.html.style.attribute:
-    text: HTML 'style' 特性
+    text: "HTML 'style' 特性"
 checkbox.collapse.i18n.messages:
     text: I18n 字符串
 checkbox.collapse.inner.classes:
@@ -41,11 +41,11 @@ class.file.decompiled.text:
 class.file.open.source.action:
     text: 打开源文件
 class.not.found.error.message:
-    text: 未找到类 ''{0}''
+    text: "未找到类 ''{0}''"
 dependencies.tree.node.default.package.abbreviation:
     text: <默认软件包>
 error.package.already.contains.package.html:
-    text: 软件包 ''{0}'' 已经有一个 ''package.html'' 文件。仍要创建 ''package-info.java''?
+    text: "软件包 ''{0}'' 已经有一个 ''package.html'' 文件。仍要创建 ''package-info.java''?"
 error.package.html.found.title:
     text: 发现“package.html”
 gutter.implemented.method:
@@ -67,7 +67,7 @@ inspection.default.annotation.param:
 java.method.chains.inlay.provider.name:
     text: 方法链
 label.method:
-    text: 方法 ''{0}''
+    text: "方法 ''{0}''"
 library.choose.one.to.attach:
     text: 选择要附加源代码的库
 notification.navigation.to.overriding.classes:
@@ -107,7 +107,7 @@ settings.inlay.java.inheritors:
 settings.inlay.java.methods.with.same.named.numbered.parameters:
     text: 包含相同名称的编号形参的方法
 settings.inlay.java.new.expressions:
-    text: '''New'' 表达式'
+    text: "'New' 表达式"
 settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
     text: 在具有相同类型的多个形参的情况下的非文字
 settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:

@@ -17,7 +17,9 @@ is.not.correct.maven.home.reverting.to.embedded:
 maven.cannot.reconnect:
     text: '无法连接到 Maven 进程。如果问题一直存在，请检查网络和本地计算机设置。请参阅这篇文章以了解详情: https://intellij-support.jetbrains.com/hc/en-us/articles/360014262940'
 maven.core.plexus.init.issue.description:
-    text: "由于出现致命的严重错误，无法初始化 Maven:\n可能的解决方案:"
+    text: |-
+        由于出现致命的严重错误，无法初始化 Maven:
+        可能的解决方案:
 maven.core.plexus.init.issue.description.exception:
     text: '异常消息和堆栈跟踪如下:'
 maven.core.plexus.init.issue.fix.downgrade:
@@ -143,7 +145,9 @@ maven.sync.wsl.jdk.set.to.project:
 maven.sync.wsl.maven.is.not.wsl:
     text: Maven 分发版似乎不正确
 maven.sync.wsl.maven.is.not.wsl.description:
-    text: "Maven 主目录解析为 {0}。\n 出于性能考虑，最好使用安装在 wsl 分发版中的 Maven。<a href=\"{1}\">打开设置</a>"
+    text: |-
+        Maven 主目录解析为 {0}。
+         出于性能考虑，最好使用安装在 wsl 分发版中的 Maven。<a href="{1}">打开设置</a>
 maven.sync.wsl.userhome.cannot.resolve:
     text: 无法解析 WSL 上的 $HOME 变量。似乎 WSL 集成进程已挂起。请尝试重启 WSL 或主机。
 maven.wrapper.notification.downloading.error.action:

@@ -1137,7 +1137,7 @@ action.Runner.RestoreLayout.text:
 action.Runner.RestoreView.description:
     text: 恢复调试器网格中的视图
 action.Runner.RestoreView.text:
-    text: 恢复 ''{0}'' 视图
+    text: "恢复 ''{0}'' 视图"
 action.Runner.ToggleToolbarLayout.description:
     text: 切换水平/垂直方向的工具栏
 action.Runner.ToggleToolbarLayout.text:

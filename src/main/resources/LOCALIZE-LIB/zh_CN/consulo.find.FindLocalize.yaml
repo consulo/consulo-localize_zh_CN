@@ -45,7 +45,7 @@ find.empty.search.text.error:
 find.excessive.total.size.prompt:
     text: 发现文件中的总大小为 {0}。如果继续操作，{1} 可能会变得无响应甚至崩溃并出现 OutOfMemoryError 错误。是否继续?
 find.field.accessors.prompt:
-    text: 搜索字段 ''{0}'' 的访问器?
+    text: "搜索字段 ''{0}'' 的访问器?"
 find.field.accessors.title:
     text: 搜索访问器
 find.filter.empty.file.mask.error:
@@ -65,7 +65,9 @@ find.invalid.regular.expression.error:
 find.new.line:
     text: 新行
 find.no.usages.at.cursor.error:
-    text: "无法从此位置搜索用法。\n请将文本光标放在要查找其用法的元素上，然后重试。"
+    text: |-
+        无法从此位置搜索用法。
+        请将文本光标放在要查找其用法的元素上，然后重试。
 find.open.in.new.tab.action:
     text: 在新标签页中打开结果(&B)
 find.open.in.new.tab.checkbox:
@@ -137,7 +139,7 @@ find.replace.accessible.name:
 find.replace.all.action:
     text: 全部替换 (&A)
 find.replace.all.confirmation:
-    text: <html><body>是否将 {2} 个文件中 ''{1}'' 的<br>{0}匹配项替换为 ''{3}''?
+    text: "<html><body>是否将 {2} 个文件中 ''{1}'' 的<br>{0}匹配项替换为 ''{3}''?"
 find.replace.all.confirmation.title:
     text: 替换全部
 find.replace.command:
@@ -149,13 +151,16 @@ find.replace.history:
 find.replace.in.project.dialog.title:
     text: 在文件中替换
 find.replace.invalid.replacement.string:
-    text: 您输入格式错误的替换字符串:''{0}''
+    text: "您输入格式错误的替换字符串:''{0}''"
 find.replace.invalid.replacement.string.title:
     text: 替换错误
 find.replace.occurrences.found.in.read.only.files.status:
     text: 在只读文件中找到匹配项
 find.replace.occurrences.in.read.only.files.prompt:
-    text: "在只读文件中找到的匹配项。\n该操作不会影响他们。\n是否继续？"
+    text: |-
+        在只读文件中找到的匹配项。
+        该操作不会影响他们。
+        是否继续？
 find.replace.occurrences.in.read.only.files.title:
     text: 找到的只读文件
 find.replace.select.on.editor.command:
@@ -179,7 +184,7 @@ find.scope.directory.recursive.checkbox:
 find.scope.directory.title:
     text: 目录{0}
 find.scope.files.with.mask:
-    text: 使用掩码''{0}''
+    text: "使用掩码''{0}''"
 find.scope.global.radio:
     text: 全部的
 find.scope.group:
@@ -189,7 +194,7 @@ find.scope.label:
 find.scope.module.radio:
     text: '模块:'
 find.scope.module.title:
-    text: 模块 ''{0}''
+    text: "模块 ''{0}''"
 find.scope.project.radio:
     text: 项目
 find.scope.project.title:
@@ -219,7 +224,7 @@ find.searching.for.references.to.class.progress:
 find.searching.for.string.in.file.occurrences.progress:
     text: 目前找到 {0,choice,0#0|1#{0}} 个{0,choice,0#匹配项|1#匹配项|2#匹配项}
 find.searching.for.string.in.file.progress:
-    text: 在{1}中搜索''{0}''…
+    text: "在{1}中搜索''{0}''…"
 find.selection.only:
     text: 在所选内容中搜索
 find.super.method.warning.action.verb:
@@ -231,11 +236,11 @@ find.text.to.find.label:
 find.usage.view.no.usages.text:
     text: 未找到任何用法
 find.usage.view.tab.text:
-    text: '''''{0}''''{1}的匹配项'
+    text: "''{0}''{1}的匹配项"
 find.usage.view.toolwindow.title:
-    text: '{1}{2}中''''{0}''''的匹配项'
+    text: "{1}{2}中''{0}''的匹配项"
 find.usage.view.usages.text:
-    text: 出现的 ''{0}''
+    text: "出现的 ''{0}''"
 find.usages.ambiguous.title:
     text: 查找使用的
 find.usages.dialog.title:
@@ -315,7 +320,7 @@ progress.title.updating.usage.view:
 recent.find.usages.action.nothing:
     text: 没有发现最近的用法条目
 recent.find.usages.action.popup:
-    text: '{0} ''''{1}''''在{2}'
+    text: "{0} ''{1}''在{2}"
 recent.find.usages.action.title:
     text: 最近的查找用法
 results.options.group:

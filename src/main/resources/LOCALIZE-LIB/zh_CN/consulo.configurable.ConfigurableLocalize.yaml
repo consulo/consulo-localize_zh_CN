@@ -473,7 +473,9 @@ options.xml.attribute.descriptor.tag.data:
 options.xml.attribute.descriptor.tag.name:
     text: 标签名称
 project.file.read.only.error.message:
-    text: "该项目文件为只读文件。\n在您将文件设为可写之前，设置不会保存。"
+    text: |-
+        该项目文件为只读文件。
+        在您将文件设为可写之前，设置不会保存。
 properties.options.display.name:
     text: 属性
 settings.panel.title:

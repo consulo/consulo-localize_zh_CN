@@ -59,13 +59,13 @@ hector.syntax.slider.label:
 inlay.hints.declarative.disable.action.no.provider.text:
     text: 禁用嵌入提示
 inlay.hints.declarative.disable.action.text:
-    text: 禁用 ''{0}'' 嵌入提示
+    text: "禁用 ''{0}'' 嵌入提示"
 inlay.hints.declarative.disable.option.action.text:
-    text: 为 ''{1}'' 嵌入提示禁用选项 ''{0}''
+    text: "为 ''{1}'' 嵌入提示禁用选项 ''{0}''"
 inlay.hints.declarative.enable.action.text:
-    text: 启用 ''{0}'' 嵌入提示
+    text: "启用 ''{0}'' 嵌入提示"
 inlay.hints.declarative.enable.option.action.text:
-    text: 为 ''{1}'' 嵌入提示启用选项 ''{0}''
+    text: "为 ''{1}'' 嵌入提示启用选项 ''{0}''"
 iw.compact.view:
     text: 紧凑视图
 iw.disable.powersave:

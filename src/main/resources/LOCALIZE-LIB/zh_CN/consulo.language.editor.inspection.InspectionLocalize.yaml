@@ -3,15 +3,15 @@ access.static.via.instance:
 annotate.overridden.methods.as.notnull:
     text: 注释覆盖方法为"@{0}"
 annotate.overridden.methods.parameters:
-    text: 将被重写的方法形参注解为 ''@{0}''
+    text: "将被重写的方法形参注解为 ''@{0}''"
 assignment.to.declared.variable.problem.descriptor:
-    text: 变量''{0}''是自我赋值初始化
+    text: "变量''{0}''是自我赋值初始化"
 assignment.to.itself.problem.descriptor:
-    text: 变量''{0}''是分配给自己
+    text: "变量''{0}''是分配给自己"
 boolean.method.is.always.inverted.display.name:
     text: 布尔方法总是反向的
 boolean.method.is.always.inverted.problem.descriptor:
-    text: 始终反转对布尔方法 '#ref()' 的调用
+    text: "始终反转对布尔方法 '#ref()' 的调用"
 cleanup.in.file:
     text: 清理代码
 cleanup.in.scope:
@@ -79,7 +79,7 @@ default.ide.profile.label.text:
 dependency.injection.annotations.list:
     text: 附加依赖项注入注释
 deprecated.symbol:
-    text: '''''{0}'''' 已弃用'
+    text: "''{0}'' 已弃用"
 detach.library.quickfix.name:
     text: 分离库
 detach.library.roots.quickfix.name:
@@ -89,7 +89,7 @@ disable.inspection.action.name:
 duplicate.property.diff.key.option:
     text: 重复的键值不同(&D)
 duplicate.property.diff.key.problem.descriptor:
-    text: '重复的属性键 ''''{0}'''' 具有不同的值 #treeend :<br>'
+    text: "重复的属性键 ''{0}'' 具有不同的值 #treeend :<br>"
 duplicate.property.diff.key.progress.indicator.text:
     text: 处理重复的属性键:{0}
 duplicate.property.display.name:
@@ -99,7 +99,7 @@ duplicate.property.file.scope.option:
 duplicate.property.key.option:
     text: 重复键(&K)
 duplicate.property.key.problem.descriptor:
-    text: '重复的属性键 ''''{0}'''' #treeend 具有值:<br>'
+    text: "重复的属性键 ''{0}'' #treeend 具有值:<br>"
 duplicate.property.key.progress.indicator.text:
     text: 处理重复的属性键:{0}
 duplicate.property.module.scope.option:
@@ -109,13 +109,13 @@ duplicate.property.project.scope.option:
 duplicate.property.value.option:
     text: 重复的值(&V)
 duplicate.property.value.problem.descriptor:
-    text: '重复的属性值''''{0}'''' #treeend 对应键：<br>'
+    text: "重复的属性值''{0}'' #treeend 对应键：<br>"
 duplicate.property.value.progress.indicator.text:
     text: 处理重复的属性值:{0}
 edit.dependency.rules.family:
     text: 编辑依赖关系规则
 edit.inspection.options:
-    text: 编辑 ''{0}'' 选项
+    text: "编辑 ''{0}'' 选项"
 edit.options.of.reporter.inspection.family:
     text: 编辑报告程序检查选项
 edit.options.of.reporter.inspection.text:
@@ -213,9 +213,9 @@ highlight.severity.create.dialog.title:
 illegal.package.dependencies:
     text: 非法的包依赖关系
 inconsistent.bundle.property.error:
-    text: 不一致的属性 ''{0}''。必须在父文件 ''{1}'' 中定义。
+    text: "不一致的属性 ''{0}''。必须在父文件 ''{1}'' 中定义。"
 inconsistent.bundle.property.inherited.with.the.same.value:
-    text: 属性继承了''{0}''文件相同的值
+    text: "属性继承了''{0}''文件相同的值"
 inconsistent.bundle.report.duplicate.properties.values:
     text: 报表属性覆盖与相同的值(&O)
 inconsistent.bundle.report.inconsistent.properties:
@@ -223,7 +223,7 @@ inconsistent.bundle.report.inconsistent.properties:
 inconsistent.bundle.report.missing.translations:
     text: 报告失踪的翻译(&M)
 inconsistent.bundle.untranslated.property.error:
-    text: 未翻译的属性 ''{0}''。应在 ''{1}'' 中重写。
+    text: "未翻译的属性 ''{0}''。应在 ''{1}'' 中重写。"
 inconsistent.line.separators:
     text: 行分隔符不一致
 inconsistent.resource.bundle.display.name:
@@ -259,7 +259,9 @@ inspection.actiongo.prev:
 inspection.annotate.quickfix.implements:
     text: 实现
 inspection.annotate.quickfix.overridden.method.messages:
-    text: "方法 {0} {1}方法 {2}。\n同时注解基方法?"
+    text: |-
+        方法 {0} {1}方法 {2}。
+        同时注解基方法?
 inspection.annotate.quickfix.overridden.method.warning:
     text: 重写的方法警告
 inspection.annotate.quickfix.overrides:
@@ -285,9 +287,9 @@ inspection.application.starting.up:
 inspection.as:
     text: 作为 {0}
 inspection.assert.quickfix:
-    text: 断言''{0}''
+    text: "断言''{0}''"
 inspection.can.be.final.display.name:
-    text: 声明可以有 'final' 修饰符
+    text: "声明可以有 'final' 修饰符"
 inspection.can.be.final.option:
     text: 报告类
 inspection.can.be.final.option1:
@@ -301,7 +303,17 @@ inspection.can.be.local.variable.problem.descriptor:
 inspection.capitalized.done:
     text: 完成。
 inspection.command.line.explanation:
-    text: "预期形参: <project_file_path> <inspection_profile> <output_path> [<options>]\n<inspection_profile> -- 在项目中或本地配置的配置文件名称或检查配置文件的路径；使用 -e|-profileName|-profilePath 之一时可以跳过\n可用选项包括:\n -d <directory_path>  --  要检查的目录，默认为整个项目\n-e                   --  使用为项目设置的检查配置文件\n-v[0|1|2]            --  详细级别。 0 - 静默，1 - 详细，2 - 最详细\n-profileName         --  项目中定义的配置文件的名称\n-profilePath         --  配置文件的绝对路径\n-format              --  报告输出格式。xml|json|plain 之一，默认值为 xml\n-changes             --  检查未提交的更改并报告新问题"
+    text: |-
+        预期形参: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- 在项目中或本地配置的配置文件名称或检查配置文件的路径；使用 -e|-profileName|-profilePath 之一时可以跳过
+        可用选项包括:
+         -d <directory_path>  --  要检查的目录，默认为整个项目
+        -e                   --  使用为项目设置的检查配置文件
+        -v[0|1|2]            --  详细级别。 0 - 静默，1 - 详细，2 - 最详细
+        -profileName         --  项目中定义的配置文件的名称
+        -profilePath         --  配置文件的绝对路径
+        -format              --  报告输出格式。xml|json|plain 之一，默认值为 xml
+        -changes             --  检查未提交的更改并报告新问题
 inspection.comparing.references.problem.descriptor:
     text: '可疑的比较 #ref #loc'
 inspection.comparing.references.use.quickfix:
@@ -407,9 +419,11 @@ inspection.dead.code.remove.from.entry.point.quickfix:
 inspection.dead.code.safe.delete.quickfix:
     text: 安全删除
 inspection.dead.code.start.comment:
-    text: "// --注释掉检查 START ({0}):\n"
+    text: |
+        // --注释掉检查 START ({0}):
 inspection.dead.code.stop.comment:
-    text: "// --注释掉检查 STOP ({0})\n"
+    text: |
+        // --注释掉检查 STOP ({0})
 inspection.dependency.configure.button.text:
     text: 配置依赖规则
 inspection.dependency.violator.problem.descriptor:
@@ -421,11 +435,11 @@ inspection.description.title:
 inspection.diff.format.error:
     text: '必需的形参: <old_file> <new_file> [<delta_file_name>]'
 inspection.disabled.error:
-    text: '检查 ''''{0}'''' 被禁用: {1}。'
+    text: "检查 ''{0}'' 被禁用: {1}。"
 inspection.disabled.title:
     text: 检查禁用
 inspection.disabled.wrong.id:
-    text: '检查 ''''{0}'''' 被禁用: ID ''''{1}'''' 与 ''''{2}'''' 模式不匹配。'
+    text: "检查 ''{0}'' 被禁用: ID ''{1}'' 与 ''{2}'' 模式不匹配。"
 inspection.done:
     text: 完成。
 inspection.duplicate.throws.display.name:
@@ -433,7 +447,7 @@ inspection.duplicate.throws.display.name:
 inspection.duplicate.throws.ignore.subclassing.option:
     text: 忽略子类化其他异常的异常
 inspection.duplicate.throws.more.general.problem:
-    text: throws 列表中已经存在一个更一般的异常 ''{0}''。
+    text: "throws 列表中已经存在一个更一般的异常 ''{0}''。"
 inspection.duplicate.throws.problem:
     text: throws 重复
 inspection.duplicates.display.name:
@@ -451,7 +465,7 @@ inspection.duplicates.option.report.propertykey.expressions:
 inspection.duplicates.replace.family.quickfix:
     text: 替换
 inspection.duplicates.replace.quickfix:
-    text: 替换为 ''{0}''
+    text: "替换为 ''{0}''"
 inspection.empty.method.delete.quickfix:
     text: 删除不必要的方法
 inspection.empty.method.display.name:
@@ -465,7 +479,7 @@ inspection.empty.method.problem.descriptor2:
 inspection.empty.method.problem.descriptor4:
     text: 此方法的所有实现都为空
 inspection.equals.hashcode.display.name:
-    text: '''equals()'' 和 ''hashCode()'' 未配对'
+    text: "'equals()' 和 'hashCode()' 未配对"
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
     text: 类定义了 {0}，但没有定义 {1}
 inspection.error.level.popup.menu.title:
@@ -601,7 +615,7 @@ inspection.javadoc.option.tab.title.inner.class:
 inspection.javadoc.option.tab.title.method:
     text: 方法
 inspection.javadoc.problem.add.param.tag:
-    text: 为形参''{0}''添加标签 @param
+    text: "为形参''{0}''添加标签 @param"
 inspection.javadoc.problem.add.tag:
     text: 添加标签 @{0}{1}
 inspection.javadoc.problem.add.tag.family:
@@ -613,11 +627,11 @@ inspection.javadoc.problem.descriptor:
 inspection.javadoc.problem.descriptor1:
     text: 文档中缺少句号。Javadoc 工具使用该句号生成概述页面的注释
 inspection.javadoc.problem.duplicate.param:
-    text: 重复的形参''{0}'' @param 标记
+    text: "重复的形参''{0}'' @param 标记"
 inspection.javadoc.problem.duplicate.tag:
     text: 重复的 @{0} 标记
 inspection.javadoc.problem.duplicate.throws:
-    text: 重复 @throws 或 @exception 标记为异常''{0}''
+    text: "重复 @throws 或 @exception 标记为异常''{0}''"
 inspection.javadoc.problem.missing.tag:
     text: 需要标记{0}是缺失的
 inspection.javadoc.problem.name.expected:
@@ -633,7 +647,7 @@ inspection.javadoc.required.tags.option.title:
 inspection.javadoc.throws.or.exception.option:
     text: '@throws或@exception'
 inspection.local.can.be.final.display.name:
-    text: 局部变量或形参可以是 'final'
+    text: "局部变量或形参可以是 'final'"
 inspection.local.can.be.final.option:
     text: 报告局部变量
 inspection.local.can.be.final.option1:
@@ -669,7 +683,7 @@ inspection.nullable.problems.display.name:
 inspection.offline.view.tool.display.name.title:
     text: 名字
 inspection.options.action.text:
-    text: 检查''{0}''选项
+    text: "检查''{0}''选项"
 inspection.parameter.can.be.local.display.name:
     text: 从不读取作为形参传递的值
 inspection.parameter.can.be.local.problem.descriptor:
@@ -727,7 +741,7 @@ inspection.reference.anonymous:
 inspection.reference.anonymous.name:
     text: 匿名 ({0})
 inspection.replace.ternary.quickfix:
-    text: 替换为''{0}!= null吗?''
+    text: "替换为''{0}!= null吗?''"
 inspection.required.attributes.display.name:
     text: 缺少必需的属性
 inspection.results.title:
@@ -737,9 +751,9 @@ inspection.root.node.title:
 inspection.same.parameter.display.name:
     text: 方法形参始终具有相同的值
 inspection.same.parameter.fix.name:
-    text: 内联形参 ''{0}'' 的值 ''{1}''
+    text: "内联形参 ''{0}'' 的值 ''{1}''"
 inspection.same.parameter.problem.descriptor:
-    text: 形参 <code>#ref</code> 的实际值始终为 ''{0}''
+    text: "形参 <code>#ref</code> 的实际值始终为 ''{0}''"
 inspection.same.return.value.display.name:
     text: 方法始终返回相同的值
 inspection.same.return.value.problem.descriptor:
@@ -757,7 +771,7 @@ inspection.surround.if.family:
 inspection.suspicious.collections.method.calls.display.name:
     text: 可疑的集合方法调用
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: 可疑的调用''{0}''
+    text: "可疑的调用''{0}''"
 inspection.test.only.problems.test.only.method.call:
     text: 测试只有在生产代码中调用方法
 inspection.tool.availability.in.tree.node:
@@ -805,7 +819,7 @@ inspection.unused.parameter.composer:
 inspection.unused.parameter.composer1:
     text: 形参 <code>#ref</code> 未在此方法中使用，也未在其重写方法中使用
 inspection.unused.parameter.delete.quickfix:
-    text: 安全删除未使用的形参 ''{0}''
+    text: "安全删除未使用的形参 ''{0}''"
 inspection.unused.parameter.display.name:
     text: 未使用的形参
 inspection.unused.return.value.problem.descriptor:
@@ -841,9 +855,9 @@ nullable.stuff.problems.overridden.methods.are.not.annotated:
 offline.inspections.jdk.not.found:
     text: 找不到 {0}
 offline.inspections.library.was.not.resolved:
-    text: 请配置库''{0}''用于模块''{1}''
+    text: "请配置库''{0}''用于模块''{1}''"
 offline.inspections.module.jdk.not.found:
-    text: 请指定模块 ''{1}'' 的 sdk ''{0}''
+    text: "请指定模块 ''{1}'' 的 sdk ''{0}''"
 offline.view.editor.settings.title:
     text: 编辑器设置
 offline.view.parse.exception.title:
@@ -963,7 +977,7 @@ unhandled.exception.in.jsp.name:
 unnecessary.module.dependency.display.name:
     text: 不必要的模块依赖
 unsupported.character.for.the.charset:
-    text: 字符集 ''{0}'' 存在不受支持的字符
+    text: "字符集 ''{0}'' 存在不受支持的字符"
 unused.import.statement:
     text: 未使用的 import 语句
 unused.library.backward.analysis.job.description:
@@ -971,9 +985,9 @@ unused.library.backward.analysis.job.description:
 unused.library.display.name:
     text: 未使用的库
 unused.library.problem.descriptor:
-    text: 未使用的库''{0}''
+    text: "未使用的库''{0}''"
 unused.library.roots.problem.descriptor:
-    text: 未使用的根{0}从库''{1}''
+    text: "未使用的根{0}从库''{1}''"
 unused.symbol:
     text: 未使用的符号
 wrong.package.statement:
