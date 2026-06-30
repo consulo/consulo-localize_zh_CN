@@ -135,7 +135,10 @@ before.checkin.new.todo.check.title:
 before.checkin.standard.options.check.smells:
     text: 分析代码(&A)
 before.commit.files.contain.code.smells.edit.them.confirm.text:
-    text: "{0} 个文件包含问题。\n   发现 {1,choice, 0#无错误|1#1 个错误|2#{1} 个错误}和 {2,choice, 0#无警告|1#1 个警告|2#{2} 个警告}。\n   是否要检查它们？"
+    text: |-
+        {0} 个文件包含问题。
+           发现 {1,choice, 0#无错误|1#1 个错误|2#{1} 个错误}和 {2,choice, 0#无警告|1#1 个警告|2#{2} 个警告}。
+           是否要检查它们？
 border.changes.filter.change.number.filter:
     text: 更改
 border.changes.filter.date.filter:
@@ -257,49 +260,23 @@ changes.changelist.chooser.title:
 changes.checkbox.delete.locally.added.files:
     text: 删除本地副本中已添加的文件(&D)
 changes.commit.partial.offer.to.move.text:
-    text: "提交时已经从当前变更列表中排除了一些文件。\n你是否想把剩余的修改移到另一个变更列表?"
+    text: |-
+        提交时已经从当前变更列表中排除了一些文件。
+        你是否想把剩余的修改移到另一个变更列表?
 changes.commit.partial.offer.to.move.title:
     text: 部分提交活动的修改列表
 changes.default.changelist.name:
     text: 更改
 changes.dialog.editchangelist.error.already.exists:
-    text: 名为 ''{0}'' 的更改列表已存在
+    text: "名为 ''{0}'' 的更改列表已存在"
 changes.dialog.editchangelist.title:
     text: 编辑更改列表
 changes.dialog.newchangelist.title:
     text: 新建更改列表
 changes.newchangelist.warning.already.exists.text:
-    text: 变更列表''{0}''已经存在。
+    text: "变更列表''{0}''已经存在。"
 changes.newchangelist.warning.already.exists.title:
     text: 错误的变更列表名称
-changes.nodetitle.changecount:
-    text: '{0,choice, 0#无文件|1#1 个文件|2#{0} 个文件}'
-changes.nodetitle.directory.changecount:
-    text: '{0,choice, 0#无目录|1#1 个目录|2#{0} 个目录}'
-changes.nodetitle.directory.file.changecount:
-    text: '{0,choice, 0#无目录|1#1 个目录|2#{0} 个目录} 和 {1,choice, 0#无文件|1#1 个文件|2#{1} 个文件}'
-changes.nodetitle.have.outdated.files:
-    text: 部分文件已在服务器上更改
-changes.nodetitle.ignored.files:
-    text: 已忽略的文件
-changes.nodetitle.locally.deleted.files:
-    text: 本地已删除的文件
-changes.nodetitle.locked.folders:
-    text: 锁定的工作副本文件夹
-changes.nodetitle.locked.folders.tooltip:
-    text: 部分文件夹已锁定，不允许对其进行版本控制操作。应执行清理。
-changes.nodetitle.logicallt.locked.folders:
-    text: 显式锁定的文件
-changes.nodetitle.modified.without.editing:
-    text: 未检出即修改
-changes.nodetitle.switched.files:
-    text: 已切换的文件
-changes.nodetitle.switched.roots:
-    text: 根目录切换
-changes.nodetitle.unversioned.files:
-    text: 未纳入版本控制的文件
-changes.nodetitle.updating:
-    text: 正在更新…
 changes.remove.active.empty.prompt:
     text: 选择要设为活动的更改列表：
 changes.remove.active.prompt:
@@ -307,7 +284,9 @@ changes.remove.active.prompt:
 changes.remove.active.title:
     text: 删除活动更改列表
 changes.removechangelist.multiple.warning.text:
-    text: "确定要删除 {0} 个更改列表吗？\n所有更改将移至活动更改列表。"
+    text: |-
+        确定要删除 {0} 个更改列表吗？
+        所有更改将移至活动更改列表。
 changes.removechangelist.warning.text:
     text: "确定要删除更改列表 ''{0}'' 吗？\n所有更改将移至活动更改列表。"
 changes.removechangelist.warning.title:
@@ -349,7 +328,10 @@ checkout.create.project.prompt:
 checkout.open.directory.prompt:
     text: 你确定打开目录{0}?
 checkout.open.project.prompt:
-    text: "已检出{0}项目文件：\n{1}\n你确定要打开吗？"
+    text: |-
+        已检出{0}项目文件：
+        {1}
+        你确定要打开吗？
 checkout.title:
     text: 从版本控制中检出
 close.tab.action.name:
@@ -459,7 +441,9 @@ configuration.commit.message.margin.title:
 configuration.tab.name.general.settings:
     text: 常规设置
 confirmation.text.add.file:
-    text: "是否要安排将以下文件添加到 Subversion?\n{0}"
+    text: |-
+        是否要安排将以下文件添加到 Subversion?
+        {0}
 confirmation.text.check.in.with.empty.comment:
     text: 提交空注释？
 confirmation.title.add.file:
@@ -499,7 +483,9 @@ date.group.today:
 delete.all.already.unshelved:
     text: 删除所有已经废弃的
 delete.all.already.unshelved.confirmation:
-    text: "Do you want to delete all already unshelved changelists?\n此操作不可撤销."
+    text: |-
+        Do you want to delete all already unshelved changelists?
+        此操作不可撤销.
 dialog.enable.version.control.integration.hint.text:
     text: 版本控制设置可在以下位置配置
 dialog.enable.version.control.integration.select.vcs.label.text:
@@ -561,7 +547,7 @@ error.adding.files.prompt:
 error.adding.files.title:
     text: 添加文件失败
 error.executing.commit:
-    text: 执行 ''{0}'' 时出错：{1}
+    text: "执行 ''{0}'' 时出错：{1}"
 error.updating.changes:
     text: 更新更改时出错：{0}
 exception.text.file.should.be.directory:
@@ -609,7 +595,9 @@ file.status.name.up.to.date.recursive.children:
 filter.structure.name:
     text: 结构
 get.committed.changes.intersecting.prompt:
-    text: "在选定的文件 {1, choice, 1#changelist|2#changelists} are also modified in {0} other {0,choice, 1#changelist|2#changelists}.\n更改所选文件在这些变更列表也将被下载。"
+    text: |-
+        在选定的文件 {1, choice, 1#changelist|2#changelists} are also modified in {0} other {0,choice, 1#changelist|2#changelists}.
+        更改所选文件在这些变更列表也将被下载。
 get.committed.changes.title:
     text: 获取变更列表
 group.name.version.control:
@@ -785,7 +773,7 @@ message.title.vcs.update.errors:
 messge.text.cannot.save.settings:
     text: 无法执行操作：{0}
 move.to.changelist:
-    text: 将更改移动到活动更改列表 (''{0}'')(&M)
+    text: "将更改移动到活动更改列表 (''{0}'')(&M)"
 multiple.file.merge.accept.theirs:
     text: 接受对方的(&T)
 multiple.file.merge.accept.yours:
@@ -987,7 +975,7 @@ shelf.tab:
 shelve.changes.action:
     text: 暂存更改(_S)
 shelve.changes.delete.confirm:
-    text: 你确定要删除搁置的变更表命名为''0}''吗？此操作无法撤消。
+    text: "你确定要删除搁置的变更表命名为''0}''吗？此操作无法撤消。"
 shelve.changes.delete.files.from.list:
     text: 你要删除{0}文件搁置的变更列表。你确定吗？
 shelve.changes.delete.files.from.list.title:
@@ -1049,7 +1037,7 @@ status.group.name.will.be.merged.with.tree.conflicts:
 status.group.name.will.be.restored:
     text: 将被恢复
 switch.to.changelist:
-    text: 切换到更改列表 (''{0}'')(&T)
+    text: "切换到更改列表 (''{0}'')(&T)"
 todo.handler.only.added:
     text: <html><body>发现 {0,choice, 0#|1#1 个|2#{0} 个}新增/编辑的 TODO {0,choice, 0#|1#项|2#项}。<br/>                        是否要检查 {0,choice,1#它|2#它们}？<br/>                        {1,choice, 0#|1#跳过了 1 个文件。|2#跳过了 {1} 个文件。}</body></html>
 todo.handler.only.both:
@@ -1057,7 +1045,9 @@ todo.handler.only.both:
 todo.handler.only.in.changed:
     text: <html><body>在已更改的片段中发现 {0,choice, 1#1 个|2#{0} 个}TODO {0,choice, 1#项|2#项}。<br/>                             是否要检查 {0,choice,1#它|2#它们}？<br/>                             {1,choice, 0#|1#跳过了 1 个文件。|2#跳过了 {1} 个文件。}</body></html>
 todo.handler.only.skipped:
-    text: "<html><body>TODO 检查已跳过 {0,choice, 0#|1#1 个文件|2#{0} 个文件}。<br/>\n                          未发现新增或编辑的 TODO 项，也未发现位于已更改文本片段中的 TODO 项。</body></html>"
+    text: |-
+        <html><body>TODO 检查已跳过 {0,choice, 0#|1#1 个文件|2#{0} 个文件}。<br/>
+                                  未发现新增或编辑的 TODO 项，也未发现位于已更改文本片段中的 TODO 项。</body></html>
 todo.in.new.review.button:
     text: 检查 TODO(&R)
 tooltip.text.action.applicable.to.vcses:

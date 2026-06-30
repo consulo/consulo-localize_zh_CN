@@ -61,7 +61,7 @@ node.todo.group:
 node.todo.items:
     text: '{0} {0, choice, 0#项|1#项|2#项}'
 node.todo.more.items:
-    text: ...更多…
+    text: '...更多…'
 node.todo.summary:
     text: 在{1} {1,choice,0#个文件|1#个文件|2#个文件}中找到{0}个TODO {0,choice,0#项|1#项|2#项}
 text.todo.no.filters:

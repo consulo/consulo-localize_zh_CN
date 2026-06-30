@@ -1,5 +1,5 @@
 maven.tasks.before.run:
-    text: 运行 Maven 目标 ''{0}''
+    text: "运行 Maven 目标 ''{0}''"
 maven.tasks.before.run.empty:
     text: 运行 Maven 目标
 maven.tasks.executing:

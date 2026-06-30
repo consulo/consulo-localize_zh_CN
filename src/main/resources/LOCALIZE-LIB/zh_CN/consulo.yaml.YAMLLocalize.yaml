@@ -1,15 +1,15 @@
 YAMLDuplicatedKeysInspection.duplicated.key:
-    text: 键 ''{0}'' 重复
+    text: "键 ''{0}'' 重复"
 YAMLDuplicatedKeysInspection.remove.key.quickfix.name:
     text: 移除键
 YamlBooleanType.validation.error.quoted.value:
     text: 应为布尔值
 YamlDeprecatedKeysInspectionBase.deprecated.key:
-    text: 键 ''{0}'' 已弃用
+    text: "键 ''{0}'' 已弃用"
 YamlEnumType.validation.error.value.unknown:
-    text: 此处不需要值 ''{0}''
+    text: "此处不需要值 ''{0}''"
 YamlEnumType.validation.warning.value.deprecated:
-    text: 值 ''{0}'' 已弃用
+    text: "值 ''{0}'' 已弃用"
 YamlIntegerType.error.integer.value:
     text: 应为整数值
 YamlMetaClass.error.scalar.value:
@@ -17,17 +17,17 @@ YamlMetaClass.error.scalar.value:
 YamlMissingKeysInspectionBase.add.missing.keys.quickfix.name:
     text: 添加缺少的键
 YamlMissingKeysInspectionBase.missing.keys:
-    text: '缺少必需的键: ''''{0}'''''
+    text: "缺少必需的键: ''{0}''"
 YamlNonEditableKeyInspectionBase.strip.noneditable.keys.quickfix.name:
     text: 从文件中移除所有不可编辑的键
 YamlNonEditableKeysInspectionBase.noneditable.key:
-    text: 键 ''{0}'' 不能由用户修改
+    text: "键 ''{0}'' 不能由用户修改"
 YamlNumberType.error.numeric.value:
     text: 应为数值
 YamlScalarType.error.scalar.value:
     text: 应为标量值
 YamlUnknownKeysInspectionBase.unknown.key:
-    text: 此处不需要键 ''{0}''
+    text: "此处不需要键 ''{0}''"
 YamlUnknownValuesInspectionBase.error.array.is.required:
     text: 需要数组
 YamlUnknownValuesInspectionBase.error.array.not.allowed:
@@ -43,9 +43,9 @@ color.settings.yaml.dstring:
 color.settings.yaml.key:
     text: 键
 color.settings.yaml.scalar.list:
-    text: '''|'' 块'
+    text: "'|' 块"
 color.settings.yaml.scalar.text:
-    text: '''>'' 块'
+    text: "'>' 块"
 color.settings.yaml.sign:
     text: '符号: 大括号、逗号等'
 color.settings.yaml.string:
@@ -67,7 +67,7 @@ find.usages.sequence:
 inspections.duplicated.keys.name:
     text: 重复的 YAML 键
 inspections.incompatible.types.message:
-    text: 值的类型为 ''{0}'' ，而其他值使用类型 ''{1}''
+    text: "值的类型为 ''{0}'' ，而其他值使用类型 ''{1}''"
 inspections.incompatible.types.quickfix.wrap.all.quotes.message:
     text: 用引号将所有标量按顺序括起来
 inspections.incompatible.types.quickfix.wrap.quotes.message:
@@ -87,7 +87,7 @@ inspections.recursive.alias.name:
 inspections.schema.deprecation.name:
     text: 弃用的 YAML 键
 inspections.schema.deprecation.text:
-    text: '键 ''''{0}'''' 已弃用: {1}'
+    text: "键 ''{0}'' 已弃用: {1}"
 inspections.schema.validation.name:
     text: 由 JSON 架构验证
 inspections.schema.validation.prefix:
@@ -105,7 +105,7 @@ inspections.unused.anchor.name:
 inspections.unused.anchor.quickfix.name:
     text: 移除定位标记
 new.name.conflicts.with:
-    text: '键与现有键冲突: ''''{0}'''''
+    text: "键与现有键冲突: ''{0}''"
 parsing.error.sequence.item.expected:
     text: 应为序列条目
 rename.same.name:

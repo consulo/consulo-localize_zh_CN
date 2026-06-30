@@ -75,7 +75,7 @@ cannot.redo.message:
 cannot.undo.dialog.title:
     text: 不能撤消
 cannot.undo.error.contains.nonundoable.changes.message:
-    text: '<html>无法执行''''{0}''''<br>  以下文件包含无法撤销的更改:'
+    text: "<html>无法执行''{0}''<br>  以下文件包含无法撤销的更改:"
 cannot.undo.error.other.affected.files.changed.message:
     text: '受此操作影响的以下文件已被更改:'
 cannot.undo.message:
@@ -133,25 +133,48 @@ redo.command.confirmation.text:
 redo.confirmation.title:
     text: 重做
 safe.write.backup:
-    text: "无法保存 {0}。\n无法创建备份文件({1})。\n该文件将保持不变。"
+    text: |-
+        无法保存 {0}。
+        无法创建备份文件({1})。
+        该文件将保持不变。
 safe.write.drop.temp:
     text: 不能删除临时文件 {0}.
 safe.write.failed:
-    text: "不能保存 {0}.\n无法创建一个临时文件 ({1}).\n文件没有改变."
+    text: |-
+        不能保存 {0}.
+        无法创建一个临时文件 ({1}).
+        文件没有改变.
 safe.write.junk:
-    text: "无法保存 {0}。\n无法写入数据。\n该文件可能已损坏。"
+    text: |-
+        无法保存 {0}。
+        无法写入数据。
+        该文件可能已损坏。
 safe.write.junk.backup:
-    text: "无法保存 {0}。\n无法写入数据。\n该文件可能已损坏；已在 {1} 中创建备份。"
+    text: |-
+        无法保存 {0}。
+        无法写入数据。
+        该文件可能已损坏；已在 {1} 中创建备份。
 safe.write.open:
-    text: "无法保存 {0}。\n无法打开文件进行写入。"
+    text: |-
+        无法保存 {0}。
+        无法打开文件进行写入。
 safe.write.rename.backup:
-    text: "不能保存 {0}.\n文件被重命名 {1}.\n您的更改被写入 {2}."
+    text: |-
+        不能保存 {0}.
+        文件被重命名 {1}.
+        您的更改被写入 {2}.
 safe.write.rename.original:
-    text: "不能保存 {0}.\n文件不变.\n您的更改被写入 {1}."
+    text: |-
+        不能保存 {0}.
+        文件不变.
+        您的更改被写入 {1}.
 safe.write.restored:
-    text: "无法保存 {0}。\n无法写入数据。\n已从备份还原原始内容。"
+    text: |-
+        无法保存 {0}。
+        无法写入数据。
+        已从备份还原原始内容。
 smth.already.exist.error.message:
-    text: '{0}的名称 ''''{1}'''' 已存在'
+    text: "{0}的名称 ''{1}'' 已存在"
 the.access.code.is.invalid.error.message:
     text: 访问代码是无效的。
 the.data.is.invalid.error.message:

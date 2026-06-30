@@ -15,13 +15,18 @@ create.patch.dialog.title:
 current.revision:
     text: 当前
 file.does.not.exist:
-    text: '''''{0}'''' 不存在'
+    text: "''{0}'' 不存在"
 message.cannot.create.patch.because.of.unavailable.content:
-    text: "无法创建补丁，因为某些\n所选文件的内容由于过大而未被存储。"
+    text: |-
+        无法创建补丁，因为某些
+        所选文件的内容由于过大而未被存储。
 message.cannot.revert.because:
     text: 无法还原，因为{0}
 message.do.you.want.to.proceed:
-    text: "{0}\n\n是否要继续?"
+    text: |-
+        {0}
+
+        是否要继续?
 message.error.during.create.patch:
     text: '创建补丁时出错: {0}'
 message.error.during.revert:
@@ -55,6 +60,6 @@ revisions.table.period.recent:
 system.label.external.change:
     text: 外部更改
 system.label.revert.to.change.date:
-    text: 已还原为 {1} 的 ''{0}''
+    text: "已还原为 {1} 的 ''{0}''"
 system.label.revert.to.date:
     text: 已还原至 {0}

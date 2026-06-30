@@ -9,7 +9,7 @@ child.file.suffix.column.name:
 dialog.message.child.file.suffix.must.be.empty.see.row:
     text: 子文件后缀不得为空(请参见行 {0})
 dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
-    text: 父文件和子文件后缀不能相等(''{0}''，请参见行 {1})
+    text: "父文件和子文件后缀不能相等(''{0}''，请参见行 {1})"
 dialog.message.parent.file.suffix.must.be.empty.see.row:
     text: 父文件后缀不得为空(请参见行 {0})
 file.nesting.dialog.title:

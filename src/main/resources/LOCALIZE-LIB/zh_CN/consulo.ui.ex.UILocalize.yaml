@@ -1,11 +1,11 @@
 are.you.sure.you.want.to.delete.selected.file.confirmation.message:
-    text: 删除 ''{0}''?
+    text: "删除 ''{0}''?"
 are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
     text: 要删除 {0} 个所选文件和目录吗?
 are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
     text: 要删除 {0} 个所选文件吗?
 are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
-    text: 确定要删除文件夹 ''{0}'' 吗?
+    text: "确定要删除文件夹 ''{0}'' 吗?"
 are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
     text: 要删除 {0} 个所选目录吗?
 autoscroll.from.source.action.description:
@@ -49,13 +49,13 @@ color.panel.select.color.dialog.description:
 component.with.browse.button.browse.button.tooltip.text:
     text: 浏览…
 create.new.file.could.not.create.file.error.message:
-    text: 无法创建文件 ''{0}''
+    text: "无法创建文件 ''{0}''"
 create.new.file.enter.new.file.name.prompt.text:
     text: '输入一个新的文件名:'
 create.new.file.file.name.cannot.be.empty.error.message:
     text: 文件名不能为空
 create.new.folder.could.not.create.folder.error.message:
-    text: 无法创建文件夹 ''{0}''
+    text: "无法创建文件夹 ''{0}''"
 create.new.folder.enter.new.folder.name.prompt.text:
     text: '输入一个新的文件夹名称:'
 create.new.folder.folder.name.cannot.be.empty.error.message:
@@ -87,7 +87,7 @@ file.cache.conflict.keep.memory.changes.button:
 file.cache.conflict.load.fs.changes.button:
     text: 加载文件系统更改(&L)
 file.cache.conflict.message.text:
-    text: 已在内存中和磁盘上对 ''{0}'' 进行更改
+    text: "已在内存中和磁盘上对 ''{0}'' 进行更改"
 file.cache.conflict.save.changes.button:
     text: 保存内存内容
 file.cache.conflict.show.difference.button:
@@ -99,7 +99,9 @@ file.chooser.create.new.folder.command.name:
 file.chooser.default.title:
     text: 选择路径
 file.chooser.save.dialog.confirmation:
-    text: "{0} 已存在。\n是否要替换它?"
+    text: |-
+        {0} 已存在。
+        是否要替换它?
 file.chooser.save.dialog.confirmation.title:
     text: 确认另存为
 file.chooser.save.dialog.default.title:
@@ -107,7 +109,7 @@ file.chooser.save.dialog.default.title:
 file.chooser.save.dialog.file.name:
     text: '文件名:'
 file.is.read.only.message.text:
-    text: 文件 ''{0}'' 为只读文件。
+    text: "文件 ''{0}'' 为只读文件。"
 files.are.read.only.message.text:
     text: 文件 {0} 为只读文件。
 go.to.line.command.double.click:
@@ -123,9 +125,9 @@ insert.file.path.to.text.action.name:
 integer.field.value.expected:
     text: 应为值
 integer.field.value.not.a.number:
-    text: 值 ''{0}'' 不是整数
+    text: "值 ''{0}'' 不是整数"
 integer.field.value.out.of.range:
-    text: 值 ''{0}'' 超出范围 {1}..{2}
+    text: "值 ''{0}'' 超出范围 {1}..{2}"
 invalid.user.input.dialog.title:
     text: 输入错误
 label.class.filter.editor.add.dialog.filter.pattern:
@@ -221,7 +223,7 @@ status.bar.encoding.widget.name:
 status.bar.fatal.error.widget.name:
     text: 内部错误
 status.bar.hide.widget.action.name:
-    text: 隐藏 ''{0}''
+    text: "隐藏 ''{0}''"
 status.bar.inspection.profile.widget.name:
     text: 检查配置文件
 status.bar.line.separator.widget.name:
@@ -293,7 +295,9 @@ tool.window.name.structure:
 tool.window.name.version.control:
     text: 版本控制
 tool.window.quick.access.message:
-    text: "将鼠标悬停在下面的图标来访问工具窗口\n单击该图标，使工具窗口按钮可见"
+    text: |-
+        将鼠标悬停在下面的图标来访问工具窗口
+        单击该图标，使工具窗口按钮可见
 tool.window.quick.access.title:
     text: 工具窗口快速访问
 tree.view.collapse.all.action.name:

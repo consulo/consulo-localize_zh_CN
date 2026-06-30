@@ -31,7 +31,7 @@ iw.status.paused:
 method.implements:
     text: 实现<a href="#javaClass/{1}">{1}</a>中的方法
 method.implements.in:
-    text: 实现<a href="#javaClass/{1}">{1}</a>中的方法''{0}''
+    text: "实现<a href=\"#javaClass/{1}\">{1}</a>中的方法''{0}''"
 method.is.implemented.header:
     text: 在以下位置实现<br>
 method.is.implemented.too.many:
@@ -43,7 +43,7 @@ method.is.overriden.header:
 method.overrides:
     text: 重写<a href="#javaClass/{1}">{1}</a>中的方法
 method.overrides.in:
-    text: 重写<a href="#javaClass/{1}">{1}</a>中的方法''{0}''
+    text: "重写<a href=\"#javaClass/{1}\">{1}</a>中的方法''{0}''"
 navigation.findUsages.title.super.method:
     text: '{0} 的 super 方法'
 navigation.title.implementation.method:

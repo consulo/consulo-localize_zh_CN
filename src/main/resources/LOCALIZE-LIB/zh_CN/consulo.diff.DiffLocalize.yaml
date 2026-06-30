@@ -11,7 +11,9 @@ apply.partially.resolved.merge.dialog.title:
 apply.patch.all.changes.processed.message.text:
     text: 所有区块均已被处理。<br><a href="">保存更改并完成解决</a>
 apply.patch.partially.resolved.changes.confirmation.message:
-    text: "{0, choice, 1#1 个区块|2#{0, number} 个区块}未处理。\n要保存更改并完成解决吗?"
+    text: |-
+        {0, choice, 1#1 个区块|2#{0, number} 个区块}未处理。
+        要保存更改并完成解决吗?
 apply.somehow.status.message.all.applied:
     text: 已解决所有区块
 apply.somehow.status.message.already.applied:
@@ -133,7 +135,9 @@ ignore.whitespace.acton.name:
 label.default.diff.editor.tab.name:
     text: 差异
 merge.all.changes.have.processed.save.and.finish.confirmation.text:
-    text: "所有修改已经处理完毕。\n你要保存修改合并完成的文件吗？"
+    text: |-
+        所有修改已经处理完毕。
+        你要保存修改合并完成的文件吗？
 merge.all.changes.processed.message.text:
     text: 所有更改均已被处理。<br><a href="">保存更改并完成合并</a>
 merge.application.usage.parameters.and.description:

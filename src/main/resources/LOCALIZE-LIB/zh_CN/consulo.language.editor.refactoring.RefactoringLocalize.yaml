@@ -23,13 +23,16 @@
 0.is.already.overridden.in.1:
     text: '{0}在{1}中已被重写。不会将方法向下推送至该类。'
 0.is.an.interface.method.implementation.will.be.added.to.all.directly.implementing.classes:
-    text: "{0} 是一个接口。\n方法实现将被添加到所有直接实现类。\n继续?"
+    text: |-
+        {0} 是一个接口。
+        方法实现将被添加到所有直接实现类。
+        继续?
 0.is.an.interface.that.has.no.implementing.classes:
     text: '{0} 是一个没有实现类的接口'
 0.is.not.a.legal.fq.name:
-    text: '''''{0}'''' 不是合法的完全限定名称'
+    text: "''{0}'' 不是合法的完全限定名称"
 0.is.not.a.legal.java.identifier:
-    text: '''''{0}''''不是合法的java标识符'
+    text: "''{0}''不是合法的java标识符"
 0.is.not.accessible.from.1.value.for.introduced.parameter.in.that.method.call.will.be.incorrect:
     text: '{0}不可以从{1}访问。该方法调用中引入形参的值将不正确。'
 0.is.not.an.identifier:
@@ -197,7 +200,7 @@ changeSignature.no.return.type:
 changeSignature.no.type.for.exception:
     text: 指定一个类型给异常
 changeSignature.no.type.for.parameter:
-    text: 指定形参 ''{1}'' 的 {0} 类型
+    text: "指定形参 ''{1}'' 的 {0} 类型"
 changeSignature.parameter.caller.chooser:
     text: 选择要传播新形参的方法
 changeSignature.parameters.wont.propagate:
@@ -213,11 +216,11 @@ changeSignature.return.type.prompt:
 changeSignature.vararg.not.last:
     text: Rest 形参应当为方法签名中的最后一个形参
 changeSignature.wrong.return.type:
-    text: 错误的返回值类型:''{0}''
+    text: "错误的返回值类型:''{0}''"
 changeSignature.wrong.type.for.exception:
-    text: '类型错误: 异常的 ''''{0}'''''
+    text: "类型错误: 异常的 ''{0}''"
 changeSignature.wrong.type.for.parameter:
-    text: '类型错误: 形参 ''''{1}'''' 的 ''''{0}'''''
+    text: "类型错误: 形参 ''{1}'' 的 ''{0}''"
 changing.signature.of.0:
     text: 更改{0}的签名
 checkbox.safe.delete.with.usage.search:
@@ -237,7 +240,9 @@ choose.the.ones.you.want.to.be.deleted:
 class.0.already.exists:
     text: 类{0}已存在
 class.0.does.not.exist:
-    text: "类 {0} 不存在。\n是否要创建?"
+    text: |-
+        类 {0} 不存在。
+        是否要创建?
 class.0.does.not.have.inheritors:
     text: 类 {0} 没有继承者。
 class.0.is.not.accessible.from.target.1:
@@ -299,7 +304,9 @@ convert.to.instance.method.title:
 convertToInstanceMethod.all.reference.type.parameters.are.not.in.project:
     text: '找不到实例方法的目标类: 所有引用的类型均不在项目中。'
 convertToInstanceMethod.method.is.not.static:
-    text: "无法执行重构\n方法 {0} 不为 static"
+    text: |-
+        无法执行重构
+        方法 {0} 不为 static
 convertToInstanceMethod.no.parameters.with.reference.type:
     text: 不存在具有引用类型的形参。
 copy.class.clone.0.1:
@@ -385,13 +392,16 @@ detecting.possible.conflicts:
 dialog.message.cannot.inline.reference.from.0:
     text: 无法从 {0} 内联引用
 dialog.message.file.already.exists.in.directory:
-    text: 文件 ''{0}'' 在目录 ''{1}'' 中已存在
+    text: "文件 ''{0}'' 在目录 ''{1}'' 中已存在"
 dialog.message.refactoring.not.available.in.current.scope:
     text: '{0} 在当前作用域内不可用'
 dialog.message.selected.element.used.from.non.project.files:
     text: 从非项目文件中使用所选元素。不会重命名这些用法。仍要继续?
 directories.and.all.references.to.package.will.be.renamed:
-    text: "\n\n您要重命名哪些目录?"
+    text: |4-
+
+
+        您要重命名哪些目录?
 directory.0.already.contains.1.named.2:
     text: "目录 {0}\n已经包含一个名为 ''{2}'' 的{1}"
 directory.0.already.contains.a.file.named.1:
@@ -549,7 +559,9 @@ field.0.is.never.used:
 field.0.is.not.accessible:
     text: 字段{0}是不可以从{1}
 field.0.is.not.static:
-    text: "字段 {0} 不为 static。\n仅 static 成员支持{1}重构。"
+    text: |-
+        字段 {0} 不为 static。
+        仅 static 成员支持{1}重构。
 field.0.will.hide.field.1.of.the.base.class:
     text: 字段 {0} 将隐藏基{2}的字段 {1}
 field.declaration.radio:
@@ -577,7 +589,9 @@ getter.and.setter.methods.found.for.the.field.0:
 getter.method.found.for.the.field.0:
     text: 发现字段 {0} 的 getter 方法。 是否将 getter 一起{1}?
 idea.has.found.fragments.that.can.be.replaced.with.include.directive:
-    text: "{0} 已发现可以使用 include 指令替换的片段。\n是否要审查这些片段?"
+    text: |-
+        {0} 已发现可以使用 include 指令替换的片段。
+        是否要审查这些片段?
 idea.has.not.found.any.code.that.can.be.replaced.with.method.call:
     text: '{0}没有发现任何副本'
 ignore.button:
@@ -605,7 +619,7 @@ inline.field.title:
 inline.included.file.title:
     text: 内联包含的文件
 inline.local.variable.prompt:
-    text: 内联局部变量 ''{0}''?
+    text: "内联局部变量 ''{0}''?"
 inline.method.border.title:
     text: 内联
 inline.method.checking.tail.calls.progress:
@@ -621,7 +635,7 @@ inline.method.title:
 inline.parameter.command.name:
     text: 内联参数 {0}
 inline.parameter.confirmation:
-    text: 将形参 ''{0}'' 与初始值设定项 ''{1}'' 内联?
+    text: "将形参 ''{0}'' 与初始值设定项 ''{1}'' 内联?"
 inline.parameter.error.hierarchy:
     text: 内联形参不支持当方法是一个继承层次结构的一部分
 inline.parameter.error.varargs:
@@ -631,7 +645,7 @@ inline.parameter.refactoring:
 inline.parameter.replace.with.local.checkbox:
     text: "替换为局部变量(e)\r (&E)"
 inline.the.contents.include.prompt:
-    text: 内联''{0}'' 的内容?
+    text: "内联''{0}'' 的内容?"
 inline.title:
     text: 内联
 inline.to.anonymous.border.title:
@@ -657,11 +671,15 @@ inlined.method.implements.method.from.0:
 inlined.method.overrides.method.from.0:
     text: 从{0}内联方法重写方法
 inner.class.0.is.already.defined.in.class.1:
-    text: "内部类 {0} 已在类 {1} 中定义。\n仍然继续?"
+    text: |-
+        内部类 {0} 已在类 {1} 中定义。
+        仍然继续?
 inner.class.0.is.not.static:
-    text: "内部类 {0} 不为 static。\n仅 static 成员支持{1}重构。"
+    text: |-
+        内部类 {0} 不为 static。
+        仅 static 成员支持{1}重构。
 inner.class.exists:
-    text: 名为''{0}''的内部类已经定义在类''{1}''中
+    text: "名为''{0}''的内部类已经定义在类''{1}''中"
 inner.class.name:
     text: '内部类名(&I):'
 inner.classes.cannot.have.static.members:
@@ -793,7 +811,9 @@ members.to.form.superclass:
 method.0.is.already.defined.in.the.1:
     text: 方法 {0} 已在{1}中定义。
 method.0.is.not.static:
-    text: "方法 {0} 不为 static。\n仅 static 成员支持{1}重构。"
+    text: |-
+        方法 {0} 不为 static。
+        仅 static 成员支持{1}重构。
 method.0.is.overridden.by.1:
     text: 方法{0}被{1}重写。
 method.0.will.hide.method.of.the.base.class:
@@ -929,7 +949,7 @@ move.method.is.not.supported.for.generic.classes:
 move.method.is.not.supported.when.method.is.part.of.inheritance.hierarchy:
     text: 当方法是继承层次结构的一部分时，不支持 Move 方法
 move.method.this.parameter.label:
-    text: 为 ''{0}.this'' 形参选择一个名称
+    text: "为 ''{0}.this'' 形参选择一个名称"
 move.nonstatic.class.from.jsp.not.supported:
     text: 不支持从 JSP 页面移动非 static 类
 move.package.refactoring.cannot.be.applied.to.default.package:
@@ -1005,7 +1025,9 @@ only.fields.variables.of.methods.of.valid.type.can.be.considered:
 package.description:
     text: 软件包 {0}
 package.does.not.exist:
-    text: "软件包 {0} 不存在。\n是否要创建?"
+    text: |-
+        软件包 {0} 不存在。
+        是否要创建?
 package.for.new.interface:
     text: '新接口的软件包(&P):'
 package.for.new.superclass:
@@ -1037,7 +1059,9 @@ please.enter.a.valid.target.package.name:
 press.escape.to.remove.the.highlighting:
     text: 按 esc 移除高亮显示
 press.the.do.migrate.button:
-    text: "按搜索结果面板底部的“”迁移按钮，\n使用迁移映射“{0}”进行迁移"
+    text: |-
+        按搜索结果面板底部的“”迁移按钮，
+        使用迁移映射“{0}”进行迁移
 preview.button:
     text: 预览(&P)
 preview.usages.to.be.changed:
@@ -1137,7 +1161,9 @@ refactoring.is.not.supported.for.language:
 refactoring.is.not.supported.for.local.and.jsp.classes:
     text: 局部和 JSP 类不支持重构
 refactoring.is.not.supported.for.recursive.methods:
-    text: "无法应用{0}重构来移除递归方法。\n您只能内联各个方法调用。"
+    text: |-
+        无法应用{0}重构来移除递归方法。
+        您只能内联各个方法调用。
 refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
     text: 当 return 语句中断执行流时，不支持{0}重构
 references.found.in.code:
@@ -1151,13 +1177,13 @@ references.in.code.to.0.1:
 references.in.code.to.elements.from.migration.map:
     text: 在代码中引用来自迁移映射“{0}”{1} 的元素
 references.to.0.to.be.replaced.with.references.to.1:
-    text: 对 ''{0}'' 的引用要替换为对 ''{1}''{2} 的引用
+    text: "对 ''{0}'' 的引用要替换为对 ''{1}''{2} 的引用"
 remove.duplicates.command:
     text: 删除重复项
 remove.include.prompt:
     text: 包含的文件不再使用。将其移除?
 remove.parameter.0.no.longer.used:
-    text: 移除不再使用的形参 ''{0}''
+    text: "移除不再使用的形参 ''{0}''"
 rename.0.and.its.usages.to:
     text: '将{0}及其用法重命名为:'
 rename.bound.forms:
@@ -1463,7 +1489,10 @@ unused.overriding.methods.title:
 usageView.doAction:
     text: 执行重构(&D)
 usageView.need.reRun:
-    text: "无法执行重构操作。\n找到用法后代码有更改。\n请再次执行用法搜索。"
+    text: |-
+        无法执行重构操作。
+        找到用法后代码有更改。
+        请再次执行用法搜索。
 usageView.tabText:
     text: 重构预览
 usageView.usagesText:
@@ -1473,7 +1502,9 @@ usages.detected:
 use.interface.where.possible.title:
     text: 在可能处使用接口
 use.super.references.prompt:
-    text: "在这个阶段，{0} 可以分析 {1} 的用法，并在可能的情况下将其替换为 {2} 的用法。\n是否要继续?"
+    text: |-
+        在这个阶段，{0} 可以分析 {1} 的用法，并在可能的情况下将其替换为 {2} 的用法。
+        是否要继续?
 use.variable.initializer.to.initialize.parameter:
     text: 使用变量初始值设定项初始化形参(&I)
 used.by.0:
@@ -1487,7 +1518,7 @@ variable.has.no.dominating.definition:
 variable.has.no.initializer:
     text: 变量 {0} 没有初始值设定项。
 variable.is.accessed.for.writing.and.used.with.inlined:
-    text: 另一个变量 ''{0}'' 定义与内联定义结合使用
+    text: "另一个变量 ''{0}'' 定义与内联定义结合使用"
 variable.is.never.used:
     text: 变量 {0} 从未使用
 variable.is.never.used.before.modification:

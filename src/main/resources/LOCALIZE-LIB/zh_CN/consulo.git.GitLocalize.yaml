@@ -67,7 +67,7 @@ error.dialog.title:
 error.list.title:
     text: '{0} 错误:'
 error.occurred.during:
-    text: '''''{0}'''' 时出错'
+    text: "''{0}'' 时出错"
 errors.message:
     text: 'Git 操作以多个错误结束: {0}'
 fetch.action.name:
@@ -121,7 +121,9 @@ init.destination.directory.description:
 init.destination.directory.title:
     text: 创建 Git 仓库
 init.warning.already.under.git:
-    text: "所选目录 <tt>{0}</tt> 已在 Git 下。\n确定要创建新的 VCS 根吗?"
+    text: |-
+        所选目录 <tt>{0}</tt> 已在 Git 下。
+        确定要创建新的 VCS 根吗?
 initializing.title:
     text: 正在初始化仓库…
 merge.branch.title:
@@ -289,7 +291,11 @@ update.options.display.name:
 util.remote.renderer.none:
     text: 无
 vfs.listener.add.single.prompt:
-    text: "是否要安排将以下文件添加到 Git?\n{0}\n\n如果您选择“取消”，以后仍可以手动添加。"
+    text: |-
+        是否要安排将以下文件添加到 Git?
+        {0}
+
+        如果您选择“取消”，以后仍可以手动添加。
 vfs.listener.add.single.title:
     text: 将文件添加到 Git
 vfs.listener.add.title:
@@ -297,7 +303,11 @@ vfs.listener.add.title:
 vfs.listener.checking.ignored:
     text: 正在检查忽略的文件…
 vfs.listener.delete.single.prompt:
-    text: "是否要从 Git 中删除以下文件?\n{0}\n\n如果您选择“取消”，以后仍可以手动删除。"
+    text: |-
+        是否要从 Git 中删除以下文件?
+        {0}
+
+        如果您选择“取消”，以后仍可以手动删除。
 vfs.listener.delete.single.title:
     text: 从 Git 中删除文件
 vfs.listener.delete.title:

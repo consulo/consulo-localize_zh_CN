@@ -49,7 +49,7 @@ coverage.hide.fully.covered.elements:
 coverage.info.string.file:
     text: '{0,choice,1#文件|2#文件}'
 coverage.is.not.importable:
-    text: 无法将覆盖率导入此环境。在“设置 | 覆盖率”中{0} coverage.py 或{1} ''{2}''。
+    text: "无法将覆盖率导入此环境。在“设置 | 覆盖率”中{0} coverage.py 或{1} ''{2}''。"
 coverage.is.not.importable.option.enable:
     text: 启用
 coverage.is.not.importable.option.install:
@@ -81,7 +81,7 @@ coverage.show.unmodified.elements:
 coverage.tab.title:
     text: 代码覆盖率
 coverage.view.configuration.was.not.found:
-    text: 未找到配置 ''{0}''。
+    text: "未找到配置 ''{0}''。"
 coverage.view.edit.run.configuration.0:
     text: 点击
 coverage.view.edit.run.configuration.1:
@@ -109,15 +109,15 @@ coverage.view.title:
 delete.file:
     text: 删除文件
 dialog.message.would.you.like.to.delete.file.on.disk:
-    text: 要删除磁盘上的文件 ''{0}'' 吗?
+    text: "要删除磁盘上的文件 ''{0}'' 吗?"
 display.coverage.prompt:
-    text: 是否要显示 ''{0}'' 的覆盖率数据?
+    text: "是否要显示 ''{0}'' 的覆盖率数据?"
 extract.information.about.tests:
     text: 提取有关测试的信息
 following.test.could.not.be.found.1:
     text: '找不到以下{0, choice, 1#测试|2#测试}: {1}'
 generate.coverage.report.for:
-    text: '生成覆盖率报告: ''''{0}'''''
+    text: "生成覆盖率报告: ''{0}''"
 hint.text.failed.to.load.covered.tests:
     text: 无法加载覆盖的测试
 hits.message:
@@ -141,9 +141,9 @@ no.coverage.runner.available.for:
 no.coverage.suites.configured:
     text: 未配置覆盖率套件。
 node.summary.coverage.statistic:
-    text: '''''{1}'''' 中的 {0}'
+    text: "''{1}'' 中的 {0}"
 node.summary.no.coverage:
-    text: '''''{0}'''' 中无覆盖'
+    text: "''{0}'' 中无覆盖"
 popup.title.tests.covering.line:
     text: 测试覆盖行 {0}:{1}
 remote.suites.node:
@@ -153,7 +153,7 @@ run.selected.configuration.with.coverage.enabled:
 run.with.coverage:
     text: 使用覆盖率运行(_V)
 run.with.coverage.mnemonic:
-    text: 使用覆盖率运行 '%s'(_V)
+    text: "使用覆盖率运行 '%s'(_V)"
 settings.coverage.activate.coverage.view:
     text: 激活覆盖率视图(&V)
 settings.coverage.add.to.the.active.suites:

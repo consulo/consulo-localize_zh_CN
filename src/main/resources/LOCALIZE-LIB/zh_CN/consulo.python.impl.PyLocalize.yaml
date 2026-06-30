@@ -7,7 +7,7 @@ ACT.qualify.with.module:
 ANN.assign.to.none:
     text: 赋值给 None
 ANN.break.outside.loop:
-    text: '''break'' 在循环外'
+    text: "'break' 在循环外"
 ANN.cant.assign.to.call:
     text: 无法赋值给函数调用
 ANN.cant.assign.to.comprh:
@@ -43,9 +43,9 @@ ANN.cant.delete.call:
 ANN.cant.delete.literal:
     text: 无法删除文字
 ANN.continue.outside.loop:
-    text: '''continue'' 在循环外'
+    text: "'continue' 在循环外"
 ANN.default.except.must.be.last:
-    text: 默认 'except:' 必须为最后一个
+    text: "默认 'except:' 必须为最后一个"
 ANN.deleting.none:
     text: 删除 None
 ANN.duplicate.param.name:
@@ -61,7 +61,7 @@ ANN.regular.param.after.keyword:
 ANN.regular.param.after.vararg:
     text: 正则形参在 * 形参后面
 ANN.star.import.at.top.only:
-    text: 仅在模块级别允许 'import *'
+    text: "仅在模块级别允许 'import *'"
 ANN.starred.param.after.kwparam:
     text: '* 形参在 ** 形参后面'
 ANN.tuple.py3:
@@ -77,7 +77,7 @@ INSP.NAME.attribute.outside.init:
 INSP.NAME.augment.assignment:
     text: 赋值可被替换为增强赋值
 INSP.NAME.bad.except.clauses.order:
-    text: 顺序错误的 'except' 子句
+    text: "顺序错误的 'except' 子句"
 INSP.NAME.byte.literal:
     text: 字节文字包含非 ASCII 字符
 INSP.NAME.chained.comparisons:
@@ -103,7 +103,7 @@ INSP.NAME.docstring.types:
 INSP.NAME.duplicate.keys:
     text: 字典包含重复键
 INSP.NAME.exception.not.inherit:
-    text: 不从标准 'Exception' 类继承异常
+    text: "不从标准 'Exception' 类继承异常"
 INSP.NAME.first.arg.assign:
     text: 此方法的第一个实参被重新赋值
 INSP.NAME.from.future.import:
@@ -129,7 +129,7 @@ INSP.NAME.method.over:
 INSP.NAME.missing.or.empty.docstring:
     text: 缺失或空 docstring
 INSP.NAME.missing.super.constructor:
-    text: 缺少对超类 '__init__' 的调用
+    text: "缺少对超类 '__init__' 的调用"
 INSP.NAME.nested.decorators:
     text: 装饰器嵌套有问题
 INSP.NAME.new.init.signature:
@@ -217,13 +217,13 @@ INSP.init.incompatible.to.new:
 INSP.message.single.quoted.docstring:
     text: 应对 docstring 使用带三个双引号的字符串。
 INSP.method.may.be.static:
-    text: 方法 <code>#ref</code> 可能为 'static'
+    text: "方法 <code>#ref</code> 可能为 'static'"
 INSP.missing.parameter.in.docstring:
     text: docstring 中的缺失形参 {0}
 INSP.missing.super.constructor.message:
     text: 缺少对超类 __init__ 的调用
 INSP.must.have.first.parameter:
-    text: 方法必须有第一个形参，通常叫做 ''{0}''
+    text: "方法必须有第一个形参，通常叫做 ''{0}''"
 INSP.new.incompatible.to.init:
     text: 签名不兼容 __init__
 INSP.no.docstring:
@@ -231,7 +231,7 @@ INSP.no.docstring:
 INSP.no.format.specifier.char:
     text: 缺少格式说明符
 INSP.none.function.assignment:
-    text: 函数 ''{0}'' 不返回任何内容
+    text: "函数 ''{0}'' 不返回任何内容"
 INSP.oldstyle.class.getattribute:
     text: 老式类包含 __getattribute__ 定义
 INSP.oldstyle.class.slots:
@@ -239,15 +239,15 @@ INSP.oldstyle.class.slots:
 INSP.oldstyle.class.super:
     text: 老式类包含对 super 方法的调用
 INSP.probably.mistyped.self:
-    text: 你不是指 'self' 吗?
+    text: "你不是指 'self' 吗?"
 INSP.redeclared.name:
-    text: 已重新声明上文定义的无用法的 ''{0}''
+    text: "已重新声明上文定义的无用法的 ''{0}''"
 INSP.setter.should.not.return:
     text: setter 不应返回值
 INSP.setter.signature.advice:
     text: Setter 签名应为 (self, value)
 INSP.signature.mismatch:
-    text: 方法 ''{0}'' 的签名与类 ''{1}'' 中基方法的签名不匹配
+    text: "方法 ''{0}'' 的签名与类 ''{1}'' 中基方法的签名不匹配"
 INSP.strange.arg.want.callable:
     text: 奇怪实参；应为可调用对象
 INSP.too.few.args.for.fmt.string:
@@ -257,15 +257,15 @@ INSP.too.few.keys:
 INSP.too.many.args.for.fmt.string:
     text: 格式字符串的实参太多
 INSP.try.except.import.error:
-    text: 包含 ''except ImportError'' 的 try 块中的 ''{0}'' 也应在 except 块中定义
+    text: "包含 ''except ImportError'' 的 try 块中的 ''{0}'' 也应在 except 块中定义"
 INSP.tuples.never.assign.items:
     text: 元组不支持项目赋值
 INSP.unbound.function.too.large:
-    text: 函数 ''{0}'' 太大，无法分析
+    text: "函数 ''{0}'' 太大，无法分析"
 INSP.unbound.local.variable:
-    text: 局部变量 ''{0}'' 可能在赋值前引用
+    text: "局部变量 ''{0}'' 可能在赋值前引用"
 INSP.unbound.nonlocal.variable:
-    text: 非局部变量 ''{0}'' 必须绑定在外部函数作用域中
+    text: "非局部变量 ''{0}'' 必须绑定在外部函数作用域中"
 INSP.unexpected.arg:
     text: 意外实参
 INSP.unexpected.parameter.in.docstring:
@@ -273,17 +273,17 @@ INSP.unexpected.parameter.in.docstring:
 INSP.unreachable.code:
     text: 此代码不可到达
 INSP.unused.locals.local.class.isnot.used:
-    text: 未使用局部类 ''{0}''
+    text: "未使用局部类 ''{0}''"
 INSP.unused.locals.local.function.isnot.used:
-    text: 未使用局部函数 ''{0}''
+    text: "未使用局部函数 ''{0}''"
 INSP.unused.locals.local.variable.isnot.used:
-    text: 未使用局部变量 ''{0}'' 的值
+    text: "未使用局部变量 ''{0}'' 的值"
 INSP.unused.locals.parameter.isnot.used:
-    text: 未使用形参 ''{0}'' 的值
+    text: "未使用形参 ''{0}'' 的值"
 INSP.unused.locals.replace.with.wildcard:
     text: 替换为 _
 INSP.usually.named.self:
-    text: 方法的第一个形参通常叫做 'self'
+    text: "方法的第一个形参通常叫做 'self'"
 INTN.add.parameters.to.docstring:
     text: 向 docstring 添加形参
 INTN.convert.builtin.import:
@@ -293,7 +293,7 @@ INTN.convert.dict.constructor.to.dict.literal:
 INTN.convert.dict.literal.to.dict.constructor:
     text: 将 dict 文字转换为 dict 构造函数
 INTN.convert.except.to:
-    text: 将 'except exceptClass, Target' 转换为 'except exceptClass as Target'
+    text: "将 'except exceptClass, Target' 转换为 'except exceptClass as Target'"
 INTN.convert.lambda.to.function:
     text: 将 lambda 转换为函数
 INTN.convert.method.to.property:
@@ -305,15 +305,15 @@ INTN.convert.to.fstring.literal:
 INTN.convert.variadic.param:
     text: 将可变形参转换为正常形参
 INTN.flip.comparison:
-    text: 翻转 ''{0}''
+    text: "翻转 ''{0}''"
 INTN.format.operator.to.method:
-    text: 将格式运算符转换为 'str.format' 方法调用
+    text: "将格式运算符转换为 'str.format' 方法调用"
 INTN.insert.assertion:
     text: 插入类型断言
 INTN.join.if:
-    text: 联接两个 'if' 语句
+    text: "联接两个 'if' 语句"
 INTN.negate.comparison:
-    text: 将 ''{0}'' 求反为 ''{1}''
+    text: "将 ''{0}'' 求反为 ''{1}''"
 INTN.quoted.string:
     text: 将带单引号的字符串转换为带双引号的字符串，反之亦然
 INTN.quoted.string.double.to.single:
@@ -325,7 +325,7 @@ INTN.replace.backquote.expression:
 INTN.replace.list.comprehensions:
     text: 将列表推导式转换为支持的形式
 INTN.replace.list.comprehensions.with.for:
-    text: 将列表推导式转换为 'for' 循环
+    text: "将列表推导式转换为 'for' 循环"
 INTN.replace.noteq.operator:
     text: 替换不等运算符
 INTN.replace.octal.numeric.literal:
@@ -343,55 +343,55 @@ INTN.specify.return.type.in.annotation:
 INTN.specify.type.in.annotation:
     text: 使用注解指定引用类型
 INTN.split.if:
-    text: 拆分成 2 条 'if' 语句
+    text: "拆分成 2 条 'if' 语句"
 INTN.string.concatenation.to.format:
-    text: 将字符串串联替换为 'str.format'
+    text: "将字符串串联替换为 'str.format'"
 INTN.transform.into.if.else.statement:
-    text: 将条件表达式转换为 'if/else' 语句
+    text: "将条件表达式转换为 'if/else' 语句"
 INTN.triple.quoted.string:
     text: 将三引号字符串转换为带单引号的字符串
 INTN.yield.from:
-    text: 将含有 'yield' 的显式迭代转换为 'yield from' 表达式
+    text: "将含有 'yield' 的显式迭代转换为 'yield from' 表达式"
 PARSE.expected.colon:
-    text: 应为 ':'
+    text: "应为 ':'"
 PARSE.expected.colon.or.rbracket:
-    text: 应为 ':' 或 ']'
+    text: "应为 ':' 或 ']'"
 PARSE.expected.comma:
-    text: 应为 ','
+    text: "应为 ','"
 PARSE.expected.comma.lpar.rpar:
-    text: 应为 ',' 或 '(' 或 ')'
+    text: "应为 ',' 或 '(' 或 ')'"
 PARSE.expected.comma.or.rpar:
-    text: 应为 ',' 或 ')'
+    text: "应为 ',' 或 ')'"
 PARSE.expected.else:
-    text: 应为 'else'
+    text: "应为 'else'"
 PARSE.expected.expr.or.comma.or.bracket:
-    text: 应为表达式 ',' 或 ']'
+    text: "应为表达式 ',' 或 ']'"
 PARSE.expected.expression:
     text: 应为表达式
 PARSE.expected.for.or.bracket:
-    text: 应为 ']' 或 'for'
+    text: "应为 ']' 或 'for'"
 PARSE.expected.formal.param.name:
     text: 应为形参名称
 PARSE.expected.identifier:
     text: 应为标识符
 PARSE.expected.in:
-    text: 应为 'in'
+    text: "应为 'in'"
 PARSE.expected.lpar:
-    text: 应为 '('
+    text: "应为 '('"
 PARSE.expected.name:
     text: 应为名称
 PARSE.expected.rbrace:
-    text: 应为 '}'
+    text: "应为 '}'"
 PARSE.expected.rbracket:
-    text: 应为 ']'
+    text: "应为 ']'"
 PARSE.expected.rpar:
-    text: 应为 ')'
+    text: "应为 ')'"
 PARSE.expected.statement.break:
     text: 应为 break 语句
 PARSE.expected.tick:
-    text: 应为 '`' (反引号)
+    text: "应为 '`' (反引号)"
 QDOC.epydoc.python2.sdk.not.found:
-    text: 您需要配置好的 Python 2 SDK 来渲染 <a href='http://epydoc.sourceforge.net/'>Epydoc</a> docstring
+    text: "您需要配置好的 Python 2 SDK 来渲染 <a href='http://epydoc.sourceforge.net/'>Epydoc</a> docstring"
 QDOC.module.path.unknown:
     text: (模块路径未知)
 QFIX.NAME.add.exception.base:
@@ -437,9 +437,9 @@ QFIX.add.encoding:
 QFIX.add.global:
     text: 添加全局语句
 QFIX.add.import.add.import:
-    text: 添加 "''{0}''"
+    text: "添加 \"''{0}''\""
 QFIX.add.parameter.self:
-    text: 添加形参 ''{0}''
+    text: "添加形参 ''{0}''"
 QFIX.add.property:
     text: 添加字段的属性
 QFIX.add.super:
@@ -447,7 +447,7 @@ QFIX.add.super:
 QFIX.augment.assignment:
     text: 将赋值替换为增强赋值
 QFIX.auto.import.import.name:
-    text: 导入 ''{0}''
+    text: "导入 ''{0}''"
 QFIX.auto.import.import.this.name:
     text: 导入此名称
 QFIX.chained.comparison:
@@ -485,7 +485,7 @@ QFIX.make.public:
 QFIX.move.attribute:
     text: 将特性移至 __init__ 方法
 QFIX.move.from.future.import:
-    text: 将 'from __future__ import' 移至正确位置
+    text: "将 'from __future__ import' 移至正确位置"
 QFIX.redundant.parentheses:
     text: 移除冗余圆括号
 QFIX.remove.argument.equal.default:
@@ -505,9 +505,9 @@ QFIX.replace.function.set.with.literal:
 QFIX.statement.effect:
     text: 替换为函数调用
 QFIX.unresolved.reference:
-    text: 将 ''{0}'' 替换为 ''{1}.{0}''
+    text: "将 ''{0}'' 替换为 ''{1}.{0}''"
 QFIX.unresolved.reference.add.param:
-    text: 创建形参 ''{0}''
+    text: "创建形参 ''{0}''"
 QFIX.use.property:
     text: 使用此字段的属性
 active.sdk.dialog.project.interpreter:
@@ -535,7 +535,7 @@ custom.type.mimic.name:
 debug.popup.title.step.into.function:
     text: 步入函数
 formatter.after.hash:
-    text: '''#'' 之后'
+    text: "'#' 之后"
 formatter.after.local.imports:
     text: '在本地导入后面:'
 formatter.align.when.multiline:
@@ -553,9 +553,9 @@ formatter.around.top.level.classes.and.function:
 formatter.around.top.level.imports:
     text: '在顶层导入后:'
 formatter.before.backslash:
-    text: ''''' 之前'
+    text: "'' 之前"
 formatter.before.hash:
-    text: '''#'' 之前'
+    text: "'#' 之前"
 formatter.braces:
     text: 大括号
 formatter.collections.and.comprehensions:
@@ -621,7 +621,10 @@ refactoring.change.signature.error.tuple.parameters:
 refactoring.change.signature.error.wrong.caret.position.method.name:
     text: 文本光标应置于要重构的方法的名称处
 refactoring.change.signature.find.usages.of.base.class:
-    text: "类 {1} 的方法 {0}\n重写类 {2} 的方法。\n是否要重构基方法?"
+    text: |-
+        类 {1} 的方法 {0}
+        重写类 {2} 的方法。
+        是否要重构基方法?
 refactoring.change.signature.usage.view.declarations.header:
     text: 要重构的函数
 refactoring.convert.package.to.module.error.not.empty.package:
@@ -651,13 +654,13 @@ refactoring.extract.method.error.returns:
 refactoring.extract.method.error.star.import:
     text: 无法使用代码块内的星号 import 语句执行重构
 refactoring.extract.method.error.yield:
-    text: 无法使用代码块内的 'yield' 语句执行重构
+    text: "无法使用代码块内的 'yield' 语句执行重构"
 refactoring.extract.super.class.no.members.allowed:
     text: 无法提取任何成员
 refactoring.extract.super.name.0.must.be.ident:
-    text: 名称 ''{0}'' 无效。必须为有效的 Python 标识符
+    text: "名称 ''{0}'' 无效。必须为有效的 Python 标识符"
 refactoring.extract.super.target.class.already.exists:
-    text: 此模块中已存在类 ''{0}''
+    text: "此模块中已存在类 ''{0}''"
 refactoring.extract.super.target.path.outside.roots:
     text: 该目标目录在项目外部。必须在内容根内
 refactoring.inline.local.multiassignment:
@@ -725,7 +728,7 @@ refactoring.pull.up.error.cannot.perform.refactoring.no.base.classes:
 refactoring.pull.up.error.cannot.perform.refactoring.not.inside.class:
     text: '无法执行向上拉取成员: 不在此类中'
 refactoring.will.not.be.accessible:
-    text: 您在尝试移动的成员依赖于在此重构后无法访问的 ''{0}''
+    text: "您在尝试移动的成员依赖于在此重构后无法访问的 ''{0}''"
 remote.debug.info:
     text: 信息
 remote.debug.local.host:
@@ -883,7 +886,7 @@ sdk.select.path:
 sdk.some.skeletons.failed:
     text: 无法生成某些框架
 smartKeys.insert.self.in.method:
-    text: 定义方法时插入 'self'
+    text: "定义方法时插入 'self'"
 smartKeys.insert.type.placeholder.in.docstring.stub:
     text: 在文档注释存根中插入类型占位符
 unable.to.stop:

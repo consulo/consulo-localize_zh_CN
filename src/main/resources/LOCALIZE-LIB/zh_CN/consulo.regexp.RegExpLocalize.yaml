@@ -53,7 +53,7 @@ color.settings.redundant.escape.sequence:
 color.settings.title.regexp:
     text: 正则表达式
 dialog.message.inspection.with.name.exists.warning:
-    text: 名称为 ''{0}'' 的检查已存在
+    text: "名称为 ''{0}'' 的检查已存在"
 doc.property.block.stands.for.0:
     text: 属性块代表 {0}
 doc.property.block.stands.for.characters.not.matching.0:
@@ -73,9 +73,9 @@ error.conditional.group.reference.not.allowed.inside.lookbehind:
 error.conditionals.are.not.supported.in.this.regex.dialect:
     text: 此正则表达式方言不支持条件语句
 error.dangling.metacharacter:
-    text: 悬空限定符 ''{0}''
+    text: "悬空限定符 ''{0}''"
 error.dangling.opening.bracket:
-    text: 非预期的限定符开始 '{'
+    text: "非预期的限定符开始 '{'"
 error.define.subpattern.contains.more.than.one.branch:
     text: DEFINE 子模式包含多个分支
 error.embedded.comments.are.not.supported.in.this.regex.dialect:
@@ -87,7 +87,7 @@ error.group.reference.is.nested.into.the.named.group.it.refers.to:
 error.group.reference.not.allowed.inside.lookbehind:
     text: 后行中不允许组引用
 error.group.with.name.0.already.defined:
-    text: 名称为 ''{0}'' 的组已定义
+    text: "名称为 ''{0}'' 的组已定义"
 error.illegal.character.range.to.from:
     text: 非法字符范围(to < from)
 error.illegal.hexadecimal.escape.sequence:
@@ -173,7 +173,7 @@ inspection.name.octal.escape:
 inspection.name.redundant.character.escape:
     text: 冗余字符转义
 inspection.name.redundant.digit.class.element:
-    text: 冗余的 '\d', '[:digit:]'，或 '\D' 类元素
+    text: "冗余的 '\\d', '[:digit:]'，或 '\\D' 类元素"
 inspection.name.redundant.nested.character.class:
     text: 冗余嵌套字符类
 inspection.name.simplifiable.expression:
@@ -185,9 +185,9 @@ inspection.name.suspicious.backref:
 inspection.name.unnecessary.non.capturing.group:
     text: 不必要的非捕获组
 inspection.option.ignore.escaped.closing.brackets:
-    text: 忽略转义的右括号 '}' 和 ']'
+    text: "忽略转义的右括号 '}' 和 ']'"
 inspection.quick.fix.remove.duplicate.0.from.character.class:
-    text: 从字符类移除重复 ''{0}''
+    text: "从字符类移除重复 ''{0}''"
 inspection.quick.fix.remove.duplicate.branch:
     text: 移除重复分支
 inspection.quick.fix.remove.duplicate.element.from.character.class:
@@ -195,7 +195,7 @@ inspection.quick.fix.remove.duplicate.element.from.character.class:
 inspection.quick.fix.remove.empty.branch:
     text: 移除空分支
 inspection.quick.fix.remove.redundant.0.class.element:
-    text: 移除冗余的 ''{0}''
+    text: "移除冗余的 ''{0}''"
 inspection.quick.fix.remove.redundant.class.element:
     text: 移除冗余的类元素
 inspection.quick.fix.remove.redundant.escape:
@@ -219,7 +219,7 @@ inspection.warning.anonymous.capturing.group:
 inspection.warning.can.be.removed:
     text: <code>#ref</code> 冗余
 inspection.warning.can.be.simplified:
-    text: <code>#ref</code> 可简化为 ''{0}''
+    text: "<code>#ref</code> 可简化为 ''{0}''"
 inspection.warning.consecutive.spaces.in.regexp:
     text: 正则表达式中连续 {0} 个空格
 inspection.warning.duplicate.branch.in.alternation:
@@ -241,7 +241,7 @@ inspection.warning.potential.exponential.backtracking:
 inspection.warning.redundant.character.escape.0.in.regexp:
     text: 正则表达式中存在冗余字符转义 <code>{0}</code>
 inspection.warning.redundant.class.element:
-    text: 正则表达式中存在冗余的 ''{0}''
+    text: "正则表达式中存在冗余的 ''{0}''"
 inspection.warning.redundant.nested.character.class:
     text: 冗余嵌套字符类
 inspection.warning.single.character.alternation.in.regexp:
@@ -271,11 +271,11 @@ parse.error.character.expected:
 parse.error.character.or.mysql.character.name.expected:
     text: 应为字符或 MySQL 字符名称
 parse.error.closing.brace.expected:
-    text: 应为 '}'
+    text: "应为 '}'"
 parse.error.closing.brace.or.number.expected:
-    text: 应为 '}' 或数字
+    text: "应为 '}' 或数字"
 parse.error.comma.expected:
-    text: 应为 ','
+    text: "应为 ','"
 parse.error.empty.property:
     text: 空属性
 parse.error.group.name.expected:
@@ -293,9 +293,9 @@ parse.error.negating.a.property.not.allowed.in.this.regular.expression.dialect:
 parse.error.number.expected:
     text: 应为数字
 parse.error.opening.brace.expected:
-    text: 应为 '{'
+    text: "应为 '{'"
 parse.error.opening.brace.or.category.shorthand.expected:
-    text: 应为 '{' 或类别速记形式
+    text: "应为 '{' 或类别速记形式"
 parse.error.pattern.expected:
     text: 应为模式
 parse.error.posix.character.class.name.expected:
@@ -307,7 +307,7 @@ parse.error.property.value.expected:
 parse.error.unclosed.character.class:
     text: 未闭合的字符类
 parse.error.unclosed.group:
-    text: 应为 ')'
+    text: "应为 ')'"
 parse.error.unclosed.group.name:
     text: 未闭合的组名称
 parse.error.unclosed.group.reference:
@@ -325,7 +325,7 @@ parse.error.unclosed.property:
 parse.error.unicode.character.name.expected:
     text: 应为 Unicode 字符名称
 parse.error.unmatched.closing.bracket:
-    text: 不匹配的右 ''{0}''
+    text: "不匹配的右 ''{0}''"
 regexp.dialog.language:
     text: '语言(&L):'
 regexp.dialog.replace.template:
@@ -361,6 +361,6 @@ tooltip.no.match:
 tooltip.pattern.is.too.complex:
     text: 正则表达式模式过于复杂
 warning.duplicate.character.0.inside.character.class:
-    text: 字符类中存在重复字符 ''{0}''
+    text: "字符类中存在重复字符 ''{0}''"
 warning.duplicate.predefined.character.class.0.inside.character.class:
-    text: 字符类中存在重复的预定义字符类 ''{0}''
+    text: "字符类中存在重复的预定义字符类 ''{0}''"

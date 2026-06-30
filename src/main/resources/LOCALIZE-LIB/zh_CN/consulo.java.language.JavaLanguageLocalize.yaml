@@ -1,5 +1,5 @@
 annotation.name.is.missing:
-    text: 注解特性必须为 'name=value' 形式
+    text: "注解特性必须为 'name=value' 形式"
 anonymous.class.context.display:
     text: 匿名在{0}
 anonymous.class.derived.display:
@@ -13,7 +13,7 @@ bad.return.type.in.method.reference:
 bound.not.expected:
     text: 意外绑定
 catch.without.try:
-    text: '''catch'' 没有 ''try'''
+    text: "'catch' 没有 'try'"
 class.context.display:
     text: '{0} ({1} 内)'
 class.literal.expected:
@@ -27,9 +27,9 @@ context.type.string:
 default.language.level.description:
     text: SDK 默认值
 diamond.error.anonymous.inner.classes:
-    text: 无法将 '<>' 用于匿名内部类
+    text: "无法将 '<>' 用于匿名内部类"
 diamond.error.anonymous.inner.classes.non.private:
-    text: 由于非 private 方法不会重写或实现父类型中的方法，因而无法使用 '<>'
+    text: "由于非 private 方法不会重写或实现父类型中的方法，因而无法使用 '<>'"
 diamond.error.cannot.infer.arguments:
     text: 无法推断实参
 diamond.error.cannot.infer.arguments.unable.to.resolve.constructor:
@@ -39,9 +39,9 @@ diamond.error.cannot.infer.type.arguments:
 diamond.error.explicit.type.parameters.for.constructor:
     text: 无法将 diamond 与显式类型形参用于构造函数
 else.without.if:
-    text: '''else'' 没有 ''if'''
+    text: "'else' 没有 'if'"
 enum.constant.context:
-    text: 枚举常数 ''{0}'' 在 ''{1}''
+    text: "枚举常数 ''{0}'' 在 ''{1}''"
 error.incompatible.type:
     text: '{0} 与 {1} 不兼容'
 error.incompatible.type.bad.lambda.return.type:
@@ -83,7 +83,10 @@ error.incompatible.type.unhandled.exception:
 error.incompatible.upper.bounds:
     text: '不兼容的上限: {0}'
 error.inference.variable.has.incompatible.bounds:
-    text: "推断变量 {0} 的界限不兼容:\n {1}: {2}\n{3}: {4}"
+    text: |-
+        推断变量 {0} 的界限不兼容:
+         {1}: {2}
+        {3}: {4}
 error.message.wildcard.not.expected:
     text: 意外通配符
 expected.array.initializer:
@@ -91,45 +94,45 @@ expected.array.initializer:
 expected.boolean.expression:
     text: 需要布尔表达式
 expected.catch.or.finally:
-    text: 应为 'catch' 或 'finally'
+    text: "应为 'catch' 或 'finally'"
 expected.class.or.interface:
-    text: 应为 'class' 或 'interface'
+    text: "应为 'class' 或 'interface'"
 expected.class.reference:
     text: '应为: 类引用'
 expected.colon:
-    text: 应为 ':'
+    text: "应为 ':'"
 expected.comma:
-    text: 应为 ','
+    text: "应为 ','"
 expected.comma.or.rparen:
-    text: 应为 ',' 或 ')'
+    text: "应为 ',' 或 ')'"
 expected.comma.or.semicolon:
-    text: 应为 ',' 或 ';'
+    text: "应为 ',' 或 ';'"
 expected.dot:
-    text: 应为 '.'
+    text: "应为 '.'"
 expected.eq:
-    text: 应为 '='
+    text: "应为 '='"
 expected.expression:
     text: '应为: 表达式'
 expected.gt:
-    text: 应为 '>'。
+    text: "应为 '>'。"
 expected.gt.or.comma:
-    text: 应为 '>' 或 ','
+    text: "应为 '>' 或 ','"
 expected.identifier:
     text: 应为标识符
 expected.identifier.or.type:
     text: 应为标识符或类型
 expected.lbrace:
-    text: 应为 '{'
+    text: "应为 '{'"
 expected.lbrace.or.semicolon:
-    text: 应为 '{' 或 ';'
+    text: "应为 '{' 或 ';'"
 expected.lbracket:
-    text: 应为 '['
+    text: "应为 '['"
 expected.lparen:
-    text: 应为 '('
+    text: "应为 '('"
 expected.lparen.or.lbracket:
-    text: 应为 '(' 或 '['
+    text: "应为 '(' 或 '['"
 expected.lt.or.lparen:
-    text: 应为 '<' 或 '('
+    text: "应为 '<' 或 '('"
 expected.module.declaration:
     text: 应为模块声明
 expected.module.statement:
@@ -139,21 +142,21 @@ expected.package.reference:
 expected.parameter:
     text: 应为形参
 expected.rbrace:
-    text: 应为 '}'
+    text: "应为 '}'"
 expected.rbracket:
-    text: 应为 ']'
+    text: "应为 ']'"
 expected.resource:
     text: 应为资源定义
 expected.rparen:
-    text: 应为 ')'
+    text: "应为 ')'"
 expected.semicolon:
-    text: 应为 ';'
+    text: "应为 ';'"
 expected.statement:
     text: 应为语句
 expected.string:
     text: 应为字符串文字
 expected.switch.label:
-    text: 应为 'case'、'default' 或 '}'
+    text: "应为 'case'、'default' 或 '}'"
 expected.switch.rule:
     text: 应为表达式、块或 throw 语句
 expected.type:
@@ -163,9 +166,9 @@ expected.type.parameter:
 expected.value:
     text: 应为值
 expected.while:
-    text: 应为 'while'
+    text: "应为 'while'"
 expected.with:
-    text: 应为 'with'
+    text: "应为 'with'"
 feature.annotations:
     text: 注解
 feature.binary.literals:
@@ -173,7 +176,7 @@ feature.binary.literals:
 feature.diamond.types:
     text: Diamond 类型
 feature.enhanced.switch:
-    text: 增强的 'switch' 块
+    text: "增强的 'switch' 块"
 feature.extension.methods:
     text: 扩展方法
 feature.for.each:
@@ -205,7 +208,7 @@ feature.pattern.guard.and.record.patterns:
 feature.patterns.in.switch:
     text: switch 中的模式
 feature.patterns.instanceof:
-    text: '''instanceof'' 中的模式'
+    text: "'instanceof' 中的模式"
 feature.record.patterns.in.for.each:
     text: 在 for-each 循环中记录模式
 feature.records:
@@ -215,7 +218,7 @@ feature.sealed.classes:
 feature.static.interface.calls:
     text: static 接口方法调用
 feature.switch.expressions:
-    text: '''switch'' 表达式'
+    text: "'switch' 表达式"
 feature.text.blocks:
     text: 文本块文字
 feature.try.with.resources.refs:
@@ -229,13 +232,13 @@ feature.underscores.in.literals:
 feature.unnamed.vars:
     text: 未命名的模式和变量
 feature.var.lambda.parameter:
-    text: lambda 形参中的 'var'
+    text: "lambda 形参中的 'var'"
 feature.varargs:
     text: 可变 arity 方法
 finally.without.try:
-    text: '''finally'' 没有 ''try'''
+    text: "'finally' 没有 'try'"
 import.statement.identifier.or.asterisk.expected.:
-    text: 应为标识符或 '*'
+    text: "应为标识符或 '*'"
 java.terms.anonymous.class.base.ref:
     text: 匿名{0}
 javadoc.exception.tag.class.is.not.throwable:
@@ -247,7 +250,7 @@ javadoc.exception.tag.wrong.tag.value:
 javadoc.param.tag.parameter.name.expected:
     text: 应为形参名称
 javadoc.param.tag.type.parameter.gt.expected:
-    text: 应为 '>'
+    text: "应为 '>'"
 javadoc.param.tag.type.parameter.name.expected:
     text: 应为类型形参名称
 javadoc.ref.tag.class.ref.expected:
@@ -261,7 +264,7 @@ javadoc.value.static.field.required:
 javadoc.value.tag.jdk15.required:
     text: 使用 JDK 1.4 或更早版本时，@value 标记可能没有任何实参
 jdk.21.preview.language.level.description:
-    text: '21 (预览) - 字符串模板、未命名类和实例 main 方法等。'
+    text: 21 (预览) - 字符串模板、未命名类和实例 main 方法等。
 lambda.body.must.be.a.statement.expression:
     text: lambda 体必须是语句表达式
 list.item.no.module:

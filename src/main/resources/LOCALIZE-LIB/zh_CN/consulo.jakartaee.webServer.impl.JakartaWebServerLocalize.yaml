@@ -39,6 +39,7 @@ ServerModel.password:
 ServerModel.logfile:
     text: '{0} 日志'
 ServerInstance.artifact.status:
-    text: "[{0,time,yyyy-MM-dd hh:mm:ss,SSS}] 工件 {1}: {2}\n"
+    text: |
+        [{0,time,yyyy-MM-dd hh:mm:ss,SSS}] 工件 {1}: {2}
 Error.fileNotFound:
-    text: 未找到文件 ''{0}''
+    text: "未找到文件 ''{0}''"

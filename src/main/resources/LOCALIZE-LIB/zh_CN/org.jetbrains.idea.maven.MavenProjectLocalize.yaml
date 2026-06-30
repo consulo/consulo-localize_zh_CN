@@ -23,13 +23,20 @@ maven.import.incompatible.modules.ignore:
 maven.import.incompatible.modules.recreate:
     text: 重新创建
 maven.import.message.delete.obsolete:
-    text: "这些模块已从 Maven 结构中移除:\n{0}\n\n是否同时希望将它们从项目中移除?"
+    text: |-
+        这些模块已从 Maven 结构中移除:
+        {0}
+
+        是否同时希望将它们从项目中移除?
 maven.import.title.module.dir:
     text: 选择 IDEA 模块文件(*.iml)的目录
 maven.locating.files:
     text: 正在定位 Maven 项目文件…
 maven.navigator.nothing.to.display:
-    text: "没有要显示的 Maven 项目。\n\n您可以使用 {0} 添加一个项目，或者使用 {1} 让插件在项目根下找到所有 pom.xml 文件并重新加载"
+    text: |-
+        没有要显示的 Maven 项目。
+
+        您可以使用 {0} 添加一个项目，或者使用 {1} 让插件在项目根下找到所有 pom.xml 文件并重新加载
 maven.post.processing:
     text: 正在配置 Maven 项目
 maven.profile.activate:
@@ -43,21 +50,21 @@ maven.project.import.title:
 maven.project.importing:
     text: 正在导入 Maven 项目
 maven.project.problem.moduleNotFound:
-    text: 找不到模块 ''{0}''
+    text: "找不到模块 ''{0}''"
 maven.project.problem.parentHasProblems:
-    text: 父级 ''{0}'' 有问题
+    text: "父级 ''{0}'' 有问题"
 maven.project.problem.parentNotFound:
-    text: 未找到父级 ''{0}''
+    text: "未找到父级 ''{0}''"
 maven.project.problem.recursiveInheritance:
     text: 已找到递归继承
 maven.project.problem.selfInheritance:
     text: 已找到自继承
 maven.project.problem.unresolvedDependency:
-    text: '未解析的依赖项: ''''{0}'''''
+    text: "未解析的依赖项: ''{0}''"
 maven.project.problem.unresolvedExtension:
-    text: '未解析的构建扩展: ''''{0}'''''
+    text: "未解析的构建扩展: ''{0}''"
 maven.project.problem.unresolvedPlugin:
-    text: '未解析的插件: ''''{0}'''''
+    text: "未解析的插件: ''{0}''"
 maven.reading:
     text: 正在读取 Maven 项目…
 maven.reading.pom:

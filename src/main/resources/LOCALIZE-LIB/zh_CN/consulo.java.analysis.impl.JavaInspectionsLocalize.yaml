@@ -1,19 +1,19 @@
 access.static.via.instance:
     text: 通过实例引用访问 static 成员
 annotate.overridden.methods.parameters:
-    text: 将被重写的方法形参注解为 ''@{0}''
+    text: "将被重写的方法形参注解为 ''@{0}''"
 annotate.overridden.methods.parameters.family.name:
     text: 注解被重写的方法形参
 assignment.to.declared.variable.problem.descriptor:
-    text: 变量''{0}''是自我赋值初始化
+    text: "变量''{0}''是自我赋值初始化"
 assignment.to.itself.problem.descriptor:
-    text: 变量''{0}''是分配给自己
+    text: "变量''{0}''是分配给自己"
 assignment.to.itself.quickfix.name:
     text: 移除自我赋值
 boolean.method.is.always.inverted.display.name:
     text: 布尔方法总是反向的
 boolean.method.is.always.inverted.problem.descriptor:
-    text: 始终反转对布尔方法 '#ref()' 的调用
+    text: "始终反转对布尔方法 '#ref()' 的调用"
 cleanup.in.file:
     text: 清理代码
 cleanup.in.scope:
@@ -59,7 +59,7 @@ dataflow.message.assigning.null:
 dataflow.message.assigning.nullable:
     text: 表达式 <code>#ref</code> 的求值结果可能为 null，但是它被分配了注解 @NotNull
 dataflow.message.constant.method.reference:
-    text: 方法引用结果始终为''{0}''
+    text: "方法引用结果始终为''{0}''"
 dataflow.message.passing.null.argument:
     text: 正在将 <code>null</code> 实参传递到注解为 @NotNull 的形参
 dataflow.message.passing.nullable.argument:
@@ -105,7 +105,7 @@ default.ide.profile.label.text:
 dependency.injection.annotations.list:
     text: 附加依赖项注入注释
 deprecated.symbol:
-    text: '''''{0}'''' 已弃用'
+    text: "''{0}'' 已弃用"
 detach.library.quickfix.name:
     text: 分离库
 detach.library.roots.quickfix.name:
@@ -135,7 +135,7 @@ duplicate.property.value.progress.indicator.text:
 edit.dependency.rules.family:
     text: 编辑依赖关系规则
 edit.inspection.options:
-    text: 编辑 ''{0}'' 选项
+    text: "编辑 ''{0}'' 选项"
 edit.options.of.reporter.inspection.family:
     text: 编辑报告程序检查选项
 edit.options.of.reporter.inspection.text:
@@ -145,7 +145,7 @@ error.analysis.is.in.progress:
 errors.single.profile.title:
     text: 错误:"{0}"检查配置文件
 exports.to.itself.delete.module.ref.fix:
-    text: 删除模块''{0}''的引用
+    text: "删除模块''{0}''的引用"
 exports.to.itself.delete.statement.fix:
     text: 删除声明
 group.names.abstraction.issues:
@@ -241,15 +241,15 @@ highlight.severity.create.dialog.title:
 illegal.package.dependencies:
     text: 非法的包依赖关系
 inconsistent.bundle.property.error:
-    text: 不一致的属性 ''{0}''。必须在父文件 ''{1}'' 中定义。
+    text: "不一致的属性 ''{0}''。必须在父文件 ''{1}'' 中定义。"
 inconsistent.bundle.property.inconsistent.end:
-    text: 不一致的属性值结束 ''{0}''
+    text: "不一致的属性值结束 ''{0}''"
 inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
-    text: 不一致的属性值结束 ''{0}''，但在 ''{2}'' 中找到 ''{1}''
+    text: "不一致的属性值结束 ''{0}''，但在 ''{2}'' 中找到 ''{1}''"
 inconsistent.bundle.property.inconsistent.placeholders:
     text: 不一致的占位符:{0}在“{1}”
 inconsistent.bundle.property.inherited.with.the.same.value:
-    text: 属性继承了''{0}''文件相同的值
+    text: "属性继承了''{0}''文件相同的值"
 inconsistent.bundle.report.duplicate.properties.values:
     text: 报表属性覆盖与相同的值(&O)
 inconsistent.bundle.report.inconsistent.properties:
@@ -261,7 +261,7 @@ inconsistent.bundle.report.inconsistent.properties.placeholders:
 inconsistent.bundle.report.missing.translations:
     text: 报告失踪的翻译(&M)
 inconsistent.bundle.untranslated.property.error:
-    text: 未翻译的属性 ''{0}''。应在 ''{1}'' 中重写。
+    text: "未翻译的属性 ''{0}''。应在 ''{1}'' 中重写。"
 inconsistent.line.separators:
     text: 行分隔符不一致
 inconsistent.resource.bundle.display.name:
@@ -271,7 +271,7 @@ inspection.1.7.problem.descriptor:
 inspection.1.8.problem.descriptor:
     text: 默认 {0, choice, 0#|1#method is|2# methods are} 不重写。它会导致JDK编译问题 {1}
 inspection.1.8.problem.single.descriptor:
-    text: 默认的方法 ''{0}'' 不重写。它会导致JDK编译问题 {1}
+    text: "默认的方法 ''{0}'' 不重写。它会导致JDK编译问题 {1}"
 inspection.action.apply.quickfix:
     text: 应用快速修复
 inspection.action.apply.quickfix.description:
@@ -295,7 +295,7 @@ inspection.action.profile.label:
 inspection.action.rerun:
     text: 重新运行检查(&R)
 inspection.action.suppress:
-    text: 禁止检查 ''{0}''
+    text: "禁止检查 ''{0}''"
 inspection.action.title:
     text: 检查
 inspection.actiongo.prev:
@@ -309,7 +309,9 @@ inspection.annotate.overridden.method.quickfix.family.name:
 inspection.annotate.quickfix.implements:
     text: 实现
 inspection.annotate.quickfix.overridden.method.messages:
-    text: "方法 {0} {1}方法 {2}。\n同时注解基方法?"
+    text: |-
+        方法 {0} {1}方法 {2}。
+        同时注解基方法?
 inspection.annotate.quickfix.overridden.method.warning:
     text: 重写的方法警告
 inspection.annotate.quickfix.overrides:
@@ -319,7 +321,7 @@ inspection.application.cannot.convert.project.0:
 inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
     text: '无法转换项目。以下文件为只读文件: {0}'
 inspection.application.chosen.profile.log.message:
-    text: 正在使用 ''{0}'' 配置文件进行检查
+    text: "正在使用 ''{0}'' 配置文件进行检查"
 inspection.application.directory.cannot.be.found:
     text: 找不到目录 {0}
 inspection.application.file.cannot.be.found:
@@ -337,11 +339,11 @@ inspection.application.starting.up:
 inspection.as:
     text: 作为 {0}
 inspection.assert.quickfix:
-    text: 断言''{0}''
+    text: "断言''{0}''"
 inspection.can.be.final.accept.quickfix:
     text: 设为 final
 inspection.can.be.final.display.name:
-    text: 声明可以有 'final' 修饰符
+    text: "声明可以有 'final' 修饰符"
 inspection.can.be.final.option:
     text: 报告类
 inspection.can.be.final.option1:
@@ -357,13 +359,23 @@ inspection.capitalized.done:
 inspection.collection.factories.fix.family.name:
     text: 替换集合工厂回调
 inspection.collection.factories.fix.name:
-    text: 替换为 ''{0}.{1}()'' 调用
+    text: "替换为 ''{0}.{1}()'' 调用"
 inspection.collection.factories.message:
-    text: 可被替换为 ''{0}.{1}()'' 调用
+    text: "可被替换为 ''{0}.{1}()'' 调用"
 inspection.collection.factories.option.ignore.non.constant:
     text: 仅在内容为常量时报告
 inspection.command.line.explanation:
-    text: "预期形参: <project_file_path> <inspection_profile> <output_path> [<options>]\n<inspection_profile> -- 在项目中或本地配置的配置文件名称或检查配置文件的路径；使用 -e|-profileName|-profilePath 之一时可以跳过\n可用选项包括:\n -d <directory_path>  --  要检查的目录，默认为整个项目\n-e                   --  使用为项目设置的检查配置文件\n-v[0|1|2]            --  详细级别。 0 - 静默，1 - 详细，2 - 最详细\n-profileName         --  项目中定义的配置文件的名称\n-profilePath         --  配置文件的绝对路径\n-format              --  报告输出格式。xml|json|plain 之一，默认值为 xml\n-changes             --  检查未提交的更改并报告新问题"
+    text: |-
+        预期形参: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- 在项目中或本地配置的配置文件名称或检查配置文件的路径；使用 -e|-profileName|-profilePath 之一时可以跳过
+        可用选项包括:
+         -d <directory_path>  --  要检查的目录，默认为整个项目
+        -e                   --  使用为项目设置的检查配置文件
+        -v[0|1|2]            --  详细级别。 0 - 静默，1 - 详细，2 - 最详细
+        -profileName         --  项目中定义的配置文件的名称
+        -profilePath         --  配置文件的绝对路径
+        -format              --  报告输出格式。xml|json|plain 之一，默认值为 xml
+        -changes             --  检查未提交的更改并报告新问题
 inspection.comparator.result.comparison.display.name:
     text: compare 方法的可疑用法
 inspection.comparator.result.comparison.fix.family.name:
@@ -389,7 +401,7 @@ inspection.contract.display.name:
 inspection.convert.to.local.quickfix:
     text: 转换为当地
 inspection.data.flow.filter.notnull.quickfix:
-    text: 插入'filter(Objects::nonNull)'步骤
+    text: "插入'filter(Objects::nonNull)'步骤"
 inspection.data.flow.ignore.assert.statements:
     text: 忽略 assert 语句
 inspection.data.flow.report.not.null.required.parameter.with.null.literal.argument.usages:
@@ -405,7 +417,7 @@ inspection.data.flow.simplify.to.assignment.quickfix.name:
 inspection.data.flow.treat.non.annotated.members.and.parameters.as.nullable:
     text: 将未注解的成员和形参视为 @Nullable
 inspection.data.flow.use.computeifpresent.quickfix:
-    text: 将 'compute' 替换为 'computeIfPresent'
+    text: "将 'compute' 替换为 'computeIfPresent'"
 inspection.dead.code.comment:
     text: // --注释掉检查
 inspection.dead.code.comment.quickfix:
@@ -499,9 +511,11 @@ inspection.dead.code.remove.user.defined.entry.point.quickfix:
 inspection.dead.code.safe.delete.quickfix:
     text: 安全删除
 inspection.dead.code.start.comment:
-    text: "// --注释掉检查 START ({0}):\n"
+    text: |
+        // --注释掉检查 START ({0}):
 inspection.dead.code.stop.comment:
-    text: "// --注释掉检查 STOP ({0})\n"
+    text: |
+        // --注释掉检查 STOP ({0})
 inspection.default.annotation.param:
     text: 默认注解形参值
 inspection.dependency.configure.button.text:
@@ -515,11 +529,11 @@ inspection.description.title:
 inspection.diff.format.error:
     text: '必需的形参: <old_file> <new_file> [<delta_file_name>]'
 inspection.disabled.error:
-    text: '检查 ''''{0}'''' 被禁用: {1}。'
+    text: "检查 ''{0}'' 被禁用: {1}。"
 inspection.disabled.title:
     text: 检查禁用
 inspection.disabled.wrong.id:
-    text: '检查 ''''{0}'''' 被禁用: ID ''''{1}'''' 与 ''''{2}'''' 模式不匹配。'
+    text: "检查 ''{0}'' 被禁用: ID ''{1}'' 与 ''{2}'' 模式不匹配。"
 inspection.done:
     text: 完成。
 inspection.duplicate.throws.display.name:
@@ -527,7 +541,7 @@ inspection.duplicate.throws.display.name:
 inspection.duplicate.throws.ignore.subclassing.option:
     text: 忽略子类化其他异常的异常
 inspection.duplicate.throws.more.general.problem:
-    text: throws 列表中已经存在一个更一般的异常 ''{0}''。
+    text: "throws 列表中已经存在一个更一般的异常 ''{0}''。"
 inspection.duplicate.throws.problem:
     text: throws 重复
 inspection.duplicated.code.display.name:
@@ -543,7 +557,7 @@ inspection.duplicates.message.more:
 inspection.duplicates.navigate.to.occurrences:
     text: 导航到匹配项
 inspection.duplicates.occurrences.view.title:
-    text: '''''{0}'''' 的重复项'
+    text: "''{0}'' 的重复项"
 inspection.duplicates.option:
     text: '最小字符串长度(&M):'
 inspection.duplicates.option.report.propertykey.expressions:
@@ -551,7 +565,7 @@ inspection.duplicates.option.report.propertykey.expressions:
 inspection.duplicates.replace.family.quickfix:
     text: 替换
 inspection.duplicates.replace.quickfix:
-    text: 替换为 ''{0}''
+    text: "替换为 ''{0}''"
 inspection.empty.method.delete.quickfix:
     text: 删除不必要的方法
 inspection.empty.method.display.name:
@@ -565,11 +579,11 @@ inspection.empty.method.problem.descriptor2:
 inspection.empty.method.problem.descriptor4:
     text: 此方法的所有实现都为空
 inspection.equals.hashcode.display.name:
-    text: '''equals()'' 和 ''hashCode()'' 未配对'
+    text: "'equals()' 和 'hashCode()' 未配对"
 inspection.equals.hashcode.generate.equals.quickfix:
-    text: 生成 'equals()'
+    text: "生成 'equals()'"
 inspection.equals.hashcode.generate.hashcode.quickfix:
-    text: 生成 'hashCode()'
+    text: "生成 'hashCode()'"
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
     text: 类定义了 {0}，但没有定义 {1}
 inspection.error.level.popup.menu.title:
@@ -581,7 +595,7 @@ inspection.errors.occurred.dialog.title:
 inspection.excessive.lambda.fix.family.name:
     text: 常数替换lambda
 inspection.excessive.lambda.fix.name:
-    text: 使用没有lambda的''{0}''方法
+    text: "使用没有lambda的''{0}''方法"
 inspection.excessive.lambda.message:
     text: 过度使用 lambda
 inspection.export.dialog.title:
@@ -685,47 +699,47 @@ inspection.generating.html.progress.title:
 inspection.generating.xml.progress.title:
     text: 正在转储 XML…
 inspection.handle.signature.change.type.fix.name:
-    text: 将类型更改为 ''{0}''
+    text: "将类型更改为 ''{0}''"
 inspection.handle.signature.field.cannot.resolve:
-    text: 无法解析字段''{0}''
+    text: "无法解析字段''{0}''"
 inspection.handle.signature.field.not.static:
-    text: 字段 ''{0}'' 不为 static
+    text: "字段 ''{0}'' 不为 static"
 inspection.handle.signature.field.static:
-    text: 字段 ''{0}'' 为 static
+    text: "字段 ''{0}'' 为 static"
 inspection.handle.signature.field.type:
-    text: 字段''{0}''的类型是''{1}''
+    text: "字段''{0}''的类型是''{1}''"
 inspection.handle.signature.method.not.static:
-    text: 方法 ''{0}'' 不为 static
+    text: "方法 ''{0}'' 不为 static"
 inspection.handle.signature.method.static:
-    text: 方法 ''{0}'' 为 static
+    text: "方法 ''{0}'' 为 static"
 inspection.handle.signature.name:
     text: MethodHandle/VarHandle 类型不匹配
 inspection.handle.signature.replace.with.fix.name:
-    text: 替换为 ''{0}''
+    text: "替换为 ''{0}''"
 inspection.handle.signature.use.constructor.fix.family.name:
     text: 使用构造函数重载之一
 inspection.handle.signature.use.constructor.fix.name:
-    text: 使用构造函数''{0}''
+    text: "使用构造函数''{0}''"
 inspection.handle.signature.use.method.fix.family.name:
     text: 使用方法重载之一
 inspection.handle.signature.use.method.fix.name:
-    text: 使用方法''{0}''
+    text: "使用方法''{0}''"
 inspection.illegal.character:
     text: 非法字符
 inspection.implicit.subclass.display.forClass:
-    text: 类 ''{0}'' 可以隐式子类化，并且不得为 final
+    text: "类 ''{0}'' 可以隐式子类化，并且不得为 final"
 inspection.implicit.subclass.display.forMethod:
     text: 方法“{0}”应该是可以覆盖的
 inspection.implicit.subclass.display.name:
     text: final 声明不能在运行时被重写
 inspection.implicit.subclass.extendable:
-    text: 使''{0}''可以覆盖
+    text: "使''{0}''可以覆盖"
 inspection.implicit.subclass.make.class.extendable:
-    text: 使类''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 个必须的方法}可扩展
+    text: "使类''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 个必须的方法}可扩展"
 inspection.java.module.naming:
     text: Java 模块名称与约定相矛盾
 inspection.java.module.naming.terminal.digits:
-    text: 模块名称组件''{0}''应避免终端数字
+    text: "模块名称组件''{0}''应避免终端数字"
 inspection.javadoc.dialog.title:
     text: 编辑附加的JavaDoc标签
 inspection.javadoc.display.name:
@@ -757,7 +771,7 @@ inspection.javadoc.option.tab.title.method:
 inspection.javadoc.option.tab.title.package:
     text: 软件包
 inspection.javadoc.problem.add.param.tag:
-    text: 为形参''{0}''添加标签 @param
+    text: "为形参''{0}''添加标签 @param"
 inspection.javadoc.problem.add.param.tag.family:
     text: 添加缺少的Javadoc形参标签
 inspection.javadoc.problem.add.tag:
@@ -771,11 +785,11 @@ inspection.javadoc.problem.descriptor:
 inspection.javadoc.problem.descriptor1:
     text: 文档中缺少句号。Javadoc 工具使用该句号生成概述页面的注释
 inspection.javadoc.problem.duplicate.param:
-    text: 重复的形参''{0}'' @param 标记
+    text: "重复的形参''{0}'' @param 标记"
 inspection.javadoc.problem.duplicate.tag:
     text: 重复的 @{0} 标记
 inspection.javadoc.problem.duplicate.throws:
-    text: 重复 @throws 或 @exception 标记为异常''{0}''
+    text: "重复 @throws 或 @exception 标记为异常''{0}''"
 inspection.javadoc.problem.missing.tag:
     text: 需要标记{0}是缺失的
 inspection.javadoc.problem.missing.tag.description:
@@ -797,9 +811,9 @@ inspection.javadoc.throws.or.exception.option:
 inspection.lambda.to.method.call.fix.family.name:
     text: 用方法调用替换lambda表达式
 inspection.lambda.to.method.call.fix.name:
-    text: 用''{0}''替换lambda表达式
+    text: "用''{0}''替换lambda表达式"
 inspection.local.can.be.final.display.name:
-    text: 局部变量或形参可以是 'final'
+    text: "局部变量或形参可以是 'final'"
 inspection.local.can.be.final.option:
     text: 报告局部变量
 inspection.local.can.be.final.option1:
@@ -845,9 +859,9 @@ inspection.null.value.for.optional.context.return:
 inspection.null.value.for.optional.fix.family.name:
     text: 替换空的可选方法
 inspection.null.value.for.optional.fix.name:
-    text: 用 ''{0}'' 替换
+    text: "用 ''{0}'' 替换"
 inspection.null.value.for.optional.message:
-    text: Null 用于 {0} 中的 ''Optional'' 类型
+    text: "Null 用于 {0} 中的 ''Optional'' 类型"
 inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
     text: 使用 @{0} 注解的形参不得重写 @{1} 形参
 inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
@@ -877,7 +891,7 @@ inspection.nullable.problems.primitive.type.annotation:
 inspection.offline.view.tool.display.name.title:
     text: 名字
 inspection.options.action.text:
-    text: 检查''{0}''选项
+    text: "检查''{0}''选项"
 inspection.parameter.can.be.local.display.name:
     text: 从不读取作为形参传递的值
 inspection.parameter.can.be.local.problem.descriptor:
@@ -917,27 +931,27 @@ inspection.redundant.cast.problem.descriptor:
 inspection.redundant.cast.remove.quickfix:
     text: 移除多余的转换
 inspection.redundant.requires.statement.description:
-    text: 冗余指令 ''requires {0}''。
+    text: "冗余指令 ''requires {0}''。"
 inspection.redundant.requires.statement.fix.family:
-    text: 删除冗余 'requires' 指令
+    text: "删除冗余 'requires' 指令"
 inspection.redundant.requires.statement.fix.name:
-    text: 删除指令 ''requires {0}''
+    text: "删除指令 ''requires {0}''"
 inspection.redundant.stream.optional.call.explanation.distinct:
-    text: 链中存在先前的 'distinct()' 调用
+    text: "链中存在先前的 'distinct()' 调用"
 inspection.redundant.stream.optional.call.explanation.filter:
-    text: 判定始终为 'true'
+    text: "判定始终为 'true'"
 inspection.redundant.stream.optional.call.explanation.parallel:
-    text: 存在会重写此调用的后续 ''{0}()'' 调用
+    text: "存在会重写此调用的后续 ''{0}()'' 调用"
 inspection.redundant.stream.optional.call.explanation.sorted:
-    text: 后续的 ''{0}()'' 调用不依赖于排序顺序
+    text: "后续的 ''{0}()'' 调用不依赖于排序顺序"
 inspection.redundant.stream.optional.call.explanation.unordered:
-    text: 链中存在先前的 'unordered()' 调用
+    text: "链中存在先前的 'unordered()' 调用"
 inspection.redundant.stream.optional.call.fix.family.name:
     text: 移除冗余的调用链
 inspection.redundant.stream.optional.call.fix.name:
-    text: 移除 ''{0}()'' 调用
+    text: "移除 ''{0}()'' 调用"
 inspection.redundant.stream.optional.call.message:
-    text: 冗余的 ''{0}()'' 调用
+    text: "冗余的 ''{0}()'' 调用"
 inspection.redundant.stream.optional.call.option.streamboxing:
     text: 报告 Stream.map() 中的冗余装箱
 inspection.redundant.suppression.description:
@@ -971,41 +985,41 @@ inspection.reference.noname:
 inspection.reflect.handle.invocation.argument.not.array:
     text: 实参不是数组类型
 inspection.reflect.handle.invocation.argument.not.exact:
-    text: 实参类型应该是 ''{0}''
+    text: "实参类型应该是 ''{0}''"
 inspection.reflect.handle.invocation.primitive.argument.null:
-    text: 类型 ''{0}'' 的实参不能为 ''null''
+    text: "类型 ''{0}'' 的实参不能为 ''null''"
 inspection.reflect.handle.invocation.receiver.incompatible:
-    text: '回调接收类型不兼容: ''''{0}'''''
+    text: "回调接收类型不兼容: ''{0}''"
 inspection.reflect.handle.invocation.receiver.null:
-    text: 调用接收器为 'null'
+    text: "调用接收器为 'null'"
 inspection.reflect.handle.invocation.result.not.assignable:
-    text: 应该被转换为''{0}''或其超类
+    text: "应该被转换为''{0}''或其超类"
 inspection.reflect.handle.invocation.result.not.exact:
-    text: 应该被转换为''{0}''
+    text: "应该被转换为''{0}''"
 inspection.reflect.handle.invocation.result.null:
-    text: 返回值总是'null'
+    text: "返回值总是'null'"
 inspection.reflect.handle.invocation.result.void:
-    text: 返回值类型为'void'
+    text: "返回值类型为'void'"
 inspection.reflection.invocation.argument.count:
     text: 应为{0,choice,0# 0 个实参|1# 1 个实参|1< {0} 个实参}
 inspection.reflection.invocation.argument.not.assignable:
-    text: 实参不能分配给 ''{0}''
+    text: "实参不能分配给 ''{0}''"
 inspection.reflection.invocation.array.not.assignable:
     text: 数组{0,choice,1#项目具有|1<项目具有}不兼容的{0,choice,1#类型 |1< 类型}
 inspection.reflection.invocation.item.count:
     text: '{0,choice,0#空数组|1#1个数组项|1<{0}个数组项}是预期的'
 inspection.reflection.invocation.item.not.assignable:
-    text: 数组项不能分配给''{0}''
+    text: "数组项不能分配给''{0}''"
 inspection.reflection.invocation.name:
     text: 反射调用实参不匹配
 inspection.reflection.member.access.cannot.resolve.constructor.arguments:
     text: 无法使用指定的实参类型解析构造函数
 inspection.reflection.member.access.cannot.resolve.field:
-    text: 无法解析字段 ''{0}''
+    text: "无法解析字段 ''{0}''"
 inspection.reflection.member.access.cannot.resolve.method:
-    text: 无法解析方法''{0}''
+    text: "无法解析方法''{0}''"
 inspection.reflection.member.access.cannot.resolve.method.arguments:
-    text: 无法使用指定的实参类型解析方法''{0}''
+    text: "无法使用指定的实参类型解析方法''{0}''"
 inspection.reflection.member.access.check.exists:
     text: 检查该字段/方法是否存在于非 final 类中
 inspection.reflection.member.access.check.exists.exclude:
@@ -1015,13 +1029,13 @@ inspection.reflection.member.access.check.exists.exclude.chooser:
 inspection.reflection.member.access.constructor.not.public:
     text: 构造函数不为 public
 inspection.reflection.member.access.field.not.in.class:
-    text: 字段''{0}''未在类''{1}''中声明
+    text: "字段''{0}''未在类''{1}''中声明"
 inspection.reflection.member.access.field.not.public:
-    text: 字段 ''{0}'' 不为 public
+    text: "字段 ''{0}'' 不为 public"
 inspection.reflection.member.access.method.not.in.class:
-    text: 方法''{0}''未在类''{1}''中声明
+    text: "方法''{0}''未在类''{1}''中声明"
 inspection.reflection.member.access.method.not.public:
-    text: 方法 ''{0}'' 不为 public
+    text: "方法 ''{0}'' 不为 public"
 inspection.reflection.member.access.name:
     text: 对不存在或不可见的类成员的反射访问
 inspection.reflection.visibility.name:
@@ -1029,47 +1043,47 @@ inspection.reflection.visibility.name:
 inspection.replace.methodref.ternary.quickfix:
     text: 替换为 null 检查 lambda
 inspection.replace.ternary.quickfix:
-    text: 替换为''{0}!= null吗?''
+    text: "替换为''{0}!= null吗?''"
 inspection.replace.with.bulk.fix.family.name:
     text: 替换大量方法调用
 inspection.replace.with.bulk.fix.name:
-    text: 用批量 ''{0}()'' 调用替换迭代
+    text: "用批量 ''{0}()'' 调用替换迭代"
 inspection.replace.with.bulk.message:
-    text: 迭代可被替换为批量 ''{0}()'' 调用
+    text: "迭代可被替换为批量 ''{0}()'' 调用"
 inspection.replace.with.bulk.wrap.arrays:
-    text: 使用 'Arrays.asList()' 包装数组
+    text: "使用 'Arrays.asList()' 包装数组"
 inspection.replace.with.enhanced.switch.statement.fix.name:
-    text: 替换为增强的 'switch' 语句
+    text: "替换为增强的 'switch' 语句"
 inspection.replace.with.switch.expression.fix.family.name:
     text: 迁移到增强的 switch
 inspection.replace.with.switch.expression.fix.name:
-    text: 替换为 'switch' 表达式
+    text: "替换为 'switch' 表达式"
 inspection.replace.with.trivial.lambda.fix.family.name:
     text: 替换为普通 lambda
 inspection.replace.with.trivial.lambda.fix.name:
-    text: 替换为返回 ''{0}'' 的 lambda
+    text: "替换为返回 ''{0}'' 的 lambda"
 inspection.required.attributes.display.name:
     text: 缺少必需的属性
 inspection.requires.auto.module:
     text: 依赖于自动模块
 inspection.requires.auto.module.message:
-    text: 自动导入模块需要'requires'指令
+    text: "自动导入模块需要'requires'指令"
 inspection.requires.auto.module.option:
     text: 仅高亮显示可传递依赖项
 inspection.requires.auto.module.transitive:
-    text: 自动模块需要'requires transitive'指令
+    text: "自动模块需要'requires transitive'指令"
 inspection.results.for.inspection.toolwindow.title:
     text: '"{0}" 检查于 {1}'
 inspection.results.title:
     text: 结果通过编辑器设置
 inspection.return.separated.from.computation.descriptor:
-    text: 返回与 ''{0}'' 的值的计算分离
+    text: "返回与 ''{0}'' 的值的计算分离"
 inspection.return.separated.from.computation.family.quickfix:
-    text: 将'返回'更接近结果的计算
+    text: "将'返回'更接近结果的计算"
 inspection.return.separated.from.computation.name:
-    text: 与结果计算分离的 'return'
+    text: "与结果计算分离的 'return'"
 inspection.return.separated.from.computation.quickfix:
-    text: 将“return”更接近计算''{0}''的值
+    text: "将“return”更接近计算''{0}''的值"
 inspection.root.node.title:
     text: 检查
 inspection.same.parameter.display.name:
@@ -1077,9 +1091,9 @@ inspection.same.parameter.display.name:
 inspection.same.parameter.fix.family.name:
     text: 内联形参为常量值
 inspection.same.parameter.fix.name:
-    text: 内联形参 ''{0}'' 的值 ''{1}''
+    text: "内联形参 ''{0}'' 的值 ''{1}''"
 inspection.same.parameter.problem.descriptor:
-    text: 形参 <code>#ref</code> 的实际值始终为 ''{0}''
+    text: "形参 <code>#ref</code> 的实际值始终为 ''{0}''"
 inspection.same.return.value.display.name:
     text: 方法始终返回相同的值
 inspection.same.return.value.problem.descriptor:
@@ -1095,15 +1109,15 @@ inspection.severity:
 inspection.simplify.collector.fix.family.name:
     text: 简化级联器
 inspection.simplify.collector.fix.name:
-    text: 使用 ''Collectors.{0}()'' 收集器
+    text: "使用 ''Collectors.{0}()'' 收集器"
 inspection.simplify.collector.message:
-    text: 可以使用 ''{0}()'' 收集器简化
+    text: "可以使用 ''{0}()'' 收集器简化"
 inspection.surround.if.family:
     text: 使用 if 包围
 inspection.surround.requirenonnull.quickfix:
-    text: 替换为 ''Objects.requireNonNull({0})''
+    text: "替换为 ''Objects.requireNonNull({0})''"
 inspection.suspicious.array.method.call.display.name:
-    text: 可疑的 'Arrays' 方法调用
+    text: "可疑的 'Arrays' 方法调用"
 inspection.suspicious.array.method.call.problem.arrays:
     text: 'Array类型不兼容: 数组总是不同的'
 inspection.suspicious.array.method.call.problem.element:
@@ -1111,11 +1125,11 @@ inspection.suspicious.array.method.call.problem.element:
 inspection.suspicious.collections.method.calls.display.name:
     text: 可疑的集合方法调用
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: 可疑的调用''{0}''
+    text: "可疑的调用''{0}''"
 inspection.switch.expression.migration.expression.max.statements:
     text: 一个分支中要转换为 switch 表达式的最大语句数
 inspection.switch.expression.migration.inspection.switch.description:
-    text: Switch 语句可被替换为增强的 'switch'
+    text: "Switch 语句可被替换为增强的 'switch'"
 inspection.switch.expression.migration.option.expression.max.statements:
     text: 不报告在单个分支中有超过 {0} 条{0, choice, 1#语句|2#语句}的 switch
 inspection.switch.expression.migration.warn.only.on.expression:
@@ -1133,9 +1147,9 @@ inspection.tool.description.under.construction.text:
 inspection.tool.in.browser.description.title:
     text: 描述
 inspection.tool.window.dialog.no.options:
-    text: 检查 ''{0}'' 没有可配置的选项
+    text: "检查 ''{0}'' 没有可配置的选项"
 inspection.tool.window.inspection.dialog.title:
-    text: 检查 ''{0}'' 选项
+    text: "检查 ''{0}'' 选项"
 inspection.tools.action.show.global.inspections.description:
     text: 隐藏全局检查设置
 inspection.tools.action.show.global.inspections.text:
@@ -1173,7 +1187,7 @@ inspection.unused.parameter.composer:
 inspection.unused.parameter.composer1:
     text: 形参 <code>#ref</code> 未在此方法中使用，也未在其重写方法中使用
 inspection.unused.parameter.delete.quickfix:
-    text: 安全删除未使用的形参 ''{0}''
+    text: "安全删除未使用的形参 ''{0}''"
 inspection.unused.parameter.display.name:
     text: 未使用的形参
 inspection.unused.return.value.problem.descriptor:
@@ -1211,11 +1225,11 @@ long.line.display.name:
 lossy.encoding:
     text: 有损编码
 module.not.in.requirements:
-    text: 模块 ''{0}'' 的要求中缺少模块 ''{1}''
+    text: "模块 ''{0}'' 的要求中缺少模块 ''{1}''"
 module.package.not.exported:
-    text: 模块 ''{0}'' 不会将软件包 ''{1}'' 导入到模块 ''{2}''
+    text: "模块 ''{0}'' 不会将软件包 ''{1}'' 导入到模块 ''{2}''"
 module.package.not.open:
-    text: 模块 ''{0}'' 不会打开模块 ''{2} ''的软件包 ''{1}''
+    text: "模块 ''{0}'' 不会打开模块 ''{2} ''的软件包 ''{1}''"
 no.errors.found.in.this.file:
     text: 在此文件中未找到错误
 non.ascii.characters:
@@ -1223,9 +1237,9 @@ non.ascii.characters:
 nothing.found:
     text: 未找到任何内容
 nullable.stuff.inspection.navigate.null.argument.usages.fix.family.name:
-    text: 导航到 'null' 实参用法
+    text: "导航到 'null' 实参用法"
 nullable.stuff.inspection.navigate.null.argument.usages.view.name:
-    text: 形参 {0} 的 ''null'' 实参用法
+    text: "形参 {0} 的 ''null'' 实参用法"
 nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
     text: 被重写的方法形参不会被注解
 nullable.stuff.problems.overridden.methods.are.not.annotated:
@@ -1233,9 +1247,9 @@ nullable.stuff.problems.overridden.methods.are.not.annotated:
 offline.inspections.jdk.not.found:
     text: 找不到 {0}
 offline.inspections.library.was.not.resolved:
-    text: 请配置库''{0}''用于模块''{1}''
+    text: "请配置库''{0}''用于模块''{1}''"
 offline.inspections.module.jdk.not.found:
-    text: 请指定模块 ''{1}'' 的 sdk ''{0}''
+    text: "请指定模块 ''{1}'' 的 sdk ''{0}''"
 offline.view.editor.settings.title:
     text: 编辑器设置
 offline.view.parse.exception.title:
@@ -1251,9 +1265,9 @@ problematic.whitespace.display.name:
 problematic.whitespace.show.whitespaces.quickfix:
     text: 在编辑器中切换“显示空格”
 problematic.whitespace.spaces.problem.descriptor:
-    text: 文件 ''{0}'' 使用空格缩进
+    text: "文件 ''{0}'' 使用空格缩进"
 problematic.whitespace.tabs.problem.descriptor:
-    text: 文件 ''{0}'' 使用制表符缩进
+    text: "文件 ''{0}'' 使用制表符缩进"
 profile.activate.action.text:
     text: 设置为项目默认
 profile.assignment.repeatable.scope.warning:
@@ -1353,7 +1367,7 @@ suppress.inspection.problem:
 suppress.inspection.statement:
     text: 对语句禁止
 suspected.module.dependency.problem.descriptor:
-    text: 模块 ''{0}'' 不依赖于模块 ''{1}''。不过，未检查 ''{1}'' 是否存在作用域 ''{2}'' 所需的导出依赖项
+    text: "模块 ''{0}'' 不依赖于模块 ''{1}''。不过，未检查 ''{1}'' 是否存在作用域 ''{2}'' 所需的导出依赖项"
 suspicious.name.combination.add.titile:
     text: 添加组名字
 suspicious.name.combination.display.name:
@@ -1379,9 +1393,9 @@ unnecessary.module.dependency.exported.problem.descriptor:
 unnecessary.module.dependency.exported.problem.descriptor1:
     text: 模块“{0}”不依赖于“{1}”。尽管“{0}”取决于“{2}”通过“{1}”的出口依赖
 unnecessary.module.dependency.problem.descriptor:
-    text: 模块''{0}''源不依赖于模块''{1}''源
+    text: "模块''{0}''源不依赖于模块''{1}''源"
 unsupported.character.for.the.charset:
-    text: 字符集 ''{0}'' 存在不受支持的字符
+    text: "字符集 ''{0}'' 存在不受支持的字符"
 unused.import.display.name:
     text: 未使用的 import
 unused.import.statement:
@@ -1391,9 +1405,9 @@ unused.library.backward.analysis.job.description:
 unused.library.display.name:
     text: 未使用的库
 unused.library.problem.descriptor:
-    text: 未使用的库''{0}''
+    text: "未使用的库''{0}''"
 unused.library.roots.problem.descriptor:
-    text: 未使用的根{0}从库''{1}''
+    text: "未使用的根{0}从库''{1}''"
 unused.symbol:
     text: 未使用的符号
 wrong.package.statement:

@@ -1,5 +1,5 @@
 black.cell.color.descriptor:
-    text: '''黑色'' 单元格'
+    text: "'黑色' 单元格"
 chessboard.cell.size:
     text: '棋盘格大小(像素)(&S):'
 error.broken.image.file.format:
@@ -37,4 +37,4 @@ thumbnails.component.error.text:
 unknown.format:
     text: 未知格式
 white.cell.color.descriptor:
-    text: '''白色'' 单元格'
+    text: "'白色' 单元格"

@@ -33,39 +33,39 @@ choose.external.definitions.file:
 defined.variable.expected:
     text: 应为已定义变量
 error.cannot.resolve.macro:
-    text: 无法解析宏 ''{0}''
+    text: "无法解析宏 ''{0}''"
 error.cannot.resolve.method:
-    text: 无法解析类 ''{1}'' 的方法 ''{0}''
+    text: "无法解析类 ''{1}'' 的方法 ''{0}''"
 error.cannot.resolve.property:
-    text: 无法解析类 ''{1}'' 的属性 ''{0}''
+    text: "无法解析类 ''{1}'' 的属性 ''{0}''"
 error.cannot.resolve.variable:
-    text: 无法解析变量 ''{0}''
+    text: "无法解析变量 ''{0}''"
 error.no.applicable.method:
-    text: '''''{1}'''' 中没有适用于 {2} 的方法 ''''{0}'''''
+    text: "''{1}'' 中没有适用于 {2} 的方法 ''{0}''"
 error.wrong.number.of.arguments.for.macro:
-    text: '''''{0}'''' 调用实参数量错误'
+    text: "''{0}'' 调用实参数量错误"
 expression.expected:
     text: 应为表达式
 identifier:
     text: 标识符
 illegal.iterable.expression.type:
-    text: '非法迭代表达式类型: ''''{0}'''''
+    text: "非法迭代表达式类型: ''{0}''"
 invalid.java.type:
     text: 无效的 Java 类型
 invalid.operand.type:
-    text: '无效操作数类型: ''''{0}'''''
+    text: "无效操作数类型: ''{0}''"
 invalid.operands.type:
-    text: '无效操作数类型: ''''{0}'''' 和 ''''{1}'''''
+    text: "无效操作数类型: ''{0}'' 和 ''{1}''"
 invalid.token:
-    text: 无效的令牌 ''{0}''
+    text: "无效的令牌 ''{0}''"
 loop.variable.expected:
     text: 应为循环变量
 macro.declaration.expected:
     text: 应为宏名称和形参列表
 macro.declaration.will.be.ignored:
-    text: 宏 ''{0}'' 已在 ''{1}'' 中定义，将在 ''{2}'' 中忽略
+    text: "宏 ''{0}'' 已在 ''{1}'' 中定义，将在 ''{2}'' 中忽略"
 macro.is.already.defined:
-    text: 宏 ''{0}'' 已在 ''{1}'' 中定义
+    text: "宏 ''{0}'' 已在 ''{1}'' 中定义"
 number:
     text: 数字
 operand.expected:
@@ -75,7 +75,7 @@ operation.not.allowed:
 parameter.expected:
     text: 应为形参声明
 token.expected:
-    text: 应为 ''{0}''
+    text: "应为 ''{0}''"
 type.name.loop.variable:
     text: 循环变量
 type.name.macro:
@@ -133,4 +133,4 @@ vtl.references.inspection:
 vtl.types.inspection:
     text: 类型检查
 will.be.considered.as.macro.call:
-    text: 将被视为宏调用，应为 '('
+    text: "将被视为宏调用，应为 '('"

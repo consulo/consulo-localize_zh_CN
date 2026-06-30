@@ -29,7 +29,7 @@ artifacts.add.copy.action:
 artifacts.create.action:
     text: 创建 {0}
 banner.slogan.artifact.0:
-    text: 工件''{0}''
+    text: "工件''{0}''"
 button.add:
     text: 添加
 button.existingframe:
@@ -49,7 +49,7 @@ button.text.remove.selected:
 checkbox.text.build.on.make:
     text: 包含在项目构建中 (&B)
 choose.modules.dialog.description:
-    text: 库 ''{0}'' 将被添加到所选模块中。
+    text: "库 ''{0}'' 将被添加到所选模块中。"
 choose.modules.dialog.title:
     text: 选择模块
 classpath.add.library.action:
@@ -63,7 +63,7 @@ classpath.chooser.description.add.module.dependency:
 classpath.chooser.title.add.module.dependency:
     text: 选择模块
 classpath.message.library.already.added:
-    text: 库''{0}''已经添加到此模块中
+    text: "库''{0}''已经添加到此模块中"
 classpath.panel.navigate.action.text:
     text: 导航
 classpath.title.adding.dependency:
@@ -79,7 +79,7 @@ command.deleting.files:
 command.finish:
     text: 完成
 confirmation.message.would.you.like.to.ignore.facet:
-    text: 您想忽略模块''{1}''中的原型''{0}''吗?
+    text: "您想忽略模块''{1}''中的原型''{0}''吗?"
 copy.module.dialog.title:
     text: 复制模块
 dependencies.used.in.popup.title:
@@ -109,7 +109,7 @@ error.adding.module.to.project:
 error.message.configuration.cannot.load:
     text: 无法加载 {0}
 error.message.unknown.facet.type.0:
-    text: '未知的 facet类型: ''''{0}'''''
+    text: "未知的 facet类型: ''{0}''"
 external.annotation.prompt:
     text: 外部注解提示
 external.annotations.external.option:
@@ -157,7 +157,7 @@ library.attach.files.action:
 library.attach.files.description:
     text: 选择库类、源和文档所在的文件或目录
 library.attach.files.to.library.action:
-    text: 附加文件或目录到库''{0}''
+    text: "附加文件或目录到库''{0}''"
 library.attach.sources.action:
     text: 附加源
 library.attach.sources.action.busy.text:
@@ -175,7 +175,7 @@ library.configure.title:
 library.docs.node:
     text: 文档
 library.name.already.exists.error:
-    text: 库 ''{0}'' 已存在
+    text: "库 ''{0}'' 已存在"
 library.name.already.exists.title:
     text: 库已经存在
 library.name.not.specified.error:
@@ -193,13 +193,13 @@ message.no.module.dependency.candidates:
 message.text.stop.searching.for.frameworks:
     text: '{0} 目前正在搜索框架。要停止搜索吗?'
 module.0.already.exists.error.message:
-    text: 模块''{0}''已存在
+    text: "模块''{0}''已存在"
 module.add.error.message:
     text: '向项目添加模块时出错: {0}'
 module.add.error.title:
     text: 添加模块
 module.already.exists.error:
-    text: 模块 ''{0}'' 在项目中已存在。
+    text: "模块 ''{0}'' 在项目中已存在。"
 module.cannot.load.error:
     text: "无法载入模块文件''{0}'':\n{1}"
 module.circular.dependency.warning.description:
@@ -209,7 +209,7 @@ module.circular.dependency.warning.short:
 module.classpath.button.edit:
     text: 编辑… (&I)
 module.group.banner.text:
-    text: 模块组 ''{0}''
+    text: "模块组 ''{0}''"
 module.javadoc.add.path.prompt:
     text: 选择模块javadoc文档的JAR/zip文件或目录
 module.javadoc.add.path.title:
@@ -235,11 +235,19 @@ module.paths.add.content.action.description:
 module.paths.add.content.already.exists.error:
     text: 内容根“{0}”已经存在
 module.paths.add.content.dominate.error:
-    text: "正在添加的内容根“{0}”\n支配现有内容根“{1}”。\n内容条目不应相交。"
+    text: |-
+        正在添加的内容根“{0}”
+        支配现有内容根“{1}”。
+        内容条目不应相交。
 module.paths.add.content.duplicate.error:
-    text: "已为模块“{1}”定义内容根“{0}”。\n项目中的两个模块不能共享相同的内容根。"
+    text: |-
+        已为模块“{1}”定义内容根“{0}”。
+        项目中的两个模块不能共享相同的内容根。
 module.paths.add.content.intersect.error:
-    text: "正在添加的内容根“{0}”\n位于现有内容根“{1}”下。\n内容条目不应相交。"
+    text: |-
+        正在添加的内容根“{0}”
+        位于现有内容根“{1}”下。
+        内容条目不应相交。
 module.paths.add.content.prompt:
     text: 内容根目录是包含与此模块相关的所有文件的目录
 module.paths.add.content.title:
@@ -285,15 +293,21 @@ module.paths.validation.source.root.belongs.to.another.module.error:
 module.remove.command:
     text: 从项目中分离模块
 module.remove.confirmation:
-    text: "从项目中移除{1, choice, 1#模块“{0}”|2#{1} 个模块}?\n不会删除磁盘上的文件。"
+    text: |-
+        从项目中移除{1, choice, 1#模块“{0}”|2#{1} 个模块}?
+        不会删除磁盘上的文件。
 module.remove.confirmation.prompt:
-    text: "从项目中移除{1, choice, 1#模块|2#模块} {0}?\n将不会删除文件。"
+    text: |-
+        从项目中移除{1, choice, 1#模块|2#模块} {0}?
+        将不会删除文件。
 module.remove.confirmation.title:
     text: 移除{0, choice, 1#模块|2#模块}
 module.remove.from.project.confirmation:
-    text: 您想从该项目中移除模块''{0}'' 吗?
+    text: "您想从该项目中移除模块''{0}'' 吗?"
 module.remove.last.confirmation:
-    text: "确定要从此项目中移除{0, choice, 1#唯一的模块|2#所有模块}吗?\n不会删除磁盘上的文件。"
+    text: |-
+        确定要从此项目中移除{0, choice, 1#唯一的模块|2#所有模块}吗?
+        不会删除磁盘上的文件。
 module.sdk.not.defined:
     text: 未定义模块 JDK
 module.toggle.excluded.action:
@@ -317,7 +331,7 @@ modules.order.export.scope.column:
 output.tab.title:
     text: 输出
 path.0.is.invalid.error.message:
-    text: 路径 ''{0}'' 无效
+    text: "路径 ''{0}'' 无效"
 progress.indexing.scanning:
     text: 正在扫描要建立索引的文件…
 progress.indexing.updating:
@@ -381,9 +395,9 @@ project.roots.external.annotations.tab.title:
 project.roots.javadoc.tab.description:
     text: <html>管理附加到此模块的外部 JavaDoc。外部 JavaDoc 重写模块中可能具有的 JavaDoc 注解。</html>
 project.roots.library.problem.message:
-    text: 依赖关系列表中的无效项''{0}''
+    text: "依赖关系列表中的无效项''{0}''"
 project.roots.module.banner.text:
-    text: 模块 ''{0}''
+    text: "模块 ''{0}''"
 project.roots.module.duplicate.name.message:
     text: 重复的模块名称
 project.roots.module.groups.text:
@@ -399,17 +413,17 @@ project.roots.plain.mode.action.text.disabled:
 project.roots.plain.mode.action.text.enabled:
     text: 显示模块分组
 project.roots.project.banner.text:
-    text: 项目 ''{0}'' 的常规设置
+    text: "项目 ''{0}'' 的常规设置"
 project.roots.project.display.name:
     text: 项目
 project.roots.project.jdk.inherited:
     text: 项目SDK
 project.roots.replace.library.entry.message:
-    text: 您真的想替换旧的图书馆''{0}''吗?
+    text: "您真的想替换旧的图书馆''{0}''吗?"
 project.roots.replace.library.entry.title:
     text: 库已经添加
 project.roots.tooltip.library.has.broken.paths:
-    text: 库 ''{0}'' 具有中断的{1, choice, 1#路径|2#路径}。
+    text: "库 ''{0}'' 具有中断的{1, choice, 1#路径|2#路径}。"
 project.settings.display.name:
     text: 项目结构
 prompt.open.project.in.new.frame:
@@ -423,7 +437,7 @@ rename.module.title:
 rename.scope.title:
     text: 重命名作用域。
 sdk.configuration.exception:
-    text: SDK ''{0}'' 无效。
+    text: "SDK ''{0}'' 无效。"
 sdk.configure.annotations.tab:
     text: 注解
 sdk.configure.editor.title:
@@ -445,7 +459,7 @@ sdk.configure.title:
 sdk.configure.type.home.path:
     text: '{0}主路径:'
 sdk.java.corrupt.error:
-    text: 可能在''{0}''中安装的SDK已损坏
+    text: "可能在''{0}''中安装的SDK已损坏"
 sdk.java.corrupt.title:
     text: 无法检测SDK版本
 sdk.list.name.required.error:

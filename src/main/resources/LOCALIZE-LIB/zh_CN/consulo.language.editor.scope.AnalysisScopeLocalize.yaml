@@ -57,7 +57,7 @@ checking.class.files:
 cyclic.dependencies.progress.text:
     text: 正在构建依赖关系图
 cyclic.dependencies.scope.dialog.module.button:
-    text: '{0}模块''''{1}'''' (&M)'
+    text: "{0}模块''{1}'' (&M)"
 cyclic.dependencies.scope.dialog.project.button:
     text: '{0}整个项目(&P)'
 cyclic.dependencies.scope.dialog.title:
@@ -67,7 +67,7 @@ cyclic.dependencies.tree.cycle.node.text:
 cyclic.dependencies.usage.view.initial.text:
     text: 从左边树选择分析的软件包
 cyclic.dependencies.usage.view.root.node.text:
-    text: 在软件包 ''{1}'' 中使用软件包 ''{0}''
+    text: "在软件包 ''{1}'' 中使用软件包 ''{0}''"
 dependencies.libraries.node.text:
     text: 库
 dependencies.tree.node.default.package.abbreviation:
@@ -95,7 +95,7 @@ mark.dependency.illegal.text:
 module.dependencies.cycle.node.text:
     text: 循环{0}
 module.dependencies.scope.dialog.module.button:
-    text: 检查模块''{0}'' (&M)
+    text: "检查模块''{0}'' (&M)"
 module.dependencies.scope.dialog.project.button:
     text: 检查整个项目(&P)
 module.dependencies.scope.dialog.title:
@@ -127,15 +127,17 @@ predefined.scope.problems.name:
 project.is.out.of.date:
     text: 项目已过期
 recompile.confirmation.message:
-    text: "工程类文件是过期的.你要在DSM分析之前继续编译一个项目?\n没有编译可能导致不完全或不正确的数据."
+    text: |-
+        工程类文件是过期的.你要在DSM分析之前继续编译一个项目?
+        没有编译可能导致不完全或不正确的数据.
 scanning.scope.progress.title:
     text: 正在扫描作用域…
 scope.directory:
-    text: 目录 ''{0}''
+    text: "目录 ''{0}''"
 scope.display.name.allow.scope:
-    text: 在作用域''{1}''启用作用域''{0}''的使用
+    text: "在作用域''{1}''启用作用域''{0}''的使用"
 scope.display.name.deny.scope:
-    text: 在作用域 ''{1}'' 拒绝作用域 ''{0}'' 的用法
+    text: "在作用域 ''{1}'' 拒绝作用域 ''{0}'' 的用法"
 scope.file:
     text: 文件
 scope.module.list:
@@ -147,9 +149,9 @@ scope.option.custom:
 scope.option.include.test.sources:
     text: 包含测试代码(&T)
 scope.option.module:
-    text: 模块 ''{0}''
+    text: "模块 ''{0}''"
 scope.option.module.with.mnemonic:
-    text: 模块''{0}'' (&M)
+    text: "模块''{0}'' (&M)"
 scope.option.uncommitted.files:
     text: 未提交的文件(&U)
 scope.option.uncommitted.files.all.changelists.choice:
@@ -159,7 +161,7 @@ scope.option.whole.project:
 scope.package:
     text: 软件包 {0}
 scope.project:
-    text: 项目 ''{0}''
+    text: "项目 ''{0}''"
 scope.selected.files:
     text: 已选择的{0,choice,1#个文件|2#个文件}
 scope.virtual.files:
@@ -173,7 +175,7 @@ status.bar.rule.violation.message:
 unknown.node.text:
     text: <未知>
 update.module.tree.progress.text:
-    text: 处理模块''{0}''循环
+    text: "处理模块''{0}''循环"
 update.module.tree.progress.title:
     text: 更新模块树
 usage.view.canceled:

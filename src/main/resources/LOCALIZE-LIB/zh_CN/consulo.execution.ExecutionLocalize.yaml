@@ -47,7 +47,9 @@ before.launch.compile.step:
 before.launch.compile.step.no.error.check:
     text: 构建，不进行错误检查
 before.launch.panel.cyclic_dependency_warning:
-    text: "\"{0}\"已被配置为在{1}之前启动。\n不允许此类循环依赖。"
+    text: |-
+        "{0}"已被配置为在{1}之前启动。
+        不允许此类循环依赖。
 before.launch.panel.empty:
     text: 启动前没有要运行的任务
 before.launch.panel.title:
@@ -129,7 +131,7 @@ coverage.tab.title:
 create.run.configuration.action.name:
     text: 修改运行配置…
 create.run.configuration.for.item.action.name:
-    text: 创建 ''{0}''
+    text: "创建 ''{0}''"
 create.run.configuration.for.item.dialog.title:
     text: 创建运行配置："{0}"
 default.junit.config.name.all.in.module:
@@ -159,7 +161,7 @@ diff.content.expected.title:
 diff.content.expected.title.with.file.url:
     text: 预期 ({0})
 disconnect.process.confirmation.text:
-    text: 你确定要断开进程 ''{0}''?
+    text: "你确定要断开进程 ''{0}''?"
 down.the.stack.trace:
     text: 向下遍历堆栈跟踪
 edit.configuration.action:
@@ -205,7 +207,9 @@ export.test.results.dialog.title:
 export.test.results.failed:
     text: 测试结果导出失败：{0}
 export.test.results.file.exists.message:
-    text: "文件\"{0}\"已存在。\n是否要覆盖它？"
+    text: |-
+        文件"{0}"已存在。
+        是否要覆盖它？
 export.test.results.file.exists.title:
     text: 导出测试结果
 export.test.results.filename:
@@ -243,11 +247,11 @@ invalid.data.dialog.title:
 jdk.is.bad.configured.error.message:
     text: '"{0}"配置错误'
 jdk.not.configured.error.message:
-    text: JDK ''{0}'' 没有配置
+    text: "JDK ''{0}'' 没有配置"
 jnit.configuration.all.tests.in.package.radio:
     text: 所有的测试在包
 jre.not.valid.error.message:
-    text: '''''{0}'''' 不是有效的 JRE 根目录'
+    text: "''{0}'' 不是有效的 JRE 根目录"
 junit.actual.text.label:
     text: 实际   ：
 junit.auto.scroll.to.source.action.name:
@@ -283,9 +287,9 @@ junit.configuration.test.method.radio:
 junit.configuration.test.runner.parameters.label:
     text: '测试运行参数:'
 junit.jar.not.found.in.module.class.path.error.message:
-    text: junit.jar 没有发现在 ''{0}'' 类路径中
+    text: "junit.jar 没有发现在 ''{0}'' 类路径中"
 junit.not.found.in.module.error.message:
-    text: 在模块''{0}''中未找到JUnit
+    text: "在模块''{0}''中未找到JUnit"
 junit.open.text.in.editor.action.name:
     text: 在编辑器中打开选中的测试
 junit.runing.info.assertion.tree.node:
@@ -295,7 +299,7 @@ junit.runing.info.error.tree.node:
 junit.runing.info.hide.successful.config.action.name:
     text: 隐藏成功安装/拆卸
 junit.runing.info.ignored.console.message:
-    text: 测试 ''{0}.{1}'' 被忽略
+    text: "测试 ''{0}.{1}'' 被忽略"
 junit.runing.info.ignored.label:
     text: 被忽略
 junit.runing.info.include.non.started.in.rerun.failed.action.name:
@@ -387,7 +391,7 @@ method.name.not.specified.error.message:
 module.does.not.exist.error.message:
     text: 模块"{0}"不存在
 module.does.not.exists:
-    text: 模块''{0}''不存在于项目''{1}''
+    text: "模块''{0}''不存在于项目''{1}''"
 module.doesn.t.exist.in.project.error.text:
     text: 模块"{0}"在项目中不存在
 module.is.unloaded.from.project.error.text:
@@ -423,7 +427,7 @@ no.parameters:
 no.test.class.specified.error.text:
     text: 未指定测试类
 no.tests.found.in.package.error.message:
-    text: 包 ''{0}'' 中未发现测试用例
+    text: "包 ''{0}'' 中未发现测试用例"
 no.user.process.input.error.message:
     text: 无进程输入
 node.default:
@@ -433,7 +437,7 @@ open.message.view:
 output.tab.title:
     text: 输出
 package.does.not.exist.error.message:
-    text: 软件包 ''{0}'' 不存在
+    text: "软件包 ''{0}'' 不存在"
 package.not.found.error.message:
     text: 未找到包"{0}"
 perform.action.with.context.configuration.action.name:
@@ -485,7 +489,9 @@ rerun.confirmation.button.text:
 rerun.confirmation.checkbox:
     text: 确认重新运行过程终止
 rerun.singleton.confirmation.message:
-    text: "\"{0}\"不允许并行运行。\n是否要停止{1, choice, 1#正在运行的实例|2#{1, number}个正在运行的实例}？"
+    text: |-
+        "{0}"不允许并行运行。
+        是否要停止{1, choice, 1#正在运行的实例|2#{1, number}个正在运行的实例}？
 restart.error.message.title:
     text: 重启错误
 run.button.on.toolbar.tooltip.current.file.no.focused.editor:
@@ -533,7 +539,7 @@ run.configuration.pause.output.action.name:
 run.configuration.program.parameters:
     text: 程序参数(&R)：
 run.configuration.rename.folder:
-    text: 重命名文件夹 ''{0}''
+    text: "重命名文件夹 ''{0}''"
 run.configuration.rename.folder.disclaimer:
     text: 注意：空文件夹不会被保存
 run.configuration.select.alternate.jre.label:
@@ -611,7 +617,7 @@ run.toolbar.widget.all.configurations:
 runner.content.tooltip.layout.settings:
     text: 布局设置
 save.run.configuration.for.item.action.name:
-    text: 保存 ''{0}''
+    text: "保存 ''{0}''"
 save.temporary.run.configuration.action.name:
     text: 保存"{0}"配置(&S)
 script.execution.timeout:
@@ -623,7 +629,7 @@ select.0.1:
 select.applet.policy.file.dialog.title:
     text: 选择 applet 策略文件
 select.run.configuration.for.item.action.name:
-    text: 选择 ''{0}''
+    text: "选择 ''{0}''"
 select.working.directory.message:
     text: 选择工作目录
 service.view.activate.tool.window.action.description:
@@ -723,7 +729,10 @@ stop.configuration.action.name:
 stop.incompatible.confirmation.button.text:
     text: 停止不兼容的
 stop.incompatible.confirmation.message:
-    text: "\"{0}\"运行配置与{2, choice, 1#当前正在运行的{1}配置不兼容。|2#以下正在运行的配置不兼容：\n{1}}\n是否确定要停止{2, choice, 1#不兼容的运行实例|2#{2, number}个不兼容的运行实例}？"
+    text: |-
+        "{0}"运行配置与{2, choice, 1#当前正在运行的{1}配置不兼容。|2#以下正在运行的配置不兼容：
+        {1}}
+        是否确定要停止{2, choice, 1#不兼容的运行实例|2#{2, number}个不兼容的运行实例}？
 stop.process:
     text: 停止进程
 strings.equal.failed.dialog.title:
@@ -743,7 +752,7 @@ test.cases.count.message:
 test.in.scope.presentable.text:
     text: '"{0}"中的测试'
 test.method.doesnt.exist.error.message:
-    text: 测试方法''{0}''不存在
+    text: "测试方法''{0}''不存在"
 test.not.started.progress.text:
     text: 测试未启动
 tests.passed.with.warnings.message:

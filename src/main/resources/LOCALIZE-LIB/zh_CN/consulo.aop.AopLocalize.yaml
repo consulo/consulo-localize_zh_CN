@@ -23,17 +23,17 @@ error.argNames.should.match:
 error.arrays.not.allowed.here:
     text: 此处不允许使用数组
 error.cannot.resolve.parameter:
-    text: 无法解析形参 ''{0}''
+    text: "无法解析形参 ''{0}''"
 error.cannot.resolve.pointcut:
-    text: 无法解析切入点 ''{0}''
+    text: "无法解析切入点 ''{0}''"
 error.cannot.resolve.symbol:
-    text: 无法解析符号 ''{0}''
+    text: "无法解析符号 ''{0}''"
 error.constructor.pattern.expected:
     text: 应为构造函数模式
 error.default.implementation.class.should.be.specified:
     text: 应指定默认实现类
 error.double.ellipsis.prohibited:
-    text: 禁止使用多个 '..'
+    text: "禁止使用多个 '..'"
 error.field.name.pattern.expected:
     text: 应为字段名称模式
 error.generics.not.allowed.here:
@@ -101,6 +101,6 @@ tooltip.text.navigate.to.introductions:
 tooltip.text.navigate.to.methods:
     text: 导航到建议方法
 unbound.pointcut.parameter:
-    text: 未绑定的切入点形参 ''{0}''
+    text: "未绑定的切入点形参 ''{0}''"
 warning.argNames.should.be.defined:
     text: '{0} 特性未定义'

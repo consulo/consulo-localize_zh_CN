@@ -115,7 +115,7 @@ html.inspections.check.image.width.message:
 html.inspections.check.presentational.tag:
     text: 演示标记
 html.inspections.check.valid.script.tag:
-    text: '''script'' 标记的内容格式错误'
+    text: "'script' 标记的内容格式错误"
 html.inspections.create.label.from.text.after.action:
     text: 从元素 {0} 后的文本创建一个新标签
 html.inspections.create.label.from.text.before.action:
@@ -287,9 +287,9 @@ xml.inspections.check.file.with.xerces:
 xml.inspections.check.tag.empty.body:
     text: 空元素内容
 xml.inspections.duplicate.id:
-    text: 重复 'id' 特性
+    text: "重复 'id' 特性"
 xml.inspections.invalid.id:
-    text: 未解析的 'id' 引用
+    text: "未解析的 'id' 引用"
 xml.inspections.path.resolve:
     text: 未解析的文件引用
 xml.inspections.replace.tag.empty.body.with.empty.end:
